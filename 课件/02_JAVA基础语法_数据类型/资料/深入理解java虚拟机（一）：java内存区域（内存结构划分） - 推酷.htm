@@ -1,0 +1,455 @@
+﻿<!DOCTYPE HTML>
+<!-- saved from url=(0039)http://www.tuicool.com/articles/fMJVNje -->
+<!DOCTYPE html PUBLIC "" ""><!--
+ ______________ 
+< TUICOOL.COM >
+ -------------- 
+        \   ^__^
+         \  (**)\__$__$__
+            (__)\       )\/\
+             U  ||------|
+                ||     ||
+--><HTML><HEAD><META 
+content="IE=11.0000" http-equiv="X-UA-Compatible">
+   
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">   
+<META name="viewport" content="width=device-width, initial-scale=1.0">   
+<META name="csrf-param" content="authenticity_token"> 
+<META name="csrf-token" content="E7Z1NXApZbHOye7iSf6MuNLJKn7sfcb0yGoHpD0BbVw=">  
+   <TITLE>深入理解java虚拟机（一）：java内存区域（内存结构划分） - 推酷    </TITLE>     
+<META name="description" content="深入理解java虚拟机（一）：java内存区域（内存结构划分）">   <LINK 
+href="http://static0.tuicool.com/favicon.ico" rel="shortcut icon" type="image/x-icon"> 
+  <LINK href="http://static0.tuicool.com/images/icon114.png" rel="Bookmark">   
+<LINK href="http://static1.tuicool.com/images/icon57.png" rel="apple-touch-icon" 
+sizes="57x57">   <LINK href="http://static2.tuicool.com/images/icon72.png" rel="apple-touch-icon" 
+sizes="72x72">    <LINK href="http://static0.tuicool.com/images/icon114.png" 
+rel="apple-touch-icon" sizes="114x114">      <LINK href="http://static1.tuicool.com/images/icon144.png" 
+rel="apple-touch-icon" sizes="144x144">    <LINK href="深入理解java虚拟机（一）：java内存区域（内存结构划分）%20-%20推酷_files/application-3c98e1b00d584b68900e1daf0ed69192.css" 
+rel="stylesheet" type="text/css" media="screen">   <LINK href="深入理解java虚拟机（一）：java内存区域（内存结构划分）%20-%20推酷_files/font-awesome.min.css" 
+rel="stylesheet">   
+<SCRIPT src="深入理解java虚拟机（一）：java内存区域（内存结构划分）%20-%20推酷_files/application-7edeeea3a20493861059090224f774ae.js" type="text/javascript"></SCRIPT>
+   <!--[if IE 7]>
+  <link rel="stylesheet" href="http://assets.tuicool.com/assets/font-awesome-ie7.min.css">
+  <![endif]--> 
+    
+<SCRIPT src="深入理解java虚拟机（一）：java内存区域（内存结构划分）%20-%20推酷_files/tip.js" type="text/javascript"></SCRIPT>
+     
+<SCRIPT src="深入理解java虚拟机（一）：java内存区域（内存结构划分）%20-%20推酷_files/spin.min.js" type="text/javascript"></SCRIPT>
+ <LINK href="深入理解java虚拟机（一）：java内存区域（内存结构划分）%20-%20推酷_files/github.css" rel="stylesheet"> 
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842"></HEAD> 
+<BODY>
+<DIV class="navbar-fixed-top" id="header">
+<DIV class="container">
+<DIV class="navbar">
+<DIV class="navbar-inner"><A class="btn btn-navbar" data-target=".nav-collapse" 
+data-toggle="collapse"><SPAN class="icon-bar"></SPAN><SPAN 
+class="icon-bar"></SPAN><SPAN class="icon-bar"></SPAN><SPAN 
+class="icon-bar"></SPAN></A><A class="brand" 
+href="http://www.tuicool.com/">推酷</A>                <NAV class="nav-collapse collapse">
+<UL class="nav navbar primary-nav">
+  <LI class="active"><A href="http://www.tuicool.com/ah">                  文章    
+               </A></LI>
+  <LI><A href="http://www.tuicool.com/sites/hot">                  站点            
+       </A></LI>
+  <LI><A href="http://www.tuicool.com/topics">                  主题               
+    </A></LI>
+  <LI><A href="http://course.tuicool.com/">                  公开课                 
+  </A></LI>
+  <LI><A href="http://huodong.tuicool.com/">                  活动                 
+  </A></LI>
+  <LI><A href="http://www.tuicool.com/mobile">                  客户端              
+         <SUP style="color: rgb(22, 160, 133); font-size: 0.8em;">荐</SUP>        
+           </A></LI>
+  <LI class="dropdown  "><A class="dropdown-toggle" href="http://www.tuicool.com/articles/fMJVNje#" 
+  data-toggle="dropdown">周刊 <B class="caret"></B></A>
+  <UL class="dropdown-menu">
+    <LI><A href="http://www.tuicool.com/mags">编程狂人</A></LI>
+    <LI><A href="http://www.tuicool.com/mags/design">设计匠艺</A></LI>
+    <LI><A href="http://www.tuicool.com/mags/startup">创业周刊</A></LI>
+    <LI><A href="http://www.tuicool.com/mags/tech">科技周刊</A></LI>
+    <LI><A href="http://www.tuicool.com/mags/guru">Guru Weekly</A></LI>
+    <LI><A 
+href="http://www.tuicool.com/articles/weekly">一周拾遗</A></LI></UL></LI></UL>
+<FORM class="navbar-search pull-left" 
+action="http://www.tuicool.com/search"><INPUT name="kw" class="search-query span2" type="text" placeholder="搜索" value=""></FORM>
+<UL class="nav pull-right">
+  <LI><A 
+href="http://www.tuicool.com/login">登录</A></LI></UL></NAV></DIV></DIV></DIV></DIV>
+<DIV class="noPrint" id="flash_container"></DIV>
+<DIV class="container-fluid">
+<DIV class="row-fluid article_row_fluid">
+<DIV class="span8 contant article_detail_bg">
+<H1>深入理解java虚拟机（一）：java内存区域（内存结构划分）</H1>
+<DIV class="article_meta">
+<DIV style="margin-bottom: 5px;"><SPAN class="timestamp">时间&nbsp;2014-02-18 
+17:44:14             </SPAN>             <SPAN class="from"><I class="icon-globe"></I> 
+                    <A class="cut cut28 from" href="http://www.tuicool.com/sites/vQZRB3" 
+target="_blank">CSDN博客                     </A>             </SPAN>             
+</DIV>
+<DIV class="source"><I style="float: left;">原文</I>&nbsp;                 <A 
+class="cut cut70" style="display: inline-block;" href="http://blog.csdn.net/chaofanwei/article/details/19418753?utm_source=tuicool&amp;utm_medium=referral">http://blog.csdn.net/chaofanwei/article/details/19418753?utm_source=tuicool&amp;utm_medium=referral</A> 
+            </DIV>
+<DIV><SPAN>主题</SPAN>                 <A href="http://www.tuicool.com/topics/11000076" 
+target="_blank"><SPAN class="new-label">虚拟化</SPAN>                 </A>          
+       <A href="http://www.tuicool.com/topics/11070008" target="_blank"><SPAN 
+class="new-label">JVM</SPAN>                 </A>             </DIV></DIV>
+<DIV class="article_body" id="nei">
+<DIV>
+<P><IMG alt="" src="深入理解java虚拟机（一）：java内存区域（内存结构划分）%20-%20推酷_files/jAFBBz.jpg">  
+ </P>
+<P>图一：java内存结构划分</P>
+<P><SPAN>      由上图可知，java内存主要分为6部分，分别是      
+<STRONG>程序计数器，虚拟机栈，本地方法栈，堆，方法区和直接内存</STRONG>       ,下面将逐一详细描述。    </SPAN>   </P>
+<LI><SPAN><STRONG>1、程序计数器</STRONG>     </SPAN>     
+<P><SPAN><STRONG><SPAN>线程私有</SPAN>         </STRONG>        
+，即每个线程都会有一个，线程之间互不影响，独立存储。      </SPAN>     
+</P><SPAN>代表着当前线程所执行字节码的行号指示器。</SPAN>   </LI>
+<LI><SPAN><STRONG>2、虚拟机栈</STRONG>     </SPAN>     
+<P><SPAN><STRONG><SPAN>线程私有</SPAN>         </STRONG>        ，        
+<STRONG>它的生命周期和线程相同</STRONG>        。      </SPAN>     </P>
+<P><SPAN>        描述的是        <STRONG><SPAN>java方法执行的内存模型</SPAN>         
+</STRONG>        ：每个方法在执行的同时多会创建一个栈帧用于存储局部变量表、操作数栈、动态链表、方法出口等信息。      </SPAN>    
+ </P>
+<P><SPAN>每一个方法从调用直至完成的过程，就对应着一个栈帧在虚拟机中入栈到出栈的过程。</SPAN>     </P>
+<P><SPAN>局部变量表存放了编译期可知的各种基本数据类型和对象引用，所需内存空间在编译期确定。</SPAN>     </P>
+<P><SPAN><STRONG><SPAN>-Xoss</SPAN>         </STRONG>         参数设置本地方法栈大小（       
+ <STRONG>对于HotSpot无效</STRONG>        ）      </SPAN>     </P>
+<P><SPAN><STRONG><SPAN>-Xss</SPAN>         </STRONG>         参数设置栈容量 例：        
+<STRONG><SPAN>-Xss128k</SPAN>         </STRONG>       </SPAN>     </P></LI>
+<LI><SPAN><STRONG>3、本地方法栈</STRONG>     </SPAN>     
+<P><SPAN>同虚拟机栈，只不过本地方法栈位虚拟机使用到的native方法服务。</SPAN>     </P>
+<P><SPAN><STRONG>Sun HotSpot虚拟机把本地方法栈和虚拟机栈合二为一</STRONG>        。      </SPAN>    
+ </P></LI>
+<LI><SPAN><STRONG>4、java堆</STRONG>     </SPAN>     
+<P><SPAN><STRONG>线程共享</STRONG>       </SPAN>     </P>
+<P><SPAN>主要用于分配对象实例和数组。</SPAN>     </P>
+<P><SPAN><STRONG><SPAN>-Xms</SPAN>         </STRONG>         参数设置最小值      
+</SPAN>     </P>
+<P><SPAN><STRONG><SPAN>-Xmx</SPAN>         </STRONG>         参数设置最大值 例：VM Args:  
+      <STRONG><SPAN>-Xms20m -Xmx20m -XX:+HeapDumpOnOutOfMemoryError</SPAN>       
+  </STRONG>       </SPAN>     </P>
+<P><SPAN>若-Xms=-Xmx,则可避免堆自动扩展。</SPAN>     </P>
+<P><SPAN><STRONG><SPAN>-XX:+HeapDumpOnOutOfMemoryError</SPAN>         </STRONG>  
+       可以让虚拟机在出现内存溢出是dump出当前的内存堆转储快照。      </SPAN>     </P></LI>
+<LI><SPAN><STRONG>5、方法区</STRONG>     </SPAN>     
+<P><SPAN><STRONG>线程共享</STRONG>       </SPAN>     </P>
+<P><SPAN><STRONG>用于存储已被虚拟机加载的类信息、常量、静态变量、即使编译后的代码等数据</STRONG>        。      
+</SPAN>     </P>
+<P><SPAN>别名永久代（Permanent Generation）</SPAN>     </P>
+<P><SPAN><STRONG><SPAN>-XX:MaxPermSize</SPAN>         </STRONG>         设置上限     
+ </SPAN>     </P>
+<P><SPAN><STRONG><SPAN>-XX:PermSize</SPAN>         </STRONG>         设置最小值 例：VM 
+Args:        <STRONG><SPAN>-XX:PermSize=10M -XX:MaxPermSize=10M</SPAN>         
+</STRONG>       </SPAN>     </P>
+<P><SPAN><STRONG>运行时常量池(Runtime Constant Pool)是方法区的一部分</STRONG>        。      
+</SPAN>     </P>
+<P><SPAN><SPAN>Class文件中除了有类的版本、字段、方法、接口等信息外，还有一项是          <SPAN style="background-color: rgb(204, 102, 0);">常量池</SPAN> 
+         （Constant Pool Table）,用于存放编译期生成的各种字面量和符号引用，这部分        </SPAN>       
+</SPAN>       <SPAN><STRONG>内容将在类加载后进入方法区的运行时常量池中存放</STRONG>        。      
+</SPAN>     </P>
+<P><SPAN>        
+运行时常量池相对于Class文件常量池的一个重要特征是具备动态性：即除了Class文件中常量池的内容能被放到运行时常量池外，运行期间也可能将新的常量放入池中，比如 
+       <STRONG><SPAN>String类的intern（）方法。</SPAN>         </STRONG>       </SPAN>  
+   </P></LI>
+<LI><SPAN><STRONG>6、直接内存</STRONG>     </SPAN>     
+<P><SPAN>直接内存并不是虚拟机运行时数据区的一部分。</SPAN>     </P>
+<P><SPAN>在NIO中，引入了一种基于通道和缓冲区的I/O方式，它可以使用native函数直接分配堆外内存，然后通过一个存储在java堆中的DirectByteBuffer对象作为这块内存的引用进行操作。</SPAN> 
+    </P>
+<P><SPAN><STRONG><SPAN>-XX:MaxDirectMemorySize</SPAN>         </STRONG>         
+设置最大值，默认与java堆最大值一样。      </SPAN>     </P>
+<P><SPAN>        例        <STRONG><SPAN>：-XX:MaxDirectMemorySize=10M 
+-Xmx20M</SPAN>         </STRONG>       </SPAN>     </P>
+<P><SPAN><STRONG>对于32位操作系统来说，系统最大内存为4G。</STRONG>       </SPAN>     </P>
+<P><SPAN><STRONG>系统给每个进程的内存是有限制的，譬如32位的windows 限制为2G</STRONG>       </SPAN>     
+</P></LI></DIV></DIV>
+<DIV class="article_social">
+<DIV class="article_like">
+<DIV class="circle circle-like" id="my_zan" data_id="fMJVNje"></DIV></DIV>
+<DIV id="share_weixin_image"><IMG width="100" height="100" src="深入理解java虚拟机（一）：java内存区域（内存结构划分）%20-%20推酷_files/qrcode.png"> 
+        </DIV>
+<DIV class="article_share_fav">
+<DIV class="share" id="ckepop"><SPAN>分享</SPAN>         <BUTTON title="分享到新浪微博" 
+class="share_weibo" id="share_weibo_id"></BUTTON>         <BUTTON title="分享到QQ空间" 
+class="share_qq" id="share_qq_id"></BUTTON>         <BUTTON class="share_weixin" 
+id="share_weixin_id"></BUTTON>     </DIV>
+<DIV class="fav_correct"><BUTTON id="my_fav" data_id="fMJVNje"><I class="icon icon-star-empty"></I> 
+<SPAN id="fav_tip">收藏</SPAN>         </BUTTON>         <BUTTON id="article-correct" 
+data_id="fMJVNje" uid="0"><I class="icon icon-warning-sign"></I>             
+<SPAN>纠错</SPAN>         </BUTTON>     </DIV></DIV>
+<SCRIPT type="text/javascript">
+$("#share_weibo_id").click( function() {
+   window.open("http://share.baidu.com/s?type=text&searchPic=0&sign=on&to=tsina&url=http://www.tuicool.com/articles/fMJVNje&title=%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3java%E8%99%9A%E6%8B%9F%E6%9C%BA%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9Ajava%E5%86%85%E5%AD%98%E5%8C%BA%E5%9F%9F%EF%BC%88%E5%86%85%E5%AD%98%E7%BB%93%E6%9E%84%E5%88%92%E5%88%86%EF%BC%89++%28%E5%88%86%E4%BA%AB%E8%87%AA+%40%E6%8E%A8%E9%85%B7%E7%BD%91%29&key=3113829255");
+});
+$("#share_qq_id").click( function() {
+   window.open("http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://www.tuicool.com/articles/fMJVNje&title=%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3java%E8%99%9A%E6%8B%9F%E6%9C%BA%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9Ajava%E5%86%85%E5%AD%98%E5%8C%BA%E5%9F%9F%EF%BC%88%E5%86%85%E5%AD%98%E7%BB%93%E6%9E%84%E5%88%92%E5%88%86%EF%BC%89&desc=&summary=&site=");
+});
+$("#share_weixin_id").click( function() {
+  $("#share_weixin_image").toggle();
+});
+</SCRIPT>
+             
+<DIV class="bottom_ad huodong-detail-ad-banner clearfix"><A href="http://www.vc3market.com/?f=tc" 
+target="_blank"><IMG src="深入理解java虚拟机（一）：java内存区域（内存结构划分）%20-%20推酷_files/vc3market700.jpg"></A> 
+            </DIV></DIV>
+<DIV id="site_articles" style="clear: both;">
+<DIV class="article-part-title"><SPAN>推荐文章</SPAN>               </DIV>
+<UL class="side_article_list">
+  <LI class="side_article_list_item">1.<A title="小话java注解机制" href="http://www.tuicool.com/articles/iMj2Yn" 
+  target="_blank">小话java注解机制                     </A>                 </LI>
+  <LI class="side_article_list_item">2.<A title="Java 8 并发教程：同步和锁" href="http://www.tuicool.com/articles/QVFjYz2" 
+  target="_blank">                    Java 8 并发教程：同步和锁                     </A>  
+                 </LI>
+  <LI class="side_article_list_item">3.<A title="一个通用并发对象池的实现" href="http://www.tuicool.com/articles/EZn2Q3u" 
+  target="_blank">一个通用并发对象池的实现                     </A>                 </LI>
+  <LI class="side_article_list_item">4.<A title="java提高篇之关键字final" href="http://www.tuicool.com/articles/2YB3EnE" 
+  target="_blank">                    java提高篇之关键字final                     </A>  
+                 </LI>
+  <LI class="side_article_list_item">                    5.<A title="Java并发编程（18）：第五篇中volatile意外问题的正确分析解答（含代码）" 
+  href="http://www.tuicool.com/articles/3Yz2ui3" target="_blank">                
+      Java并发编程（18）：第五篇中volatile意外问题的正确分析解答（含..                     </A>          
+         </LI>
+  <LI class="side_article_list_item">6.<A title="Step by step玩转RPC" href="http://www.tuicool.com/articles/zEnqm2R" 
+  target="_blank">                    Step by step玩转RPC                     </A> 
+                  </LI></UL></DIV>
+<DIV id="kan_articles"></DIV>
+<DIV id="article_weibo" style="display: none;">
+<DIV class="article-part-title"><SPAN>相关微博</SPAN>                 <SUB><A href="http://www.tuicool.com/articles/weibo_list/fMJVNje" 
+target="_blank">(<I id="weibo_num"></I>)</A>                </SUB>             
+</DIV>
+<DIV class="related-weibo-list"></DIV></DIV>
+<DIV class="comments">
+<DIV class="comments-area">
+<DIV class="comments-header">
+<H5>我来评几句</H5>
+<DIV class="alert comment-alert alert-error" style="display: none;">            
+错误         </DIV><TEXTAREA id="comment-body" style="resize: none;" placeholder="请输入评论内容..." rows="5" cols="60">请输入评论内容...</TEXTAREA> 
+            <SPAN class="btn btn-medium btn-submit" 
+id="comment-submit">登录后评论</SPAN>         
+<P style="margin-top: 5px; margin-left: 10px;">            已发表评论数(<SPAN class="comment_cnt"></SPAN>) 
+        </P></DIV>
+<DIV class="comments-list">
+<DIV class="empty-cmts alert alert-success" style="display: none;">没有更多评论了^^     
+    </DIV></DIV>
+<DIV class="more-comments" style="display: none;"><A href="http://www.tuicool.com/articles/">更多评论</A></DIV>
+<DIV class="load-fail" style="display: none;">        评论加载失败，<A href="javascript:reload_comments('fMJVNje',1,0,-1);">重新加载</A> 
+    </DIV></DIV></DIV></DIV>
+<DIV class="span4 article_right_side">
+<DIV class="right_top">
+<DIV class="article_related_site article_detail_bg">
+<H4 class="article-part-title">相关站点</H4>
+<DIV class="article_related_site_body clearfix">
+<DIV class="logo"><IMG src="深入理解java虚拟机（一）：java内存区域（内存结构划分）%20-%20推酷_files/vQZRB3.png"> 
+        </DIV>
+<DIV class="name">
+<DIV><A href="http://www.tuicool.com/sites/vQZRB3" target="_blank">CSDN博客</A>    
+         </DIV>
+<DIV>
+<DIV class="btn btn-success right_site_follow" id="my_follow" 
+data_id="vQZRB3">＋订阅</DIV></DIV></DIV></DIV></DIV>
+<DIV class="article_detail_bg" id="right_site_articles">
+<DIV class="article-part-title"><SPAN>热门文章</SPAN>     </DIV>
+<UL class="side_article_list">
+  <LI class="side_article_list_item">1.<A title="小话java注解机制" href="http://www.tuicool.com/articles/iMj2Yn" 
+  target="_blank">小话java注解机制 </A>         </LI>
+  <LI class="side_article_list_item">2.<A title="Java 8 并发教程：同步和锁" href="http://www.tuicool.com/articles/QVFjYz2" 
+  target="_blank"> Java 8 并发教程：同步和锁 </A>         </LI>
+  <LI class="side_article_list_item">3.<A title="一个通用并发对象池的实现" href="http://www.tuicool.com/articles/EZn2Q3u" 
+  target="_blank">一个通用并发对象池的实现 </A>         </LI>
+  <LI class="side_article_list_item">4.<A title="java提高篇之关键字final" href="http://www.tuicool.com/articles/2YB3EnE" 
+  target="_blank"> java提高篇之关键字final </A>         </LI>
+  <LI class="side_article_list_item">            5.<A title="Java并发编程（18）：第五篇中volatile意外问题的正确分析解答（含代码）" 
+  href="http://www.tuicool.com/articles/3Yz2ui3" target="_blank"> 
+  Java并发编程（18）：第五篇中volatile意外问题的正确分析解答（含代码） </A>         </LI></UL></DIV>
+<DIV class="right-ad"><A href="http://www.vc3market.com/?f=tc" 
+target="_blank"><IMG src="深入理解java虚拟机（一）：java内存区域（内存结构划分）%20-%20推酷_files/vc3market120.jpg"></A> 
+      </DIV>
+<DIV class="right-ad" style="margin-top: 5px;"><A href="https://www.jiguang.cn/?from=tuicool01" 
+target="_blank"><IMG src="深入理解java虚拟机（一）：java内存区域（内存结构划分）%20-%20推酷_files/jpush120.jpg"></A> 
+      </DIV>
+<DIV class="right-ad" style="margin-top: 5px;"><A href="https://www.teambition.com/?utm_source=tuicool&amp;utm_medium=banner01" 
+target="_blank"><IMG src="深入理解java虚拟机（一）：java内存区域（内存结构划分）%20-%20推酷_files/teambition120.jpg"></A> 
+      </DIV>
+<DIV class="right-ad" style="margin-top: 5px;"><A href="http://click.aliyun.com/m/5327/" 
+target="_blank"><IMG src="深入理解java虚拟机（一）：java内存区域（内存结构划分）%20-%20推酷_files/aliyun120.jpg"></A> 
+</DIV>
+<DIV class="right-ad" style="margin-top: 5px;"><A href="http://www.jiankongbao.com/?f=tuicool" 
+target="_blank"><IMG src="深入理解java虚拟机（一）：java内存区域（内存结构划分）%20-%20推酷_files/jiankongbao120.jpg"></A> 
+      </DIV>
+<DIV class="right-ad" style="margin-top: 5px;"><A href="http://www.handone.com/?f=tc" 
+target="_blank"><IMG src="深入理解java虚拟机（一）：java内存区域（内存结构划分）%20-%20推酷_files/handone300.jpg"></A> 
+</DIV></DIV>
+<DIV class="operate_zone">
+<DIV class="right-ad" style="margin-top: 0px;"><A href="http://www.daocloud.io/cloud/voice.html" 
+target="_blank"><IMG src="深入理解java虚拟机（一）：java内存区域（内存结构划分）%20-%20推酷_files/daocloud300.jpg"></A> 
+      </DIV>
+<DIV class="frd_pos">
+<SCRIPT src="深入理解java虚拟机（一）：java内存区域（内存结构划分）%20-%20推酷_files/f.txt" async=""></SCRIPT>
+ <INS class="adsbygoogle" style="width: 300px; height: 250px; display: inline-block;" 
+data-ad-slot="5705695566" data-ad-client="ca-pub-7054762349007490"></INS> 
+<SCRIPT>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</SCRIPT>
+         </DIV></DIV></DIV></DIV>
+<DIV><!-- add_article to kan --> 
+<DIV tabindex="-1" class="modal hide fade" id="add-article-to-kan" role="dialog" 
+aria-hidden="true" aria-labelledby="myModalLabel">
+<DIV class="modal-header"><SPAN class="add-title">收藏到推刊</SPAN>     <A class="btn pull-right" 
+href="http://www.tuicool.com/articles/fMJVNje#new-kan" 
+data-toggle="modal">创建推刊</A>     <I class="clearfix"></I></DIV>
+<DIV class="modal-body">
+<UL id="add-kan-list"></UL></DIV>
+<DIV class="modal-footer"><INPUT class="article-id" type="hidden" value="fMJVNje"> 
+    <BUTTON class="btn btn-primary pull-left add-to-btn">收 藏  </BUTTON>     
+<BUTTON class="btn" aria-hidden="true" style="margin-right: 15px;" data-dismiss="modal">取消</BUTTON> 
+  </DIV></DIV>
+<DIV tabindex="-1" class="modal hide fade" id="new-kan" role="dialog" 
+aria-hidden="true" aria-labelledby="myModalLabel">
+<DIV class="modal-body"><INPUT name="name" id="new-kan-name" required="" type="text" placeholder="推刊名(必填)" value="" data-validation-required-message="请填写推刊名"> 
+    <SPAN class="new-ness-name">请填写推刊名</SPAN>     <BR><TEXTAREA name="desc" id="desc" placeholder="推刊描述" rows="6">推刊描述</TEXTAREA> 
+    <SPAN class="new-ness-desc">描述不能大于100个字符!</SPAN>     <BR>权限设置：<INPUT name="type" 
+type="radio" value="1"> 公开     <INPUT name="type" type="radio" value="0"> 仅自己可见  
+ </DIV>
+<DIV class="modal-footer"><BUTTON disabled="" class="btn btn-primary pull-left create-kan-btn">创建</BUTTON> 
+    <BUTTON class="btn dismiss-new-kan" aria-hidden="true" 
+data-dismiss="modal">取消</BUTTON>   </DIV></DIV></DIV>
+<DIV tabindex="-1" class="modal hide fade in" id="article-correct-modal" role="dialog" 
+aria-hidden="false" aria-labelledby="myModalLabel">
+<DIV class="modal-header"><BUTTON class="close" aria-hidden="true" type="button" 
+data-dismiss="modal">            ×         </BUTTON>         
+<H3>文章纠错</H3></DIV>
+<DIV class="modal-body"><INPUT id="article-correct-source" type="hidden" value="fMJVNje"> 
+        
+<DIV><LABEL for="article-correct-email">邮箱地址             </LABEL>             
+<INPUT class="input-large" id="article-correct-email" type="email">         
+</DIV>
+<DIV><LABEL for="article-correct-select">错误类型             </LABEL>             
+<SELECT id="article-correct-select"><OPTION value="正文不准确">正文不准确</OPTION>       
+            <OPTION value="标题不准确">标题不准确</OPTION>                 <OPTION value="排版有问题">排版有问题</OPTION> 
+                  <OPTION value="排版有问题">主题不准确</OPTION>                 <OPTION 
+  value="没有分页内容">没有分页内容</OPTION>                 <OPTION 
+  value="图片无法显示">图片无法显示</OPTION>                 <OPTION 
+  value="视频无法显示">视频无法显示</OPTION>                 <OPTION 
+  value="与原文不一致">与原文不一致</OPTION>             </SELECT>         </DIV>
+<DIV><LABEL for="article-correct-other">补充信息             </LABEL>             
+<TEXTAREA class="span4" id="article-correct-other"></TEXTAREA></DIV></DIV>
+<DIV class="modal-footer"><BUTTON class="btn btn-primary pull-right huodong_correct_submit" 
+id="article-correct-submit">            &nbsp;&nbsp;提交&nbsp;&nbsp;        
+</BUTTON>     </DIV></DIV>
+<STYLE type="text/css">
+    .btn-large {
+        padding: 0;
+    }
+    .load-fail {
+        display: none;
+    }
+</STYLE>
+ 
+<SCRIPT src="深入理解java虚拟机（一）：java内存区域（内存结构划分）%20-%20推酷_files/highlight.pack.js"></SCRIPT>
+ 
+<SCRIPT type="text/javascript">
+    $('table').each(function(i) {
+        var size = $(this).children().size();
+        if (size > 1) {
+            $(this).attr('class',"table table-bordered");
+        } else if (size == 1) {
+            var e11 = $(this).children(":first");
+            var e1 = e11[0];
+            var name = e1.nodeName.toLowerCase();
+            if ("tbody" == name) {
+                if (e1.children.length > 1) {
+                    $(this).attr('class',"table table-bordered");
+                } else if (e1.children.length == 1){
+                    var e12 = e1.children[0];
+                    var name2 = e12.nodeName.toLowerCase();
+                    if ("tr" == name2) {
+                       if (e12.children.length > 1) {
+                         $(this).attr('class',"table table-bordered");
+                       }
+                    }
+                }
+            }
+        }
+    });
+        window.page = 0;
+        window.last = 0;    
+        window.first = true;
+        resize_article_image('#nei', 550);
+                load_comments("fMJVNje",1,0,-1);
+                window.uid = -1;
+        open_add_article_to_kan("false");
+        async_do_zan_article(); 
+        $('pre').each(function(i, e) {
+            hljs.highlightBlock(e, "<span class='indent'>  </span>", false)
+        });
+       
+          
+       handle_follow_site("#my_follow","已订阅","+ 订阅");
+</SCRIPT>
+     
+<DIV class="loader-inner ball-pulse ball-loading-center" id="page-loading" 
+style="display: none;">
+<DIV></DIV>
+<DIV></DIV>
+<DIV></DIV></DIV>
+<DIV class="read-later-alert"></DIV></DIV>
+<DIV class="footer">
+<DIV class="footer-inner">
+<DL class="about-link site-link">
+  <DT>网站相关         </DT>
+  <DD><A href="http://www.tuicool.com/about" target="_blank">关于我们</A>         
+  </DD>
+  <DD><A href="http://www.tuicool.com/mobile" target="_blank">移动应用</A>         
+  </DD>
+  <DD><A href="http://www.tuicool.com/bbs/go/issues" target="_blank">建议反馈</A>    
+       </DD></DL>
+<DL class="site-link follow-link">
+  <DT>            关注我们         </DT>
+  <DD><A href="http://e.weibo.com/tuicool2012" target="_blank"><IMG src="深入理解java虚拟机（一）：java内存区域（内存结构划分）%20-%20推酷_files/weibo-32.png">推酷网</A> 
+          </DD>
+  <DD><IMG 
+  src="深入理解java虚拟机（一）：java内存区域（内存结构划分）%20-%20推酷_files/weixin-32.png">tuicool2012 
+          </DD></DL>
+<DL class="site-link links">
+  <DT>友情链接         </DT>
+  <DD><A title="人人都是产品经理" href="http://www.woshipm.com/" 
+  target="_blank">人人都是产品经理</A>                 <A title="PM256" href="http://www.pm265.com/" 
+  target="_blank">PM256</A>                 <A title="移动信息化" href="http://www.yidonghua.com/" 
+  target="_blank">移动信息化</A>                 <A title="行晓网" href="http://www.snsiu.com/" 
+  target="_blank">行晓网</A>                 <A title="智城外包网" href="http://www.taskcity.com/" 
+  target="_blank">智城外包网</A>                 <A title="虎嗅" href="http://www.huxiu.com/" 
+  target="_blank">虎嗅</A>                 <A title="IT耳朵" href="http://www.iterduo.com/" 
+  target="_blank">IT耳朵</A>                 <A title="创媒工场" href="http://mediaworks.caixin.com/" 
+  target="_blank">创媒工场</A>                 <A title="经理人分享" href="http://www.managershare.com/" 
+  target="_blank">经理人分享</A>                 <A title="市场部网" href="http://www.shichangbu.com/" 
+  target="_blank">市场部网</A>                 <A title="砍柴网" href="http://www.ikanchai.com/" 
+  target="_blank">砍柴网</A>                 <A title="CocoaChina" href="http://www.cocoachina.com/" 
+  target="_blank">CocoaChina</A>                 <A title="北风网" href="http://www.ibeifeng.com/" 
+  target="_blank">北风网</A>                 <A title="云智慧" href="http://www.jiankongbao.com/" 
+  target="_blank">云智慧</A>                 <A title="我赢职场" href="http://www.wyzc.com/" 
+  target="_blank">我赢职场</A>                 <A title="大数据时代" href="http://www.thebigdata.cn/" 
+  target="_blank">大数据时代</A>                 <A title="奇笛网" href="http://www.qidic.com/" 
+  target="_blank">奇笛网</A>                 <A title="咕噜网" href="http://www.cngulu.com/" 
+  target="_blank">咕噜网</A>                 <A title="红联linux" href="http://www.linuxdiyf.com/" 
+  target="_blank">红联linux</A>                 <A title="Win10之家" href="http://win10.ithome.com/" 
+  target="_blank">Win10之家</A>                 <A title="鸟哥笔记" href="http://www.niaogebiji.com/" 
+  target="_blank">鸟哥笔记</A>                 <A title="爱游戏" href="http://www.play.cn/" 
+  target="_blank">爱游戏</A>                 <A title="投资潮" href="http://www.investide.cn/" 
+  target="_blank">投资潮</A>                 <A title="31会议网" href="http://www.31huiyi.com/" 
+  target="_blank">31会议网</A>                 <A title="极光推送" href="https://www.jiguang.cn/" 
+  target="_blank">极光推送</A>                 <A title="Teambition" href="https://www.teambition.com/" 
+  target="_blank">Teambition</A>                 <A title="硅谷网" href="http://www.guigu.org/" 
+  target="_blank">硅谷网</A>                 <A title="leangoo" href="https://home.leangoo.com/" 
+  target="_blank">leangoo</A>                 <A title="ZEALER中国" href="http://www.zealer.com/" 
+  target="_blank">ZEALER中国</A>                 <A title="OpenSNS" href="http://www.opensns.cn/" 
+  target="_blank">OpenSNS</A>                 <A title="小牛学堂" href="http://www.edu360.cn/" 
+  target="_blank">小牛学堂</A>                 <A title="handone" href="http://www.handone.com/" 
+  target="_blank">handone</A>                 <A title="Scrum中文网" href="http://www.scrumcn.com/" 
+  target="_blank">Scrum中文网</A>                 <A title="比戈大牛" href="http://www.bigniu.com/" 
+  target="_blank">比戈大牛</A>                 <A title="又拍云" href="https://www.upyun.com/" 
+  target="_blank">又拍云</A>             <A 
+  href="http://www.tuicool.com/links">更多链接&gt;&gt;</A>&nbsp;&nbsp;        
+</DD></DL>
+<DIV class="clear"></DIV></DIV></DIV>
+<DIV style="display: none;">
+<SCRIPT language="JavaScript" src="深入理解java虚拟机（一）：java内存区域（内存结构划分）%20-%20推酷_files/stat.js"></SCRIPT>
+ </DIV></BODY></HTML>

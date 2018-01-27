@@ -1,0 +1,686 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta name="Keywords" content="+[知识人|演艺、艺术、娱乐:10|音乐:20]">
+<title>  什么叫做闰年 爱问知识人</title>
+<link href="/css/zhishib.css" rel="stylesheet" type="text/css">
+<script language="javascript" src="/js/zhishinew.js"></script>
+<script language="javascript">
+var quid = "1160533380";
+var qid = "2214661";
+var qtype = "3";
+var anum = "7";
+var aids = new Array('1057023624','1066138491','1413056620','1175024371','1089044184','1178298845','');
+var muid= -1;
+var qtime = 0;
+function fetch_cookie(name)
+{
+	cookie_name = name + "=";
+	cookie_length = document.cookie.length;
+	cookie_begin = 0;
+	while (cookie_begin < cookie_length) {
+		value_begin = cookie_begin + cookie_name.length;
+		if (document.cookie.substring(cookie_begin, value_begin) == cookie_name) {
+			var value_end = document.cookie.indexOf (";", value_begin);
+			if (value_end == -1) {
+				value_end = cookie_length;
+			}
+			return unescape(document.cookie.substring(value_begin, value_end));
+		}
+		cookie_begin = document.cookie.indexOf(" ", cookie_begin) + 1;
+		if (cookie_begin == 0) break;
+	}
+	return null;
+}
+function getcuid()
+{
+	var uid = fetch_cookie('nick');
+	if (uid == null)
+	{
+		return false;
+	}
+	var s = uid.lastIndexOf('(');
+	if (s == -1)
+		return false;
+	muid=uid.substring(s+1, uid.length-1);
+	return true;
+}
+var qctime = "2005-08-25 17:43:13";
+if ((new Date().getTime()) - Date.parse(qctime.replace('-', "/")) > 15552000000)
+	qtime=1;
+getcuid();
+function isq()
+{
+	if (muid == quid) {
+		return true;
+	}
+	return false;
+}
+function isa(sss)
+{
+	if (sss > 0)
+	{
+		if (muid==sss)
+		{
+			return true;
+		}
+		return false;
+	}
+	for (var j = 0; j < anum; j ++)
+	{
+		if (muid == aids[j]) {
+			return true;
+		}
+	}
+	return false;
+}
+function s_b(idname, qs1, qs2, vs, ks, t, sss)
+{
+	switch(t)
+	{
+		case 1:
+			var o = isq();
+			break;
+		case 2:
+			var o = isa(sss);
+			break;
+		case 4:
+			var o = isq() || qtime==1;
+			break;
+		case 5:
+			var o = isa(sss) || qtime==1;
+			break;
+		case 6:
+			var o = isq() || isa(sss) || qtime==1;
+			break;
+		default:
+			var o = isq() || isa(sss);
+			break;
+	}
+	if (qtype == 1 || qtype == 4){
+		if (anum > 0) {
+			show_hidden(idname, qs1, o);
+		}else {
+			show_hidden(idname, qs2, o);
+		}		
+	} else if (qtype == 2) {
+		show_hidden(idname, vs, o);
+	}else if (qtype == 3) {
+		show_hidden(idname, ks, o);
+	}
+	return false;	
+}
+function show_hidden(idname, t, iso)
+{
+	obj = $(idname);
+	if (!obj){ return false;}	
+	if (t == 0) {
+		if (obj.style.display != "none") { obj.style.display = "none";}
+		return true;
+	}
+	if (t == 1) {
+		if (obj.style.display == "none") { obj.style.display = ""; }
+		return true;
+	}
+	if (t == 2) {
+		if (iso) {
+			if (obj.style.display == "none") 
+				obj.style.display = "";
+		} else {
+			if (obj.style.display != "none") 
+				obj.style.display = "none";
+		}
+		return true;
+	}
+	if (t == 3) {
+		if (iso) {
+			if (obj.style.display != "none") 
+				obj.style.display = "none";
+		} else {			
+			if (obj.style.display == "none")
+				obj.style.display = "";
+		}
+		return true;
+	}	
+	return false;
+}
+function show_img(idname)
+{
+	obj = $(idname);
+	if (!obj) return false;
+	var uid=idname.substring(1, idname.length);
+	if (uid.length < 5)
+		uid = "000"+uid;
+		obj.src="http://image.iask.sina.com.cn/logo/"+uid.substring(uid.length, uid.length-2)+"/"+uid.substring(uid.length-2, uid.length-4)+"/50_"+idname.substring(1, idname.length)+".gif";
+}
+var isSubmited = false;
+function ctlEvent(event) 
+{
+	if(isSubmited == false && (event.ctrlKey && event.keyCode == 13) || (event.altKey && event.keyCode == 83)) {
+		if(checkForm(this.document.form2)) {
+			this.document.form2.submit();
+		}
+	}
+}
+function do_submit(args) {
+	var fn = document.getElementById ('zsForm');
+	try {
+		fn.classid.value = getClassify ().GetVariable ("id");
+		fn.gjss.value = 1;
+	}catch (ex) {	}
+	return iask_submit (fn, args);
+}
+function fShow (){
+	document.getElementById ('d1').style.visibility = "visible";
+}
+function fHide (){ 
+	document.getElementById ('d1').style.visibility = "hidden";
+	document.getElementById ('z2ss_r').src="http://image2.sina.com.cn/pfp/iask/zsr/z2_ss_r1.gif";
+}
+function ss_on (n){
+	var z2 = document.getElementById ('z2ss_r');
+	if(z2.src.indexOf("z2_ss_r4")!=-1) { return false; }
+	z2.src="http://image2.sina.com.cn/pfp/iask/zsr/z2_ss_r"+n+".gif";
+}
+function ss_of (n){
+	var z2 = document.getElementById ('z2ss_r');
+	if(z2.src.indexOf("z2_ss_r4")!=-1) { return false; }
+	z2.src="http://image2.sina.com.cn/pfp/iask/zsr/z2_ss_r"+n+".gif";
+}
+</script>
+</head>
+<body onkeydown="if(event.keyCode==27) return false;">
+<div id="d1" style="position:absolute; z-index:2; top:44px; left:472px; visibility:hidden; border:1px solid #dde1ea; border-bottom:1px solid #b2b8d0; border-right:1px solid #b2b8d0;">
+	<div class="gj" align="center">
+		<div>
+			<div class="fl" style="padding-left:5px;">高级搜索</div>
+			<div class="fr"><a href="javascript:fHide();void(0);" title="关闭" class="cc"><b>×</b></a></div>
+			<div class="cb"></div>
+		</div>
+		<div style="background:#fff; padding:10px;">
+			<div >选择分类范围：</div>
+			<div><script language="javascript" type="text/javascript">setClassifyObj(0, "#FFFFFF",0, "18|400|150");</script></div>
+			<div style="padding:5px; padding-top:12px;"><input type="button" value="搜 索" class="hd_tw" onClick="return do_submit ('know');"></div>
+		</div>
+	</div>
+</div>
+<div id="head">
+	<iframe name="iframe_data" style="display:none;"></iframe>
+	<div class="fl hd1"><a href="/"><img src="http://www.sinaimg.cn/pfp/i/09yd_logo.gif" border="0" width="145" height="45" alt="爱问知识人"></a></div>
+	<div class="fl hd2">
+		<div style="position:relative; z-index:1; background:#fff;">
+			<form id="zsForm" name="zsForm" method="get" target="" onSubmit="return iask_submit(this,'know');">
+			<div class="fl"><input type="text" name="key" id="key" class="f14 w277" value="" onClick="ckwords(this);"></div>
+			<div class="fl" style="padding:2px 0 0 10px;"><input type="submit" value="搜 索" class="hd_ss" onMouseOver="ss_on(2);" onMouseOut="ss_of(1);"></div>
+			<div class="fl" style="padding:2px 10px 0 0;"><img id="z2ss_r" class="cp" src="http://image2.sina.com.cn/pfp/iask/zsr/z2_ss_r1.gif" border="0" width="17" height="20" onMouseOver="ss_on(3);" onMouseOut="ss_of(1);" onClick="this.src='http://image2.sina.com.cn/pfp/iask/zsr/z2_ss_r4.gif';fShow();"></div>
+			<div class="fl" style="padding-top:2px;"><input type="button" value="提 问" class="hd_tw" onClick="return iask_submit(this.form,'ask');"></div>
+			<div class="cb"></div>
+			<input type=hidden name="title">
+			<input type=hidden name="classid" value="0">
+			<input type=hidden name="type" value="1">
+			<input type=hidden name="gjss" value="0">
+			<input type=hidden name="page" value="0">
+			</form>
+		</div>
+	</div>
+	
+	<div class="fr" style="padding:5px;">
+		<a href="http://iask.com/" title="爱问首页">爱问首页</a>
+		<span class="c9">|</span>
+		<a href="/" title="知识人首页">知识人首页</a>
+	</div>
+	<div class="cb"></div>
+</div>
+<div id="nav">
+	<div class="fl">|</div>
+	<div class="fl" style="width:52px;"><a href="/">首页</a></div>
+	<div class="fl"><img src="http://www.sinaimg.cn/pfp/i/z3/v2_nav_l.gif" width="2" height="29"></div>
+	<div class="fl nav_n" style="width:78px;">问题分类</div>
+	<div class="fl"><img src="http://www.sinaimg.cn/pfp/i/z3/v2_nav_r.gif" width="2" height="29"></div>
+	<div class="fl" style="width:91px;"><a href="/rank/browse_question_by_rank.php">问题排行榜</a></div>
+	<div class="fl">|</div>
+	<div class="fl" style="width:65px;"><a href="/toplist/toplist.php">用户榜</a></div>
+	<div class="fl">|</div>
+	<div class="fl" style="width:65px;"><a href="/info/all_expert.html">专家团</a></div>
+	<div class="fl">|</div>
+	<div class="fl" style="width:65px;"><a href="http://iask.com/more.html">更多<span class="f10">&gt;&gt;</span></a></div>
+	<div class="fr" style="padding-top:4px;"><a href="/myknow/my_question_list.php"><img src="http://image2.sina.com.cn/pfp/ask/images/zhishi/grzx.gif" border="0" width="78" height="19"></a></div>
+	<div class="cb"></div>
+</div>
+<div id="nav_sub" style="width:950px; margin:0px auto;">
+	<div class="nav22"><a href=/ >知识人</a> &gt; <a href=/browse/catalog.php>问题分类</a> 
+ &gt; <a href='/browse/get_class.php?fatherid=2'>演艺、艺术、娱乐</a> &gt; <a href='/browse/get_class.php?fatherid=133'>音乐</a></div>
+	<div name='sina_ads' id='sina_ad1' sectionid="IASK-ZSR-A" style="width:190px;height:24px;float:left;"></div>
+	<div class="cb" style="margin-top:-10px;"></div>
+</div>
+
+<div id="main">
+	<div id="cont_left">
+		<div class="cl_qus">
+			<div class="qus_t">
+				<div class="f14 fl"><strong>问题:</strong></div>
+				<div class="plsz">
+					<a href=# onclick="openWindow('/question/recommend_cute_question_new.php?questionid=2214661','470', '350','推荐问题'); return false;" class="c9">推荐</a> ┊ 
+					<a href="#" onclick="openWindow('/myknow/myfocus_new_question.php?qid=2214661', '280', '140', '关注');return false;" class="c9">关注</a> ┊ 
+					<a href="javascript:OpenSection('2214661','');" class="c9">评论</a> <span id="zsjbzj">┆ <a href="#" onclick="openWindow('/question/315_new.php?uid=1160533380&questionid=2214661', '470', '350', '举报');return false;" class="c9">举报</a></span>
+				</div>
+				<div class="cr"></div>
+			</div>
+<div class="qusi"><img src="http://www.sinaimg.cn/pfp/i/z3/ques.gif" alt="问题logo"></div>
+		<div class="qus_c">
+				<div class="usr_info">
+				<div class="wpb5"><a href="/user/user.php?uid=1160533380" target="_blank" class="c7f"><img id="q1160533380" class="img1" align="absmiddle"><br>hikki</a><br>[学妹]</div>
+				</div>
+				<div class="usr_qus">
+					<img src="http://image2.sina.com.cn/pfp/ask/images/zhishi/ssr52a.gif" alt="已解决的问题" align="absmiddle">
+					<strong>  什么叫做闰年</strong>
+					<span id='zsqprize'><img src="http://image2.sina.com.cn/pfp/ask/images/zhishi/money.gif" align="absmiddle"><strong class="o">0分</strong></span>
+					
+					<script language="javascript">s_b("zsjbzj", 3, 3, 3, 3,4);show_img("q1160533380");if(0==0)show_hidden("zsqprize",0);</script>
+					<div class="twsj" style="text-align:left;">回答：7 &nbsp; 浏览：490 &nbsp;  提问时间：<span class="ar">2005-08-25 17:43</span></div>
+					<div class="pb5"></div>
+					
+					
+ 
+					
+					<div id="comment2214661" class="f12 c7f" style="display:none"><span class="pl_hand" onClick="OpenSection('2214661','');"><img id="commentimg2214661" src="http://image2.sina.com.cn/pfp/i/z2/z2_zz_fbpl_da2.gif" width="7" height="8" class="cp"> 共<span id="commenttotal2214661">0</span>条评论...</span></div>
+					<div id="commentsec2214661" class="pl_area"></div>
+					
+					
+				</div>
+				<div class="cb"></div>
+				
+			</div>
+		</div>
+
+
+
+
+
+
+	<div class="cl_ans2">
+			<div class="ans_t3">
+				<div class="fl" id="ok1026058784">
+					<img src="http://www.sinaimg.cn/pfp/i/z3/best.gif" align="absmiddle" alt="最佳答案" />
+					<strong class="f14">最佳答案</strong> 
+					<span class="f12 c9">此答案由提问者自己选择，并不代表爱问知识人的观点</span>
+				</div>
+				
+					
+				<div class="plsz">
+					<a class="c9" href="#" onClick="openWindow('/question/emend_apply_new.php?questionid=2214661', '470', '350', '我来揪错');return false" class="c6nul">揪错</a> ┆ <a href="javascript:OpenSection('2214661','9882487');" class="c9">评论</a> <span id="zsjubaowet1026058784">┆ <a href="#" onClick="openWindow('/question/315_new.php?uid=1026058784&questionid=2214661&answerid=9882487', '470', '350', '举报');return false;" class="c9">举报</a></span><script language="javascript">s_b("zsjubaowet1026058784", 3, 3, 3, 3,5, 1026058784);</script>
+				</div>
+				<div class="cb"></div>
+			</div>
+			<div class="qus_c2">
+				<div class="usr_info">
+					<div class="wpb5">
+					<a name=#1026058784></a><a href="/user/user.php?uid=1026058784" target=_blank class="c7f"><img id="a1026058784" class="img1" align="absmiddle"><br>我打死也不</a><br>[学长]
+					<script language="javascript">show_img("a1026058784");</script>
+					</div>
+				</div>
+				<div class="usr_qus">
+					<div class="pb5">
+						关于公历闰年是这样规定的：地球绕太阳公转一周叫做一回归年，一回归年长365日5时48分46秒。因此，公历规定有平年和闰年，平年一年有365日，比回归年短0.2422日，四年共短0.9688日，故每四年增加一日，这一年有366日，就是闰年。但四年增加一日比四个回归年又多0.0312日, 400年后将多3.12日,故在400年中少设3个闰年,也就是在400年中只设97个闰年，这样公历年的平均长度与回归年就相近似了。由此规定：年份是整百数的必须是400的倍数才是闰年，例如1900年、2100年就不是闰年。<br><br>
+
+
+					</div>
+					<div class="twsj">回答：<span class="ar">2005-08-25 17:56</span></div>
+					
+					<div class="f12" style="border-top:1px solid #feeba0; margin-bottom:10px; padding-top:10px;">
+						<div class="pb5"><b class="o">提问者对答案的评价：<img src='http://image2.sina.com.cn/pfp/ask/images/zhishi/ssr50a.gif'><img src='http://image2.sina.com.cn/pfp/ask/images/zhishi/ssr50a.gif'><img src='http://image2.sina.com.cn/pfp/ask/images/zhishi/ssr50a.gif'></b></div>
+						<div></div>
+					</div>
+					<div id="comment22146619882487" class="f12 c7f" style="display:none"><span class="pl_hand" onClick="OpenSection('2214661','9882487');"><img id="commentimg22146619882487" src="http://image2.sina.com.cn/pfp/i/z2/z2_zz_fbpl_da2.gif" width="7" height="8" class="cp"> 共<span id="commenttotal22146619882487">0</span>条评论...</span></div>
+					<div id="commentsec22146619882487" class="pl_area"></div>
+				</div>
+				<div class="cb"></div>
+				
+			</div>
+		</div>
+
+
+
+		<div class="cl_ans">
+
+
+			<div class="ans_t">
+				<div class="fl"><strong class="f14">其他回答</strong> <span class="f12">共6条回答</span></div>
+
+				<div class="plsz">
+					<a href="javascript:OpenSection('2214661','9881856');" class="c9">评论</a> <span id="zsjubaowet1057023624">┆ <a href="#" onClick="openWindow('/question/315_new.php?uid=1057023624&questionid=2214661&answerid=9881856', '470', '350', '举报');return false;" class="c9">举报</a></span><script language="javascript">s_b("zsjubaowet1057023624", 3, 3, 3, 3,5, 1057023624);</script>
+				</div>
+				<div class="cb"></div>
+			</div>
+<div class="ansi"><img src="http://www.sinaimg.cn/pfp/i/z3/ans.gif" alt="回答logo"></div>
+			<div class="ans_c">
+			  <div class="usr_info">
+					<div class="wpb5">
+					<a name=#1057023624></a><a href="/user/user.php?uid=1057023624" target=_blank class="c7f"><img id="a1057023624" class="img1" align="absmiddle"><br>八十年代后</a><br>[大师]
+					<script language="javascript">show_img("a1057023624");</script>
+					</div>
+				</div>
+				<div class="usr_qus">
+					<div class="pb5">
+						阳历中有闰日的年份叫闰年,相反就是平年,平年为365天,闰年为366天。在公历(格里历)纪年中,平年的二月为28天,闰年的二月为29天。闰年平月2月29日为闰日。<br><br>在公历(格里历)纪年中,有闰日的年份叫闰年,一般年份365天,闰年为366天。由于地球绕太阳运行周期为365天5小时48分46秒(合365.24219天)即一回归年,公历把一年定为365天。
+
+
+					</div>
+					<div class="twsj">回答：<span class="ar">2005-08-25 17:45</span></div>
+					
+					
+					<div id="comment22146619881856" class="f12 c7f" style="display:none"><span class="pl_hand" onClick="OpenSection('2214661','9881856');"><img id="commentimg22146619881856" src="http://image2.sina.com.cn/pfp/i/z2/z2_zz_fbpl_da2.gif" width="7" height="8" class="cp"> 共<span id="commenttotal22146619881856">0</span>条评论...</span></div>
+					<div id="commentsec22146619881856" class="pl_area"></div>
+				</div>
+				<div class="cb"></div>
+				
+			</div>
+		</div>
+
+		<div class="cl_ans">
+<div class="ans_t2">
+
+				<div class="plsz">
+					<a href="javascript:OpenSection('2214661','9881869');" class="c9">评论</a> <span id="zsjubaowet1066138491">┆ <a href="#" onClick="openWindow('/question/315_new.php?uid=1066138491&questionid=2214661&answerid=9881869', '470', '350', '举报');return false;" class="c9">举报</a></span><script language="javascript">s_b("zsjubaowet1066138491", 3, 3, 3, 3,5, 1066138491);</script>
+				</div>
+				<div class="cb"></div>
+			</div>
+
+			<div class="ans_c">
+			  <div class="usr_info">
+					<div class="wpb5">
+					<a name=#1066138491></a><a href="/user/user.php?uid=1066138491" target=_blank class="c7f"><img id="a1066138491" class="img1" align="absmiddle"><br>牛奶</a><br>[学弟]
+					<script language="javascript">show_img("a1066138491");</script>
+					</div>
+				</div>
+				<div class="usr_qus">
+					<div class="pb5">
+						就是2月份有29天的年份<br>比如2000 2004 1996 1992 
+
+
+					</div>
+					<div class="twsj">回答：<span class="ar">2005-08-25 17:46</span></div>
+					
+					
+					<div id="comment22146619881869" class="f12 c7f" style="display:none"><span class="pl_hand" onClick="OpenSection('2214661','9881869');"><img id="commentimg22146619881869" src="http://image2.sina.com.cn/pfp/i/z2/z2_zz_fbpl_da2.gif" width="7" height="8" class="cp"> 共<span id="commenttotal22146619881869">0</span>条评论...</span></div>
+					<div id="commentsec22146619881869" class="pl_area"></div>
+				</div>
+				<div class="cb"></div>
+				
+			</div>
+		</div>
+
+		<div class="cl_ans">
+<div class="ans_t2">
+
+				<div class="plsz">
+					<a href="javascript:OpenSection('2214661','9882296');" class="c9">评论</a> <span id="zsjubaowet1413056620">┆ <a href="#" onClick="openWindow('/question/315_new.php?uid=1413056620&questionid=2214661&answerid=9882296', '470', '350', '举报');return false;" class="c9">举报</a></span><script language="javascript">s_b("zsjubaowet1413056620", 3, 3, 3, 3,5, 1413056620);</script>
+				</div>
+				<div class="cb"></div>
+			</div>
+
+			<div class="ans_c">
+			  <div class="usr_info">
+					<div class="wpb5">
+					<a name=#1413056620></a><a href="/user/user.php?uid=1413056620" target=_blank class="c7f"><img id="a1413056620" class="img1" align="absmiddle"><br>xpty</a><br>[学弟]
+					<script language="javascript">show_img("a1413056620");</script>
+					</div>
+				</div>
+				<div class="usr_qus">
+					<div class="pb5">
+						能被4整除的年份就是闰年。闰年的2月有29天。
+
+
+					</div>
+					<div class="twsj">回答：<span class="ar">2005-08-25 17:52</span></div>
+					
+					
+					<div id="comment22146619882296" class="f12 c7f" style="display:none"><span class="pl_hand" onClick="OpenSection('2214661','9882296');"><img id="commentimg22146619882296" src="http://image2.sina.com.cn/pfp/i/z2/z2_zz_fbpl_da2.gif" width="7" height="8" class="cp"> 共<span id="commenttotal22146619882296">0</span>条评论...</span></div>
+					<div id="commentsec22146619882296" class="pl_area"></div>
+				</div>
+				<div class="cb"></div>
+				
+			</div>
+		</div>
+
+		<div class="cl_ans">
+<div class="ans_t2">
+
+				<div class="plsz">
+					<a href="javascript:OpenSection('2214661','9883462');" class="c9">评论</a> <span id="zsjubaowet1175024371">┆ <a href="#" onClick="openWindow('/question/315_new.php?uid=1175024371&questionid=2214661&answerid=9883462', '470', '350', '举报');return false;" class="c9">举报</a></span><script language="javascript">s_b("zsjubaowet1175024371", 3, 3, 3, 3,5, 1175024371);</script>
+				</div>
+				<div class="cb"></div>
+			</div>
+
+			<div class="ans_c">
+			  <div class="usr_info">
+					<div class="wpb5">
+					<a name=#1175024371></a><a href="/user/user.php?uid=1175024371" target=_blank class="c7f"><img id="a1175024371" class="img1" align="absmiddle"><br>bboguri</a><br>[学姐]
+					<script language="javascript">show_img("a1175024371");</script>
+					</div>
+				</div>
+				<div class="usr_qus">
+					<div class="pb5">
+						２月有２９天的就是闰年，闰年如２００４等都能被四整除的．
+
+
+					</div>
+					<div class="twsj">回答：<span class="ar">2005-08-25 18:27</span></div>
+					
+					
+					<div id="comment22146619883462" class="f12 c7f" style="display:none"><span class="pl_hand" onClick="OpenSection('2214661','9883462');"><img id="commentimg22146619883462" src="http://image2.sina.com.cn/pfp/i/z2/z2_zz_fbpl_da2.gif" width="7" height="8" class="cp"> 共<span id="commenttotal22146619883462">0</span>条评论...</span></div>
+					<div id="commentsec22146619883462" class="pl_area"></div>
+				</div>
+				<div class="cb"></div>
+				
+			</div>
+		</div>
+
+		<div class="cl_ans">
+<div class="ans_t2">
+
+				<div class="plsz">
+					<a href="javascript:OpenSection('2214661','9884096');" class="c9">评论</a> <span id="zsjubaowet1089044184">┆ <a href="#" onClick="openWindow('/question/315_new.php?uid=1089044184&questionid=2214661&answerid=9884096', '470', '350', '举报');return false;" class="c9">举报</a></span><script language="javascript">s_b("zsjubaowet1089044184", 3, 3, 3, 3,5, 1089044184);</script>
+				</div>
+				<div class="cb"></div>
+			</div>
+
+			<div class="ans_c">
+			  <div class="usr_info">
+					<div class="wpb5">
+					<a name=#1089044184></a><a href="/user/user.php?uid=1089044184" target=_blank class="c7f"><img id="a1089044184" class="img1" align="absmiddle"><br>深蓝</a><br>[学姐]
+					<script language="javascript">show_img("a1089044184");</script>
+					</div>
+				</div>
+				<div class="usr_qus">
+					<div class="pb5">
+						他们说的都对啊
+
+
+					</div>
+					<div class="twsj">回答：<span class="ar">2005-08-25 18:46</span></div>
+					
+					
+					<div id="comment22146619884096" class="f12 c7f" style="display:none"><span class="pl_hand" onClick="OpenSection('2214661','9884096');"><img id="commentimg22146619884096" src="http://image2.sina.com.cn/pfp/i/z2/z2_zz_fbpl_da2.gif" width="7" height="8" class="cp"> 共<span id="commenttotal22146619884096">0</span>条评论...</span></div>
+					<div id="commentsec22146619884096" class="pl_area"></div>
+				</div>
+				<div class="cb"></div>
+				
+			</div>
+		</div>
+
+		<div class="cl_ans">
+<div class="ans_t2">
+
+				<div class="plsz">
+					<a href="javascript:OpenSection('2214661','9897696');" class="c9">评论</a> <span id="zsjubaowet1178298845">┆ <a href="#" onClick="openWindow('/question/315_new.php?uid=1178298845&questionid=2214661&answerid=9897696', '470', '350', '举报');return false;" class="c9">举报</a></span><script language="javascript">s_b("zsjubaowet1178298845", 3, 3, 3, 3,5, 1178298845);</script>
+				</div>
+				<div class="cb"></div>
+			</div>
+
+			<div class="ans_c">
+			  <div class="usr_info">
+					<div class="wpb5">
+					<a name=#1178298845></a><a href="/user/user.php?uid=1178298845" target=_blank class="c7f"><img id="a1178298845" class="img1" align="absmiddle"><br>蓝泪</a><br>[新手]
+					<script language="javascript">show_img("a1178298845");</script>
+					</div>
+				</div>
+				<div class="usr_qus">
+					<div class="pb5">
+						2月份有29天的年份<br>
+
+
+					</div>
+					<div class="twsj">回答：<span class="ar">2005-08-26 01:26</span></div>
+					
+					
+					<div id="comment22146619897696" class="f12 c7f" style="display:none"><span class="pl_hand" onClick="OpenSection('2214661','9897696');"><img id="commentimg22146619897696" src="http://image2.sina.com.cn/pfp/i/z2/z2_zz_fbpl_da2.gif" width="7" height="8" class="cp"> 共<span id="commenttotal22146619897696">0</span>条评论...</span></div>
+					<div id="commentsec22146619897696" class="pl_area"></div>
+				</div>
+				<div class="cb"></div>
+				
+			</div>
+		</div>
+
+
+
+
+
+<div id="ads1" style="display:none;border:1px solid #E0E0E0; padding:12px 5px 8px 7px; margin-bottom:5px; margin-top:1px;"></div>
+
+<input type=hidden name="zqid" value="10310927">
+<input type=hidden name="ztitle" value="闰年">
+
+<input type=hidden name="zqid" value="9325545">
+<input type=hidden name="ztitle" value="为什么有的闰年要除以400? ">
+
+<input type=hidden name="zqid" value="11780723">
+<input type=hidden name="ztitle" value="农历闰年是怎么算的 ">
+
+<input type=hidden name="zqid" value="8814479">
+<input type=hidden name="ztitle" value="为什么整百年要除以4才是闰年">
+
+<input type=hidden name="zqid" value="5256751">
+<input type=hidden name="ztitle" value="为什么整百年一定要被400整除才算是闰年? ">
+
+
+<input type=hidden name="zkey" value="  什么叫做闰年" >
+<div id="ads2" style="display:none;"></div>
+</div>
+<div id="cont_right" style="width:237px;">
+<div class="c9" id="notshowlogin" style="display:none">
+<form name="login" method=post action="/login/login_zhishi.php" onsubmit="return checkLogin();" target="iframe_data">
+<input type=hidden name="U_Url" value="/b/2214661.html">
+		<div><img src="http://image2.sina.com.cn/pfp/i/z2/z2_dl_t.gif" width="237" height="5"></div>
+		<div style="background:url(http://image2.sina.com.cn/pfp/i/z2/z2_dl_bg.gif) repeat-y; padding:10px;">
+			<div class="hydl mb15"><b>欢迎登录知识人</b></div><div>
+				<div class="fr" style="padding-top:1px;"><input type="submit" class="btn_dl" value="登&nbsp;录" title="登&nbsp;录"></div>
+				<div class="fl" style="padding-top:6px;">会员名：</div>
+				<div class="fl"><input type="text" name="U_Loginname" maxlength="64" size="14" class="dlk c9" value="会员名/手机号/UC" onclick="if(this.value=='会员名/手机号/UC')this.value='';" onBlur="if(this.value=='')this.value='会员名/手机号/UC';"></div> <br>
+				<div class="fl" style="padding-top:8px;">密　码：</div>
+				<div class="fl" style="padding-top:2px;"><input type="password" name="U_Pass" size="14" class="dlk"></div>
+				<div class="cb"></div>
+			</div>
+			<div style="padding:0 0 7px 44px;"><input name="U_Login" type="checkbox" value="1" checked="checked">记住会员名</div>
+			<div align="right"><a href="http://login.iask.com/userreg.php" target="_blank">会员注册</a>  <a href="http://login.sina.com.cn/getpass.html" target="_blank">忘记密码</a></div>
+		</div>
+		<div class="dl_b">·新浪会员请直接登录</div></form>
+</div>
+<script language=javascript>
+if(muid > 0)
+	document.write('<script language=javascript src="/login/loginarea.php?url=/b/2214661.html"></'+'script>');
+else
+	show_hidden("notshowlogin", 1);
+</script>
+<div align="center" style="padding:5px 0 20px 0;"><input type="button" class="btn_wytw" value="我要提问" title="我要提问" onclick="window.open('http://iask.sina.com.cn/question/ask_new_2.php?classid=133&url=/b/2214661.html','_blank')"></div>
+		<div class="title_area">
+			<h3><a href="/browse/get_class.php?fatherid=133&status=C" target="_blank" class="c0">管理员推荐</a></h3>
+			<div class="more"><a href="/browse/get_class.php?fatherid=133&status=C" target="_blank" class="c9" title="更多">更多<span class="f10">&gt;&gt;</span></a></div>
+			<div class="cb"></div>
+		</div>
+		<ul class="n_list">
+
+			<li><a href="/b/13699536.html" target="_blank">一首英文歌女声的“who  can  say...</a></li>
+			<li><a href="/b/13699371.html" target="_blank">佳人当道第二集开始酒吧里那女的唱..</a></li>
+			<li><a href="/b/13674540.html" target="_blank">求1首歌</a></li>
+			<li><a href="/b/13257777.html" target="_blank">中国风 之一，听民乐猜流行歌曲。。</a></li>
+			<li><a href="/b/12957505.html" target="_blank">究竟是互联网改变音乐还是音乐改变..</a></li>
+		</ul>
+
+<div name="sina_ads2" id="sina_ads2" sectionid="IASK-ZSR-Z" slotnum="10" adtype="text" style="display:none;padding:0 0 25px 5px"></div>
+<div class="title_area">
+			<h3><a href="/rank/browse_wondquestion.php" target="_blank" class="c0">热点推荐</a></h3>
+			<div class="more"><a href="/rank/browse_wondquestion.php" target="_blank" class="c9">更多<span class="f10">&gt;&gt;</span></a></div>
+			<div class="cb"></div>
+		</div>
+		<div class="pic_area">
+			<div class="pic_l">
+				<a href="/b/12507476.html" target="_blank"><img src="http://www.sinaimg.cn/pfp/iask/images/zhishi/zhajiangmian0827.jpg" class="pic"></a>
+				<a href="/b/12507476.html" target="_blank" class="c0">京味炸酱面是怎么..</a>
+			</div>
+			<div class="pic_r">
+				<a href="/b/9889142.html" target="_blank"><img src="http://www.sinaimg.cn/pfp/iask/images/zhishi/xue1029.jpg" class="pic"></a>
+				<a href="/b/9889142.html" target="_blank" class="c0">滑冰有什么技巧吗？</a>
+			</div>
+			<div class="cb"></div>
+		</div>
+		<ul class="n_list">
+
+			<li><a href="/b/8055834.html" target="_blank">吃得过饱对健康危害在哪？</a></li>
+			<li><a href="/b/3279519.html" target="_blank">牛奶过期后是如何处理的？</a></li>
+			<li><a href="/b/7655703.html" target="_blank">喝酒不伤身有什么技巧？</a></li>
+			<li><a href="/b/13358954.html" target="_blank">醋在生活中有哪些妙用？</a></li>
+			<li><a href="/b/13413008.html" target="_blank">今年的七夕是否是紫色情人节？</a></li>
+		</ul> 
+<div id="ads" style="display:none;padding:10px; margin-bottom:18px;word-wrap:break-word;"></div>
+	</div>
+	<div class="cb"></div>
+</div>
+
+<div id="btm" align="center">
+	<div class="btm1"><a href="/browse/guest.php" target="_blank">意见反馈</a> - <a href="http://jingjia.sina.net" target="_blank">网站推广</a> - <a href="http://iask.com/info/hr.html" target="_blank">招贤纳士</a> - <a href="http://iask.com/more.html" target="_blank">爱问大全</a></div>
+	<div class="btm2">&copy; 2009 Sina.com <a href="http://iask.com/help/mzsm.html" target="_blank">免责声明</a></div>
+</div>
+</body>
+<!-- START Nielsen//NetRatings SiteCensus V5.2 -->
+<!-- COPYRIGHT 2006 Nielsen//NetRatings -->
+<script type="text/javascript">
+	var _rsCI="cn-sina2006";	 
+	var _rsCG="0";	
+	var _rsDN="//secure-cn.imrworldwide.com/";	
+	var _rsCC=0;	
+	var _rsSE=1;	
+	var _rsSM=0.01;	 
+	var _rsSS=1500;	 
+</script>
+<script type="text/javascript" src="//secure-cn.imrworldwide.com/v52.js"></script>
+<noscript>
+	<img src="//secure-cn.imrworldwide.com/cgi-bin/m?ci=cn-sina2006&amp;cg=0" alt=""/>
+</noscript>
+<!-- END Nielsen//NetRatings SiteCensus V5.2 -->
+<!-- SUDA_CODE_START -->
+<script type="text/javascript" src="http://i0.sinaimg.cn/unipro/pub/suda_s_v851c.js"></script>
+<SCRIPT type="text/javascript" >
+<!--
+_S_PID_="292";
+_S_pSt(_S_PID_);
+//-->
+</SCRIPT>
+<!-- SUDA_CODE_END -->
+</html>
+<script type="text/javascript" src="http://match.sina.com.cn/js/sinaflash.js"></script>
+<script type="text/javascript" src="http://match.sina.com.cn/js/getace.js"></script>
+<script type="text/javascript" >
+var page_url="http://iask.sina.com.cn/b/2214661.html";
+sina_ads_config = new function() {
+		this.textTemplate = {
+		'head' : '赞助商链接<ul style="line-height:20px; padding-top:5px;">',
+		'foot' : '</ul>',
+		'span' : '',
+		'body' : '<li><a href="%clickUrl%" onclick="javascript:clickTracker();" class="sl_link">%title%</a></li>'
+		};
+};
+showSinaAds ('sina_ads');
+showSinaAds ('sina_ads2');
+</script>
+<scr<scr<scr

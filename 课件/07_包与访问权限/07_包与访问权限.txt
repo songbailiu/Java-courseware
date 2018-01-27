@@ -1,0 +1,90 @@
+1:package包。
+	包(package)是类的容器，用来保存划分类名空间。
+	逻辑意义对类进行划分。
+
+	解决同名的类的冲突问题。
+
+
+2：package的命名规范：
+
+	A：package必须写在源文件的第一行。
+
+	B：package名一律使用小写。
+
+	C：(建议)package使用公司的域名倒过来。
+	www.sf.com
+	com.sf.项目名称.模块名称
+
+3：包在逻辑上是以命名空间划分的。
+
+   在物理上是以文件系统路径划分的。
+
+   com.sf.one
+
+   将类编译好后，要将编译好的类放到com/softfz/one这个文件夹下面
+
+   运行
+   java com.f.one.类名;
+同一层包结构的类相互之间不需要导入import
+//解决同名类的冲突问题（导入一个全类名写一个）
+
+  
+4：javac -d选项的作用
+		
+	-d：指定类文件(class) 存放的位置。
+
+	javac -d ./ Test_03.java
+
+
+	
+带package的类与classpath如何运行
+
+C:/>java -classpath F:\Lesson9 aa.bb.cc.dd.ee.Test_03
+
+
+
+包的导入(import)
+同一个包底下的类可以相互调用。
+
+不同的包底下的类，需要用到另一个包底下的类时，需要使用
+import关键字导入所需要的类路径。
+
+
+有名包与无包名访问的问题：
+
+	无名包底下的类可以访问有名包底下的类。
+
+	有名包底下的类不可以访问无名包底下的类。
+
+
+private：同一个类中的访问权限。其它的类都不能访问用private修饰
+         的方法和属性。
+
+default：同一个包下面的类都可以访问。不同包是无法访问使用默认
+         default下面类。
+
+protected：同一个包下面的类都可以访问，不同包是无法访问，但是在不
+
+           同包下面，是该类的子类就可以访问protected修饰的变量和方
+
+	   法。
+
+
+EclipseIDE常用的操作
+
+	1：建工程(将源文件与输出文件分开)
+
+	2：建类，并为类取包名
+
+	3：
+
+alt+/	：智能感知
+
+ctrl+shift+O：导入相应的包
+
+ctrl+shif+F：格式化代码的功能
+
+生成SET/GET方法
+		
+右键点击源代码---->Source--->Generate Getter ans Setters;
+

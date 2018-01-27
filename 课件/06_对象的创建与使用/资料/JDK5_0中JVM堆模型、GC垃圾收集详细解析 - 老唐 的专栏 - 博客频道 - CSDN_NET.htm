@@ -1,0 +1,932 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0050)http://blog.csdn.net/sfdev/article/details/4483442 -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><HTML 
+xmlns="http://www.w3.org/1999/xhtml"><HEAD><META content="IE=11.0000" 
+http-equiv="X-UA-Compatible">
+          
+<SCRIPT src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/tracking.js" type="text/javascript" charset="utf-8"></SCRIPT>
+      
+<SCRIPT type="text/javascript">
+        var protocol = window.location.protocol;
+        document.write('<script type="text/javascript" src="' + protocol + '//csdnimg.cn/pubfooter/js/repoAddr2.js?v=' + Math.random() + '"></' + 'script>');
+    </SCRIPT>
+    
+<META http-equiv="Cache-Control" content="no-siteapp"><LINK href="#" rel="alternate" 
+media="handheld">     <TITLE>JDK5.0中JVM堆模型、GC垃圾收集详细解析 - 老唐 的专栏         - 博客频道 - 
+CSDN.NET</TITLE>     
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">     
+<META name="description" content="KMP算法，是由Knuth，Morris，Pratt共同提出的模式匹配算法，其对于任何模式和目标序列，都可以在线性时间内完成匹配查找，而不会发生退化，是一个非常优秀的模式匹配算法。但是相较于其他模式匹配算法，该算法晦涩难懂，第一次接触该算法的读者往往会看得一头雾水，主要原因是KMP算法在构造跳转表next过程中进行了多个层面的优化和抽象，使得KMP算法进行模式匹配的原理显得不那么直白。本文希望能够"> 
+    
+<SCRIPT src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/jquery.js" type="text/javascript"></SCRIPT>
+       
+<SCRIPT src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/jquery-version.js" type="text/javascript"></SCRIPT>
+     
+<SCRIPT src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/ad.js" type="text/javascript"></SCRIPT>
+         <!--new top-->                <LINK href="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/index.css" 
+rel="stylesheet">         <!--new top-->           <!-- ad begin -->          
+<SCRIPT language="javascript" src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/tracking(1).js" type="text/javascript"></SCRIPT>
+     <!-- ad end-->     <LINK href="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/style.css" 
+rel="Stylesheet" type="text/css">     <LINK title="RSS" id="RSSLink" href="/sfdev/rss/list" 
+rel="alternate" type="application/rss+xml">     <LINK href="http://c.csdnimg.cn/public/favicon.ico" 
+rel="shortcut icon">     <LINK href="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/default.css" 
+rel="stylesheet" type="text/css">  
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842"></HEAD> 
+<BODY><!-- 广告位开始 -->         <INS data-revive-id="8c38e720de1c90a6f6ff52f3f89c4d57" 
+data-revive-zoneid="149"></INS>     <!-- 广告位结束 -->              <!--new top-->   
+  
+<SCRIPT id="toolbar-tpl-scriptId" src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/html.js" type="text/javascript" skin="black" prod="blog" fixed="true"></SCRIPT>
+      <!--new top-->     
+<DIV id="container">
+<DIV id="header">
+<DIV class="header">
+<DIV id="blog_title">
+<H2><A href="http://blog.csdn.net/sfdev">老唐 的专栏</A></H2>
+<H3>愿有多大、路有多长……</H3>
+<DIV class="clear"></DIV></DIV>
+<DIV class="clear"></DIV></DIV></DIV>
+<DIV id="navigator">
+<DIV class="navigator_bg"></DIV>
+<DIV class="navigator">
+<UL>
+  <LI id="btnContents"><A 
+  href="http://blog.csdn.net/sfdev?viewmode=contents"><SPAN onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_mulu'])"><IMG 
+  src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/ico_list.gif">目录视图</SPAN></A></LI> 
+                  
+  <LI id="btnView"><A href="http://blog.csdn.net/sfdev?viewmode=list"><SPAN 
+  onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_zhaiyao'])"><IMG 
+  src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/ico_summary.gif">摘要视图</SPAN></A></LI> 
+                  
+  <LI id="btnRss"><A href="http://blog.csdn.net/sfdev/rss/list"><SPAN onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_RSS'])"><IMG 
+  src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/ico_rss.gif">订阅</SPAN></A></LI> 
+                                         </UL></DIV></DIV>
+<SCRIPT type="text/javascript">
+    var username = "sfdev";
+    var _blogger = username;
+    var blog_address = "http://blog.csdn.net/sfdev";
+    var static_host = "http://static.blog.csdn.net";
+    var currentUserName = "";  
+</SCRIPT>
+         
+<DIV id="body">
+<DIV id="main">
+<DIV class="main">
+<DIV class="ad_class">
+<DIV class="notice tracking-ad" data-mod="popu_3"><A href="http://blog.csdn.net/blogdevteam/article/details/51919935"><FONT 
+color="blue">【公告】博客系统优化升级</FONT></A> &nbsp;&nbsp;&nbsp;<A href="http://lib.csdn.net/base/html5/resource"><FONT 
+color="red">【收藏】Html5 精品资源汇集 </FONT></A> &nbsp;&nbsp;&nbsp;<A href="http://blog.csdn.net/blogdevteam/article/details/51984275"><FONT 
+color="blue">博乐招募开始啦 </FONT></A> &nbsp;&nbsp;&nbsp;</DIV></DIV><!-- 广告位开始 --> 
+<INS data-revive-id="8c38e720de1c90a6f6ff52f3f89c4d57" 
+data-revive-zoneid="72"></INS> <!-- 广告位结束 -->   <LINK href="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/comment1.css" 
+rel="stylesheet" type="text/css"> <LINK href="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/style1.css" 
+rel="stylesheet" type="text/css"> 
+<SCRIPT language="JavaScript" src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/jquery.cookie.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/main.js" type="text/javascript"></SCRIPT>
+ <LINK href="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/markdown_views.css" 
+rel="stylesheet"> <LINK href="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/category.css" 
+rel="stylesheet"> 
+<SCRIPT src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/MathJax.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/web-storage-cache.min.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/replace.min.js" type="text/javascript"></SCRIPT>
+   
+<SCRIPT type="text/ecmascript">
+      window.quickReplyflag = true;
+           
+            var isBole = false;
+            
+          
+    </SCRIPT>
+ 
+<DIV class="details" id="article_details">
+<DIV class="article_title"><SPAN class="ico ico_type_Original"></SPAN>     
+<H1><SPAN class="link_title"><A href="http://blog.csdn.net/sfdev/article/details/4483442"> 
+       JDK5.0中JVM堆模型、GC垃圾收集详细解析                     </A></SPAN>     </H1> </DIV>
+<DIV class="article_manage clearfix">
+<DIV class="article_l"><SPAN class="link_categories">            标签：             
+  <A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_tag']);" 
+href="http://www.csdn.net/tag/jvm" target="_blank">jvm</A><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_tag']);" 
+href="http://www.csdn.net/tag/jdk" target="_blank">jdk</A><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_tag']);" 
+href="http://www.csdn.net/tag/%e7%ae%97%e6%b3%95" target="_blank">算法</A><A 
+onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_tag']);" 
+href="http://www.csdn.net/tag/cms" target="_blank">cms</A><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_tag']);" 
+href="http://www.csdn.net/tag/%e6%9c%8d%e5%8a%a1%e5%99%a8" 
+target="_blank">服务器</A><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_tag']);" 
+href="http://www.csdn.net/tag/hibernate" target="_blank">hibernate</A>           
+  </SPAN>         </DIV>
+<DIV class="article_r"><SPAN class="link_postdate">2009-08-25 15:49</SPAN>       
+      <SPAN title="阅读次数" class="link_view">9061人阅读</SPAN>             <SPAN 
+title="评论次数" class="link_comments"><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_pinglun'])" 
+href="http://blog.csdn.net/sfdev/article/details/4483442#comments">评论</A>(7)</SPAN> 
+            <SPAN class="link_collect tracking-ad" data-mod="popu_171"><A title="收藏" 
+onclick="javascript:collectArticle('JDK5.0中JVM堆模型、GC垃圾收集详细解析','4483442');return false;" 
+href="javascript:void(0);">收藏</A></SPAN>              <SPAN 
+class="link_report"><A title="举报" onclick="javascript:report(4483442,2);return false;" 
+href="http://blog.csdn.net/sfdev/article/details/4483442#report">举报</A></SPAN>   
+      </DIV></DIV>
+<DIV class="embody" id="embody" style="display: none;"><SPAN 
+class="embody_t">本文章已收录于：</SPAN>         
+<DIV class="embody_c" id="lib" 
+value='{"err":0,"msg":"ok","data":[]}'></DIV></DIV>
+<STYLE type="text/css">.embody{
+                padding:10px 10px 10px;
+                margin:0 -20px;
+                border-bottom:solid 1px #ededed;                
+            }
+            .embody_b{
+                margin:0 ;
+                padding:10px 0;
+            }
+            .embody .embody_t,.embody .embody_c{
+                display: inline-block;
+                margin-right:10px;
+            }
+            .embody_t{
+                font-size: 12px;
+                color:#999;
+            }
+            .embody_c{
+                font-size: 12px;
+            }
+            .embody_c img,.embody_c em{
+                display: inline-block;
+                vertical-align: middle;               
+            }
+             .embody_c img{               
+                width:30px;
+                height:30px;
+            }
+            .embody_c em{
+                margin: 0 20px 0 10px;
+                color:#333;
+                font-style: normal;
+            }
+    </STYLE>
+     
+<SCRIPT type="text/javascript">
+        $(function () {
+            try
+            {
+                var lib = eval("("+$("#lib").attr("value")+")");
+                var html = "";
+                if (lib.err == 0) {
+                    $.each(lib.data, function (i) {
+                        var obj = lib.data[i];
+                        //html += '<img src="' + obj.logo + '"/>' + obj.name + "&nbsp;&nbsp;";
+                        html += ' <a href="' + obj.url + '" target="_blank">';
+                        html += ' <img src="' + obj.logo + '">';
+                        html += ' <em><b>' + obj.name + '</b></em>';
+                        html += ' </a>';
+                    });
+                    if (html != "") {
+                        setTimeout(function () {
+                            $("#lib").html(html);                      
+                            $("#embody").show();
+                        }, 100);
+                    }
+                }      
+            } catch (err)
+            { }
+            
+        });
+    </SCRIPT>
+       
+<DIV class="category clearfix">
+<DIV class="category_l"><IMG src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/category_icon.jpg"> 
+            <SPAN>分类：</SPAN>         </DIV>
+<DIV class="category_r"><LABEL onclick="GetCategoryArticles('357373','sfdev','top','4483442');"><SPAN 
+onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_fenlei']);">JAVA<EM>（44）</EM></SPAN> 
+                      <IMG class="arrow-down" style="display: inline;" src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/arrow_triangle%2520_down.jpg"> 
+                      <IMG class="arrow-up" style="display: none;" src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/arrow_triangle_up.jpg"> 
+                        
+<DIV class="subItem">
+<DIV class="subItem_t"><A href="http://blog.csdn.net/sfdev/article/category/357373" 
+target="_blank">作者同类文章</A><I class="J_close">X</I></DIV>
+<UL class="subItem_l" id="top_357373"></UL></DIV></LABEL>                        
+    </DIV></DIV>
+<SCRIPT src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/category.js" type="text/javascript"></SCRIPT>
+          
+<DIV class="bog_copyright">
+<P class="copyright_p">版权声明：本文为博主原创文章，未经博主允许不得转载。</P></DIV>
+<DIV class="article_content" id="article_content">
+<P>前段时间在一个项目的性能测试中又发生了一次OOM（Out of swap 
+sapce），情形和以前网店版的那次差不多，比上次更奇怪的是，此次搞了几天之后啥都没调整系统就自动好了，死活没法再重现之前的OOM了！问题虽然蹊跷，但也趁此机会再次对JVM堆模型、GC垃圾算法等进行了一次系统梳理；</P>
+<H1>基本概念</H1>
+<H2>堆/Heap</H2>
+<P>JVM管理的内存叫堆；在32Bit操作系统上有4G的限制，一般来说Windows下为2G，而Linux下为3G；64Bit的就没有这个限制。<BR>JVM初始分配的内存由-Xms指定，默认是物理内存的1/64但小于1G。<BR>JVM最大分配的内存由-Xmx指定，默认是物理内存的1/4但小于1G。<BR>默认空余堆内存小于40%时，JVM就会增大堆直到-Xmx的最大限制，可以由-XX:MinHeapFreeRatio=指定。 
+<BR>默认空余堆内存大于70%时，JVM会减少堆直到-Xms的最小限制，可以由-XX:MaxHeapFreeRatio=指定。<BR>服务器一般设置-Xms、-Xmx相等以避免在每次GC后调整堆的大小，所以上面的两个参数没啥用。</P>
+<H2>分代/堆模型</H2>
+<P>分代是Java垃圾收集的一大亮点，根据对象的生命周期长短，把堆分为3个代：Young，Old和Permanent，根据不同代的特点采用不同的收集算法，可以扬长避短。可参考如下的模型图：<IMG 
+width="640" height="422" alt="" src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/JVM_Model.jpg"></P>
+<H3>Young(Nursery)：年轻代</H3>
+<P>研究表明大部分对象都是朝生暮死，随生随灭的。所以对于年轻代在GC时都采取复制收集算法，具体算法参考下面的描述；<BR>Young的默认值为4M，随堆内存增大，约为1/15，JVM会根据情况动态管理其大小变化。<BR>Young里面又分为3个区域，一个Eden，所有新建对象都会存在于该区，两个Survivor区，用来实施复制算法。<BR>-XX:NewRatio= 
+参数可以设置Young与Old的大小比例，-server时默认为1:2，但实际上young启动时远低于这个比率？如果信不过JVM，也可以用-Xmn硬性规定其大小，有文档推荐设为Heap总大小的1/4。<BR>-XX:SurvivorRatio= 
+参数可以设置Eden与Survivor的比例，默认为32。Survivio大了会浪费，小了的话，会使一些年轻对象潜逃到老人区，引起老人区的不安，但这个参数对性能并不太重要。</P>
+<H3>Old(Tenured)：年老代</H3>
+<P>年轻代的对象如果能够挺过数次收集，就会进入老人区。老人区使用标记整理算法。因为老人区的对象都没那么容易死的，采用复制算法就要反复的复制对象，很不合算，只好采用标记清理算法，但标记清理算法其实也不轻松，每次都要遍历区域内所有对象，所以还是没有免费的午餐啊。<BR>-XX:MaxTenuringThreshold= 
+设置熬过年轻代多少次收集后移入老人区，CMS中默认为0，熬过第一次GC就转入，可以用-XX:+PrintTenuringDistribution查看。</P>
+<H3>Permanent：持久代</H3>
+<P>装载Class信息等基础数据，默认64M，如果是类很多很多的服务程序，需要加大其设置-XX:MaxPermSize=，否则它满了之后会引起fullgc()或Out 
+of Memory。 
+注意Spring，Hibernate这类喜欢AOP动态生成类的框架需要更多的持久代内存。一般情况下，持久代是不会进行GC的，除非通过-XX:+CMSClassUnloadingEnabled 
+-XX:+CMSPermGenSweepingEnabled进行强制设置。</P>
+<H1>GC的类型</H1>
+<P>当每个代满了之后都会自动促发collection，各收集器触发的条件不一样，当然也可以通过一些参数进行强制设定。主要分为两种类型：</P>
+<UL>
+  <LI>Minor Collection：GC用较高的频率对young进行扫描和回收，采用复制算法。</LI>
+  <LI>Major Collection：同时对Young和Old进行内存收集，也叫Full 
+  GC；因为成本关系对Old的检查回收频率要比Young低很多，采用标记清除/标记整理算法。可以通过调用代码System.gc()引发major 
+  collection，使用-XX:+DisableExplicitGC禁止它，或设为CMS并发-XX:+ExplicitGCInvokesConcurrent。</LI></UL>
+<P>更为具体的阐述如下：<BR>由于年轻代进进出出的人多而频繁，所以年轻代的GC也就频繁一点，但涉及范围也就年轻代这点弹丸之地内的对象，其特点就是少量，多次，但快速，称之为Minor 
+Collection。当年轻代的内存使用达到一定的阀值时，Minor Collection就被触发，Eden及某一Survior space（from 
+space）之内存活的的对象被移到另一个空的Survior space（to space）中，然后from space和to 
+space角色对调。当一个对象在两个survivor 
+space之间移动过一定次数（达到预设的阀值）时，它就足够old了，够资格呆在年老代了。当然，如果survivor space比较小不足以容下所有live 
+objects时，部分live objects也会直接晋升到年老代。<BR>Survior 
+spaces可以看作是Eden和年老代之间的缓冲，通过该缓冲可以检验一个对象生命周期是否足够的长，因为某些对象虽然逃过了一次Minor 
+Collection，并不能说明其生命周期足够长，说不定在下一次Minor 
+Collection之前就挂了。这样一定程度上确保了进入年老代的对象是货真价实的，减少了年老代空间使用的增长速度，也就降低年老代GC的频率。<BR>当年老代或者永久代的内存使用达到一定阀值时，一次基于所有代的GC就触发了，其特定是涉及范围广（量大），耗费的时间相对较长（较慢），但是频率比较低（次数少），称之为Major 
+Collection(Full 
+Collection)。通常，首先使用针对年轻代的GC算法进行年轻代的GC，然后使用针对年老代的GC算法对年老代和永久代进行GC。</P>
+<H1>基本GC收集算法</H1>
+<UL>
+  <LI><STRONG>复制</STRONG>(copying)：将堆内分成两个相同空间，从根(ThreadLocal的对象，静态对象）开始访问每一个关联的活跃对象，将空间A的活跃对象全部复制到空间B，然后一次性回收整个空间A。<BR>因为只访问活跃对象，将所有活动对象复制走之后就清空整个空间，不用去访问死对象，所以遍历空间的成本较小，但需要巨大的复制成本和较多的内存。可参考如下的示例图：<BR><IMG 
+  width="640" height="246" alt="" src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/GC_Copying.jpg"></LI>
+  <LI><STRONG>标记清除</STRONG>(mark-sweep)：收集器先从根开始访问所有活跃对象，标记为活跃对象。然后再遍历一次整个内存区域，把所有没有标记活跃的对象进行回收处理。该算法遍历整个空间的成本较大暂停时间随空间大小线性增大，而且整理后堆里的碎片很多。可参考如下的示例图：<BR><IMG 
+  width="640" height="243" alt="" src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/GC_Mark_Sweep.jpg"></LI>
+  <LI><STRONG>标记整理</STRONG>(mark-sweep-compact)：综合了上述两者的做法和优点，先标记活跃对象，然后将其合并成较大的内存块。可参考如下的示例图：<BR><IMG 
+  width="640" height="241" alt="" src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/GC_Mark_Compact.jpg"></LI></UL>
+<H1>GC收集器类型</H1>
+<OL>
+  <LI>古老的<STRONG>串行收集器</STRONG>(Serial 
+  Collector)<BR>-XX:+UseSerialGC：策略为年轻代串行复制，年老代串行标记整理。可参考如下的示例图：<IMG width="640" 
+  height="392" alt="" src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/GC_Serial.jpg"></LI>
+  <LI>吞吐量优先的<STRONG>并行收集器</STRONG>(Throughput 
+  Collector)<BR>-XX:+UseParallelGC：这是JDK5 
+  -server的默认值。策略为：<BR>年轻代：暂停应用程序，多个垃圾收集线程并行的复制收集，线程数默认为CPU个数，CPU很多时，可用-XX:ParallelGCThreads= 
+  设定线程数。<BR>年老代：暂停应用程序，与串行收集器一样，单垃圾收集线程标记整理。<BR>如上可知该收集器需要2+的CPU时才会优于串行收集器，适用于后台处理，科学计算。<BR>可以使用-XX:MaxGCPauseMillis= 
+  和 -XX:GCTimeRatio 来调整GC的时间。可参考如下的示例图：<IMG width="640" height="390" alt="" src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/GC_Parallel.jpg"></LI>
+  <LI>暂停时间优先的<STRONG>并发收集器</STRONG>(Concurrent Low Pause 
+  Collector-CMS)<BR>-XX:+UseConcMarkSweepGC：这是以上两种策略的升级版，策略为：<BR>年轻代：同样是暂停应用程序，多个垃圾收集线程并行的复制收集。<BR>年老代：则只有两次短暂停，其他时间应用程序与收集线程并发的清除。<BR>若要采用标记整理算法，则可以通过设置参数实现；可参考如下的示例图：<IMG 
+  width="640" height="389" alt="" src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/GC_CMS.JPG"></LI>
+  <LI><STRONG>增量并发收集器</STRONG>(Incremental 
+  Concurrent-Mark-Sweep/i-CMS)：虽然CMS收集算法在最为耗时的内存区域遍历时采用多线程并发操作，但对于服务器CPU资源不够的情况下，其实对性能是没有提升的，反而会导致系统吞吐量的下降，为了尽量避免这种情况的出现，就有了增量CMS收集算法，就是在并发标记、清理的时候让GC线程、用户线程交叉运行，尽量减少GC线程的全程独占式执行；可参考如下的示例图：<IMG 
+  width="640" height="359" alt="" src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/GC_Concurrent_Incr.jpg"></LI></OL>
+<P>对于以上的GC收集器的详细设置参数，可以参考JVM选项的超完整收集《<A href="http://blogs.sun.com/watt/resource/jvm-options-list.html">A 
+Collection of JVM Options</A>》，这里就不一一详述了。</P>
+<H2>并行、并发的区别</H2>
+<P>并行(Parallel)与并发(Concurrent)仅一字之差，但体现的意思却完全不同，这可能也是很多同学非常困惑的地方，要想深刻体会这其中的差别，可以多揣摩下上面关于GC收集器的示例图；</P>
+<UL>
+  <LI>并行：指多条垃圾收集线程并行，此时用户线程是没有运行的；</LI>
+  <LI>并发：指用户线程与垃圾收集线程并发执行，程序在继续运行，而垃圾收集程序运行于另一个个CPU上。</LI></UL>
+<P>并发收集一开始会很短暂的停止一次所有线程来开始初始标记根对象，然后标记线程与应用线程一起并发运行，最后又很短的暂停一次，多线程并行的重新标记之前可能因为并发而漏掉的对象，然后就开始与应用程序并发的清除过程。可见，最长的两个遍历过程都是与应用程序并发执行的，比以前的串行算法改进太多太多了！！！<BR>串行标记清除是等年老代满了再开始收集的，而并发收集因为要与应用程序一起运行，如果满了才收集，应用程序就无内存可用，所以系统默认68%满的时候就开始收集。内存已设得较大，吃内存又没有这么快的时候，可以用-XX:CMSInitiatingOccupancyFraction=恰当增大该比率。</P>
+<H2>年轻代的痛</H2>
+<P>由于对年轻代的复制收集，依然必须停止所有应用程序线程，原理如此，只能靠多CPU，多收集线程并发来提高收集速度，但除非你的Server独占整台服务器，否则如果服务器上本身还有很多其他线程时，切换起来速度就..... 
+所以，搞到最后，暂停时间的瓶颈就落在了年轻代的复制算法上。<BR>因此<STRONG>Young的大小设置挺重要的</STRONG>，大点就不用频繁GC，而且增大GC的间隔后，可以让多点对象自己死掉而不用复制了。但Young增大时，GC造成的停顿时间攀升得非常恐怖，据某人的测试结果显示：默认8M的Young，只需要几毫秒的时间，64M就升到90毫秒，而升到256M时，就要到300毫秒了，峰值还会攀到恐怖的800ms。谁叫复制算法，要等Young满了才开始收集，开始收集就要停止所有线程呢。</P>
+<H1>参考资料</H1>
+<P>主要参考：<A 
+href="http://blog.csdn.net/calvinxiu/archive/2007/05/18/1614473.aspx">JDK5.0垃圾收集优化之--Don't 
+Pause</A><BR>官方指南：<A href="http://java.sun.com/docs/hotspot/gc5.0/gc_tuning_5.html">Tuning 
+Garbage Collection with the 5.0 Java Virtual Machine</A></P></DIV><!-- Baidu Button BEGIN --> 
+<DIV class="bdsharebuttonbox tracking-ad" style="float: right;" data-mod="popu_172"><A 
+class="bds_more" style='background-position: 0px 0px !important; background-image: url("http://bdimg.share.baidu.com/static/api/img/share/icons_0_16.png?v=d754dcc0.png") !important;' 
+href="http://blog.csdn.net/sfdev/article/details/4483442#" data-cmd="more"></A> 
+<A title="分享到QQ空间" class="bds_qzone" style="background-position: 0px -52px !important;" 
+href="http://blog.csdn.net/sfdev/article/details/4483442#" data-cmd="qzone"></A> 
+<A title="分享到新浪微博" class="bds_tsina" style="background-position: 0px -104px !important;" 
+href="http://blog.csdn.net/sfdev/article/details/4483442#" data-cmd="tsina"></A> 
+<A title="分享到腾讯微博" class="bds_tqq" style="background-position: 0px -260px !important;" 
+href="http://blog.csdn.net/sfdev/article/details/4483442#" data-cmd="tqq"></A> 
+<A title="分享到人人网" class="bds_renren" style="background-position: 0px -208px !important;" 
+href="http://blog.csdn.net/sfdev/article/details/4483442#" 
+data-cmd="renren"></A> <A title="分享到微信" class="bds_weixin" style="background-position: 0px -1612px !important;" 
+href="http://blog.csdn.net/sfdev/article/details/4483442#" 
+data-cmd="weixin"></A> </DIV>
+<SCRIPT>window._bd_share_config = { "common": { "bdSnsKey": {}, "bdText": "", "bdMini": "1", "bdMiniList": false, "bdPic": "", "bdStyle": "0", "bdSize": "16" }, "share": {} }; with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];</SCRIPT>
+ <!-- Baidu Button END -->    <LINK href="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/blog_detail.css" 
+rel="stylesheet">     <!--172.16.140.14--> <!-- Baidu Button BEGIN --> 
+<SCRIPT id="bdshare_js" type="text/javascript" data="type=tools&amp;uid=1536434"></SCRIPT>
+ 
+<SCRIPT id="bdshell_js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT type="text/javascript">
+    document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+</SCRIPT>
+ <!-- Baidu Button END -->          
+<DIV id="digg" articleid="4483442">
+<DL class="digg digg_disable" id="btnDigg" onclick="btndigga();">
+  <DT>顶</DT>
+  <DD>1</DD></DL>
+<DL class="digg digg_disable" id="btnBury" onclick="btnburya();">
+  <DT>踩</DT>
+  <DD>0</DD></DL></DIV>
+<DIV class="tracking-ad" data-mod="popu_222"><A 
+href="javascript:void(0);">&nbsp;</A>   </DIV>
+<DIV class="tracking-ad" data-mod="popu_223"><A 
+href="javascript:void(0);">&nbsp;</A></DIV>
+<SCRIPT type="text/javascript">
+                function btndigga() {
+                    $(".tracking-ad[data-mod='popu_222'] a").click();
+                }
+                function btnburya() {
+                    $(".tracking-ad[data-mod='popu_223'] a").click();
+                }
+            </SCRIPT>
+    
+<UL class="article_next_prev">
+  <LI class="prev_article"><SPAN onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_shangyipian']);location.href='/sfdev/article/details/4467543';">上一篇</SPAN><A 
+  onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_shangyipian'])" 
+  href="http://blog.csdn.net/sfdev/article/details/4467543">64位Linux上安装Memcached详细步骤</A></LI>
+  <LI class="next_article"><SPAN onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_xiayipian']);location.href='/sfdev/article/details/4532634';">下一篇</SPAN><A 
+  onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_xiayipian'])" 
+  href="http://blog.csdn.net/sfdev/article/details/4532634">让我有Exciting感觉的汉字之：扛</A></LI></UL>
+<DIV style="height: 10px; clear: both;"></DIV>
+<DIV class="similar_article" style="display: none;">
+<H4>我的同类文章</H4>
+<DIV class="similar_c" style="margin: 20px 0px 0px;">
+<DIV class="similar_c_t"><LABEL class="similar_cur"><SPAN style="cursor: pointer;" 
+onclick="GetCategoryArticles('357373','sfdev','foot','4483442');">JAVA<EM>（44）</EM></SPAN> 
+                                </LABEL>                     </DIV>
+<DIV class="similar_wrap tracking-ad" style="max-height: 195px;" data-mod="popu_141"><A 
+style="display: none;" href="http://blog.csdn.net/">http://blog.csdn.net/</A>    
+                     
+<UL class="similar_list fl"></UL>
+<UL class="similar_list fr"></UL></DIV></DIV></DIV>
+<SCRIPT type="text/javascript">
+        $(function () {
+            GetCategoryArticles('357373', 'sfdev','foot','4483442');
+        });
+    </SCRIPT>
+       </DIV>
+<DIV id="suggest"></DIV>
+<SCRIPT language="javascript" type="text/javascript">     
+             $(function(){
+                 $.get("/sfdev/svc/GetSuggestContent/4483442",function(data){
+                     $("#suggest").html(data);
+                 });     
+             });             
+         </SCRIPT>
+  
+<STYLE>
+.blog-ass-articl dd {
+color: #369;
+width: 99%; /*修改行*/
+float: left;
+overflow: hidden;
+font: normal normal 12px/23px "SimSun";
+height: 23px;
+margin: 0;
+padding: 0 0 0 10px;
+margin-right: 30px;
+background: url(http://static.blog.csdn.net/skin/default/images/blog-dot-red3.gif) no-repeat 0 10px;
+}
+</STYLE>
+  <LINK href="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/replace.css" 
+rel="stylesheet"> 
+<DIV class="tracking-ad" id="relate" data-mod="popu_218">
+<DIV class="relate_t">
+<H3><SPAN>参考知识库</SPAN></H3></DIV>
+<DIV class="relate_c"></DIV></DIV>
+<DL class="blog-ass-articl" id="res-relatived">
+  <DIV class="embody embody_b" id="libkeyparent" style="display: none;"><SPAN 
+  class="embody_t">更多资料请参考：</SPAN>             
+  <DIV class="embody_c" id="libkey"></DIV></DIV>
+  <DT><SPAN>猜你在找</SPAN></DT>
+  <DIV id="adCollege" style="width: 42%; float: left;">
+<SCRIPT src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/job_reco.js" type="text/javascript"></SCRIPT>
+           
+<SCRIPT type="text/javascript">
+            csdn.position.showEdu({
+                sourceType: "blog",
+                searchType: "detail",
+                searchKey: "4483442",
+                username: "",
+                recordcount: "5",
+                containerId: "adCollege" //容器DIV的id。 
+            });
+        </SCRIPT>
+       </DIV>
+  <DIV class="tracking-ad" id="res" style="width: 42%; margin-right: 30px; float: left;" 
+  data-mod="popu_36"></DIV></DL>
+<SCRIPT type="text/javascript">
+    $(function () {
+        setTimeout(function () {
+            var searchtitletags = 'JDK5.0中JVM堆模型、GC垃圾收集详细解析' + ',' + $("#tags").html();
+            searchService({
+                index: 'blog',
+                query: searchtitletags,
+                from: 5,
+                size: 5,
+                appendTo: '#res',
+                url: 'recommend',
+                his: 2,
+                client: "blog_cf_enhance",
+                tmpl: '<dd style="background:url(http://static.blog.csdn.net/skin/default/images/blog-dot-red3.gif) no-repeat 0 10px;"><a href="#{ url }" title="#{ title }" strategy="#{ strategy }">#{ title }</a></dd>'
+            });
+        }, 500);
+    });    
+
+ </SCRIPT>
+      
+<DIV id="ad_cen"><!-- 广告位开始 --> <INS data-revive-id="8c38e720de1c90a6f6ff52f3f89c4d57" 
+data-revive-zoneid="71"></INS> <!-- 广告位结束 -->    </DIV>
+<DIV class="comment_class">
+<DIV class="panel_head" id="comment_title"><SPAN 
+class="see_comment">查看评论</SPAN><A name="comments"></A></DIV>
+<DIV id="comment_list"></DIV>
+<DIV id="comment_bar"></DIV>
+<DIV id="comment_form"></DIV>
+<DIV class="announce">* 以上用户言论只代表其个人观点，不代表CSDN网站的观点或立场<A name="reply"></A><A 
+name="quote"></A></DIV></DIV>
+<SCRIPT type="text/javascript">
+    var fileName = '4483442';
+    var commentscount = 7;
+    var islock = false
+</SCRIPT>
+ 
+<SCRIPT src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/comment.js" type="text/javascript"></SCRIPT>
+     
+<DIV id="ad_bot"></DIV>
+<DIV id="report_dialog"></DIV>
+<DIV id="d-top" style="bottom: 60px;"><A title="快速回复" class="btn btn-top q-reply" 
+id="quick-reply" style="display: none;"><IMG alt="快速回复" src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/blog-icon-reply.png"> 
+        </A>        <A title="返回顶部" class="btn btn-top backtop" id="d-top-a" 
+style="display: none;" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_huidaodingbu'])"><IMG 
+alt="TOP" src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/top.png"> 
+    </A> </DIV>
+<SCRIPT type="text/javascript">
+    $(function ()
+    {
+        $("#ad_frm_0").height("90px");
+        
+        setTimeout(function(){
+            $("#ad_frm_2").height("200px");
+        },1000);    
+    });
+  
+</SCRIPT>
+ 
+<STYLE type="text/css">
+    .tag_list
+    {
+        background: none repeat scroll 0 0 #FFFFFF;
+        border: 1px solid #D7CBC1;
+        color: #000000;
+        font-size: 12px;
+        line-height: 20px;
+        list-style: none outside none;
+        margin: 10px 2% 0 1%;
+        padding: 1px;
+    }
+    .tag_list h5
+    {
+        background: none repeat scroll 0 0 #E0DBD3;
+        color: #47381C;
+        font-size: 12px;
+        height: 24px;
+        line-height: 24px;
+        padding: 0 5px;
+        margin: 0;
+    }
+    .tag_list h5 a
+    {
+        color: #47381C;
+    }
+    .classify
+    {
+        margin: 10px 0;
+        padding: 4px 12px 8px;
+    }
+    .classify a
+    {
+        margin-right: 20px;
+        white-space: nowrap;
+    }
+</STYLE>
+ 
+<DIV class="tag_list" style="display: none;"></DIV>
+<SCRIPT language="javascript" type="text/javascript">     
+      $(function(){
+              setTimeout(function(){
+                  $.get("/sfdev/svc/GetTagContent",function(data){
+                      $(".tag_list").html(data).show();
+                  });     
+              });
+          },500);                       
+ </SCRIPT>
+ 
+<DIV id="pop_win" style="background: 0px 0px rgb(255, 255, 255); border: 1px solid rgb(220, 220, 220); border-image: none; left: 630px; top: 222.5px; display: none; position: absolute; z-index: 10000; opacity: 1;"></DIV>
+<DIV id="popup_mask"></DIV>
+<STYLE>
+    #popup_mask
+    {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        z-index: 9999;
+        left: 0px;
+        top: 0px;
+        opacity: 0.3;
+        filter: alpha(opacity=30);
+        display: none;
+    }
+
+</STYLE>
+ 
+<SCRIPT type="text/javascript">
+    $(function(){
+        setTimeout(function(){
+            $(".comment_body:contains('回复')").each(function(index,item){
+                var u=$(this).text().split('：')[0].toString().replace("回复","")
+                var thisComment=$(this);
+                if(u)
+                {
+                    $.getJSON("https://passport.csdn.net/get/nick?callback=?", {users: u}, function(a) {
+                        if(a!=null&&a.data!=null&&a.data.length>0)
+                        {
+                            nick=a.data[0].n; 
+                            if(u!=nick)
+                            {
+                                thisComment.text(thisComment.text().replace(u,nick));  
+                            }
+                        }       
+                    });  
+                }
+            });         
+
+        },200);  
+
+        setTimeout(function(){
+            $(".math").each(function(index,value){$(this).find("span").last().css("color","#fff"); })
+        },5000);
+
+        setTimeout(function(){
+            $(".math").each(function(index,value){$(this).find("span").last().css("color","#fff"); })
+        },10000);
+
+        setTimeout(function(){
+            $(".math").each(function(index,value){$(this).find("span").last().css("color","#fff"); })
+        },15000);
+        
+        setTimeout(function(){
+            $("a img[src='http://js.tongji.linezing.com/stats.gif']").parent().css({"position":"absolute","left":"50%"});
+        },300);
+    });
+
+    function loginbox(){
+        var $logpop=$("#pop_win");
+        $logpop.html('<iframe src="https://passport.csdn.net/account/loginbox?service=http://static.blog.csdn.net/callback.htm" frameborder="0" height="600" width="400" scrolling="no"></iframe>');
+
+        $('#popup_mask').css({
+            opacity: 0.5,
+            width: $( document ).width() + 'px',
+            height:  $( document ).height() + 'px'
+        });
+        $('#popup_mask').css("display","block");
+ 
+        $logpop.css( {
+            top: ($( window ).height() - $logpop.height())/ 2  + $( window 
+       ).scrollTop() + 'px',
+            left:($( window ).width() - $logpop.width())/ 2
+        } );
+ 
+        setTimeout( function () {
+            $logpop.show();
+            $logpop.css( {
+                opacity: 1
+            } );
+        }, 200 );
+ 
+        $('#popup_mask').unbind("click");
+        $('#popup_mask').bind("click", function(){
+            $('#popup_mask').hide();
+            var $clopop = $("#pop_win");
+            $("#common_ask_div_sc").css("display","none");
+            $clopop.css( {
+                opacity: 0
+            } );
+            setTimeout( function () {
+                $clopop.hide();
+            }, 350 );
+            return false;
+        });
+    }   
+
+</SCRIPT>
+  
+<SCRIPT language="javascript" src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/async_new.js" type="text/javascript"></SCRIPT>
+                              
+<DIV class="clear"></DIV></DIV></DIV>
+<DIV id="side">
+<DIV class="side">
+<DIV class="panel" id="panel_Profile">
+<UL class="panel_head"><SPAN>个人资料</SPAN></UL>
+<UL class="panel_body profile">
+  <DIV id="blog_userface"><A href="http://my.csdn.net/sfdev" 
+  target="_blank"><IMG title="访问我的空间" style="max-width: 90%;" src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/1_sfdev.jpg"> 
+      </A>     <BR><SPAN><A class="user_name" href="http://my.csdn.net/sfdev" 
+  target="_blank">sfdev</A></SPAN></DIV>
+  <DIV class="interact"><A title="[加关注]" class="attent" id="span_add_follow" 
+  href="javascript:void(0);"></A>  <A title="[发私信]" class="letter" onclick="window.open('http://msg.csdn.net/letters/model?receiver=sfdev','_blank','height=350,width=700');_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_sixin'])" 
+  href="javascript:void(0);"></A>  </DIV>
+  <DIV id="blog_medal">
+  <DIV id="bms_box"><A target="_blank"><IMG onmouseover="m_over_m(this,4)" 
+  onmouseout="m_out_m()" alt="1" src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/chizhiyiheng.png"> 
+                                              </A>                </DIV></DIV>
+  <UL id="blog_rank">
+    <LI>访问：<SPAN>627062次</SPAN></LI>
+    <LI>积分：<SPAN>7395</SPAN> </LI>
+    <LI>等级： <SPAN 
+    style="display: inline-block; position: relative; z-index: 1;"><IMG id="leveImg" 
+    style="vertical-align: middle;" alt="" src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/blog6.png"> 
+                
+    <DIV id="smallTittle" style="border: 2px solid rgb(221, 221, 221); border-image: none; left: -24px; top: 25px; width: 101px; height: 32px; text-align: center; line-height: 32px; display: none; position: absolute; z-index: 999; background-color: rgb(255, 255, 255);">
+    <DIV style="left: 42%; top: -8px; width: 0px; height: 0px; border-right-color: transparent; border-bottom-color: rgb(234, 234, 234); border-left-color: transparent; border-right-width: 10px; border-bottom-width: 8px; border-left-width: 10px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; position: absolute;"></DIV> 
+               积分：7395 </DIV></SPAN>  </LI>
+    <LI>排名：<SPAN>第1863名</SPAN></LI></UL>
+  <UL id="blog_statistics">
+    <LI>原创：<SPAN>133篇</SPAN></LI>
+    <LI>转载：<SPAN>16篇</SPAN></LI>
+    <LI>译文：<SPAN>6篇</SPAN></LI>
+    <LI>评论：<SPAN>221条</SPAN></LI></UL></UL></DIV>
+<DIV class="panel" id="panel_Search">
+<UL class="panel_head"><SPAN>文章搜索</SPAN></UL>
+<UL class="panel_body">
+  <FORM class="form_search" id="frmSearch" action="http://so.csdn.net/search" 
+  target="_blank"><SPAN><INPUT title="请输入关键字" class="blogsearch" id="inputSearch" type="text"></SPAN> 
+          <INPUT title="search in blog" id="btnSubmit" type="button" value="搜索"> 
+          <INPUT name="q" id="inputQ" type="hidden">         
+<INPUT name="t" type="hidden" value="blog">         <A id="btnSearchBlog" 
+  target="_blank"></A>         </FORM></UL></DIV>
+<SCRIPT type="text/javascript">
+    $(function () {
+        $("#btnSubmit").click(function () {           
+            search();
+        });
+
+        $("#frmSearch").submit(function () {
+            search();
+            return false;
+        });
+
+        function search()
+        {
+            var url = "http://so.csdn.net/so/search/s.do?q=" + encodeURIComponent($("#inputSearch").val()) + "&u=" + username + "&t=blog";
+            window.location.href = url;
+        }   
+    });
+</SCRIPT>
+
+<DIV class="panel" id="panel_Category"> 
+<UL class="panel_head"><SPAN>文章分类</SPAN></UL>
+<UL class="panel_body">
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/sfdev/article/category/1414367">Android</A><SPAN>(15)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/sfdev/article/category/357377">WEB</A><SPAN>(27)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/sfdev/article/category/357373">JAVA</A><SPAN>(45)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/sfdev/article/category/357409">LIFE</A><SPAN>(24)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/sfdev/article/category/357375">LINUX</A><SPAN>(12)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/sfdev/article/category/357374">ORACLE</A><SPAN>(16)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/sfdev/article/category/370833">SECURE</A><SPAN>(12)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/sfdev/article/category/357376">THINK</A><SPAN>(33)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/sfdev/article/category/357399">TIPS</A><SPAN>(18)</SPAN> 
+                  </LI></UL></DIV>
+<DIV class="panel" id="panel_Archive">
+<UL class="panel_head"><SPAN>文章存档</SPAN></UL>
+<UL class="panel_body">
+  <DIV id="archive_list"><!--归档统计--> 
+  <LI><A 
+  href="http://blog.csdn.net/sfdev/article/month/2013/07">2013年07月</A><SPAN>(3)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/sfdev/article/month/2013/06">2013年06月</A><SPAN>(7)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/sfdev/article/month/2013/05">2013年05月</A><SPAN>(5)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/sfdev/article/month/2010/08">2010年08月</A><SPAN>(2)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/sfdev/article/month/2010/05">2010年05月</A><SPAN>(1)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/sfdev/article/month/2010/04">2010年04月</A><SPAN>(5)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/sfdev/article/month/2009/10">2009年10月</A><SPAN>(1)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/sfdev/article/month/2009/09">2009年09月</A><SPAN>(2)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/sfdev/article/month/2009/08">2009年08月</A><SPAN>(3)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/sfdev/article/month/2009/07">2009年07月</A><SPAN>(1)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/sfdev/article/month/2009/06">2009年06月</A><SPAN>(4)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/sfdev/article/month/2009/05">2009年05月</A><SPAN>(1)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/sfdev/article/month/2009/04">2009年04月</A><SPAN>(1)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/sfdev/article/month/2009/03">2009年03月</A><SPAN>(9)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/sfdev/article/month/2009/02">2009年02月</A><SPAN>(2)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/sfdev/article/month/2009/01">2009年01月</A><SPAN>(11)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/sfdev/article/month/2008/12">2008年12月</A><SPAN>(4)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/sfdev/article/month/2008/11">2008年11月</A><SPAN>(4)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/sfdev/article/month/2008/10">2008年10月</A><SPAN>(3)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/sfdev/article/month/2008/09">2008年09月</A><SPAN>(1)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/sfdev/article/month/2008/08">2008年08月</A><SPAN>(6)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/sfdev/article/month/2008/07">2008年07月</A><SPAN>(5)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/sfdev/article/month/2008/06">2008年06月</A><SPAN>(12)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/sfdev/article/month/2008/05">2008年05月</A><SPAN>(5)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/sfdev/article/month/2008/04">2008年04月</A><SPAN>(6)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/sfdev/article/month/2008/03">2008年03月</A><SPAN>(9)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/sfdev/article/month/2008/02">2008年02月</A><SPAN>(1)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/sfdev/article/month/2008/01">2008年01月</A><SPAN>(41)</SPAN></LI></DIV></UL></DIV>
+<DIV class="panel" id="hotarticls">
+<UL class="panel_head"><SPAN>阅读排行    </SPAN> </UL>
+<UL class="panel_body itemlist">
+  <LI><A title="UML中几种类间关系：继承、实现、依赖、关联、聚合、组合的联系与区别" href="http://blog.csdn.net/sfdev/article/details/3906243">UML中几种类间关系：继承、实现、依赖、关联、聚合、组合的联系与区别</A><SPAN>(47566)</SPAN> 
+  </LI>
+  <LI><A title="遭遇OutOfMemoryError" href="http://blog.csdn.net/sfdev/article/details/2051171">遭遇OutOfMemoryError</A><SPAN>(24252)</SPAN> 
+  </LI>
+  <LI><A title="Java中用HttpsURLConnection访问Https链接的问题" href="http://blog.csdn.net/sfdev/article/details/2957240">Java中用HttpsURLConnection访问Https链接的问题</A><SPAN>(23330)</SPAN> 
+  </LI>
+  <LI><A title="Javascript跨域访问解决方案" href="http://blog.csdn.net/sfdev/article/details/3887006">Javascript跨域访问解决方案</A><SPAN>(22009)</SPAN> 
+  </LI>
+  <LI><A title="23种经典设计模式UML类图汇总" href="http://blog.csdn.net/sfdev/article/details/2845488">23种经典设计模式UML类图汇总</A><SPAN>(19550)</SPAN> 
+  </LI>
+  <LI><A title="Quartz中扩展MethodInvokingJobDetailFactoryBean实现对任务调度的拦截" href="http://blog.csdn.net/sfdev/article/details/3969673">Quartz中扩展MethodInvokingJobDetailFactoryBean实现对任务调度的拦截</A><SPAN>(17788)</SPAN> 
+  </LI>
+  <LI><A title="基于Spring打造简单高效通用的异步任务处理系统" href="http://blog.csdn.net/sfdev/article/details/4056114">基于Spring打造简单高效通用的异步任务处理系统</A><SPAN>(15819)</SPAN> 
+  </LI>
+  <LI><A title="Oracle常见SQL分页实现方案介绍" href="http://blog.csdn.net/sfdev/article/details/2801712">Oracle常见SQL分页实现方案介绍</A><SPAN>(13308)</SPAN> 
+  </LI>
+  <LI><A title="优雅绝妙的Javascript跨域问题解决方案" href="http://blog.csdn.net/sfdev/article/details/5807045">优雅绝妙的Javascript跨域问题解决方案</A><SPAN>(12597)</SPAN> 
+  </LI>
+  <LI><A title="JAVA启动参数大全之三：非Stable参数" href="http://blog.csdn.net/sfdev/article/details/2063928">JAVA启动参数大全之三：非Stable参数</A><SPAN>(11533)</SPAN> 
+  </LI></UL></DIV>
+<DIV class="panel" id="hotarticls2">
+<UL class="panel_head"><SPAN>评论排行</SPAN></UL>
+<UL class="panel_body itemlist">
+  <LI><A title="UML中几种类间关系：继承、实现、依赖、关联、聚合、组合的联系与区别" href="http://blog.csdn.net/sfdev/article/details/3906243">UML中几种类间关系：继承、实现、依赖、关联、聚合、组合的联系与区别</A><SPAN>(25)</SPAN> 
+  </LI>
+  <LI><A title="基于Spring打造简单高效通用的异步任务处理系统" href="http://blog.csdn.net/sfdev/article/details/4056114">基于Spring打造简单高效通用的异步任务处理系统</A><SPAN>(18)</SPAN> 
+  </LI>
+  <LI><A title="23种经典设计模式UML类图汇总" href="http://blog.csdn.net/sfdev/article/details/2845488">23种经典设计模式UML类图汇总</A><SPAN>(11)</SPAN> 
+  </LI>
+  <LI><A title="08年思想上的一点收获分享【工作中我的三项指导原则】" href="http://blog.csdn.net/sfdev/article/details/3706077">08年思想上的一点收获分享【工作中我的三项指导原则】</A><SPAN>(11)</SPAN> 
+  </LI>
+  <LI><A title="JDK5.0中JVM堆模型、GC垃圾收集详细解析" href="http://blog.csdn.net/sfdev/article/details/4483442">JDK5.0中JVM堆模型、GC垃圾收集详细解析</A><SPAN>(7)</SPAN> 
+  </LI>
+  <LI><A title="Java与.Net环境下RSA加密解密交互不成功的问题解决" href="http://blog.csdn.net/sfdev/article/details/2156907">Java与.Net环境下RSA加密解密交互不成功的问题解决</A><SPAN>(6)</SPAN> 
+  </LI>
+  <LI><A title="Oracle中根据Date型转换成Java对应的long型毫秒数" href="http://blog.csdn.net/sfdev/article/details/3720878">Oracle中根据Date型转换成Java对应的long型毫秒数</A><SPAN>(6)</SPAN> 
+  </LI>
+  <LI><A title="Java与.Net环境下RSA加密解密交互不成功的问题解决【续】" href="http://blog.csdn.net/sfdev/article/details/2188563">Java与.Net环境下RSA加密解密交互不成功的问题解决【续】</A><SPAN>(6)</SPAN> 
+  </LI>
+  <LI><A title="常用加密算法及其应用场景介绍PPT截图" href="http://blog.csdn.net/sfdev/article/details/3132133">常用加密算法及其应用场景介绍PPT截图</A><SPAN>(6)</SPAN> 
+  </LI>
+  <LI><A title="遭遇OutOfMemoryError" href="http://blog.csdn.net/sfdev/article/details/2051171">遭遇OutOfMemoryError</A><SPAN>(6)</SPAN> 
+  </LI></UL></DIV>
+<DIV class="panel" id="newcomments">
+<UL class="panel_head"><SPAN>最新评论</SPAN></UL>
+<UL class="panel_body itemlist">
+  <LI><A 
+  href="http://blog.csdn.net/sfdev/article/details/2174305#comments">RSA数字签名与加密、解密间的关系</A> 
+      
+  <P style="margin: 0px;"><A class="user_name" href="http://blog.csdn.net/zuixin369">zuixin369</A>: 
+  消息散列，DER数据编码，RSA私钥加密，进行上述步骤后签名结果不是一样的吗?同样的数据（算法相同）...     </P></LI>
+  <LI><A 
+  href="http://blog.csdn.net/sfdev/article/details/3906243#comments">UML中几种类间关系：继承、实现、依赖、关联、聚合、组合的联系与区别</A> 
+      
+  <P style="margin: 0px;"><A class="user_name" href="http://blog.csdn.net/pandajava">pandajava</A>: 
+  不错不错，解决了我的疑问不错不错，解决了我的疑问不错不错，解决了我的疑问不错不错，解决了我的疑问不错...     </P></LI>
+  <LI><A 
+  href="http://blog.csdn.net/sfdev/article/details/3906243#comments">UML中几种类间关系：继承、实现、依赖、关联、聚合、组合的联系与区别</A> 
+      
+  <P style="margin: 0px;"><A class="user_name" href="http://blog.csdn.net/erlian1992">erlian1992</A>: 
+  算是对关系再一次加深了理解     </P></LI>
+  <LI><A 
+  href="http://blog.csdn.net/sfdev/article/details/2957240#comments">Java中用HttpsURLConnection访问Https链接的问题</A> 
+      
+  <P style="margin: 0px;"><A class="user_name" href="http://blog.csdn.net/shymi1991">shymi1991</A>:
+   ks.load(new FileInputStream("trustedCerts"),      ...     </P></LI>
+  <LI><A 
+  href="http://blog.csdn.net/sfdev/article/details/4483442#comments">JDK5.0中JVM堆模型、GC垃圾收集详细解析</A> 
+      
+  <P style="margin: 0px;"><A class="user_name" href="http://blog.csdn.net/xuanjiewu">xuanjiewu</A>:
+   Very great, It's very useful!     </P></LI>
+  <LI><A 
+  href="http://blog.csdn.net/sfdev/article/details/2051171#comments">遭遇OutOfMemoryError</A> 
+      
+  <P style="margin: 0px;"><A class="user_name" href="http://blog.csdn.net/nic122333">nic122333</A>: 
+  大哥，后续研究呢？     </P></LI>
+  <LI><A 
+  href="http://blog.csdn.net/sfdev/article/details/2062042#comments">JAVA启动参数大全之一：标准参数</A> 
+      
+  <P style="margin: 0px;"><A class="user_name" href="http://blog.csdn.net/nic122333">nic122333</A>: 
+  太关键了，谢谢     </P></LI>
+  <LI><A 
+  href="http://blog.csdn.net/sfdev/article/details/2062042#comments">UML中几种类间关系：继承、实现、依赖、关联、聚合、组合的联系与区别</A> 
+      
+  <P style="margin: 0px;"><A class="user_name" href="http://blog.csdn.net/tr1912">tr1912</A>: 
+  我在学习的时候这些关系分成了四大类着     </P></LI>
+  <LI><A 
+  href="http://blog.csdn.net/sfdev/article/details/2115244#comments">ORACLE进阶之三：分析函数</A> 
+      
+  <P style="margin: 0px;"><A class="user_name" href="http://blog.csdn.net/jzh_chengxu">jzh_chengxu</A>: 
+  分析函数中的order by 不单是排序，它添加一个默认的开窗子句，这样一来统计的结果很可能不一样，...     </P></LI>
+  <LI><A 
+  href="http://blog.csdn.net/sfdev/article/details/5807045#comments">优雅绝妙的Javascript跨域问题解决方案</A> 
+      
+  <P style="margin: 0px;"><A class="user_name" href="http://blog.csdn.net/night_eyes">night_eyes</A>:
+   @tanjun2030:就是，chrome明显会禁止这样的行为     </P></LI></UL></DIV></DIV>
+<DIV class="clear"></DIV></DIV>
+<DIV class="clear"></DIV></DIV>
+<SCRIPT src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/cnick.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/newblog.min.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/showblogmedal.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/JavaScript1.js" type="text/javascript"></SCRIPT>
+     
+<SCRIPT src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/login.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT type="text/javascript">document.write("<img src=http://counter.csdn.net/pv.aspx?id=24 border=0 width=0 height=0>");</SCRIPT>
+ 
+<SCRIPT src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/counter.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/ad-blog.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT type="text/javascript">
+    $(function () {
+        function __get_code_toolbar(snippet_id) {
+            return $("<span class='tracking-ad' data-mod='popu_167'><a href='https://code.csdn.net/snippets/"
+                    + snippet_id
+                    + "' target='_blank' title='在CODE上查看代码片'  style='text-indent:0;'><img src='https://code.csdn.net/assets/CODE_ico.png' width=12 height=12 alt='在CODE上查看代码片' style='position:relative;top:1px;left:2px;'/></a></span>"
+                    + "<span class='tracking-ad' data-mod='popu_170'><a href='https://code.csdn.net/snippets/"
+                    + snippet_id
+                    + "/fork' target='_blank' title='派生到我的代码片' style='text-indent:0;'><img src='https://code.csdn.net/assets/ico_fork.svg' width=12 height=12 alt='派生到我的代码片' style='position:relative;top:2px;left:2px;'/></a></span>");
+        }
+        
+        $("[code_snippet_id]").each(function () {
+            __s_id = $(this).attr("code_snippet_id");
+            if (__s_id != null && __s_id != "" && __s_id != 0 && parseInt(__s_id) > 70020) {
+                __code_tool = __get_code_toolbar(__s_id);
+                $(this).prev().find(".tools").append(__code_tool);
+            }
+        });
+
+        $(".bar").show();
+    });
+</SCRIPT>
+     </DIV><!--new top-->         
+<SCRIPT id="csdn-toolbar-id" src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/toolbar.js" type="text/javascript" subcount="5" count="5" wrapid="note1" btnid="header_notice_num"></SCRIPT>
+      <!--new top-->        <LINK href="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/ask_float_block.css" 
+rel="stylesheet" type="text/css">     
+<SCRIPT language="JavaScript" src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/wmd.js" type="text/javascript"></SCRIPT>
+     
+<SCRIPT language="JavaScript" src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/showdown.js" type="text/javascript"></SCRIPT>
+     
+<SCRIPT language="JavaScript" src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/prettify.js" type="text/javascript"></SCRIPT>
+     
+<SCRIPT language="JavaScript" src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/ask_float_block.js" type="text/javascript"></SCRIPT>
+      
+<DIV id="a52b5334d" style="width: 1px; height: 1px; display: none;">
+<SCRIPT id="adJs52b5334"></SCRIPT>
+                     
+<SCRIPT>document.getElementById("adJs52b5334").src = "http://ads.csdn.net/js/opt/52b5334.js?t=" + Math.random();</SCRIPT>
+    </DIV><LINK href="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/blog_code.css" 
+rel="stylesheet">     
+<SCRIPT src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/saveToCode.js" type="text/javascript"></SCRIPT>
+       
+<SCRIPT src="JDK5_0中JVM堆模型、GC垃圾收集详细解析%20-%20老唐%20的专栏%20-%20博客频道%20-%20CSDN_NET_files/main(1).js" type="text/javascript"></SCRIPT>
+     </BODY></HTML>

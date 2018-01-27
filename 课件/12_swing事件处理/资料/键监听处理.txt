@@ -1,0 +1,31 @@
+jtH.addKeyListener(new KeyListener() {
+
+			public void keyPressed(KeyEvent e) {
+			}
+
+			public void keyReleased(KeyEvent e) {
+
+				String text = jtH.getText();
+				// System.out.println("text = " + text);
+				Pattern pattern = Pattern.compile("^[0-9]{1,3}$");
+				Matcher matcher = pattern.matcher(text);
+				if (!matcher.matches()) {
+					jlMessage.setText("  请输入数字,不能超过三位");
+					if (text.length() > 3) {
+						jtH.setText(text.substring(0, 3));// 截取字符
+					}
+				}
+
+			}
+
+			public void keyTyped(KeyEvent e) {
+				char ch = e.getKeyChar();
+				if ((ch < '0') || (ch > '9')) {
+					jlMessage.setText("  请输入数字,不能超过三位");
+					e.setKeyChar((char) 8);// 退格
+				} else {
+					jlMessage.setText("    ");
+				}
+			}
+
+		});

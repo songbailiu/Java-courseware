@@ -1,0 +1,3391 @@
+From: <ÓÉ Windows Internet Explorer 8 ±£´æ>
+Subject: =?gb2312?B?SmF2YSBTd2luZ7/YvP7K9NDUuenEyQ==?=
+Date: Tue, 15 Mar 2011 17:05:33 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CBE333.32474580"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5931
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01CBE333.32474580
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.360doc.com/content/10/0615/10/1551401_33178240.shtml
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns=3D"http://www.w3.org/1999/xhtml"><HEAD><TITLE>Java =
+Swing=E6=8E=A7=E4=BB=B6=E5=B1=9E=E6=80=A7=E5=BD=92=E7=BA=B3</TITLE>
+<META content=3D"text/html; charset=3Dutf-8" http-equiv=3DContent-Type>
+<META name=3Dclassification content=3D360doc>
+<META name=3Dkeywords content=3D"Java =
+Swing=E6=8E=A7=E4=BB=B6=E5=B1=9E=E6=80=A7=E5=BD=92=E7=BA=B3">
+<META name=3Ddescription content=3D"Java =
+Swing=E6=8E=A7=E4=BB=B6=E5=B1=9E=E6=80=A7=E5=BD=92=E7=BA=B3">
+<META name=3Dauthor content=3Dwww.360doc.com><LINK rel=3Dstylesheet =
+type=3Dtext/css=20
+href=3D"http://css.360doc.com/StickySystemIEBlue.css">
+<SCRIPT language=3Djavascript type=3Dtext/javascript>
+window.onerror =3D ignoreError;       =20
+function ignoreError()=20
+{
+   return true;
+} =20
+    </SCRIPT>
+
+<META name=3DGENERATOR content=3D"MSHTML 8.00.6001.19019"></HEAD>
+<BODY onmouseup=3DsetDragEnd() onmousemove=3DDragDiv(); =
+onclick=3DdelAllDiv(event)>
+<SCRIPT>
+Date.prototype.Format =3D function(formatStr)   =20
+{   =20
+ var Week =3D =
+['=E6=97=A5','=E4=B8=80','=E4=BA=8C','=E4=B8=89','=E5=9B=9B','=E4=BA=94',=
+'=E5=85=AD'];  =20
+ return =
+formatStr.replace(/yyyy|YYYY/,this.getFullYear()).replace(/yy|YY/,(this.g=
+etYear() % 100)>9?(this.getYear() % 100).toString():'0' + =
+(this.getYear() % =
+100)).replace(/MM/,(this.getMonth()+1)>9?(this.getMonth()+1).toString():'=
+0' + =
+(this.getMonth()+1)).replace(/M/g,(this.getMonth()+1)).replace(/w|W/g,Wee=
+k[this.getDay()]).replace(/dd|DD/,this.getDate()>9?this.getDate().toStrin=
+g():'0' + this.getDate()).replace(/d|D/g,this.getDate());   =20
+};   =20
+</SCRIPT>
+
+<DIV id=3Dcontainer>
+<DIV class=3Dheader>
+<DIV class=3Dday>
+<SCRIPT=20
+type=3Dtext/javascript>document.write(new =
+Date().Format("yyyy=E5=B9=B4MM=E6=9C=88dd=E6=97=A5"));</SCRIPT>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<SCRIPT>document.write(new =
+Date().Format("=E6=98=9F=E6=9C=9FW"));</SCRIPT>
+</DIV>
+<DIV class=3Dhelp111><A onclick=3D"setHomepage('http://www.360doc.com')" =
+
+href=3D"javascript:void(0)">=E8=AE=BE=E4=B8=BA=E4=B8=BB=E9=A1=B5</A>&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A=20
+onclick=3D"AddFavorite('http://www.360doc.com','360doc=E4=B8=AA=E4=BA=BA=E5=
+=9B=BE=E4=B9=A6=E9=A6=86')"=20
+href=3D"javascript:void(0)">&nbsp;=E5=8A=A0=E5=85=A5=E6=94=B6=E8=97=8F</A=
+><B class=3Dhelp1><A=20
+href=3D"http://www.360doc.com/help.html"=20
+target=3D_blank>=E5=B8=AE=E5=8A=A9</A>&nbsp;&nbsp;|&nbsp;&nbsp;<A=20
+href=3D"http://www.360doc.com/advice.html"=20
+target=3D_blank>=E7=95=99=E8=A8=80=E4=BA=A4=E6=B5=81</A>&nbsp;&nbsp;|&nbs=
+p;&nbsp;<SPAN id=3DspanLogin> <SPAN=20
+id=3Dloginstatus></SPAN></SPAN>&nbsp; &nbsp;</B> </DIV></DIV>
+<DIV class=3Dnav111>
+<DIV class=3Dlogo><IMG src=3D"http://www.360doc.com/images/new/logo.gif" =
+width=3D147=20
+height=3D63></DIV>
+<DIV class=3Dtopnav>
+<DIV class=3Dmainbav>
+<DIV class=3Dnav_wenzi><SPAN style=3D"PADDING-LEFT: 29px; FLOAT: left"=20
+class=3Dziyewz1><A =
+href=3D"http://www.360doc.com/index.html">=E9=A6=96=E9=A1=B5</A></SPAN> =
+<SPAN=20
+class=3D"ziyewz mainbavzt">&nbsp;|&nbsp;<A=20
+href=3D"http://www.360doc.com/topic.html">=E4=B8=BB=E9=A2=98=E9=98=85=E8=AF=
+=BB</A></SPAN> <SPAN=20
+class=3D"ziyewz mainbavzt">&nbsp;|&nbsp;<A=20
+href=3D"http://www.360doc.com/tags.html">tags</A></SPAN> <SPAN=20
+class=3D"ziyewz mainbavzt">&nbsp;|&nbsp;<A=20
+href=3D"http://www.360doc.com/catalog.html">=E7=B2=BE=E5=BD=A9=E7=9B=AE=E5=
+=BD=95</A></SPAN> <SPAN=20
+class=3D"ziyewz mainbavzt">&nbsp;|&nbsp;<A=20
+href=3D"http://www.360doc.com/firstarticle.html">=E7=B2=BE=E5=93=81=E6=96=
+=87=E8=8B=91</A></SPAN> <SPAN=20
+class=3D"ziyewz mainbavzt">&nbsp;|&nbsp;<A=20
+href=3D"http://www.360doc.com/topuser.html">=E4=BC=9A=E5=91=98=E6=B5=8F=E8=
+=A7=88</A></SPAN> <SPAN=20
+style=3D"PADDING-LEFT: 29px" class=3Dziyewz1><A=20
+href=3D"http://www.360doc.com/myfiles.aspx">=E6=88=91=E7=9A=84=E5=9B=BE=E4=
+=B9=A6=E9=A6=86</A></SPAN> </DIV></DIV>
+<DIV class=3Dsubnav>
+<DIV class=3Dsub_a>
+<DIV>
+<H3 class=3Dsub_azt><A=20
+href=3D"http://www.360doc.com/leisure.html">=E4=BC=91=E9=97=B2=C2=B7=E6=80=
+=A1=E6=83=85</A>&nbsp;&nbsp;<SPAN=20
+style=3D"COLOR: #c0c0c0">|</SPAN>&nbsp;&nbsp;</H3><SPAN style=3D"FLOAT: =
+left"=20
+class=3Dnavzt><A =
+href=3D"http://www.360doc.com/leisure.html">=E8=89=BA=E6=9C=AF</A>&nbsp;&=
+nbsp;<A=20
+href=3D"http://www.360doc.com/leisure.html">=E9=9F=B3=E7=94=BB</A>&nbsp;&=
+nbsp;<A=20
+href=3D"http://www.360doc.com/leisure.html">=E7=BE=8E=E5=A5=B3</A>&nbsp;&=
+nbsp;<A=20
+href=3D"http://www.360doc.com/leisure.html">=E7=AC=91=E8=AF=9D</A>&nbsp;&=
+nbsp;<A=20
+href=3D"http://www.360doc.com/leisure.html">=E5=B0=8F=E6=B8=B8=E6=88=8F</=
+A>&nbsp;&nbsp;<A=20
+href=3D"http://www.360doc.com/leisure.html">=E5=A3=81=E7=BA=B8</A>&nbsp;&=
+nbsp;<A=20
+href=3D"http://www.360doc.com/leisure.html">=E9=A3=8E=E6=99=AF</A></SPAN>=
+ </DIV>
+<DIV style=3D"CLEAR: both">
+<H3 class=3Dsub_azt><A=20
+href=3D"http://www.360doc.com/health.html">=E5=81=A5=E5=BA=B7=C2=B7=E5=85=
+=BB=E7=94=9F</A>&nbsp;&nbsp;<SPAN=20
+style=3D"COLOR: #c0c0c0">|</SPAN>&nbsp;&nbsp;</H3><SPAN style=3D"FLOAT: =
+left"=20
+class=3Dnavzt><A =
+href=3D"http://www.360doc.com/health.html">=E5=81=A5=E8=BA=AB</A>&nbsp;&n=
+bsp;<A=20
+href=3D"http://www.360doc.com/health.html">=E9=A3=9F=E7=96=97</A>&nbsp;&n=
+bsp;<A=20
+href=3D"http://www.360doc.com/health.html">=E6=B2=BB=E7=97=85</A>&nbsp;&n=
+bsp;<A=20
+href=3D"http://www.360doc.com/health.html">=E4=B8=AD=E5=8C=BB</A>&nbsp;&n=
+bsp;<A=20
+href=3D"http://www.360doc.com/health.html">=E5=87=8F=E8=82=A5</A>&nbsp;&n=
+bsp;<A=20
+href=3D"http://www.360doc.com/health.html">=E7=BB=8F=E7=A9=B4</A>&nbsp;&n=
+bsp;<A=20
+href=3D"http://www.360doc.com/health.html">=E4=BA=9A=E5=81=A5=E5=BA=B7</A=
+></SPAN> </DIV></DIV>
+<DIV style=3D"MARGIN-LEFT: 60px" class=3Dsub_a>
+<DIV>
+<H3 class=3Dsub_azt><A=20
+href=3D"http://www.360doc.com/life.html">=E7=94=9F=E6=B4=BB=C2=B7=E6=83=85=
+=E6=84=9F</A>&nbsp;&nbsp;<SPAN=20
+style=3D"COLOR: #c0c0c0">|</SPAN>&nbsp;&nbsp;</H3><SPAN style=3D"FLOAT: =
+left"=20
+class=3Dnavzt><A =
+href=3D"http://www.360doc.com/life.html">=E5=93=B2=E7=90=86</A>&nbsp;&nbs=
+p;<A=20
+href=3D"http://www.360doc.com/life.html">=E6=83=85=E6=84=9F</A>&nbsp;&nbs=
+p;<A=20
+href=3D"http://www.360doc.com/life.html">=E5=AE=B6=E5=B1=85</A>&nbsp;&nbs=
+p;<A=20
+href=3D"http://www.360doc.com/life.html">=E6=AF=8D=E5=A9=B4</A>&nbsp;&nbs=
+p;<A=20
+href=3D"http://www.360doc.com/life.html">=E7=BE=8E=E9=A3=9F</A>&nbsp;&nbs=
+p;<A=20
+href=3D"http://www.360doc.com/life.html">=E7=BE=8E=E5=AE=B9</A>&nbsp;&nbs=
+p;<A=20
+href=3D"http://www.360doc.com/life.html">=E7=99=BE=E5=AE=9D=E7=AE=B1</A><=
+/SPAN> </DIV>
+<DIV style=3D"CLEAR: both">
+<H3 class=3Dsub_azt><A=20
+href=3D"http://www.360doc.com/society.html">=E6=96=87=E6=95=99=C2=B7=E7=A4=
+=BE=E4=BC=9A</A>&nbsp;&nbsp;<SPAN=20
+style=3D"COLOR: #c0c0c0">|</SPAN>&nbsp;&nbsp;</H3><SPAN style=3D"FLOAT: =
+left"=20
+class=3Dnavzt><A =
+href=3D"http://www.360doc.com/society.html">=E8=AF=BB=E4=B9=A6</A>&nbsp;&=
+nbsp;<A=20
+href=3D"http://www.360doc.com/society.html">=E4=BA=BA=E6=96=87</A>&nbsp;&=
+nbsp;<A=20
+href=3D"http://www.360doc.com/society.html">=E5=8E=86=E5=8F=B2</A>&nbsp;&=
+nbsp;<A=20
+href=3D"http://www.360doc.com/society.html">=E7=A4=BE=E4=BC=9A</A>&nbsp;&=
+nbsp;<A=20
+href=3D"http://www.360doc.com/society.html">=E6=95=99=E8=82=B2</A>&nbsp;&=
+nbsp;<A=20
+href=3D"http://www.360doc.com/society.html">=E8=81=8C=E5=9C=BA</A>&nbsp;&=
+nbsp;<A=20
+href=3D"http://www.360doc.com/society.html">=E7=94=B5=E8=84=91</A></SPAN>=
+=20
+</DIV></DIV></DIV></DIV></DIV>
+<DIV class=3Dindex_main>
+<DIV class=3Dwenzhang_tit>Java =
+Swing=E6=8E=A7=E4=BB=B6=E5=B1=9E=E6=80=A7=E5=BD=92=E7=BA=B3 =
+=EF=BC=88=E5=8E=9F=E5=88=9B=EF=BC=89 </DIV>
+<DIV class=3D"wenzhang_ft link_underline">
+<TABLE>
+  <TBODY>
+  <TR>
+    <TD><SPAN class=3Dlink_green><A=20
+      href=3D"http://www.360doc.com/userhome/1551401" =
+target=3D_blank>=E6=9D=A8=E5=B0=9A=E4=BC=9F2010</A>=20
+      </SPAN>=E6=94=B6=E5=BD=95=E4=BA=8E2010-06-15 =
+=E9=98=85=E8=AF=BB=E6=95=B0=EF=BC=9A<SPAN =
+id=3D360doc_Readnum></SPAN></TD>
+    <TD>
+      <DIV id=3D360doc_saverNum></DIV></TD>
+    <TD>
+      <DIV =
+id=3D360doc_artpermission>=E5=85=AC=E4=BC=97=E5=85=AC=E5=BC=80&nbsp;</DIV=
+></TD>
+    <TD vAlign=3Dbottom><SPAN=20
+class=3Dlink_underlinecg></SPAN></TD></TR></TBODY></TABLE></DIV>
+<DIV id=3D360docIsStrangerUp></DIV>
+<DIV class=3Dwenzhang_cz>
+<TABLE width=3D"100%">
+  <TBODY>
+  <TR>
+    <TD vAlign=3Dtop align=3Dleft>
+      <DIV id=3DheadFirst><SPAN class=3D"wenzhang_cz_xx01 link_red"><IMG =
+
+      src=3D"http://www.360doc.com/images/icon06.gif">&nbsp;<A=20
+      href=3D"http://www.360doc.com/resaveArt.aspx?articleid=3D33178240" =
+
+      =
+target=3D_blank>=E6=88=91=E4=B9=9F=E8=A6=81=E6=94=B6=E8=97=8F</A></SPAN> =
+</DIV></TD>
+    <TD vAlign=3Dtop align=3Dright>
+      <DIV style=3D"FLOAT: right" =
+id=3DheadSecond></DIV></TD></TR></TBODY></TABLE></DIV>
+<TABLE class=3Dindex_main border=3D0 cellSpacing=3D1 cellPadding=3D1 =
+width=3D"100%">
+  <TBODY>
+  <TR>
+    <TD vAlign=3Dtop width=3D740 align=3Dleft>
+      <DIV style=3D"Z-INDEX: 1">
+      <DIV id=3DADAboveArtContent></DIV></DIV><SPAN style=3D"WIDTH: =
+740px"=20
+      id=3Darticlecontent onmouseup=3DNewHighlight(event) =
+class=3Dwenzhang_con>
+      <DIV=20
+      style=3D"FILTER: none; LINE-HEIGHT: normal; ZOOM: 1 !important; =
+FONT-FAMILY: Arial; WORD-WRAP: break-word; VISIBILITY: visible =
+!important; COLOR: rgb(102,102,102); FONT-SIZE: 12px; WORD-BREAK: =
+break-all; -webkit-border-horizontal-spacing: 2px; =
+-webkit-border-vertical-spacing: 2px"=20
+      class=3DpostTitle><STRONG style=3D"LINE-HEIGHT: normal">Java=20
+      =
+Swing=E6=8E=A7=E4=BB=B6=E5=B1=9E=E6=80=A7=E5=BD=92=E7=BA=B3</STRONG></DIV=
+>
+      <DIV=20
+      style=3D"FILTER: none; LINE-HEIGHT: normal; ZOOM: 1 !important; =
+FONT-FAMILY: Arial; WORD-WRAP: break-word; VISIBILITY: visible =
+!important; COLOR: rgb(102,102,102); FONT-SIZE: 12px; WORD-BREAK: =
+break-all; -webkit-border-horizontal-spacing: 2px; =
+-webkit-border-vertical-spacing: 2px"=20
+      class=3DpostCon>
+      <P style=3D"LINE-HEIGHT: =
+normal">=E4=BA=86=E8=A7=A3=E5=90=84=E7=A7=8D=E7=94=A8=E6=88=B7=E7=95=8C=E9=
+=9D=A2=E7=BB=84=E4=BB=B6=EF=BC=9A</P>
+      <P=20
+      style=3D"LINE-HEIGHT: =
+normal">JButton=E3=80=81JLabel=E3=80=81JTextField=E3=80=81JTextArea=E3=80=
+=81JComboBox=E3=80=81=20
+      =
+Jlist=E3=80=81JCheckBox=E3=80=81JRadioButton=E3=80=81JMenuBar=E3=80=81JMe=
+nu=E3=80=81JMenuItem=E3=80=81JCheckBoxMenuItem=E3=80=81JRadioButtonMenuIt=
+em=E3=80=81JScrollBar=E3=80=81JScrollPane=E3=80=81JTabbedPane=E7=AD=89</P=
+>
+      <P style=3D"LINE-HEIGHT: normal"><STRONG=20
+      style=3D"LINE-HEIGHT: =
+normal">=E4=B8=80=E3=80=81JButton</STRONG></P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E6=8C=89=E9=92=AE=E6=98=AF=E4=B8=80=E7=A7=8D=E7=82=B9=E5=87=BB=E6=97=B6=E8=
+=A7=A6=E5=8F=91=E8=A1=8C=E4=B8=BA=E4=BA=8B=E4=BB=B6=E7=9A=84=E7=BB=84=E4=BB=
+=B6=E3=80=82</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E6=8C=89=E9=92=AE=E7=9A=84=E5=9B=9B=E4=B8=AA=E6=9E=84=E9=80=A0=E6=96=B9=E6=
+=B3=95=EF=BC=9A</P>
+      <P=20
+      style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      public Jbutton()</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E5=88=9B=E5=BB=BA=E4=B8=80=E4=B8=AA=E7=A9=BA=E6=8C=89=E9=92=AE</P>
+      <P=20
+      style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      public JButton(String text)</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E5=88=9B=E5=BB=BA=E4=B8=80=E4=B8=AA=E6=A0=87=E6=9C=89=E6=8C=87=E5=AE=9A=E6=
+=96=87=E5=AD=97=E7=9A=84=E6=8C=89=E9=92=AE</P>
+      <P=20
+      style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      public JButton(Icon icon)</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E5=88=9B=E5=BB=BA=E4=B8=80=E4=B8=AA=E6=A0=87=E6=9C=89=E6=8C=87=E5=AE=9A=E5=
+=9B=BE=E6=A0=87=E7=9A=84=E6=8C=89=E9=92=AE</P>
+      <P=20
+      style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      public JButton(String text,Icon icon)</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E5=88=9B=E5=BB=BA=E4=B8=80=E4=B8=AA=E6=A0=87=E6=9C=89=E6=8C=87=E5=AE=9A=E6=
+=96=87=E5=AD=97=E5=92=8C=E5=9B=BE=E6=A0=87=E7=9A=84=E6=8C=89=E9=92=AE</P>=
+
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E5=9B=BE=E6=A0=87=EF=BC=9A=E6=98=AF=E4=B8=80=E4=B8=AA=E5=9B=BA=E5=AE=9A=E5=
+=A4=A7=E5=B0=8F=E7=9A=84=E5=9B=BE=E7=89=87=EF=BC=8C=E5=85=B8=E5=9E=8B=E7=9A=
+=84=E5=9B=BE=E6=A0=87=E4=BD=93=E5=BD=A2=E8=BE=83=E5=B0=8F=EF=BC=8C=E7=94=A8=
+=E4=BA=8E=E8=A3=85=E9=A5=B0=E7=BB=84=E4=BB=B6=E3=80=82=E5=88=A9=E7=94=A8=E7=
+=B1=BBImageIcon=E5=8F=AF=E4=BB=A5=E4=BB=8E=E5=9B=BE=E5=83=8F=E6=96=87=E4=BB=
+=B6=E4=B8=AD=E5=BE=97=E5=88=B0=E5=9B=BE=E6=A0=87=EF=BC=8C=E5=A6=82=EF=BC=9A=
+Icon icon=EF=BC=9Dnew=20
+      ImageIcon(=E2=80=9Cphoto.gif=E2=80=9D);</P>
+      <P style=3D"LINE-HEIGHT: normal"><STRONG=20
+      style=3D"LINE-HEIGHT: normal">JButton</STRONG>&nbsp;<STRONG=20
+      style=3D"LINE-HEIGHT: =
+normal">=E7=9A=84=E5=B1=9E=E6=80=A7</STRONG></P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+text:=E6=8C=89=E9=92=AE=E4=B8=8A=E7=9A=84=E6=A0=87=E7=AD=BE=EF=BC=8C=E4=BE=
+=8B=E5=A6=82=E5=8F=AF=E7=94=A8jbt.setText(=E2=80=9COK=E2=80=9D)=E7=BB=99=E6=
+=8C=89=E9=92=AEjbt=E8=AE=BE=E7=BD=AE=E6=A0=87=E7=AD=BE=E3=80=82</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+icon:=E6=8C=89=E9=92=AE=E4=B8=8A=E7=9A=84=E5=9B=BE=E6=A0=87=EF=BC=8C=E4=BE=
+=8B=E5=A6=82=E5=8F=AF=E7=94=A8jbt.setTextIcon(new =
+ImageIcon(=E2=80=9Ca.gif=E2=80=9D))=E3=80=82</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+mnemonic:=E6=8C=87=E5=AE=9A=E7=83=AD=E9=94=AE=E3=80=82=E5=90=8C=E6=97=B6=E6=
+=8C=89=E4=B8=8BALT=E9=94=AE=E5=92=8C=E6=8C=87=E5=AE=9A=E7=83=AD=E9=94=AE=E7=
+=9B=B8=E5=BD=93=E4=BA=8E=E6=8C=89=E4=B8=8B=E8=AF=A5=E6=8C=89=E9=92=AE=E3=80=
+=82=E4=BE=8B=E5=A6=82=E4=BD=BF=E7=94=A8jbt.setMnemonic(=E2=80=98O=E2=80=99=
+)=E5=8F=AF=E5=B0=86O=E8=AE=BE=E7=BD=AE=E4=B8=BA=E6=8C=89=E9=92=AEjbt=E7=9A=
+=84=E7=83=AD=E9=94=AE=E3=80=82</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+horizontalAlignment:=E6=AD=A4=E5=B1=9E=E6=80=A7=E5=8F=AA=E6=9C=89=E4=B8=89=
+=E4=B8=AA=E5=80=BCSwingConstants.LEFT=EF=BC=8CSwingConstants.CENTER,=20
+      =
+SwingConstants.RIGHT=E3=80=82=E5=AE=83=E6=8C=87=E5=AE=9A=E6=8C=89=E9=92=AE=
+=E4=B8=8A=E6=A0=87=E7=AD=BE=E7=9A=84=E6=B0=B4=E5=B9=B3=E5=AF=B9=E9=BD=90=E6=
+=96=B9=E5=BC=8F=E3=80=82=E9=BB=98=E8=AE=A4=E5=80=BC=E4=B8=BA=E5=B1=85=E4=B8=
+=AD=E3=80=82</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+verticalAlignment:=E6=AD=A4=E5=B1=9E=E6=80=A7=E4=B9=9F=E5=8F=96=E4=B8=89=E4=
+=B8=AA=E5=80=BCSwingConstants.TOP,=20
+      =
+SwingConstants.CENTER=E5=92=8CSwingConstants.BOTTOM=E3=80=82=E5=AE=83=E6=8C=
+=87=E5=AE=9A=E6=8C=89=E9=92=AE=E4=B8=8A=E6=A0=87=E7=AD=BE=E7=9A=84=E5=9E=82=
+=E7=9B=B4=E5=AF=B9=E9=BD=90=E6=96=B9=E5=BC=8F=E3=80=82=E9=BB=98=E8=AE=A4=E5=
+=80=BC=E4=B8=BA=E5=B1=85=E4=B8=AD=E3=80=82</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+horizontalTextPosition:=E6=AD=A4=E5=B1=9E=E6=80=A7=E6=9C=89=E4=B8=89=E4=B8=
+=AA=E5=80=BCSwingConstants.LEFT, SwingConstants.CENTER,=20
+      =
+SwingConstants.RIGHT=E3=80=82=E5=AE=83=E6=8C=87=E5=AE=9A=E6=96=87=E6=9C=AC=
+=E7=9B=B8=E5=AF=B9=E4=BA=8E=E5=9B=BE=E6=A0=87=E7=9A=84=E6=B0=B4=E5=B9=B3=E4=
+=BD=8D=E7=BD=AE=EF=BC=8C=E9=BB=98=E8=AE=A4=E4=B8=BASwingConstants.RIGHT=E3=
+=80=82=E5=AF=B9=E5=BA=94=E6=96=B9=E6=B3=95setHorizontalTextPosition=E3=80=
+=82</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+verticalTextPosition:=E6=AD=A4=E5=B1=9E=E6=80=A7=E6=9C=89=E4=B8=89=E4=B8=AA=
+=E5=80=BCSwingConstants.TOP, SwingConstants.CENTER,=20
+      =
+SwingConstants.BOTTOM=E3=80=82=E5=AE=83=E6=8C=87=E5=AE=9A=E6=96=87=E5=AD=97=
+=E7=9B=B8=E5=AF=B9=E5=9B=BE=E6=A0=87=E7=9A=84=E5=9E=82=E7=9B=B4=E4=BD=8D=E7=
+=BD=AE=EF=BC=8C=E9=BB=98=E8=AE=A4=E5=80=BC=E4=B8=BASwingConstants.CENTER=E3=
+=80=82=E5=AF=B9=E5=BA=94=E6=96=B9=E6=B3=95setVerticalTextPosition=E3=80=82=
+</P>
+      <P style=3D"LINE-HEIGHT: normal"></P>
+      <P style=3D"LINE-HEIGHT: normal"><STRONG=20
+      style=3D"LINE-HEIGHT: =
+normal">=E4=BA=8C=E3=80=81JLabel</STRONG></P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E6=A0=87=E7=AD=BE=E6=98=AF=E6=98=BE=E7=A4=BA=E4=B8=80=E5=B0=8F=E6=AE=B5=E6=
+=96=87=E5=AD=97=E3=80=81=E4=B8=80=E5=B9=85=E5=9B=BE=E7=89=87=E6=88=96=E8=80=
+=85=E4=BA=8C=E8=80=85=E7=9A=86=E6=9C=89=E7=9A=84=E5=8C=BA=E5=9F=9F=E3=80=82=
+</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E5=AE=83=E7=9A=84=E5=85=AD=E4=B8=AA=E6=9E=84=E9=80=A0=E6=96=B9=E6=B3=95=E5=
+=A6=82=E4=B8=8B=EF=BC=9A</P>
+      <P=20
+      style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      public JLabel()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E5=88=9B=E5=BB=BA=E4=B8=80=E4=B8=AA=E7=A9=BA=E6=A0=87=E7=AD=BE=E3=80=82<=
+/P>
+      <P=20
+      style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      public JLabel(String text,int horizontalAlignment)</P>
+      <P=20
+      style=3D"LINE-HEIGHT: =
+normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+
+      =
+=E5=88=9B=E5=BB=BA=E4=B8=80=E4=B8=AA=E6=8C=87=E5=AE=9A=E5=86=85=E5=AE=B9=E5=
+=AD=97=E7=AC=A6=E4=B8=B2=E5=92=8C=E6=B0=B4=E5=B9=B3=E5=AF=B9=E9=BD=90=E6=96=
+=B9=E5=BC=8F=E7=9A=84=E6=A0=87=E7=AD=BE=E3=80=82=E5=85=B6=E4=B8=AD=E6=B0=B4=
+=E5=B9=B3=E5=AF=B9=E9=BD=90=E6=96=B9=E5=BC=8F=E5=8F=AF=E5=8F=96=E5=80=BCS=
+wingConstants.LEFT,=20
+      SwingConstants.CENTER, SwingConstants.RIGHT=E3=80=82</P>
+      <P=20
+      style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      public JLabel(String text)</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E5=88=9B=E5=BB=BA=E4=B8=80=E4=B8=AA=E6=8C=87=E5=AE=9A=E6=96=87=E5=AD=97=E7=
+=9A=84=E6=A0=87=E7=AD=BE=E3=80=82</P>
+      <P=20
+      style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      public JLabel(Icon icon)</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E5=88=9B=E5=BB=BA=E4=B8=80=E4=B8=AA=E6=8C=87=E5=AE=9A=E5=9B=BE=E6=A0=87=E7=
+=9A=84=E6=A0=87=E7=AD=BE=E3=80=82</P>
+      <P=20
+      style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      public JLabel(Icon icon,int horizontalAlignment)</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E5=88=9B=E5=BB=BA=E4=B8=80=E4=B8=AA=E6=8C=87=E5=AE=9A=E5=9B=BE=E6=A0=87=E5=
+=92=8C=E6=B0=B4=E5=B9=B3=E5=AF=B9=E9=BD=90=E6=96=B9=E5=BC=8F=E7=9A=84=E6=A0=
+=87=E7=AD=BE=E3=80=82</P>
+      <P=20
+      style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      public JLabel(String text,Icon icon,int horizontalAlignment)</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E5=88=9B=E5=BB=BA=E4=B8=80=E4=B8=AA=E6=8C=87=E5=AE=9A=E6=96=87=E6=9C=AC=E3=
+=80=81=E5=9B=BE=E6=A0=87=E5=92=8C=E6=B0=B4=E5=B9=B3=E5=AF=B9=E9=BD=90=E6=96=
+=B9=E5=BC=8F=E7=9A=84=E6=A0=87=E7=AD=BE=E3=80=82</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E4=BE=8B=E5=A6=82=EF=BC=8C=E4=B8=8B=E9=9D=A2=E8=AF=AD=E5=8F=A5=E5=88=9B=E5=
+=BB=BA=E4=B8=80=E4=B8=AA=E6=96=87=E6=9C=AC=E5=86=85=E5=AE=B9=E4=B8=BA=E2=80=
+=9CInterest Rate=E2=80=9D=E7=9A=84=E6=A0=87=E7=AD=BE=EF=BC=9A</P>
+      <P style=3D"LINE-HEIGHT: normal">JLabel myLabel =3D new =
+JLabel(=E2=80=9CInterest=20
+      Rate=E2=80=9D);</P>
+      <P=20
+      style=3D"LINE-HEIGHT: =
+normal">=E4=B8=8B=E9=9D=A2=E7=9A=84=E8=AF=AD=E5=8F=A5=E5=88=9B=E5=BB=BA=E4=
+=B8=80=E4=B8=AA=E6=A0=87=E7=AD=BE=EF=BC=8C=E5=AE=83=E4=BD=BF=E7=94=A8=E6=96=
+=87=E4=BB=B6=E2=80=9Cimages/map.gif=E2=80=9D=E4=B8=AD=E7=9A=84=E5=9B=BE=E5=
+=83=8F=E4=BD=9C=E5=9B=BE=E6=A0=87=EF=BC=9A</P>
+      <P style=3D"LINE-HEIGHT: normal">JLabel mapLabel =3D new =
+JLabel(new=20
+      ImageIcon(=E2=80=9Cimages/map.gif=E2=80=9D);</P>
+      <P style=3D"LINE-HEIGHT: normal"><STRONG=20
+      style=3D"LINE-HEIGHT: normal">JLabel</STRONG>&nbsp;<STRONG=20
+      style=3D"LINE-HEIGHT: =
+normal">=E7=9A=84=E5=B1=9E=E6=80=A7</STRONG></P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+JLabel=E7=BB=A7=E6=89=BF=E4=BA=86=E7=B1=BBJcomponent=E7=9A=84=E6=89=80=E6=
+=9C=89=E5=B1=9E=E6=80=A7=EF=BC=8C=E5=B9=B6=E5=85=B7=E6=9C=89JButton=E7=B1=
+=BB=E7=9A=84=E8=AE=B8=E5=A4=9A=E5=B1=9E=E6=80=A7=EF=BC=8C=E5=A6=82=EF=BC=9A=
+</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      text</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      icon</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      horizontalAlignment</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      verticalAlignment</P>
+      <P style=3D"LINE-HEIGHT: normal"></P>
+      <P style=3D"LINE-HEIGHT: normal"><STRONG=20
+      style=3D"LINE-HEIGHT: =
+normal">=E4=B8=89=E3=80=81JTextField</STRONG></P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E6=96=87=E6=9C=AC=E5=9F=9F=E6=98=AF=E4=B8=80=E4=B8=AA=E7=94=A8=E6=88=B7=E5=
+=8F=AF=E4=BB=A5=E8=BE=93=E5=85=A5=E5=AD=97=E7=AC=A6=E7=9A=84=E8=BE=93=E5=85=
+=A5=E5=8C=BA=E3=80=82=E5=85=81=E8=AE=B8=E7=94=A8=E6=88=B7=E8=BE=93=E5=85=A5=
+=E5=90=84=E7=A7=8D=E6=95=B0=E6=8D=AE=EF=BC=8C=E5=A6=82=E5=A7=93=E5=90=8D=E5=
+=92=8C=E6=8F=8F=E8=BF=B0=E6=96=87=E5=AD=97=E3=80=82</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+JTextField=E7=9A=84=E5=9B=9B=E4=B8=AA=E6=9E=84=E9=80=A0=E6=96=B9=E6=B3=95=
+=EF=BC=9A</P>
+      <P=20
+      style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      public JTextField()</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E5=88=9B=E5=BB=BA=E4=B8=80=E4=B8=AA=E7=A9=BA=E6=96=87=E6=9C=AC=E5=9F=9F=E3=
+=80=82</P>
+      <P=20
+      style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      public JTextField(int columns)</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E5=88=9B=E5=BB=BA=E4=B8=80=E4=B8=AA=E6=8C=87=E5=AE=9A=E5=88=97=E6=95=B0=E7=
+=9A=84=E7=A9=BA=E6=96=87=E6=9C=AC=E5=9F=9F=E3=80=82</P>
+      <P=20
+      style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      public JTextField(String text)</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E7=94=A8=E6=8C=87=E5=AE=9A=E5=88=9D=E5=A7=8B=E6=96=87=E5=AD=97=E5=88=9B=E5=
+=BB=BA=E4=B8=80=E4=B8=AA=E6=96=87=E6=9C=AC=E5=9F=9F=E3=80=82</P>
+      <P=20
+      style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      public JTextField(String text,int columns)</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;=20
+      =
+=E5=88=9B=E5=BB=BA=E4=B8=80=E4=B8=AA=E6=96=87=E6=9C=AC=E5=9F=9F=EF=BC=8C=E5=
+=B9=B6=E7=94=A8=E6=8C=87=E5=AE=9A=E6=96=87=E5=AD=97=E5=92=8C=E5=88=97=E6=95=
+=B0=E5=88=9D=E5=A7=8B=E5=8C=96=E3=80=82</P>
+      <P style=3D"LINE-HEIGHT: normal"><STRONG=20
+      style=3D"LINE-HEIGHT: normal">JTextField</STRONG>&nbsp;<STRONG=20
+      style=3D"LINE-HEIGHT: normal">=E5=B1=9E=E6=80=A7</STRONG></P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E9=99=A4=E4=BA=86text=E3=80=81horizontalAlignment=E7=AD=89=E5=B1=9E=E6=80=
+=A7=E5=A4=96=EF=BC=8CJTextField=E8=BF=98=E6=9C=89=E5=A6=82=E4=B8=8B=E5=B1=
+=9E=E6=80=A7=EF=BC=9A</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      editable</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E5=B8=83=E5=B0=94=E5=9E=8B=E5=B1=9E=E6=80=A7=EF=BC=8C=E8=A1=A8=E6=98=8E=E7=
+=94=A8=E6=88=B7=E8=83=BD=E5=90=A6=E4=BF=AE=E6=94=B9=E6=96=87=E6=9C=AC=E5=9F=
+=9F=E3=80=82</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      columns</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E6=96=87=E6=9C=AC=E5=9F=9F=E7=9A=84=E5=AE=BD=E5=BA=A6=E3=80=82</P>
+      <P style=3D"LINE-HEIGHT: normal"><STRONG=20
+      style=3D"LINE-HEIGHT: normal">JTextField</STRONG>&nbsp;<STRONG=20
+      style=3D"LINE-HEIGHT: normal">=E6=96=B9=E6=B3=95</STRONG></P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      getText()</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+=E4=BB=8E=E6=96=87=E6=9C=AC=E5=9F=9F=E8=BF=94=E5=9B=9E=E5=AD=97=E7=AC=A6=E4=
+=B8=B2=E3=80=82</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      setText(String text)</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+=E5=B0=86=E7=BB=99=E5=AE=9A=E5=AD=97=E7=AC=A6=E4=B8=B2=E5=86=99=E5=85=A5=E6=
+=96=87=E6=9C=AC=E5=9F=9F=E5=BD=93=E4=B8=AD</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      setEditable(boolean editable)</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+=E4=BD=BF=E6=96=87=E6=9C=AC=E5=9F=9F=E5=8F=98=E4=B8=BA=E5=8F=AF=E7=BC=96=E8=
+=BE=91=E7=9A=84=EF=BC=8C=E9=BB=98=E8=AE=A4=E4=B8=BAtrue=E3=80=82</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      setColumns(int)</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+=E8=AE=BE=E7=BD=AE=E6=96=87=E6=9C=AC=E4=B8=8E=E7=9A=84=E5=88=97=E6=95=B0=EF=
+=BC=8C=E6=96=87=E6=9C=AC=E5=9F=9F=E7=9A=84=E9=95=BF=E5=BA=A6=E5=8F=AF=E5=8F=
+=98=E3=80=82</P>
+      <P style=3D"LINE-HEIGHT: normal"></P>
+      <P style=3D"LINE-HEIGHT: normal"><STRONG=20
+      style=3D"LINE-HEIGHT: =
+normal">=E5=9B=9B=E3=80=81JTextArea</STRONG></P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E5=A6=82=E6=83=B3=E8=AE=A9=E7=94=A8=E6=88=B7=E8=BE=93=E5=85=A5=E5=A4=9A=E8=
+=A1=8C=E6=96=87=E6=9C=AC=EF=BC=8C=E5=8F=AA=E8=83=BD=E9=80=9A=E8=BF=87=E5=88=
+=9B=E5=BB=BA=E5=A4=9A=E4=B8=AAJTextField=E5=AE=9E=E4=BE=8B=E6=9D=A5=E5=AE=
+=9E=E7=8E=B0=EF=BC=8C=E8=A7=A3=E5=86=B3=E9=97=AE=E9=A2=98=E7=9A=84=E6=9B=B4=
+=E5=A5=BD=E5=8A=9E=E6=B3=95=E6=98=AF=E4=BD=BF=E7=94=A8JTextField=EF=BC=8C=
+=E5=AE=83=E5=85=81=E8=AE=B8=E7=94=A8=E6=88=B7=E8=BE=93=E5=85=A5=E5=A4=9A=E8=
+=A1=8C=E6=96=87=E5=AD=97=E3=80=82</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+JTextArea=E7=9A=84=E4=B8=89=E4=B8=AA=E6=9E=84=E9=80=A0=E6=96=B9=E6=B3=95=EF=
+=BC=9A</P>
+      <P=20
+      style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      public JTextArea()</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E5=88=9B=E5=BB=BA=E4=B8=80=E4=B8=AA=E7=A9=BA=E7=9A=84=E6=96=87=E6=9C=AC=E5=
+=8C=BA=E3=80=82</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      JTextArea(int rows, int columns)</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E5=88=9B=E5=BB=BA=E4=B8=80=E4=B8=AA=E6=8C=87=E5=AE=9A=E8=A1=8C=E6=95=B0=E5=
+=92=8C=E5=88=97=E6=95=B0=E7=9A=84=E6=96=87=E6=9C=AC=E5=8C=BA=E3=80=82</P>=
+
+      <P style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      JTextArea(String s, int rows, int columns)</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E5=88=9B=E5=BB=BA=E4=B8=80=E4=B8=AA=E6=8C=87=E5=AE=9A=E6=96=87=E6=9C=AC=E3=
+=80=81=E8=A1=8C=E6=95=B0=E5=92=8C=E5=88=97=E6=95=B0=E7=9A=84=E6=96=87=E6=9C=
+=AC=E5=8C=BA=E3=80=82</P>
+      <P style=3D"LINE-HEIGHT: normal"><STRONG=20
+      style=3D"LINE-HEIGHT: normal">JTextArea</STRONG>&nbsp;<STRONG=20
+      style=3D"LINE-HEIGHT: normal">=E5=B1=9E=E6=80=A7</STRONG></P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E9=99=A4=E4=BA=86text=E3=80=81editable=E3=80=81columns=E5=A4=96=EF=BC=8C=
+JTextArea=E8=BF=98=E6=9C=89=E4=BB=A5=E4=B8=8B=E5=B1=9E=E6=80=A7=EF=BC=9A<=
+/P>
+      <P style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      lineWrap</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      wrapStyleWord</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      rows</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      lineCount</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      tabSize</P>
+      <P style=3D"LINE-HEIGHT: normal"><STRONG=20
+      style=3D"LINE-HEIGHT: normal">JTextArea</STRONG>&nbsp;<STRONG=20
+      style=3D"LINE-HEIGHT: =
+normal">=E7=9A=84=E6=96=B9=E6=B3=95</STRONG></P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E4=BB=A5=E4=B8=8B=E6=96=B9=E6=B3=95=E7=94=A8=E4=BA=8E=E6=8F=92=E5=85=A5=E3=
+=80=81=E8=BF=BD=E5=8A=A0=E5=92=8C=E6=9B=BF=E6=8D=A2=E6=96=87=E6=9C=AC=EF=BC=
+=9A</P>
+      <P=20
+      style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      public void inser(String s,int pos)</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E5=B0=86=E5=AD=97=E7=AC=A6=E4=B8=B2s=E6=8F=92=E5=85=A5=E5=88=B0=E6=96=87=
+=E6=9C=AC=E5=8C=BA=E7=9A=84=E6=8C=87=E5=AE=9A=E4=BD=8D=E7=BD=AEpos=E3=80=82=
+</P>
+      <P=20
+      style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      public void append(String s)</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E5=B0=86=E5=AD=97=E7=AC=A6=E4=B8=B2s=E6=B7=BB=E5=8A=A0=E5=88=B0=E6=96=87=
+=E6=9C=AC=E7=9A=84=E6=9C=AB=E5=B0=BE=E3=80=82</P>
+      <P=20
+      style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      public void replaceRange(String s,int start,int end)</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E7=94=A8=E5=AD=97=E7=AC=A6=E4=B8=B2s=E6=9B=BF=E6=8D=A2=E6=96=87=E6=9C=AC=
+=E4=B8=AD=E4=BB=8E=E4=BD=8D=E7=BD=AEstart=E5=88=B0end=E7=9A=84=E6=96=87=E5=
+=AD=97=E3=80=82</P>
+      <P style=3D"LINE-HEIGHT: normal"></P>
+      <P style=3D"LINE-HEIGHT: normal"><STRONG=20
+      style=3D"LINE-HEIGHT: =
+normal">=E4=BA=94=E3=80=81JComboBox</STRONG></P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E7=BB=84=E5=92=8C=E6=A1=86=E6=98=AF=E4=B8=80=E4=BA=9B=E9=A1=B9=E7=9B=AE=E7=
+=9A=84=E7=AE=80=E5=8D=95=E5=88=97=E8=A1=A8=EF=BC=8C=E7=94=A8=E6=88=B7=E8=83=
+=BD=E5=A4=9F=E4=BB=8E=E4=B8=AD=E8=BF=9B=E8=A1=8C=E9=80=89=E6=8B=A9=E3=80=82=
+</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+JComboBox=E7=9A=84=E4=B8=A4=E4=B8=AA=E6=9E=84=E9=80=A0=E6=96=B9=E6=B3=95=EF=
+=BC=9A</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      public JComboBox()</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E9=BB=98=E8=AE=A4=E6=9E=84=E9=80=A0=E6=96=B9=E6=B3=95=E3=80=82</P>
+      <P=20
+      style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      public JComboBox(Object[] stringItems)</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E5=B8=A6=E6=9C=89=E5=AD=97=E7=AC=A6=E4=B8=B2=E5=88=97=E8=A1=A8=E7=9A=84=E6=
+=9E=84=E9=80=A0=E6=96=B9=E6=B3=95=EF=BC=8C=E5=85=B6=E4=B8=ADstringItems=E6=
+=98=AF=E4=B8=80=E4=B8=AA=E5=AD=97=E7=AC=A6=E4=B8=B2=E6=95=B0=E7=A5=96=E3=80=
+=82</P>
+      <P style=3D"LINE-HEIGHT: normal"><STRONG=20
+      style=3D"LINE-HEIGHT: normal">JComboBox</STRONG><STRONG=20
+      style=3D"LINE-HEIGHT: =
+normal">=E7=9A=84=E5=B1=9E=E6=80=A7</STRONG></P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+JComboBox=E7=9A=84=E6=9C=89=E7=94=A8=E7=9A=84=E5=B1=9E=E6=80=A7=EF=BC=9A<=
+/P>
+      <P=20
+      style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      selectedIndex</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+int=E5=80=BC=EF=BC=8C=E8=A1=A8=E7=A4=BA=E7=BB=84=E5=90=88=E6=A1=86=E4=B8=AD=
+=E9=80=89=E5=AE=9A=E9=A1=B9=E7=9A=84=E5=BA=8F=E5=8F=B7=E3=80=82</P>
+      <P=20
+      style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      selectedItem</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+Object=E7=B1=BB=E5=9E=8B=EF=BC=8C=E8=A1=A8=E7=A4=BA=E9=80=89=E5=AE=9A=E9=A1=
+=B9=E3=80=82</P>
+      <P style=3D"LINE-HEIGHT: normal"></P>
+      <P style=3D"LINE-HEIGHT: normal"><STRONG=20
+      style=3D"LINE-HEIGHT: normal">JComboBox</STRONG>&nbsp;<STRONG=20
+      style=3D"LINE-HEIGHT: =
+normal">=E7=9A=84=E6=96=B9=E6=B3=95</STRONG></P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+=E6=9C=89=E7=94=A8=E7=9A=84=E6=96=B9=E6=B3=95=EF=BC=9A</P>
+      <P=20
+      style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      public void addItem(Object item)</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E5=9C=A8=E7=BB=84=E5=92=8C=E6=A1=86=E4=B8=AD=E6=B7=BB=E5=8A=A0=E4=B8=80=E4=
+=B8=AA=E9=80=89=E9=A1=B9=EF=BC=8C=E5=AE=83=E5=8F=AF=E4=BB=A5=E6=98=AF=E4=BB=
+=BB=E4=BD=95=E5=AF=B9=E8=B1=A1=E3=80=82</P>
+      <P=20
+      style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      public Object getItemAt(int index)</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E5=BE=97=E5=88=B0=E7=BB=84=E5=90=88=E6=A1=86=E4=B8=AD=E6=8C=87=E5=AE=9A=E5=
+=BA=8F=E5=8F=B7=E7=9A=84=E9=A1=B9=E3=80=82</P>
+      <P=20
+      style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      public void removeItem(Object anObject)</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E5=88=A0=E9=99=A4=E6=8C=87=E5=AE=9A=E7=9A=84=E9=A1=B9=E3=80=82</P>
+      <P=20
+      style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      public void removeAllItems()</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E5=88=A0=E9=99=A4=E5=88=97=E8=A1=A8=E4=B8=AD=E6=89=80=E6=9C=89=E9=A1=B9=E3=
+=80=82</P>
+      <P style=3D"LINE-HEIGHT: normal"></P>
+      <P style=3D"LINE-HEIGHT: normal"><STRONG=20
+      style=3D"LINE-HEIGHT: normal">=E5=85=AD=E3=80=81JList</STRONG></P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E5=88=97=E8=A1=A8=E6=A1=86=E7=9A=84=E4=BD=9C=E7=94=A8=E5=92=8C=E7=BB=84=E5=
+=90=88=E6=A1=86=E7=9A=84=E4=BD=9C=E7=94=A8=E5=9F=BA=E6=9C=AC=E7=9B=B8=E5=90=
+=8C=EF=BC=8C=E4=BD=86=E5=AE=83=E5=85=81=E8=AE=B8=E7=94=A8=E6=88=B7=E5=90=8C=
+=E6=97=B6=E9=80=89=E6=8B=A9=E5=A4=9A=E9=A1=B9=E3=80=82</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+JList=E7=9A=84=E4=B8=A4=E4=B8=AA=E6=9E=84=E9=80=A0=E6=96=B9=E6=B3=95=EF=BC=
+=9A</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      JList()</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E5=88=9B=E5=BB=BA=E4=B8=80=E4=B8=AA=E7=A9=BA=E7=9A=84=E5=88=97=E8=A1=A8=E6=
+=A1=86</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      JList(Object[] stringItems)</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E5=88=9B=E5=BB=BA=E4=B8=80=E4=B8=AA=E6=9C=89=E5=88=9D=E5=A7=8B=E9=A1=B9=E7=
+=9A=84=E5=88=97=E8=A1=A8=E6=A1=86</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+JList=E4=B8=8D=E4=BC=9A=E8=87=AA=E5=8A=A8=E6=BB=9A=E5=8A=A8=E3=80=82=E7=BB=
+=99=E5=88=97=E8=A1=A8=E6=A1=86=E5=8A=A0=E6=BB=9A=E5=8A=A8=E6=9D=A1=E7=9A=84=
+=E6=96=B9=E6=B3=95=E4=B8=8E=E6=96=87=E6=9C=AC=E5=8C=BA=E7=9B=B8=E5=90=8C=EF=
+=BC=8C=E5=8F=AA=E9=9C=80=E5=88=9B=E5=BB=BA=E4=B8=80=E4=B8=AA=E6=BB=9A=E5=8A=
+=A8=E7=AA=97=E6=A0=BC=E5=B9=B6=E5=B0=86=E5=88=97=E8=A1=A8=E6=A1=86=E5=8A=A0=
+=E5=85=A5=E5=85=B6=E4=B8=AD=E5=8D=B3=E5=8F=AF=E3=80=82</P>
+      <P style=3D"LINE-HEIGHT: normal"><STRONG=20
+      style=3D"LINE-HEIGHT: normal">Jlist</STRONG><STRONG=20
+      style=3D"LINE-HEIGHT: normal">=E7=9A=84 =
+=E5=B1=9E=E6=80=A7</STRONG></P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      selectedIndexd</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      selectedIndices</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      selectedValue</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      selectedValues</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      selectionMode</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      visibleRowCount</P>
+      <P style=3D"LINE-HEIGHT: normal"></P>
+      <P style=3D"LINE-HEIGHT: normal"></P>
+      <P style=3D"LINE-HEIGHT: normal"><STRONG=20
+      style=3D"LINE-HEIGHT: =
+normal">=E4=B8=83=E3=80=81JCheckBox</STRONG></P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E5=A4=8D=E9=80=89=E6=A1=86=E6=98=AF=E4=B8=80=E7=A7=8D=E7=94=A8=E6=88=B7=E8=
+=83=BD=E5=A4=9F=E6=89=93=E5=BC=80=E3=80=81=E5=85=B3=E9=97=AD=E9=80=89=E9=A1=
+=B9=E7=9A=84=E7=BB=84=E4=BB=B6=EF=BC=8C=E5=A6=82=E5=90=8C=E7=94=B5=E7=81=AF=
+=E5=BC=80=E5=85=B3=E4=B8=80=E8=88=AC=E3=80=82</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+JCheckBox=E7=9A=84=E4=B8=83=E4=B8=AA=E6=9E=84=E9=80=A0=E6=96=B9=E6=B3=95=EF=
+=BC=9A</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      JCheckBox()</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      JCheckBox(String text)</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      JCheckBox(String text, boolean selected)</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      JCheckBox(Icon icon)</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      JCheckBox(Icon icon, boolean selected)</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      JCheckBox(String text, Icon icon)</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      JCheckBox(String text, Icon icon, boolean selected)</P>
+      <P style=3D"LINE-HEIGHT: normal"><STRONG=20
+      style=3D"LINE-HEIGHT: normal">JCheckBox</STRONG>&nbsp;<STRONG=20
+      style=3D"LINE-HEIGHT: =
+normal">=E7=9A=84=E5=B1=9E=E6=80=A7</STRONG></P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; JCheckBox=20
+      =
+=E9=99=A4=E4=BA=86=E5=85=B7=E6=9C=89JButton=E7=9A=84=E6=89=80=E6=9C=89=E5=
+=B1=9E=E6=80=A7=E5=A6=82text=E3=80=81icon=E3=80=81mnemonic=E3=80=81vertic=
+alAlignment=E3=80=81horizontalAlignment=E3=80=81horizontalTextPosition=E5=
+=92=8CverticalTextPosition=20
+      =
+=E5=A4=96=EF=BC=8C=E8=BF=98=E6=9C=89selected=E5=B1=9E=E6=80=A7=EF=BC=8C=E8=
+=AF=A5=E5=B1=9E=E6=80=A7=E6=8C=87=E6=98=8E=E5=A4=8D=E9=80=89=E6=A1=86=E6=98=
+=AF=E5=90=A6=E8=A2=AB=E9=80=89=E4=B8=AD=E3=80=82</P>
+      <P style=3D"LINE-HEIGHT: normal"></P>
+      <P style=3D"LINE-HEIGHT: normal"></P>
+      <P style=3D"LINE-HEIGHT: normal"><STRONG=20
+      style=3D"LINE-HEIGHT: =
+normal">=E5=85=AB=E3=80=81JRadioButton</STRONG></P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E5=8D=95=E9=80=89=E6=8C=89=E9=92=AE=EF=BC=8C=E6=88=96=E5=8F=AB=E9=80=89=E6=
+=8B=A9=E6=8C=89=E9=92=AE=EF=BC=8C=E8=AE=A9=E7=94=A8=E6=88=B7=E4=BB=8E=E4=B8=
+=80=E7=BB=84=E7=BB=84=E4=BB=B6=E4=B8=AD=E9=80=89=E6=8B=A9=E5=94=AF=E4=B8=80=
+=E7=9A=84=E4=B8=80=E4=B8=AA=E9=80=89=E9=A1=B9=E3=80=82</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+JRadioButton=E7=9A=84=E4=B8=83=E4=B8=AA=E6=9E=84=E9=80=A0=E6=96=B9=E6=B3=95=
+=EF=BC=9A</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      JRadioButton()</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      JRadioButton(String text)</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      JRadioButton(String text, boolean selected)</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      JRadioButton(Icon icon)</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      JRadioButton(Icon icon, boolean selected)</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      JRadioButton(String text, Icon icon)</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      JRadioButton(String text, Icon icon, boolean selected)</P>
+      <P style=3D"LINE-HEIGHT: normal"><STRONG=20
+      style=3D"LINE-HEIGHT: normal">JRadioButton</STRONG>&nbsp;<STRONG=20
+      style=3D"LINE-HEIGHT: =
+normal">=E7=9A=84=E5=B1=9E=E6=80=A7</STRONG></P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      JRadioButton =
+=E9=99=A4=E5=85=B7=E6=9C=89JButton=E7=9A=84=E6=89=80=E6=9C=89=E5=B1=9E=E6=
+=80=A7=E5=A6=82text=E3=80=81icon=E3=80=81mnemonic=E3=80=81verticalAlignme=
+nt=E3=80=81=20
+      =
+horizontalAlignment=E3=80=81horizontalTextPosition=E3=80=81verticalTextPo=
+sition=E5=A4=96=EF=BC=8C=E8=BF=98=E5=85=B7=E6=9C=89=20
+      =
+selected=E5=B1=9E=E6=80=A7=EF=BC=8C=E8=AF=A5=E5=B1=9E=E6=80=A7=E6=8C=87=E6=
+=98=8E=E5=8D=95=E9=80=89=E6=8C=89=E9=92=AE=E6=98=AF=E5=90=A6=E8=A2=AB=E9=80=
+=89=E4=B8=AD=E3=80=82</P>
+      <P style=3D"LINE-HEIGHT: normal"><STRONG=20
+      style=3D"LINE-HEIGHT: =
+normal">=E5=B0=86=E5=8D=95=E9=80=89=E9=92=AE=E7=BB=84=E5=90=88=E6=88=90=E7=
+=BB=84</STRONG></P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E5=8D=95=E9=80=89=E6=8C=89=E9=92=AE=E5=8F=AF=E4=BB=A5=E8=B1=A1=E6=8C=89=E9=
+=92=AE=E4=B8=80=E6=A0=B7=E6=B7=BB=E5=8A=A0=E5=88=B0=E5=AE=B9=E5=99=A8=E4=B8=
+=AD=E3=80=82=E8=A6=81=E5=B0=86=E5=8D=95=E9=80=89=E6=8C=89=E9=92=AE=E5=88=86=
+=E7=BB=84=EF=BC=8C=E9=9C=80=E8=A6=81=E5=88=9B=E5=BB=BAjava.swing.ButtonGr=
+oup=E7=9A=84=E4=B8=80=E4=B8=AA=E5=AE=9E=E4=BE=8B=EF=BC=8C=E5=B9=B6=E7=94=A8=
+add=E6=96=B9=E6=B3=95=E6=8A=8A=E5=8D=95=E9=80=89=E6=8C=89=E9=92=AE=E6=B7=BB=
+=E5=8A=A0=E5=88=B0=E8=AF=A5=E5=AE=9E=E4=BE=8B=E4=B8=AD=EF=BC=8C=E5=A6=82=EF=
+=BC=9A</P>
+      <P style=3D"LINE-HEIGHT: normal">ButtonGroup btg =3D new =
+ButtonGroup();</P>
+      <P style=3D"LINE-HEIGHT: normal">btg.add(jrb1);</P>
+      <P style=3D"LINE-HEIGHT: normal">btg.add(jrb2);</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=E4=B8=8A=E8=BF=B0=E4=BB=A3=E7=A0=81=E5=88=9B=E5=BB=BA=E4=BA=86=E4=
+=B8=80=E4=B8=AA=E5=8D=95=E9=80=89=E6=8C=89=E9=92=AE=E7=BB=84=EF=BC=8C=E8=BF=
+=99=E6=A0=B7=E5=B0=B1=E4=B8=8D=E8=83=BD=E5=90=8C=E6=97=B6=E9=80=89=E6=8B=A9=
+jrb1=E5=92=8Cjrb2=E3=80=82</P>
+      <P style=3D"LINE-HEIGHT: normal"></P>
+      <P style=3D"LINE-HEIGHT: normal"><STRONG=20
+      style=3D"LINE-HEIGHT: normal">=E4=B9=9D=E3=80=81</STRONG><STRONG=20
+      style=3D"LINE-HEIGHT: =
+normal">=E6=B6=88=E6=81=AF=E5=AF=B9=E8=AF=9D=E6=A1=86</STRONG></P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E5=AF=B9=E8=AF=9D=E6=A1=86=E9=80=9A=E5=B8=B8=E7=94=A8=E4=BD=9C=E4=B8=B4=E6=
+=97=B6=E7=AA=97=E5=8F=A3=EF=BC=8C=E7=94=A8=E6=9D=A5=E6=8E=A5=E5=8F=97=E7=94=
+=A8=E6=88=B7=E7=9A=84=E9=99=84=E5=8A=A0=E4=BF=A1=E6=81=AF=E6=88=96=E6=8F=90=
+=E7=A4=BA=E7=94=A8=E6=88=B7=E5=8F=91=E7=94=9F=E4=BA=86=E6=9F=90=E4=BA=8B=E4=
+=BB=B6=E3=80=82</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E6=B6=88=E6=81=AF=E5=AF=B9=E8=AF=9D=E6=A1=86=E6=98=AF=E4=B8=80=E7=A7=8D=E7=
+=AE=80=E5=8D=95=E5=8D=B4=E9=A2=91=E7=B9=81=E4=BD=BF=E7=94=A8=E7=9A=84=E5=AF=
+=B9=E8=AF=9D=E6=A1=86=EF=BC=8C=E7=94=A8=E6=9D=A5=E6=98=BE=E7=A4=BA=E6=B6=88=
+=E6=81=AF=E6=8F=90=E9=86=92=E7=94=A8=E6=88=B7=E3=80=82</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E6=B6=88=E6=81=AF=E5=AF=B9=E8=AF=9D=E6=A1=86=E6=98=AF=E6=A8=A1=E5=BC=8F=E7=
+=9A=84=EF=BC=8C=E5=8D=B3=E6=B6=88=E6=81=AF=E5=AF=B9=E8=AF=9D=E6=A1=86=E6=B6=
+=88=E5=A4=B1=E5=89=8D=E5=85=B6=E4=BB=96=E7=AA=97=E5=8F=A3=E5=9D=87=E4=B8=8D=
+=E5=8F=AF=E7=94=A8=E3=80=82</P>
+      <P style=3D"LINE-HEIGHT: normal"><STRONG=20
+      style=3D"LINE-HEIGHT: =
+normal">=E5=88=9B=E5=BB=BA=E6=B6=88=E6=81=AF=E5=AF=B9=E8=AF=9D=E6=A1=86</=
+STRONG></P>
+      <P style=3D"LINE-HEIGHT: =
+normal">=C2=A8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =E4=BD=BF=E7=94=A8=20
+      =
+JOptionPane=E7=B1=BB=E4=B8=AD=E7=9A=84=E9=9D=99=E6=80=81=E6=96=B9=E6=B3=95=
+=EF=BC=9A</P>
+      <P=20
+      style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      showMessageDialog(Component parentComponent, Object message, =
+String title,=20
+      int messageType)</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+parentComponet=E6=98=AF=E5=AF=B9=E8=AF=9D=E6=A1=86=E7=9A=84=E7=88=B6=E7=BB=
+=84=E4=BB=B6=EF=BC=8C=E5=AF=B9=E8=AF=9D=E6=A1=86=E9=83=BD=E6=98=AF=E7=94=B1=
+=E5=AE=83=E6=B4=BE=E7=94=9F=E8=80=8C=E6=9D=A5=E7=9A=84=E3=80=82message=E6=
+=98=AF=E8=A6=81=E6=98=BE=E7=A4=BA=E7=9A=84=E5=AF=B9=E8=B1=A1=EF=BC=8C=E5=AE=
+=83=E9=80=9A=E5=B8=B8=E6=98=AF=E4=B8=80=E4=B8=AA=E5=AD=97=E7=AC=A6=E4=B8=B2=
+=E3=80=82title=E6=98=AF=E5=AF=B9=E8=AF=9D=E6=A1=86=E7=9A=84=E6=A0=87=E9=A2=
+=98=E3=80=82messageType=E5=86=B3=E5=AE=9A=E4=BA=86=E6=89=80=E6=98=BE=E7=A4=
+=BA=E6=B6=88=E6=81=AF=E7=9A=84=E7=B1=BB=E5=9E=8B=E3=80=82</P>
+      <P style=3D"LINE-HEIGHT: =
+normal">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      showMessageDialog(Component parentComponent, Object message, =
+String title,=20
+      int messageType, Icon =
+icon)</P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      =
+=E9=99=A4PLAIN_MESSAGE=E5=A4=96=EF=BC=8C=E6=AF=8F=E7=A7=8D=E6=B6=88=E6=81=
+=AF=E9=83=BD=E6=9C=89=E7=9B=B8=E5=BA=94=E7=9A=84=E5=9B=BE=E6=A0=87=EF=BC=8C=
+=E4=BB=A5=E4=B8=8A=E6=96=B9=E6=B3=95=E5=8F=AF=E6=94=AF=E6=8C=81=E8=87=AA=E5=
+=88=B6=E5=9B=BE=E6=A0=87=E3=80=82</DIV>
+      <DIV=20
+      style=3D"FILTER: none; LINE-HEIGHT: normal; ZOOM: 1 !important; =
+FONT-FAMILY: Arial; WORD-WRAP: break-word; HEIGHT: 1px; VISIBILITY: =
+visible !important; COLOR: rgb(102,102,102); CLEAR: both; FONT-SIZE: =
+0px; WORD-BREAK: break-all; -webkit-border-horizontal-spacing: 2px; =
+-webkit-border-vertical-spacing: 2px"=20
+      class=3Dclear></DIV>
+      <DIV=20
+      style=3D"FILTER: none; LINE-HEIGHT: normal; ZOOM: 1 !important; =
+FONT-FAMILY: Arial; WORD-WRAP: break-word; VISIBILITY: visible =
+!important; COLOR: rgb(102,102,102); FONT-SIZE: 12px; WORD-BREAK: =
+break-all; -webkit-border-horizontal-spacing: 2px; =
+-webkit-border-vertical-spacing: 2px"=20
+      class=3DpostDesc></DIV>
+      <DIV=20
+      style=3D"FILTER: none; LINE-HEIGHT: normal; ZOOM: 1 !important; =
+FONT-FAMILY: Arial; WORD-WRAP: break-word; VISIBILITY: visible =
+!important; COLOR: rgb(102,102,102); FONT-SIZE: 12px; WORD-BREAK: =
+break-all; -webkit-border-horizontal-spacing: 2px; =
+-webkit-border-vertical-spacing: 2px"=20
+      class=3Dday>
+      <DIV=20
+      style=3D"FILTER: none; LINE-HEIGHT: normal; ZOOM: 1 !important; =
+FONT-FAMILY: Arial; WORD-WRAP: break-word; VISIBILITY: visible =
+!important; FONT-SIZE: 12px; WORD-BREAK: break-all"=20
+      class=3DpostTitle>
+      <P style=3D"LINE-HEIGHT: normal"><STRONG=20
+      style=3D"LINE-HEIGHT: =
+normal">=E6=80=8E=E4=B9=88=E6=8A=8A=E4=BB=8E=E6=95=B0=E6=8D=AE=E5=BA=93=E9=
+=87=8C=E7=9A=84=E6=95=B0=E6=8D=AE=E8=BE=93=E5=88=B0JTABLE=E9=87=8C=E9=9D=A2=
+</STRONG></P>
+      <P style=3D"LINE-HEIGHT: normal"></P></DIV>
+      <DIV=20
+      style=3D"FILTER: none; LINE-HEIGHT: normal; ZOOM: 1 !important; =
+FONT-FAMILY: Arial; WORD-WRAP: break-word; VISIBILITY: visible =
+!important; FONT-SIZE: 12px; WORD-BREAK: break-all"=20
+      class=3DpostCon>int i=3D0;&nbsp;<BR style=3D"LINE-HEIGHT: =
+normal">int=20
+      column;&nbsp;<BR style=3D"LINE-HEIGHT: normal">Vector vcdata=3Dnew =
+
+      Vector();//=E4=BD=BF=E7=94=A8=E5=AE=B9=E5=99=A8&nbsp;<BR =
+style=3D"LINE-HEIGHT: normal">DefaultTableModel=20
+      dtm=3Dnew DefaultTableModel();&nbsp;<BR style=3D"LINE-HEIGHT: =
+normal">String=20
+      sqlstring=3D"select * from [" + tablename +"]";&nbsp;<BR=20
+      style=3D"LINE-HEIGHT: normal"><BR style=3D"LINE-HEIGHT: =
+normal">try&nbsp;<BR=20
+      style=3D"LINE-HEIGHT: normal">{&nbsp;<BR=20
+      style=3D"LINE-HEIGHT: normal">if(mycon.isClosed()) return =
+"=E6=95=B0=E6=8D=AE=E6=BA=90=E6=9C=AA=E6=89=93=E5=BC=80";&nbsp;<BR=20
+      style=3D"LINE-HEIGHT: normal">Statement=20
+      state_table=3Dmycon.createStatement();&nbsp;<BR=20
+      style=3D"LINE-HEIGHT: normal">ResultSet=20
+      rs_table=3Dstate_table.executeQuery(sqlstring);&nbsp;<BR=20
+      style=3D"LINE-HEIGHT: normal">ResultSetMetaData=20
+      table_property=3Drs_table.getMetaData();&nbsp;<BR=20
+      style=3D"LINE-HEIGHT: =
+normal">column=3Dtable_property.getColumnCount();&nbsp;<BR=20
+      style=3D"LINE-HEIGHT: normal">for (i=3D1;i&lt;column+1; =
+i++)//=E8=8E=B7=E5=BE=97=E5=AD=97=E6=AE=B5=E5=90=8D&nbsp;<BR=20
+      style=3D"LINE-HEIGHT: normal">{&nbsp;<BR=20
+      style=3D"LINE-HEIGHT: =
+normal">vcdata.addElement(table_property.getColumnName(i));&nbsp;<BR=20
+      style=3D"LINE-HEIGHT: normal">}&nbsp;<BR style=3D"LINE-HEIGHT: =
+normal"><BR=20
+      style=3D"LINE-HEIGHT: =
+normal">datatable.setModel(dtm);//=E8=AE=BE=E7=BD=AE=E8=A1=A8=E6=A0=BC=E6=
+=A8=A1=E5=BC=8F=E9=BB=98=E8=AE=A4&nbsp;<BR=20
+      style=3D"LINE-HEIGHT: =
+normal">for(i=3D0;i&lt;vcdata.size();i++)&nbsp;<BR=20
+      style=3D"LINE-HEIGHT: normal">{&nbsp;<BR=20
+      style=3D"LINE-HEIGHT: =
+normal">dtm.addColumn((String)vcdata.elementAt(i));//=E5=86=99=E5=AD=97=E6=
+=AE=B5=E5=90=8D&nbsp;<BR=20
+      style=3D"LINE-HEIGHT: normal">}&nbsp;<BR=20
+      style=3D"LINE-HEIGHT: =
+normal">while(rs_table.next())//=E8=8E=B7=E5=BE=97=E8=A1=8C=E6=95=B0=E6=8D=
+=AE&nbsp;<BR=20
+      style=3D"LINE-HEIGHT: normal">{&nbsp;<BR style=3D"LINE-HEIGHT: =
+normal">Vector=20
+      vRdata=3Dnew =
+Vector();//=E8=A1=8C=E6=95=B0=E6=8D=AE=E5=AE=B9=E5=99=A8&nbsp;<BR=20
+      style=3D"LINE-HEIGHT: =
+normal">for(i=3D0;i&lt;vcdata.size();i++)//=E8=8E=B7=E5=BE=97=E4=B8=80=E8=
+=A1=8C&nbsp;<BR=20
+      style=3D"LINE-HEIGHT: normal">{&nbsp;<BR=20
+      style=3D"LINE-HEIGHT: =
+normal">vRdata.addElement(rs_table.getString((String)vcdata.elementAt(i))=
+);&nbsp;<BR=20
+      style=3D"LINE-HEIGHT: normal">}&nbsp;<BR=20
+      style=3D"LINE-HEIGHT: normal">dtm.addRow(vRdata);&nbsp;<BR=20
+      style=3D"LINE-HEIGHT: normal">}&nbsp;<BR style=3D"LINE-HEIGHT: =
+normal">int=20
+      rownum=3Ddatatable.getRowCount();&nbsp;<BR style=3D"LINE-HEIGHT: =
+normal">int=20
+      height=3Drownum*18;&nbsp;<BR style=3D"LINE-HEIGHT: normal">int=20
+      width=3Ddatatable.getSize().width;&nbsp;<BR=20
+      style=3D"LINE-HEIGHT: normal">Dimension now=3Dnew=20
+      Dimension(width,height);&nbsp;<BR=20
+      style=3D"LINE-HEIGHT: =
+normal">datatable.setPreferredSize(now);&nbsp;<BR=20
+      style=3D"LINE-HEIGHT: normal">return =
+"=E8=8E=B7=E5=BE=97=E6=95=B0=E6=8D=AE=E6=88=90=E5=8A=9F";</DIV>
+      <DIV=20
+      style=3D"FILTER: none; LINE-HEIGHT: normal; ZOOM: 1 !important; =
+FONT-FAMILY: Arial; WORD-WRAP: break-word; HEIGHT: 1px; VISIBILITY: =
+visible !important; CLEAR: both; FONT-SIZE: 0px; WORD-BREAK: break-all"=20
+      class=3Dclear></DIV>
+      <DIV=20
+      style=3D"FILTER: none; LINE-HEIGHT: normal; ZOOM: 1 !important; =
+FONT-FAMILY: Arial; WORD-WRAP: break-word; VISIBILITY: visible =
+!important; FONT-SIZE: 12px; WORD-BREAK: break-all"=20
+      class=3DpostDesc></DIV>
+      <DIV=20
+      style=3D"FILTER: none; LINE-HEIGHT: normal; ZOOM: 1 !important; =
+FONT-FAMILY: Arial; WORD-WRAP: break-word; HEIGHT: 1px; VISIBILITY: =
+visible !important; CLEAR: both; FONT-SIZE: 0px; WORD-BREAK: break-all"=20
+      class=3Dclear></DIV>
+      <DIV=20
+      style=3D"FILTER: none; LINE-HEIGHT: normal; ZOOM: 1 !important; =
+FONT-FAMILY: Arial; WORD-WRAP: break-word; VISIBILITY: visible =
+!important; FONT-SIZE: 12px; WORD-BREAK: break-all"=20
+      class=3DpostSeparator></DIV>
+      <DIV=20
+      style=3D"FILTER: none; LINE-HEIGHT: normal; ZOOM: 1 !important; =
+FONT-FAMILY: Arial; WORD-WRAP: break-word; VISIBILITY: visible =
+!important; FONT-SIZE: 12px; WORD-BREAK: break-all"=20
+      class=3DpostTitle>
+      <P style=3D"LINE-HEIGHT: normal"><STRONG style=3D"LINE-HEIGHT: =
+normal">java=20
+      =
+=E4=B8=AD=E5=A6=82=E4=BD=95=E5=9C=A8JTABLE=E4=B8=AD=E6=98=BE=E7=A4=BA=E8=BF=
+=9E=E6=8E=A5=E6=95=B0=E6=8D=AE=E5=BA=93=E8=A1=A8=E4=B8=AD=E7=9A=84=E6=95=B0=
+=E6=8D=AE</STRONG></P>
+      <P style=3D"LINE-HEIGHT: normal"></P></DIV>
+      <DIV=20
+      style=3D"FILTER: none; LINE-HEIGHT: normal; ZOOM: 1 !important; =
+FONT-FAMILY: Arial; WORD-WRAP: break-word; VISIBILITY: visible =
+!important; FONT-SIZE: 12px; WORD-BREAK: break-all"=20
+      =
+class=3DpostCon>=E5=81=87=E8=AE=BE=E4=BD=A0=E7=9A=84JTable=E5=90=8D=E4=B8=
+=BA jTable<BR style=3D"LINE-HEIGHT: normal">1=EF=BC=8C new=20
+      =E4=B8=80=E4=B8=AADefaultTableModel&nbsp;&nbsp; =
+=E5=81=87=E8=AE=BE=E5=90=8D=E5=AD=97=E5=8F=96=E4=B8=BA myTModel<BR=20
+      style=3D"LINE-HEIGHT: =
+normal">2=EF=BC=8CjTable.setModel(myTModel);<BR=20
+      style=3D"LINE-HEIGHT: normal">3, =
+=E4=BB=8E=E6=95=B0=E6=8D=AE=E5=BA=93=E4=B8=AD=E8=AF=BB=E5=87=BAcolumn =
+names =E5=AD=98=E5=9C=A8 String[]=20
+      colNames;<BR style=3D"LINE-HEIGHT: normal">&nbsp;&nbsp;=20
+      (=E7=94=A8ResultSetMetaData=E8=AF=BB)<BR style=3D"LINE-HEIGHT: =
+normal">3,=20
+      myTModel.addColumn(colNames) =
+=E5=9C=A8=E8=A1=A8=E4=B8=AD=E6=B7=BB=E5=8A=A0=E5=88=97=E5=90=8D<BR=20
+      style=3D"LINE-HEIGHT: =
+normal">4=EF=BC=8C=E9=80=90=E8=A1=8C=E8=AF=BB=E5=87=BA=E8=A1=A8=E5=86=85=E5=
+=AE=B9=EF=BC=8C=E5=AD=98=E5=85=A5=E4=B8=80=E4=B8=AAVector=E4=B8=AD =
+=E5=81=87=E8=AE=BE=E8=BF=99=E4=B8=AAVector=E5=90=8D=E4=B8=BA newRow<BR=20
+      style=3D"LINE-HEIGHT: =
+normal">5=EF=BC=8CmyTModel.addRow(newRow)</DIV></DIV></SPAN>
+      <TABLE>
+        <TBODY>
+        <TR>
+          <TD></TD></TR></TBODY></TABLE>
+      <DIV style=3D"TEXT-ALIGN: center" id=3D360Ad07Below></DIV><SPAN=20
+      id=3D360docIsStranger></SPAN><SPAN id=3DUserPreNextArt =
+class=3Dwenzhang_bt_list>
+      <DIV>=E4=B8=8A=E4=B8=80=E7=AF=87=EF=BC=9A<A=20
+      =
+href=3D"http://www.360doc.com/content/10/0613/12/1551401_32852495.shtml" =
+
+      =
+target=3D_blank>=E5=88=AB=E5=86=8D=E7=94=A8=E4=B8=AD=E5=9B=BD=E4=BA=BA=E7=
+=9A=84=E6=96=B9=E6=B3=95=E8=83=8C=E8=8B=B1=E8=AF=AD=E5=8D=95=E8=AF=8D=E4=BA=
+=86=EF=BC=8C=E8=8B=B1=E5=9B=BD=E4=BA=BA=E6=98=AF=E8=BF=99=E6=A0=B7=E8=83=8C=
+=E7=9A=84=EF=BC=81</A></DIV>
+      <DIV>=E4=B8=8B=E4=B8=80=E7=AF=87=EF=BC=9A<A=20
+      =
+href=3D"http://www.360doc.com/content/10/0624/12/1551401_34942643.shtml" =
+
+      =
+target=3D_blank>=E7=BD=91=E4=B8=8A=E5=AD=A6=E4=B9=A0=E8=80=B6=E9=B2=81=E5=
+=A4=A7=E5=AD=A6=E3=80=81=E6=96=AF=E5=9D=A6=E7=A6=8F=E5=A4=A7=E5=AD=A6=E3=80=
+=81=E7=BE=8E=E5=9B=BD=E9=BA=BB=E7=9C=81=E7=90=86=E5=B7=A5=E5=85=A8=E9=83=A8=
+=E5=85=AC=E5=BC=80=E8=AF=BE=E7=A8=8B=EF=BC=8C=E9=AB=98=E6=B8=85=E7=89=88=EF=
+=BC=8C=E5=BE=88=E5=85=A8=E5=BE=88=E7=B2=BE=E5=8D=8E</A></DIV></SPAN>
+      <DIV class=3Dwenzhang_cz2><SPAN id=3DsaverDiv></SPAN><SPAN=20
+      id=3D360docCopyArtUrl></SPAN>&nbsp; (<SPAN class=3Dlink_green><A=20
+      href=3D"http://www.360doc.com/userhome/1551401"=20
+      target=3D_blank>=E6=9D=A8=E5=B0=9A=E4=BC=9F2010</A></SPAN> =
+=E7=9A=84=E5=88=86=E7=B1=BB=E7=9B=AE=E5=BD=95 <SPAN =
+class=3Dlink_underlinecg>[<A=20
+      =
+href=3D"http://www.360doc.com/userhome.aspx?userid=3D1551401&amp;cid=3D2"=
+=20
+      target=3D_blank>=E5=AD=A6=E4=B9=A0</A>])</SPAN> </DIV>
+      <DIV id=3Dad02New class=3Dad02></DIV>
+      <DIV=20
+      style=3D"POSITION: absolute; PADDING-LEFT: 13px; WIDTH: 120px; =
+WORD-BREAK: break-all; TOP: 250px; LEFT: 0px"=20
+      id=3Ddivadleft>
+      <SCRIPT type=3Dtext/javascript><!--
+         function leftshow()
+         {
+            var screenwidth=3Dscreen.availWidth;
+            var ad_left=3D '';
+            try
+            {
+                if(screenwidth>1200)=20
+                {=20
+                    ad_left+=3D'<'+'script type=3D\"text/javascript\">';
+                    ad_left+=3D'google_ad_client =3D =
+"pub-6625678643128649";';
+                    ad_left+=3D'google_ad_slot =3D\"7792148991\";';
+                    ad_left+=3D'google_ad_width =3D120;';
+                    ad_left+=3D'google_ad_height =3D 600;'; =20
+                    ad_left+=3D'</'+'script>';
+                    ad_left+=3D'<'+'script type=3D\"text/javascript\"';
+                    =
+ad_left+=3D'src=3D\"http://pagead2.googlesyndication.com/pagead/show_ads.=
+js\">';
+                    ad_left+=3D'</'+'script>';
+                }
+                document.write(ad_left);
+            }
+            catch(e)
+            {
+            }
+        }
+=20
+        leftshow();
+        -->
+                            </SCRIPT>
+
+      <DIV=20
+      style=3D"BACKGROUND-COLOR: #fff; PADDING-RIGHT: 2px; FLOAT: right; =
+PADDING-TOP: 2px"=20
+      class=3Dlink_underline><A=20
+      =
+onclick=3D"document.getElementById('divadleft').style.display=3D'none'"=20
+      =
+href=3D"http://www.360doc.com/content/10/0615/10/1551401_33178240.shtml#"=
+>=E5=85=B3=E9=97=AD</A></DIV></DIV>
+      <SCRIPT>
+    var screenwidth=3Dscreen.availWidth;
+    try
+    {
+        if(screenwidth<=3D1200)=20
+        {=20
+            document.getElementById("divadleft").style.display=3D"none";
+            =
+document.getElementById("divadright").style.display=3D"none";
+        }  =20
+    }
+    catch(e)
+    {
+    }
+                        </SCRIPT>
+      =EF=BB=BF=20
+      <DIV =
+class=3Dwenzhang_bt>=E7=9B=B8=E5=85=B3=E6=96=87=E7=AB=A0</DIV>
+      <DIV class=3Dwenzhang_bt_list>
+      <UL>
+        <LI><A=20
+        =
+href=3D"http://www.360doc.com/content/08/0118/17/26823_984675.shtml"=20
+        =
+target=3D_blank>Java=E5=9B=BE=E5=BD=A2=E7=94=A8=E6=88=B7=E7=95=8C=E9=9D=A2=
+=E8=AE=BE=E8=AE=A1</A><SPAN class=3D"time3 link_green">2008-01-18=20
+        &nbsp;&nbsp;&nbsp;&nbsp;<A =
+href=3D"http://www.360doc.com/UserHome/26823"=20
+        target=3D_blank>N_once</A></SPAN> </LI>
+        <LI><A =
+href=3D"http://www.360doc.com/content/06/0422/20/5874_103216.shtml"=20
+        =
+target=3D_blank>Axis+Tomcat=E6=A8=A1=E6=8B=9F=E4=B8=80=E4=B8=AA=E9=93=B6=E8=
+=A1=8C=E5=AD=98=E5=8F=96=E6=AC=BE=E6=9C=8D=E5=8A=A1</A><SPAN=20
+        class=3D"time3 link_green">2006-04-22 &nbsp;&nbsp;&nbsp;&nbsp;<A =
+
+        href=3D"http://www.360doc.com/UserHome/5874"=20
+        target=3D_blank>figol</A></SPAN> </LI>
+        <LI><A =
+href=3D"http://www.360doc.com/content/06/0911/11/3195_204339.shtml"=20
+        =
+target=3D_blank>=E4=B8=80=E4=B8=AA=E6=BC=82=E4=BA=AEXP=E9=A3=8E=E6=A0=BC=E7=
+=9A=84GUI</A><SPAN class=3D"time3 link_green">2006-09-11=20
+        &nbsp;&nbsp;&nbsp;&nbsp;<A =
+href=3D"http://www.360doc.com/UserHome/3195"=20
+        target=3D_blank>codeman</A></SPAN> </LI>
+        <LI><A=20
+        =
+href=3D"http://www.360doc.com/content/09/1111/11/59141_8792079.shtml"=20
+        target=3D_blank>Jigloo =E5=BC=80=E5=8F=91 Swing =
+=E7=9A=84=E5=85=A5=E9=97=A8=E6=95=99=E7=A8=8B</A><SPAN=20
+        class=3D"time3 link_green">2009-11-11 &nbsp;&nbsp;&nbsp;&nbsp;<A =
+
+        href=3D"http://www.360doc.com/UserHome/59141"=20
+        target=3D_blank>9loong</A></SPAN> </LI>
+        <LI><A=20
+        =
+href=3D"http://www.360doc.com/content/08/0820/17/59141_1559778.shtml"=20
+        target=3D_blank>Java =
+=E7=90=86=E8=AE=BA=E4=B8=8E=E5=AE=9E=E8=B7=B5: =
+=E4=BD=BF=E7=94=A8=E6=B3=9B=E5=9E=8B=E5=92=8C=E5=B9=B6=E5=8F=91=E6=94=B9=E5=
+=96=84=E9=9B=86=E5=90=88</A><SPAN=20
+        class=3D"time3 link_green">2008-08-20 &nbsp;&nbsp;&nbsp;&nbsp;<A =
+
+        href=3D"http://www.360doc.com/UserHome/59141"=20
+        target=3D_blank>9loong</A></SPAN> </LI>
+        <LI><A =
+href=3D"http://www.360doc.com/content/05/0820/08/717_7365.shtml"=20
+        target=3D_blank>matrix - =E4=B8=8E java =E5=85=B1=E8=88=9E - =
+java=E6=B7=B7=E6=B7=86=E7=BC=96=E8=AF=91=E5=99=A8(=E8=BD=AC...</A><SPAN=20
+        class=3D"time3 link_green">2005-08-20 &nbsp;&nbsp;&nbsp;&nbsp;<A =
+
+        href=3D"http://www.360doc.com/UserHome/717"=20
+        target=3D_blank>qzg589</A></SPAN> </LI>
+        <LI><A =
+href=3D"http://www.360doc.com/content/06/0629/13/7469_145277.shtml"=20
+        =
+target=3D_blank>JAVA=E6=96=87=E4=BB=B6=E5=8A=A0=E5=AF=86=E5=99=A8(=E6=94=B6=
+=E8=97=8F)</A><SPAN class=3D"time3 link_green">2006-06-29=20
+        &nbsp;&nbsp;&nbsp;&nbsp;<A =
+href=3D"http://www.360doc.com/UserHome/7469"=20
+        target=3D_blank>kevin2006</A></SPAN> </LI>
+        <LI><A=20
+        =
+href=3D"http://www.360doc.com/content/06/0904/17/11344_198633.shtml"=20
+        =
+target=3D_blank>ListView=E6=8E=A7=E4=BB=B6=E5=B1=9E=E6=80=A7=E3=80=81=E6=96=
+=B9=E6=B3=95=E3=80=81=E4=BA=8B=E4=BB=B6 - =
+=E8=8A=B1=E7=8B=90=E7=8B=B8=E7=9A=84=E5=AE=B6</A><SPAN=20
+        class=3D"time3 link_green">2006-09-04 &nbsp;&nbsp;&nbsp;&nbsp;<A =
+
+        href=3D"http://www.360doc.com/UserHome/11344"=20
+        target=3D_blank>gmtyt</A></SPAN> </LI></UL>
+      <DIV style=3D"FLOAT: right; FONT-SIZE: 12px" =
+class=3Dlink_underline><A=20
+      href=3D"http://www.360doc.com/relevant/33178240_more.shtml"=20
+      =
+target=3D_blank>=E6=9F=A5=E7=9C=8B=E6=9B=B4=E5=A4=9A=E6=96=87=E7=AB=A0&gt=
+;&gt;</A></DIV></DIV>
+      <DIV id=3DadbelowRel>
+      <SCRIPT type=3Dtext/javascript> =
+/*728*15=EF=BC=8C=E5=88=9B=E5=BB=BA=E4=BA=8E2010-8-20=EF=BC=8C=E6=96=87=E7=
+=AB=A0=E9=A1=B5=E4=B8=8B=E6=96=B9*/=20
+var cpro_id =3D 'u160114';</SCRIPT>
+
+      <SCRIPT type=3Dtext/javascript=20
+      src=3D"http://cpro.baidu.com/cpro/ui/c.js"></SCRIPT>
+      </DIV>
+      <DIV><SPAN id=3DReflction>
+      <DIV id=3D360docRefTN class=3Dwenzhang_bt></DIV>
+      <DIV id=3D360docRefCT></DIV>
+      <DIV id=3D360docRefPB></DIV></SPAN></DIV>
+      <DIV class=3Dwenzhang_bt>=E5=8F=91=E8=A1=A8=E8=AF=84=E8=AE=BA =
+<SPAN id=3DisLogInSpan=20
+      class=3D"wenzhang_pl_fb_tit link_red"></SPAN></DIV>
+      <DIV id=3DloginNickname class=3Dwenzhang_bt_1></DIV>
+      <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
+        <TBODY>
+        <TR>
+          <TD vAlign=3Dtop align=3Dleft><TEXTAREA style=3D"WIDTH: 95%" =
+id=3DTextBox1 rows=3D12 name=3Dtextarea></TEXTAREA>=20
+          </TD>
+          <TD id=3D360docTdAdID vAlign=3Dtop align=3Dright>
+            <DIV id=3D360docAdReflection></DIV></TD></TR>
+        <TR>
+          <TD height=3D5></TD>
+          <TD></TD></TR>
+        <TR>
+          <TD>
+            <DIV id=3D360docRelfection align=3Dleft><INPUT id=3DisCopy =
+value=3D""=20
+            CHECKED type=3Dcheckbox =
+name=3D"">=E5=8F=91=E9=80=81=E8=AF=84=E8=AE=BA=E6=97=B6=E5=86=85=E5=AE=B9=
+=E8=87=AA=E5=8A=A8=E5=A4=8D=E5=88=B6=E5=88=B0=E5=89=AA=E5=88=87=E6=9D=BF =
+<INPUT id=3DButton1 class=3Dbotton onclick=3DSubmitReflection(); =
+value=3D=E5=8F=91=E9=80=81 type=3Dbutton name=3D"">=20
+            </DIV></TD>
+          <TD></TD></TR></TBODY></TABLE></TD>
+    <TD width=3D10></TD>
+    <TD vAlign=3Dtop align=3Dmiddle>
+      <DIV>
+      <SCRIPT type=3Dtext/javascript>google_ad_client =3D =
+'pub-6625678643128649';google_ad_slot =3D '0378477824';google_ad_width =
+=3D 180;google_ad_height =3D 90;</SCRIPT>
+
+      <SCRIPT type=3Dtext/javascript=20
+      =
+src=3D"http://pagead2.googlesyndication.com/pagead/show_ads.js"></SCRIPT>=
+
+      </DIV>
+      <DIV style=3D"WIDTH: 178px" class=3DWidthRight>
+      <DIV =
+class=3Dwenzhang_bt>=E7=83=AD=E7=82=B9=E6=8E=A8=E8=8D=90</DIV>
+      <DIV class=3Dwenzhang_bt_listCG>
+      <UL>
+        <LI><A=20
+        =
+href=3D"http://www.360doc.com/content/09/0208/15/97282_2489227.shtml"=20
+        =
+target=3D_blank>200=E5=A4=9A=E5=BC=A0=E7=BE=8E=E4=B8=BD=E6=A1=8C=E9=9D=A2=
+=E5=A3=81=E7=BA=B8... </A></LI>
+        <LI><A=20
+        =
+href=3D"http://www.360doc.com/content/09/0403/21/18407_3013615.shtml"=20
+        =
+target=3D_blank>=E9=87=8D=E5=BA=86=E7=81=AB=E9=94=85=E7=BB=9D=E5=AF=86=E9=
+=85=8D=E6=96=B9 =E7=9C=8B=E5=AE=8C... </A></LI>
+        <LI><A=20
+        =
+href=3D"http://www.360doc.com/content/07/1128/07/16755_853693.shtml"=20
+        =
+target=3D_blank>=E8=90=A8=E7=A7=91=E9=BD=90=E5=9C=A8=E6=B8=85=E5=8D=8E=E5=
+=A4=A7=E5=AD=A6=E5=8F=91=E8=A1=A8=E6=BC=94... </A></LI>
+        <LI><A=20
+        =
+href=3D"http://www.360doc.com/content/09/0206/13/55073_2473024.shtml"=20
+        =
+target=3D_blank>=E6=9E=81=E5=93=81=E7=94=B7=E5=A5=B3=E5=8F=8C=E4=BF=AE=E6=
+=B3=95=E5=88=99 </A></LI>
+        <LI><A=20
+        =
+href=3D"http://www.360doc.com/content/09/0126/16/92346_2400921.shtml"=20
+        =
+target=3D_blank>=E8=BE=B9=E6=A1=86=E7=8E=B0=E6=88=90=E6=A8=A1=E6=9D=BF=E6=
+=9E=81=E5=93=81=EF=BC=881=EF=BC=89 </A></LI>
+        <LI><A=20
+        =
+href=3D"http://www.360doc.com/content/10/0623/16/1251631_34801952.shtml" =
+
+        target=3D_blank>=E5=BC=B9=E3=80=90=E9=9F=B3=E7=94=BB=E3=80=91 =
+</A></LI>
+        <LI><A=20
+        =
+href=3D"http://www.360doc.com/content/08/0320/23/42071_1132456.shtml"=20
+        =
+target=3D_blank>=E8=A5=BF=E5=8F=8C=E7=89=88=E7=BA=B3=E9=A3=8E=E5=85=89 =
+</A></LI>
+        <LI><A=20
+        =
+href=3D"http://www.360doc.com/content/07/0526/01/18576_521268.shtml"=20
+        target=3D_blank>=E6=98=A8=E5=A4=9C=E7=9A=84=E6=80=9D=E5=BF=B5 =
+</A></LI>
+        <LI><A=20
+        =
+href=3D"http://www.360doc.com/content/09/0119/06/83855_2362117.shtml"=20
+        =
+target=3D_blank>=E7=8F=8D=E8=B4=B5=E8=80=81=E7=85=A7=E7=89=87=E7=B3=BB=E5=
+=88=97(=E4=B9=9D)=E3=80=90... </A></LI>
+        <LI><A=20
+        =
+href=3D"http://www.360doc.com/content/07/1004/14/43728_787926.shtml"=20
+        =
+target=3D_blank>=E5=A5=B3=E4=BA=BA=E4=B8=8D=E5=B9=B8=E7=9A=8412=E4=B8=AA=E5=
+=BC=80=E5=A7=8B-... </A></LI>
+        <LI><A=20
+        =
+href=3D"http://www.360doc.com/content/07/0304/17/17433_384292.shtml"=20
+        =
+target=3D_blank>=E7=9C=8B=E6=83=85=E5=9C=BA=E9=AB=98=E6=89=8B=E5=A6=82=E4=
+=BD=95=E8=BE=A8=E5=88=AB=E5=A5=B3=E4=BA=BA </A></LI>
+        <LI><A =
+href=3D"http://www.360doc.com/content/06/0606/18/2311_129567.shtml"=20
+        =
+target=3D_blank>=E5=87=A0=E6=AC=BE=E5=BE=88=E5=AE=9E=E7=94=A8=E7=9A=84=E8=
+=BD=AF=E4=BB=B6=EF=BC=8C=E4=B9=9F=E8=AE=B8... </A></LI>
+        <LI><A=20
+        =
+href=3D"http://www.360doc.com/content/09/0103/20/75263_2253805.shtml"=20
+        =
+target=3D_blank>=E6=B6=88=E7=81=AD=E8=A1=A3=E6=9C=8D=E4=B8=8A=E7=9A=84=E4=
+=BB=BB=E4=BD=95=E6=B1=A1=E6=B8=8D=E7=9A=84... </A></LI>
+        <LI><A=20
+        =
+href=3D"http://www.360doc.com/content/09/0125/09/83855_2396492.shtml"=20
+        target=3D_blank>&lt;&lt;=E8=87=AA=E7=84=B6-... </A></LI>
+        <LI><A=20
+        =
+href=3D"http://www.360doc.com/content/09/0417/16/39819_3165976.shtml"=20
+        =
+target=3D_blank>=E8=B4=A1=E7=8C=AE=E7=A5=96=E4=BC=A0=E7=A7=98=E6=96=B9=EF=
+=BC=9A=E7=99=BD=E8=8A=B7=E6=B1=A4=E4=B8=80... </A></LI>
+        <LI><A=20
+        =
+href=3D"http://www.360doc.com/content/09/0113/17/96201_2326759.shtml"=20
+        =
+target=3D_blank>=E4=B8=80=E4=B8=AA=E6=9C=88=E5=8A=AA=E5=8A=9B,=E6=88=91=E7=
+=9A=84=E8=8B=B1=E8=AF=AD=E5=90=AC... </A></LI>
+        <LI><A=20
+        =
+href=3D"http://www.360doc.com/content/09/0319/10/18652_2853288.shtml"=20
+        =
+target=3D_blank>=E6=98=BE=E5=BE=AE=E9=95=9C=E4=B8=8B=E7=9A=84=E4=BA=BA=E4=
+=BD=93=E5=9B=BE=E7=89=87 </A></LI>
+        <LI><A=20
+        =
+href=3D"http://www.360doc.com/content/08/0827/15/9807_1581620.shtml"=20
+        =
+target=3D_blank>=E4=B8=89=E5=9B=BD=E5=90=8D=E4=BA=BA=E4=BB=AC=E7=9A=84=E7=
+=90=86=E6=83=B3 </A></LI>
+        <LI><A=20
+        =
+href=3D"http://www.360doc.com/content/09/0307/15/82243_2738712.shtml"=20
+        target=3D_blank>=E7=99=BE=E5=B2=81=E5=81=A5=E5=BA=B7 =
+=E4=B8=AD=E5=B9=B4=E6=98=AF=E5=85=B3=E9=94=AE! </A></LI>
+        <LI><A =
+href=3D"http://www.360doc.com/content/06/1120/14/6328_266409.shtml"=20
+        =
+target=3D_blank>2006=E5=B9=B4=E5=8D=81=E6=9C=88=E5=BE=B7=E5=9B=BD=E4=B8=93=
+=E4=B8=9A... </A></LI></UL><BR></DIV></DIV>
+      <DIV id=3DAdArtRight align=3Dcenter></DIV>
+      <DIV id=3D360docAdBetween></DIV>
+      <DIV style=3D"WIDTH: 178px" class=3DWidthRight>
+      <DIV =
+class=3Dwenzhang_bt>=E4=B8=BB=E9=A2=98=E9=98=85=E8=AF=BB</DIV>
+      <DIV class=3Dwenzhang_bt_listCG>
+      <UL>
+        <LI><A=20
+        =
+href=3D"http://www.360doc.com/content/09/1208/21/363482_10671368.shtml"=20
+        =
+target=3D_blank>=E3=80=8A=E8=9C=97=E5=B1=85=E3=80=8B=E5=8F=B0=E8=AF=8D100=
+=E5=8F=A5=E8=A1=80... </A></LI>
+        <LI><A=20
+        =
+href=3D"http://www.360doc.com/content/09/1209/12/380202_10707617.shtml"=20
+        =
+target=3D_blank>=E9=92=B1=E5=B0=8F=E6=A0=B7=E7=BB=8F=E5=85=B8=E8=AF=AD=E5=
+=BD=95=E3=80=82=E5=A4=AA=E7=BB=8F=E5=85=B8... </A></LI>
+        <LI><A=20
+        =
+href=3D"http://www.360doc.com/content/09/0412/21/58423_3109544.shtml"=20
+        =
+target=3D_blank>=E3=80=8A=E6=BD=9C=E4=BC=8F=E3=80=8B=E7=BB=8F=E5=85=B8=E5=
+=8F=B0=E8=AF=8D =E8=AE=A9=E4=BD=A0... </A></LI>
+        <LI><A =
+href=3D"http://www.360doc.com/content/05/1231/13/2778_52071.shtml"=20
+        =
+target=3D_blank>=E7=BB=8F=E5=85=B8=E7=94=B5=E5=BD=B1=E5=AF=B9=E7=99=BD =
+</A></LI>
+        <LI><A=20
+        =
+href=3D"http://www.360doc.com/content/09/1205/11/559301_10411986.shtml"=20
+        =
+target=3D_blank>=E7=94=B5=E8=A7=86=E5=89=A7=E3=80=8A=E4=BA=BA=E6=B4=BB=E4=
+=B8=80=E5=BC=A0=E8=84=B8=E3=80=8B=E7=BB=8F... </A></LI>
+        <LI><A=20
+        =
+href=3D"http://www.360doc.com/content/09/0718/15/178722_4328260.shtml"=20
+        =
+target=3D_blank>=E3=80=8A=E4=B8=8E=E9=9D=92=E6=98=A5=E6=9C=89=E5=85=B3=E7=
+=9A=84=E6=97=A5=E5=AD=90=E3=80=8B=E5=8F=B0... </A></LI>
+        <LI><A =
+href=3D"http://www.360doc.com/content/05/1202/12/2224_39095.shtml"=20
+        =
+target=3D_blank>=E3=80=8A=E5=9B=BD=E4=BA=A7=E5=87=8C=E5=87=8C=E6=BC=86=E3=
+=80=8B=E7=B2=BE=E5=BD=A9=E5=AF=B9=E7=99=BD </A></LI>
+        <LI><A=20
+        =
+href=3D"http://www.360doc.com/content/09/1102/15/79108_8273802.shtml"=20
+        =
+target=3D_blank>=E3=80=8A=E5=8A=9F=E5=A4=AB=E7=86=8A=E7=8C=AB=E3=80=8B=E7=
+=9A=84=E5=93=B2=E5=AD=A6=E5=AF=B9=E7=99=BD </A></LI>
+        <LI><A=20
+        =
+href=3D"http://www.360doc.com/content/09/0801/02/195112_4586671.shtml"=20
+        =
+target=3D_blank>=E4=BC=BC=E6=B0=B4=E5=B9=B4=E5=8D=8E=E7=BB=8F=E5=85=B8=E8=
+=AF=AD=E5=BD=95=E5=AF=B9=E7=99=BD </A></LI>
+        <LI><A=20
+        =
+href=3D"http://www.360doc.com/content/09/1120/08/470259_9389996.shtml"=20
+        =
+target=3D_blank>=E3=80=8A=E6=BD=9C=E4=BC=8F=E3=80=8B=E4=BC=97=E6=98=9F=E7=
+=8B=AC=E7=99=BD=E4=B9=8B=EF=BC=9A=E5=90=B4... </A></LI>
+        <LI><A=20
+        =
+href=3D"http://www.360doc.com/content/09/0917/20/312381_6103359.shtml"=20
+        =
+target=3D_blank>=E8=B6=8A=E7=8B=B1=E5=8D=81=E5=A4=A7=E7=BB=8F=E5=85=B8=E5=
+=8F=B0=E8=AF=8D </A></LI>
+        <LI><A=20
+        =
+href=3D"http://www.360doc.com/content/09/0704/09/171189_4132497.shtml"=20
+        =
+target=3D_blank>30=E5=8F=A5=E8=AE=A9=E4=BA=BA=E8=AE=B0=E5=BF=86=E6=B7=B1=E5=
+=88=BB=E7=9A=84=E5=9B=BD... </A></LI></UL><BR></DIV></DIV>
+      <DIV id=3DGetbook_list =
+class=3DWidthRight></DIV></TD></TR></TBODY></TABLE></DIV>
+<SCRIPT language=3Djavascript type=3Dtext/javascript>var =
+ArticleID=3D33178240;var userid=3D1551401;var =
+SearchByArt=3D"href=3D'http://www.google.com.hk/search?hl=3Dzh-CN&amp;q=3D=
+%e5%b1%9e%e6%80%a7%2bicon%2bswingconstants&amp;lr=3Dlang_zh-CN' =
+target=3D'_blank'";var xmlHttp=3Dnull;var xmlDom =3Dnull;var xslDom =
+=3Dnull;</SCRIPT>
+
+<SCRIPT language=3Djavascript type=3Dtext/javascript>
+ var appName =3D navigator.appName.toLowerCase();
+   if (appName.indexOf("microsoft internet explorer")>-1)
+   {
+       document.write("<scr"+"ipt type=3D'text/javascript' =
+src=3D'http://www.360doc.com/js/StickySystemIE090401.js'></sc"+"ript>"); =
+     =20
+   }
+   else
+   {
+      document.write("<scr"+"ipt type=3D'text/javascript' =
+src=3D'http://www.360doc.com/js/StickySystemOther090401.js'></sc"+"ript>"=
+);
+   }
+
+</SCRIPT>
+
+<SCRIPT>GerLookingUserInfo(1,1551401,1);</SCRIPT>
+
+<SCRIPT type=3Dtext/javascript =
+src=3D"http://www.360doc.com/js/albb3.js"></SCRIPT>
+
+<DIV class=3Dfooter>
+<DIV>=E5=8C=97=E4=BA=AC=E5=85=AD=E6=99=BA=E4=BF=A1=E6=81=AF=E6=8A=80=E6=9C=
+=AF=E6=9C=89=E9=99=90=E5=85=AC=E5=8F=B8&nbsp;&nbsp;Copyright =C2=A9 =
+2005-2010 360doc.com ,&nbsp;&nbsp;All=20
+Rights Reserved </DIV>
+<DIV style=3D"PADDING-TOP: 5px"><A =
+href=3D"http://www.360doc.com/service.html"=20
+target=3D_blank>=E6=9C=8D=E5=8A=A1=E6=9D=A1=E6=AC=BE</A> <A =
+onclick=3D"setHomepage('http://www.360doc.com')"=20
+href=3D"javascript:void(0)">=E8=AE=BE360doc=E4=B8=BA=E9=A6=96=E9=A1=B5</A=
+> <A=20
+href=3D"http://www.360doc.com/advice.html" =
+target=3D_blank>=E7=95=99=E8=A8=80=E4=BA=A4=E6=B5=81</A> <A=20
+href=3D"http://www.360doc.com/contactus.html" =
+target=3D_blank>=E8=81=94=E7=B3=BB=E6=88=91=E4=BB=AC</A> <A=20
+href=3D"http://www.360doc.com/friendlink.html" =
+target=3D_blank>=E5=8F=8B=E6=83=85=E9=93=BE=E6=8E=A5</A>=20
+=E5=AE=A2=E6=9C=8DQQ:524562434&nbsp;&nbsp; </DIV>
+<DIV>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 align=3Dcenter>
+  <TBODY>
+  <TR>
+    <TD>
+      <DIV><A href=3D"http://www.miibeian.gov.cn/"=20
+      =
+target=3D_blank>=E4=BA=ACICP=E8=AF=81090625=E5=8F=B7</A>&nbsp;&nbsp;=E4=BA=
+=ACICP=E5=A4=8705038915=E5=8F=B7&nbsp;&nbsp;=E5=8C=97=E4=BA=AC=E5=B8=82=E5=
+=85=AC=E5=AE=89=E5=B1=80=E6=9C=9D=E9=98=B3=E5=88=86=E5=B1=80=E5=A4=87=E6=A1=
+=88=E7=BC=96=E5=8F=B7:1101051118=20
+      </DIV></TD>
+    <TD><A=20
+      =
+href=3D"http://www.hd315.gov.cn/beian/view.asp?bianhao=3D0102020091207000=
+06"=20
+      target=3D_blank><IMG =
+src=3D"http://pubimage.360doc.com/biaoshi.gif"></A>=20
+  </TD></TR></TBODY></TABLE></DIV></DIV></DIV></BODY></HTML>
+
+------=_NextPart_000_0000_01CBE333.32474580
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.360doc.com/images/new/logo.gif
+
+R0lGODlhkwA/AOZ/AM/l8QB8uL/o8kCYx6/V6AGRwQBltX/U5QChyAGJvgFWqACGvQB6xgCkyTCa
+yACZxQB2tZCq0kC01ACAuu/2+gB5twCcx4+02ACuzACoy3+52d/t9Y/X6d/z+QCI0wSOwL/d7e/5
+/H/N4n/K4Z/K4hKZxjC91ilosBCCvACa5H/C3oDF31G31gCUw2DL3iCn51Cq0UCu0QJHnZ/c61DG
+3EC61zCOwwCBzHHC3WCp0BCrzWG523Cy1gCXxACQ2nC52a/i7jx3uAKMv0C063+826DT6EDC2VCh
+zTCoziCGvX+w2JLB3hCNwJ/P5RB8uH+/3b/g7iC40iCMwZ/h7IHH4HDR4hCzz7Db64/J5EC/2ABx
+vv3qv/jAQPrVf/767/ewEP703/3vz/nLYPvaj/zfn/e2IPi7MPzlr/nFUPrQcACfxwCDuwCry8/u
+9Y/E34/O6UChzQI4lH/M8TCa19/w93SLwSKax3+433DD7DCv0hBjrxCm6n/I4ABzs/arAP///yH5
+BAEAAH8ALAAAAACTAD8AAAf/gH+Cg4SFhoeIiYqLjI2Oj5CRkpOUlZaXmJmam5ydnp+goaKjpI0U
+WHMeHj4+LzsCgwIvHKW1tpFHDDe7qqw+Qx1yKSl7HbeVUDMiLBLNNTUSLgczbceLYVt/AFoM3byr
+rMPDQ9aPdG8xPT0PDxbuFmoI8ggNDTo0M8bHW2RdaGZ+vnARdEcLN13ffA17oa9coiJICrRooY5d
+O3dq4tGrVy9DBhpTSJ0Z02/Mli1hDtkweHDXjV4+8ITw4sWhoRBUSnwoIHGiuhIsRMwQICDEnxBE
+ZxyoocMjmyghbQ4CYMAAS2+83njp8iWbVEFX7HwYy3MikjfVHLXhYILNUyBf//8oqWrVINYiW/z4
+8WozBAwhgMmWwNFQUocqVjDQMCo1CN26B5/k3SsVAJMECQALKUGF8aUQB6xYgXWrS5mpehQ8tntn
+Ml9rTTDLFsJiQ6cQVTDQKrWljJnXFxQIp2uwtd7Xt5qsWcA8AZMroQREcTHKS5oyZA4FET686hLX
+5ZQvZ+4gbagQNKiDOmMmO6INCmRwVw0A/DEoE9YsT+DA86gD6nECBhpd1KRIBDLIJ9wJf9hnCx0o
+6Kdff7dMEZUmYxSISBhjEBJEgvIt0eBxx8AxwYlrOECBNVOYdwkZYCQSxhdiELKBDHHIEIQgDpbi
+RgAnTsDEiuX4B8qM7hESQf8cJxDZ4yghoBAAkBNAEVcoYZSBHBjZ1EHkiJTVQsSUQP5wJShkmJFS
+IWKgYciToVAg5ZRSfBkJSopsEeMkYKQhSBh78rjmH2GckUiaBhKyxReJDgInKG5UUMGUTVAixhc0
+NkoIF10UAsYXeoUaao2O+iFIF36IYaAZYqC0RRpdndQoGaQawkWSipJYig2SBiAFn1yUEYYXwSIn
+iBlu5loTF62idMZAW3DBBUDSVssoGH5woZcZ1XLxRaeCkNHhIc8i8qgnG0DQqxuRbPVFGl5E+weq
+YgQqSECF5EWsH2ikkaq8YXTRhRh+CIwqGMNeeukXaFRL8J5nGIqIGfbmGub/KCSoK6mdjYSBhlfy
+/jEgrmfoJTGPBTMbkBnxDlSqINgOwkW/2BQs8MWKjDHuIed2koPGR1wS8iEzi+EyyrD6UYYYZQQ0
+UNOiivpFjAKPWC3OiHiRrLm6jjIABOqya8nQhZSspx875wWGF2f4lk25XG4xxl4nnURZ1XkZDO4i
+Y1Scb9eigK0uCEIfTciMfv4xt3t5/YEGgVz4SXbjg3hh6rxdnEFG1HsjAkbnPAMeSh+CY0L2H1ul
+SgjBnerLYRfBflHuy39IW8YXpwI09yBigG7Izon0zAnpECRhuuGKl3HyIHMXCFDUenVOed0GckXG
+ZKH67ikjwm/SB+kDYOLF/6CMrP1IvNZ0r8n3EIQvCVJExS///EaeWfkZBvcNprGfsO9+JALAiDw4
+4hQ2YOCAGDDBhRIRgitQgQUxiKAEYtCMCkLjGRjMQg2ywMEsGOGDRnABB1xUiDGAKmppeFSftKUX
+huHKc2NIg7TEoL/v9eF/kHjDRTIywI5kwC0ITGD9BEGHHQSGJz2hiEXewcON+PCHBgwiVAxBML2U
+oWFQe56xUAW9bZGPEF6oIvT+YIPv4fARI1jHDjVCQCgi0ASHUMECMBOYnZSFImpc4zw40gCPuDGI
+RvDM3ALymjOcEGtiFMMZTjIGqE3NEDMKFadgp5c/5OB7TpgEH/DIDgE60f+PQMTAAikAg/HMMTNC
+IEsSK3IReGjkkwWM4gFNYBQvnPCLhArVazYXkC+GUS/I8wLU0GCvPv3BDTbkWCNY0BM1MrGHfXQj
+DQgBg/zopzl0HIsdJ8LJVjaRj6AMpWL+wMtasQlwUOOfMPVCPi5uzRAbsCHhIoGDCNqzgs3QgQWg
+6ZQsDKIJU0KRKemYSjuucomedGI0/4iBNlQRl+HqWhiAmYhBdg5UjFJEEr7HA090IA977Mg0BSEF
+MgVpDUz4gQpUsIKWUuGlVOADH0ZA0xGI4KY4vekBRLAUH7rFgAdgYfC6Nkjg/Y1fpVKdIpDZBxt8
+AgjwgOYBBAEASU0qoEz/sM0mXECPcNJAqFy7GBf5NwiKCmKQL4SnDbW6CSCUACOvnOofCAA2q06J
+CERswkpVcIUhFqGmNL1pIQQATo98tZKIKJlYRVcIs86LsYa4ZB86OgmCbtMnnXQlAtKiAeJpLABN
+IIADBMqcBeyAYxHxiRoHC80+BlUvmhrEWGWrl7QOYqJIPZXJGBHPPjhBmYwAADYLekdWwoMFg+gs
++9QVAF4FVKDLYQIACHFZiiChEEB4JUcO4C8/2PYPWhyEYs1ZCF7uTLGJWwQPvqcBSUDhmqckbjPZ
+kQfPSNaGde3Vc625AAdQV5UTiUEhRKDZjcxgMmWI7SAvZsuA+E0QLAwU/7aUZoqN/jYS+OGvZS/b
+gxEQYgA2xG9+yUSla1bqD3SoIxIFTAgCJxQWLKQYIRaMs+6y7Hd6eWft9JJeRYDge0GDxJhIG99U
+Fpc0fwBxiEVs1/2uQQWCgMKGC4CDQuAgszyERSRzPDCozbZyz8OOgbaABitqCrepatQWzGAI5RJA
+yFclcja3uYNBOGHJNkxCDo6AgiZT6QlRPiUqP0CFQqQjs/BgTBieJyotPckLjIaejA3BS2DaDrGF
+uKQT6PCIDYDg01AIdaixwIT4koXFf8AzewexgSRo7KoBAPQfsDCe2RSaEDHopjvKBrvIuSdeW4gt
+OaEWqvYoIgwsjBryBv9hAwjYALgYHm4qUa1qpxJCA4LT74mfAN9TFqEQSFCtRTQB7GA74nUC0x8i
+KPC1Z1+C27XODLXxbLwPL9eq83wCkRcA5UG0YSfcVIcE7MeIn7kbEW7QgMIXrnAiEIEHJZVzv1Ot
+6iPYBgBHWDLYUDCIJ1CJv0z49h+aoBMOV3kDDF+4wx3+hJa3fK8sdelLZQrYnOJ0pwfIuc53LleE
+O5vTh1D1vWFNWiwwW+hIJx1ltWFSa8Y7M6qUiDFIoOoRP7fbc76jEr0Z0mj+9IA9RwQAkoCCeRYi
+6cTTb5CGNAiqo53edhpA0/krbbJUOclIt3qJ463iZjrTk4V1ixEcQQTQFPDAPxR4e37jfOJB3Pft
+vp0uIQDQ57ljHZV1nivaF+9kvstX3HqEpQ6GiAg65EAKbxbEjyE/4sYT4vFJt4HkC0F5/e493ncH
+wJ0V/+rODxfAmMUyG+uB5E4T4QhWWj3kwTd7Q7hh90J3QnsTQYEj2P6ky4GDlf5AAuiz/rNX9zzw
+jZvQsEuCAE8AQcrXz3ASsJX6JBiA951wBBJAm/Y8cG5AHfCD7WuD/QCYcivHci4Hcy21AjBFczVl
+cyKwGwT3gBAYgRI4gRRYgRZ4gZkQCAA7
+
+------=_NextPart_000_0000_01CBE333.32474580
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.360doc.com/images/icon06.gif
+
+R0lGODlhEAAQAOZgAP/////MAP/SAP//AMWWAJRhADGU4gA0oZNfAKXX9JlmAP/QANH6/wCd//Yk
+AJJfAJNgAIxcAMmWAP+aOl09AP+ZO5ViAF06AI5bAMmaAJZjAMgVAMyZAP/slsuYAM2aAI9dAGBA
+AAxszdagAP+WN//qlv/LUv/65/TBAP//lv3OAItYAHpRANK9lomR8cx0EtmAJigzP+i0AL2wlv/+
+AF8+APHalv/jAP/RAM86FY2U5ceXAMUTAJtjAsqVAPjFAOv6/whpzP3KAP6TOf/50P/ylvKMMQZp
+0NO+lsaRAOawAP/OAOy5AP/M/9ijAP/YAANr1Z9iCcmPAP/TAP/TrcyXAOj4/9a/l80yC//yAK9m
+A+aGLOfUlsaWAPK/AN2mAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5
+BAEAAGAALAAAAAAQABAAAAfPgGCCggoTJCQTCoOLhCACKioCIIqMghEoKxgYKygRiwUfBBUZEh4c
+HB4SGRUEHwUPAABDBLG1AARUsS0PQjhGBAsBwgELXABYPAAPPwJbXcHDHQAiDk05EF5TMDvQASXT
+CQAOGxBMAi9JS8LfQQkMBuMQMk9AVgIC0kfuBg0HAAVKXOiQcqMIACj7+gFAUuALDS0+sgBAkNCf
+jQIWRgyIUiXFRBP8/KUYYUHDgAE9nEw8QcSEvysnNYBhQSFEjZUXLgCYEYICi0oAYiCoxSgQADs=
+
+------=_NextPart_000_0000_01CBE333.32474580
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://pubimage.360doc.com/biaoshi.gif
+
+R0lGODlhKAAwANX/AP//////AP/88P/54P/20P/zwP/vsP/soP/pkP/mgP/icP/iAP/fYP/cUP/Z
+QP/VMP/SIP/SAP/PEP/PAP/MAP/FAP+/AP+yAP+oAP+lAP+iAP+ZAP+PAP+MAP9/AP9yAP9pAP9m
+AP9fAP9ZAP9MAP8/AP88AP8zAP8vAP8sAP8mAP8fAP8ZAP8PAP8MAP8AAAAAAMDAwAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAADEALAAAAAAoADAAQAb/wJhw
+SCwaj8jkcDKxfFavqHQ6XYUwzIOSOUUtoFQVs0V9iQJU5nFcLjFVZVGTXFYrJRMQlZSZhKIbFh5w
+U24TSndMFiJTKhdMFYiSRQgPTJcVEwqTRwkVFSdTIhghUBxMHi8qHhehUmITDkgMFSVlZSonJyi3
+L3QvJ3ZGDhV/ZhkfExi8tyIRExwWhMGHnKi9ZSRMCJyTlhUSWt3j5OUJEp9NIGBRqxYT6ZvjeIRU
+K7q6v2nVSPAXtlI8fKBCjUqLDSQKYREmBA+YEiLwSTxxasKGifhKsGO4hEMUCxtCihR5yeJIkRk8
+vvhQgUE/lSEAYgGBUdepVC9CJHwBIlai/50vSFgg0ULESA4ciIKw4OrFCo5JGMzB1svDBAnlYiRg
+skEfFTkVZGUdVrIk1rFo06pdK0QBkwfi2AoxQCsTNBIksNiFO9YBvEwIsbUgUfFtNwQVcFLtJSLs
+JLcZ7Il4VzYDUSpWHyihNQHoCw4ffmmbANDpBkZSRms2wmWKh8h1JpRZMTRNhbhCWkdZwWwPvNJU
+sxSR6ur1yZMcjosUFIWakQPFFr/oMwE2VW1ni0y4EMVDiO/fH20AD/5RBvIgAG6owM2IVNSPysqf
+v7051CUToLS4sAIW+f8VPHOPdY8gEgF33aFywRNVeLDBKRUAtYEmiByw3S8qZECKPioItUFBPZ+1
+ZM0ETUknxX4TtMcJHtaZKAc/40A3gWLYjCbWWFJVB2IULVjlE1uWcKVCjyUZINcQCMCDiUtHHoFb
+k00GAQA7yqXuscHjLqxChd6IqBnwjMwgyhaJ5kPJlRiEAYb5glxiRBfOCNDAdQjiMoAUzgAEwhKG
+OARGgzrsYKGF8zBw4YY7zPMBhzvsd4U0sBkyAQMpRPeOFGHxs8MljL2THw6IMJDBGUO1p+MBl5Cg
+448qTPUBkDGCxUBVETLQBP+BV8zgwoWhgLhhhhcalRQDJZiUZAwrXcEECUzF96GUFjrGgGYkJBZM
+c4jgwwGOuYn14kxkWkhCAQyQcIU8zxBxCZKHCPgFVxoQYaaI79DA45l5PeNYCbQkwtsIZfQ5zjzu
+uQOFY1MxICJJ3DGSD5NXEBHMEVVQRMKG0sxQhRM8qvaMCwEBeMhPLQj1DBMaFHpFFURsSART0WiA
+aHw0MrKAgBMSBdBLTMQ4xRHAgBQjXAyAoOUiP3FAhRZR3SCNXVe8qMEN1z4zJ3oEMWADGW95M0W6
+I13CQqQMXaKSePDM4wGgjvyUQRPN8usYBmldY2MUBa/HHISdYJQLw+HlxMJntpwgwEoTYcTLT04o
+YNxJQzYOQcZWc021Uy2FkOyuGVyclmHILBuiMTpRjIHynH2JXDMaEjt0BhhZMJEhBjXg+3OSrPyw
+QigeJLw0Ii6LwoKtUwdKDhBKZ63IczBg7fXYZJdttiGBAAA7
+
+------=_NextPart_000_0000_01CBE333.32474580
+Content-Type: text/css;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://css.360doc.com/StickySystemIEBlue.css
+
+BODY {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #f0f0f0; =
+MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Arial, =
+Helvetica, sans-serif; BACKGROUND-POSITION: 40px 50%; FONT-SIZE: 12px; =
+PADDING-TOP: 0px
+}
+A IMG {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: =
+medium none; BORDER-RIGHT: medium none
+}
+A:link {
+	COLOR: #1848b5; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #1848b5; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #1848b5; TEXT-DECORATION: underline
+}
+TD {
+	TEXT-ALIGN: left
+}
+UL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: =
+0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+LI {
+	LINE-HEIGHT: 23px; PADDING-LEFT: 10px; BACKGROUND: =
+url(http://pubimage.360doc.com/arrow1.jpg) no-repeat left 50%; CLEAR: =
+both
+}
+FONT {
+	LINE-HEIGHT: 150%
+}
+H1 {
+	LINE-HEIGHT: 150%
+}
+.highlight {
+	FONT-STYLE: normal; BACKGROUND: #ffff00
+}
+.sticky {
+	FONT-STYLE: normal; BACKGROUND: #e3edf8; COLOR: #466ea6; =
+TEXT-DECORATION: underline
+}
+.afterseldiv {
+	WIDTH: 80px; HEIGHT: 40px
+}
+.addstidiv {
+	WIDTH: 80px; BACKGROUND: #dddddd; HEIGHT: 40px
+}
+.menu {
+	BORDER-BOTTOM: #b0d0ef 1px solid; BORDER-LEFT: #b0d0ef 1px solid; =
+WIDTH: 80px; BACKGROUND: white; HEIGHT: 40px; BORDER-RIGHT: #b0d0ef 1px =
+solid
+}
+.menuUnLogin {
+	BORDER-BOTTOM: #b0d0ef 1px solid; BORDER-LEFT: #b0d0ef 1px solid; =
+WIDTH: 150px; BACKGROUND: white; HEIGHT: 22px; BORDER-RIGHT: #b0d0ef 1px =
+solid
+}
+.flowbtnUP {
+	TEXT-ALIGN: left; BORDER-LEFT: #466ea6 1px solid; MARGIN-LEFT: 20px; =
+FONT-SIZE: 12px; BORDER-TOP: #466ea6 1px solid; MARGIN-RIGHT: 20px; =
+BORDER-RIGHT: #466ea6 1px solid
+}
+.flowbtnDOWN {
+	BORDER-BOTTOM: #466ea6 1px solid; TEXT-ALIGN: left; BORDER-LEFT: =
+#466ea6 1px solid; MARGIN-LEFT: 20px; FONT-SIZE: 12px; BORDER-TOP: =
+#466ea6 1px solid; MARGIN-RIGHT: 20px; BORDER-RIGHT: #466ea6 1px solid
+}
+.overflowbtnUP {
+	BACKGROUND-IMAGE: url(http://pubimage.360doc.com/bg_Selected.gif); =
+TEXT-ALIGN: left; BORDER-LEFT: #466ea6 1px solid; COLOR: white; =
+MARGIN-LEFT: 20px; FONT-SIZE: 12px; BORDER-TOP: #466ea6 1px solid; =
+CURSOR: pointer; MARGIN-RIGHT: 20px; BORDER-RIGHT: #466ea6 1px solid
+}
+.overflowbtnDOWN {
+	BACKGROUND-IMAGE: url(http://pubimage.360doc.com/bg_Selected.gif); =
+BORDER-BOTTOM: #466ea6 1px solid; TEXT-ALIGN: left; BORDER-LEFT: #466ea6 =
+1px solid; COLOR: white; MARGIN-LEFT: 20px; FONT-SIZE: 12px; BORDER-TOP: =
+#466ea6 1px solid; CURSOR: pointer; MARGIN-RIGHT: 20px; BORDER-RIGHT: =
+#466ea6 1px solid
+}
+.flowbtnNomal {
+	BORDER-BOTTOM: #b0d0ef 1px solid; TEXT-ALIGN: center; BORDER-LEFT: =
+#b0d0ef 1px solid; MARGIN-LEFT: 20px; FONT-SIZE: 12px; BORDER-TOP: =
+#b0d0ef 1px solid; MARGIN-RIGHT: 20px; BORDER-RIGHT: #b0d0ef 1px solid
+}
+.overflowbtnNomal {
+	BACKGROUND-IMAGE: url(http://pubimage.360doc.com/bg_Selected.gif); =
+BORDER-BOTTOM: #466ea6 1px solid; TEXT-ALIGN: center; BORDER-LEFT: =
+#466ea6 1px solid; COLOR: white; MARGIN-LEFT: 20px; FONT-SIZE: 12px; =
+BORDER-TOP: #466ea6 1px solid; CURSOR: pointer; MARGIN-RIGHT: 20px; =
+BORDER-RIGHT: #466ea6 1px solid
+}
+.stiedittxa {
+	WIDTH: 304px; HEIGHT: 100px; FONT-SIZE: 12px
+}
+.stieditbtn {
+	MARGIN-TOP: 3px; FONT-SIZE: 12px; MARGIN-RIGHT: 3px
+}
+.stickiesdiv {
+	BORDER-BOTTOM: #619cd8 1px solid; BORDER-LEFT: #619cd8 1px solid; =
+WIDTH: 310px; HEIGHT: 90px; FONT-SIZE: 12px; OVERFLOW: auto; =
+BORDER-RIGHT: #619cd8 1px solid
+}
+.stickiesdiv TD {
+	FONT-SIZE: 12px
+}
+.stickcondiv {
+	Z-INDEX: 200; POSITION: absolute; WIDTH: 312px; BACKGROUND: white; =
+FLOAT: left; FONT-SIZE: 12px
+}
+.closedivdragenable {
+	BACKGROUND-IMAGE: url(http://pubimage.360doc.com/lay_bg.gif); =
+TEXT-ALIGN: left; TEXT-INDENT: 10px; WIDTH: 312px; HEIGHT: 16px; =
+PADDING-TOP: 10px
+}
+.closedivdragdisable {
+	BACKGROUND-IMAGE: url(http://pubimage.360doc.com/lay_bg.gif); =
+TEXT-ALIGN: left; TEXT-INDENT: 10px; WIDTH: 312px; HEIGHT: 16px; =
+PADDING-TOP: 10px
+}
+.turnbtn {
+	TEXT-ALIGN: left; WIDTH: 290px; COLOR: #4b689d; FONT-SIZE: 12px; =
+CURSOR: default
+}
+.stickyitem {
+	WIDTH: 310px; HEIGHT: 20px
+}
+.stickytext {
+	WIDTH: 310px
+}
+.editstickydiv {
+	BORDER-BOTTOM: #619cd8 1px solid; TEXT-ALIGN: left; BORDER-LEFT: =
+#619cd8 1px solid; BACKGROUND-COLOR: #e3edf8; HEIGHT: 161px; =
+BORDER-RIGHT: #619cd8 1px solid
+}
+.editSelectdiv {
+	TEXT-ALIGN: left; HEIGHT: 25px
+}
+.privacyselect {
+	MARGIN-TOP: 3px
+}
+.closeIMGDiv {
+	TEXT-ALIGN: left; WIDTH: 26px; HEIGHT: 26px; VERTICAL-ALIGN: middle
+}
+.ChangeDisplayDiv {
+	BORDER-BOTTOM: #619cd8 1px solid; TEXT-ALIGN: right; BORDER-LEFT: =
+#619cd8 1px solid; BACKGROUND-COLOR: #e3edf8; WIDTH: 310px; HEIGHT: =
+28px; COLOR: #4b689d; FONT-SIZE: 12px; BORDER-RIGHT: #619cd8 1px solid
+}
+.closebtnclass {
+	MARGIN-TOP: -15px; FLOAT: right; MARGIN-RIGHT: 5px
+}
+.line_lay2 {
+	BACKGROUND-REPEAT: no-repeat
+}
+.nav8:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.nav8:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.nav8:hover {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.nav8:active {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.nav6:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.nav6:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.nav6:hover {
+	COLOR: #0132cc; TEXT-DECORATION: none
+}
+.nav6:active {
+	COLOR: #0132cc; TEXT-DECORATION: none
+}
+.btn_search {
+	BACKGROUND-IMAGE: url(http://pubimage.360doc.com/search.gif); =
+BACKGROUND-REPEAT: no-repeat
+}
+.top2 {
+	TEXT-ALIGN: center; BACKGROUND: =
+url(http://pubimage.360doc.com/top_bg2.gif) repeat-x; HEIGHT: 133px
+}
+.top_con {
+	MARGIN: 0px auto; WIDTH: 952px
+}
+.logo02 {
+	MARGIN-TOP: 10px; FLOAT: left
+}
+.nav_3 {
+	TEXT-ALIGN: left; HEIGHT: 86px
+}
+.ad01 {
+	MARGIN: 0px 0px 0px 150px
+}
+.nav_2_tit02 {
+	MARGIN: 5px 60px 0px 20px; FLOAT: right
+}
+.link_underline {
+=09
+}
+.link_underline A:link {
+	COLOR: #1848b5; TEXT-DECORATION: underline
+}
+.link_underline A:visited {
+	COLOR: #1848b5; TEXT-DECORATION: underline
+}
+.link_underline A:hover {
+	COLOR: #1848b5; TEXT-DECORATION: underline
+}
+.link_black {
+=09
+}
+.link_black A:link {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.link_black A:visited {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.link_black A:hover {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.link_green {
+=09
+}
+.link_green A:link {
+	COLOR: #008000; TEXT-DECORATION: underline
+}
+.link_green A:visited {
+	COLOR: #008000; TEXT-DECORATION: underline
+}
+.link_green A:hover {
+	COLOR: #008000; TEXT-DECORATION: none
+}
+.link_red {
+=09
+}
+.link_red A:link {
+	COLOR: #da0000; TEXT-DECORATION: underline
+}
+.link_red A:visited {
+	COLOR: #da0000; TEXT-DECORATION: underline
+}
+.link_red A:hover {
+	COLOR: #da0000; TEXT-DECORATION: none
+}
+.link_underlinecg {
+=09
+}
+.link_underlinecg A:link {
+	COLOR: #1848b5; TEXT-DECORATION: underline
+}
+.link_underlinecg A:visited {
+	COLOR: #1848b5; TEXT-DECORATION: underline
+}
+.link_underlinecg A:hover {
+	COLOR: #1848b5; TEXT-DECORATION: none
+}
+.nav {
+	MARGIN-TOP: 0px
+}
+.search_mokuai {
+	MARGIN-TOP: 0px; WIDTH: 100%; FONT-SIZE: 13px
+}
+.search_mokuai .checked {
+	POSITION: relative; TEXT-ALIGN: center; PADDING-LEFT: 2px; WIDTH: =
+100px; BACKGROUND: url(http://pubimage.360doc.com/nav_btn_c.gif) 50% =
+bottom; FLOAT: left; HEIGHT: 43px; COLOR: #fff; CURSOR: pointer
+}
+.mokuai_nav {
+	BORDER-BOTTOM: medium none; MARGIN-TOP: 3px; FLOAT: left; HEIGHT: 43px; =
+FONT-WEIGHT: bold
+}
+.unclecked {
+	BACKGROUND: url(http://pubimage.360doc.com/nav_btn_u.gif) no-repeat =
+left bottom
+}
+.mokuai_con {
+	HEIGHT: 1px
+}
+.wenzhang_tit {
+	TEXT-ALIGN: center; MARGIN: 5px; WIDTH: 100%; COLOR: #b20000; =
+FONT-SIZE: 20px; FONT-WEIGHT: bold
+}
+.wenzhang_ft {
+	TEXT-ALIGN: left; LINE-HEIGHT: 22px; WIDTH: 100%
+}
+.wenzhang_cz {
+	TEXT-ALIGN: left; LINE-HEIGHT: 20px; BACKGROUND-COLOR: #edf3f7; MARGIN: =
+8px 0px; WIDTH: 100%; HEIGHT: 24px
+}
+.wenzhang_con {
+	LINE-HEIGHT: 25px; WIDTH: 100%; FONT-SIZE: 14px
+}
+.wenzhang_cz2 {
+	BORDER-BOTTOM: #ccc 1px dashed; TEXT-ALIGN: right; LINE-HEIGHT: 30px; =
+MARGIN-TOP: 20px; WIDTH: 100%; HEIGHT: 30px
+}
+.ad02 {
+	MARGIN: 10px 0px
+}
+.wenzhang_bt {
+	TEXT-ALIGN: left; LINE-HEIGHT: 27px; BACKGROUND-COLOR: #edf3f7; =
+MARGIN-TOP: 10px; PADDING-LEFT: 10px; HEIGHT: 23px; CLEAR: both; =
+FONT-SIZE: 13px; FONT-WEIGHT: bold
+}
+.wenzhang_pl_fb_tit {
+	COLOR: #666; FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+.wenzhang_bt_1 {
+	TEXT-ALIGN: left; MARGIN: 1px 0px; CLEAR: both
+}
+.wenzhang_cz_xx02 {
+	PADDING-BOTTOM: 0px; MARGIN: 5px 0px 0px 15px; PADDING-LEFT: 21px; =
+WIDTH: 100px; PADDING-RIGHT: 0px; HEIGHT: 20px; PADDING-TOP: 5px
+}
+.wenzhang_cz_xx03 {
+	PADDING-BOTTOM: 0px; MARGIN: 5px 0px 0px 15px; PADDING-LEFT: 21px; =
+WIDTH: 100px; PADDING-RIGHT: 0px; HEIGHT: 20px; PADDING-TOP: 5px
+}
+.wenzhang_cz_xx04 {
+	PADDING-BOTTOM: 0px; MARGIN: 5px 0px 0px 15px; PADDING-LEFT: 21px; =
+WIDTH: 100px; PADDING-RIGHT: 0px; HEIGHT: 20px; PADDING-TOP: 5px
+}
+.wenzhang_cz_xx05 {
+	PADDING-BOTTOM: 0px; MARGIN: 5px 0px 0px 15px; PADDING-LEFT: 21px; =
+WIDTH: 100px; PADDING-RIGHT: 10px; HEIGHT: 20px; PADDING-TOP: 5px
+}
+.wenzhang_cz_xx06 {
+	PADDING-BOTTOM: 0px; MARGIN: 5px 0px 0px 15px; PADDING-LEFT: 21px; =
+WIDTH: 100px; PADDING-RIGHT: 10px; HEIGHT: 20px; PADDING-TOP: 5px
+}
+.wenzhang_bt_2 {
+	TEXT-ALIGN: center; MARGIN: 10px 0px
+}
+.botton {
+	BACKGROUND-IMAGE: url(http://pubimage.360doc.com/botton.gif); =
+BORDER-BOTTOM: #666 1px solid; BORDER-LEFT: #666 1px solid; =
+PADDING-BOTTOM: 0px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; HEIGHT: =
+20px; COLOR: #666666; FONT-SIZE: 12px; BORDER-TOP: #666 1px solid; =
+CURSOR: pointer; BORDER-RIGHT: #666 1px solid; PADDING-TOP: 0px
+}
+.copyright {
+	BACKGROUND-IMAGE: url(http://pubimage.360doc.com/copyright_bg.gif); =
+PADDING-BOTTOM: 10px; LINE-HEIGHT: 22px; HEIGHT: 36px; CLEAR: both; =
+PADDING-TOP: 20px
+}
+.box_1 {
+	BORDER-BOTTOM: #a1c0df 1px solid; BORDER-LEFT: #a1c0df 1px solid; =
+BACKGROUND-COLOR: #e7f3fb; FONT-FAMILY: Arial, Helvetica, sans-serif; =
+BORDER-TOP: #a1c0df 1px solid; BORDER-RIGHT: #a1c0df 1px solid
+}
+.box_6 {
+	BORDER-BOTTOM: #a9a9a9 1px solid; BORDER-LEFT: #a9a9a9 1px solid; =
+BACKGROUND-COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif; =
+BORDER-TOP: #a9a9a9 1px solid; BORDER-RIGHT: #a9a9a9 1px solid
+}
+.cn_12_black {
+	LINE-HEIGHT: 150%; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: =
+#000000; FONT-SIZE: 12px
+}
+.btn_search {
+	BACKGROUND-IMAGE: url(http://pubimage.360doc.com/search.gif); =
+BACKGROUND-REPEAT: no-repeat
+}
+.wenzhang_cz_xx01 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 10px; PADDING-LEFT: 1px; =
+WIDTH: 100px; PADDING-RIGHT: 0px; HEIGHT: 20px; PADDING-TOP: 0px
+}
+.wenzhang_pl_box {
+	BORDER-BOTTOM: #ccc 1px dashed; TEXT-ALIGN: left; MARGIN: 10px 0px =
+15px; WIDTH: 100%; CLEAR: both
+}
+.wenzhang_pl_left {
+	WIDTH: 70px; FLOAT: left; HEIGHT: 70px
+}
+.wenzhang_pl_right {
+	TEXT-ALIGN: left; WIDTH: 655px; FLOAT: left
+}
+.wenzhang_pl_right2 {
+	TEXT-ALIGN: left; WIDTH: 865px; FLOAT: right
+}
+.pl_name {
+	COLOR: #999999
+}
+.pl_con {
+	LINE-HEIGHT: 25px; MARGIN: 5px 0px 10px; WIDTH: 100%; WORD-WRAP: =
+break-word
+}
+.gt0 {
+	BORDER-BOTTOM: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; =
+PADDING-BOTTOM: 2px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; FONT-SIZE: =
+12px; BORDER-TOP: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid; =
+PADDING-TOP: 2px
+}
+.gt1 {
+	BORDER-BOTTOM: #a9a9a9 1px solid; BORDER-LEFT: #a9a9a9 1px solid; =
+PADDING-BOTTOM: 2px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; BACKGROUND: =
+#f1f1f1; FONT-SIZE: 12px; BORDER-TOP: #a9a9a9 1px solid; BORDER-RIGHT: =
+#a9a9a9 1px solid; PADDING-TOP: 2px
+}
+.book_list {
+	TEXT-ALIGN: center; WIDTH: 200px
+}
+.book_listReleVant {
+	TEXT-ALIGN: center; WIDTH: 115px
+}
+.book_box {
+	MARGIN: 0px 5px 20px
+}
+.book_box A:link {
+	COLOR: #999; TEXT-DECORATION: none
+}
+.book_box A:visited {
+	COLOR: #999; TEXT-DECORATION: none
+}
+.book_box A:hover {
+	COLOR: #999; TEXT-DECORATION: underline
+}
+.book_name {
+	MARGIN: 7px 0px 35px
+}
+.ref_title {
+=09
+}
+.ref_title A:link {
+	COLOR: #1848b5; TEXT-DECORATION: none
+}
+.ref_title A:visited {
+	COLOR: #1848b5; TEXT-DECORATION: none
+}
+.ref_title A:hover {
+	COLOR: #1848b5; TEXT-DECORATION: underline
+}
+.wenzhang_bt_list {
+	TEXT-ALIGN: left; LINE-HEIGHT: 25px; MARGIN-TOP: 10px; WIDTH: 100%; =
+FONT-SIZE: 14px
+}
+.wenzhang_bt_listCG {
+	TEXT-ALIGN: left; MARGIN-TOP: 10px; WIDTH: 100%; FONT-SIZE: 13px
+}
+.time2 {
+	MARGIN-LEFT: 30px; FONT-SIZE: 12px
+}
+.ss {
+	COLOR: #fff
+}
+.ss UL {
+	MARGIN: 0px 0px 0px -10px
+}
+.ss LI {
+	LIST-STYLE-TYPE: none
+}
+.time3 {
+	MARGIN-LEFT: 15px; FONT-SIZE: 12px
+}
+.navcg1 {
+	MARGIN-TOP: 0px
+}
+.search_mokuaicg1 {
+	MARGIN-TOP: 0px; WIDTH: 100%; FONT-SIZE: 13px
+}
+.mokuai_navcg1 {
+	BORDER-BOTTOM: medium none; MARGIN-TOP: 3px; FLOAT: left; HEIGHT: 43px; =
+FONT-WEIGHT: bold
+}
+.mokuai_navcg1 SPAN {
+	TEXT-ALIGN: center; LINE-HEIGHT: 40px; WIDTH: 100px; FLOAT: left; =
+HEIGHT: 43px; CURSOR: pointer
+}
+.search_mokuaicg1 .checked {
+	POSITION: relative; TEXT-ALIGN: center; PADDING-LEFT: 2px; WIDTH: =
+100px; BACKGROUND: url(http://pubimage.360doc.com/nav_btn_c.gif) 50% =
+bottom; FLOAT: left; HEIGHT: 43px; COLOR: #fff; CURSOR: pointer
+}
+.mokuai_concg1 {
+	HEIGHT: 1px
+}
+.uncleckedcg1 {
+	BACKGROUND: url(http://pubimage.360doc.com/nav_btn_u.gif) no-repeat =
+left bottom
+}
+.link_blackcg1 {
+=09
+}
+.link_blackcg1 A:link {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.link_blackcg1 A:visited {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.link_blackcg1 A:hover {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.tags {
+	LINE-HEIGHT: 25px; PADDING-RIGHT: 10px
+}
+.tags A:link {
+	BACKGROUND-COLOR: #edecec; COLOR: #1848b5; TEXT-DECORATION: none
+}
+.tags A:visited {
+	BACKGROUND-COLOR: #edecec; COLOR: #1848b5; TEXT-DECORATION: none
+}
+.tags A:hover {
+	BACKGROUND-COLOR: #2763ad; COLOR: #fff; TEXT-DECORATION: none
+}
+.left {
+	FLOAT: left
+}
+.right {
+	FLOAT: right
+}
+.index_main {
+	MARGIN: 0px auto; WIDTH: 936px
+}
+.index_main-left {
+	WIDTH: 713px
+}
+.index_main-right {
+	TEXT-ALIGN: right
+}
+.WidthRight {
+	WIDTH: 200px
+}
+#Layer1 {
+	Z-INDEX: 5; POSITION: absolute; HEIGHT: 60px
+}
+#Layer2 {
+	Z-INDEX: 1; POSITION: absolute; HEIGHT: 60px
+}
+.pageqh {
+	TEXT-ALIGN: left; MARGIN: 0px auto; WIDTH: 952px; PADDING-TOP: 10px
+}
+.pageqh .nav {
+	WIDTH: 952px; FLOAT: left
+}
+.pageqh .nav SPAN {
+	BORDER-BOTTOM: 0px; TEXT-ALIGN: center; BORDER-LEFT: #4982b1 1px solid; =
+LINE-HEIGHT: 28px; WIDTH: 86px; BACKGROUND: #f0f5f9; FLOAT: left; =
+HEIGHT: 28px; COLOR: #1848b5; MARGIN-LEFT: 15px; BORDER-TOP: #4982b1 1px =
+solid; CURSOR: pointer; BORDER-RIGHT: #4982b1 1px solid; =
+TEXT-DECORATION: none
+}
+.pageqh .nav SPAN.checked {
+	BORDER-BOTTOM: 0px; POSITION: relative; BACKGROUND: #ffffff; =
+FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.pageqh .kuai {
+	PADDING-BOTTOM: 5px; FLOAT: left
+}
+.pageqh .mokuaicontent {
+	PADDING-BOTTOM: 5px; MARGIN-TOP: -1px; PADDING-LEFT: 2px; WIDTH: 952px; =
+PADDING-RIGHT: 2px; FLOAT: left; BORDER-TOP: #4982b1 1px solid; =
+PADDING-TOP: 15px
+}
+.pageqh .help {
+	FLOAT: right; HEIGHT: 18px; PADDING-TOP: 10px
+}
+.pageqh .nav SPAN.link_bai {
+=09
+}
+.pageqh .nav SPAN.link_bai A:link {
+	COLOR: #1848b5; TEXT-DECORATION: none
+}
+.pageqh .nav SPAN.link_bai A:visited {
+	COLOR: #1848b5; TEXT-DECORATION: none
+}
+.pageqh .nav SPAN.link_bai A:hover {
+	COLOR: #1848b5; TEXT-DECORATION: none
+}
+.pageqh .nav SPAN.link_black {
+=09
+}
+.pageqh .nav SPAN.link_black A:link {
+	COLOR: #1848b5; TEXT-DECORATION: none
+}
+.pageqh .nav SPAN.link_black A:visited {
+	COLOR: #1848b5; TEXT-DECORATION: none
+}
+.pageqh .nav SPAN.link_black A:hover {
+	COLOR: #1848b5; TEXT-DECORATION: none
+}
+.pageqh2 {
+	TEXT-ALIGN: left; MARGIN: 0px auto; PADDING-LEFT: 5px; WIDTH: 100%; =
+PADDING-TOP: 0px
+}
+.pageqh2 .nav {
+	WIDTH: 100%; FLOAT: left
+}
+.pageqh2 .nav SPAN {
+	BORDER-BOTTOM: medium none; TEXT-ALIGN: center; BORDER-LEFT: medium =
+none; LINE-HEIGHT: 18px; WIDTH: 130px; BACKGROUND: #f0f0f0; FLOAT: left; =
+HEIGHT: 18px; COLOR: #1848b5; MARGIN-LEFT: 5px; BORDER-TOP: medium none; =
+CURSOR: pointer; BORDER-RIGHT: medium none; TEXT-DECORATION: underline
+}
+.pageqh2 .nav SPAN.checked {
+	BORDER-BOTTOM: 0px; POSITION: relative; BACKGROUND: #ff9600; COLOR: =
+#ffffff; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.pageqh2 .kuai {
+	PADDING-BOTTOM: 5px; WIDTH: 360px; FLOAT: left
+}
+.pageqh2 .mokuaicontent2 {
+	PADDING-BOTTOM: 5px; MARGIN-TOP: 5px; PADDING-LEFT: 2px; WIDTH: 100%; =
+PADDING-RIGHT: 2px; FLOAT: left; PADDING-TOP: 15px
+}
+.more_wz {
+	PADDING-BOTTOM: 5px; MARGIN-TOP: -1px; PADDING-LEFT: 2px; WIDTH: 952px; =
+PADDING-RIGHT: 2px; FLOAT: left; PADDING-TOP: 15px
+}
+.more_wz_tit {
+	MARGIN-LEFT: 5px
+}
+.link_blue {
+=09
+}
+.link_blue A:link {
+	COLOR: #0061d4; TEXT-DECORATION: underline
+}
+.link_blue A:visited {
+	COLOR: #0061d4; TEXT-DECORATION: underline
+}
+.link_blue A:hover {
+	COLOR: #0061d4; TEXT-DECORATION: none
+}
+.time {
+	COLOR: #999999; FONT-SIZE: 10px
+}
+.wzlb_box {
+	WIDTH: 100%; MARGIN-BOTTOM: 15px
+}
+.wzlb_tit {
+	PADDING-BOTTOM: 4px; BACKGROUND-COLOR: #f1f6fa; PADDING-LEFT: 4px; =
+PADDING-RIGHT: 4px; COLOR: #1848b5; FONT-SIZE: 14px; PADDING-TOP: 4px
+}
+.wzlb_tit A:link {
+	COLOR: #1848b5; TEXT-DECORATION: underline
+}
+.wzlb_tit A:visited {
+	COLOR: #1848b5; TEXT-DECORATION: underline
+}
+.wzlb_tit A:hover {
+	COLOR: #1848b5; TEXT-DECORATION: none
+}
+.wzlb_tit .time {
+	COLOR: #999999; MARGIN-LEFT: 15px; FONT-SIZE: 12px
+}
+.wzlb_tit .name {
+	MARGIN-LEFT: 5px; FONT-SIZE: 12px
+}
+.wzlb_tit .name A:link {
+	COLOR: #008000; TEXT-DECORATION: underline
+}
+.wzlb_tit .name A:visited {
+	COLOR: #008000; TEXT-DECORATION: underline
+}
+.wzlb_tit .name A:hover {
+	COLOR: #008000; TEXT-DECORATION: none
+}
+.wzlb_tit .tit_intr {
+	LINE-HEIGHT: 22px; MARGIN-TOP: 10px; MARGIN-BOTTOM: 5px; COLOR: =
+#000000; FONT-SIZE: 14px
+}
+.wzlb_con {
+	LINE-HEIGHT: 22px; MARGIN: 5px; WORD-WRAP: break-word; WORD-BREAK: =
+break-all
+}
+.wzlb_con .name A:link {
+	COLOR: #008000; TEXT-DECORATION: underline
+}
+.wzlb_con .name A:visited {
+	COLOR: #008000; TEXT-DECORATION: underline
+}
+.wzlb_con .name A:hover {
+	COLOR: #008000; TEXT-DECORATION: none
+}
+.wzlb_con .time {
+	COLOR: #999999; MARGIN-LEFT: 15px; FONT-SIZE: 12px
+}
+.wzlb_con .wzlb_con_long {
+	BORDER-BOTTOM: #ccc 1px dotted; PADDING-BOTTOM: 5px; LINE-HEIGHT: 21px; =
+PADDING-LEFT: 8px; MARGIN-BOTTOM: 8px; BACKGROUND: =
+url(http://pubimage.360doc.com/arro2.gif) no-repeat 0px 8px; =
+MARGIN-LEFT: 30px
+}
+.RelevantsWidth {
+	WIDTH: 700px
+}
+.relevantstyle {
+	PADDING-LEFT: 5px; PADDING-RIGHT: 40px
+}
+.login_box {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; =
+PADDING-BOTTOM: 4px; LINE-HEIGHT: 200%; MARGIN-TOP: 4px; PADDING-LEFT: =
+8px; MARGIN-BOTTOM: 4px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc =
+1px solid; PADDING-TOP: 4px
+}
+.login_box_font {
+	TEXT-ALIGN: left; COLOR: #808000; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.link_green1 {
+	COLOR: #008000; FONT-SIZE: 12px
+}
+.link_green1 A:link {
+	COLOR: #008000; TEXT-DECORATION: underline
+}
+.link_green1 A:visited {
+	COLOR: #008000; TEXT-DECORATION: underline
+}
+.link_green1 A:hover {
+	COLOR: #008000; TEXT-DECORATION: none
+}
+.spanCgCgLink {
+	COLOR: #1848b5
+}
+.spanCgCgLinkOnMouseOver {
+	COLOR: #1848b5; CURSOR: pointer; TEXT-DECORATION: underline
+}
+.spanCgCgLinkOnMouseOut {
+	COLOR: #1848b5; TEXT-DECORATION: none
+}
+.spanCGCGDeleteLink {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+.spanCGCGDeleteOnMouseOut {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+.spanCGCGDeleteOnMouseOver {
+	COLOR: #ff0000; CURSOR: pointer; TEXT-DECORATION: none
+}
+IMG {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: =
+0px
+}
+H3 {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 29px; MARGIN: 0px; PADDING-LEFT: 0px; =
+PADDING-RIGHT: 0px; COLOR: #5181ef; FONT-SIZE: 13px; FONT-WEIGHT: bold; =
+PADDING-TOP: 0px
+}
+#container {
+	BORDER-BOTTOM-STYLE: none; TEXT-ALIGN: left; BORDER-RIGHT-STYLE: none; =
+BACKGROUND-COLOR: #fff; MARGIN: 0px auto; WIDTH: 960px; =
+BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none
+}
+.navzt {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 22px; MARGIN: 0px; PADDING-LEFT: 0px; =
+PADDING-RIGHT: 0px; COLOR: #2aa41e; FONT-SIZE: 12px; FONT-WEIGHT: bold; =
+PADDING-TOP: 0px
+}
+.header {
+	BORDER-BOTTOM: #d8e5f0 1px solid; MARGIN: 0px auto; WIDTH: 960px; =
+BACKGROUND: url(http://pubimage.360doc.com/new/tb_01.gif) #fff no-repeat =
+24px 8px; HEIGHT: 21px
+}
+.day {
+	LINE-HEIGHT: 21px; PADDING-LEFT: 41px; FLOAT: left; COLOR: #989898
+}
+.help111 {
+	LINE-HEIGHT: 21px; PADDING-LEFT: 14px; WIDTH: 323px; BACKGROUND: =
+url(http://pubimage.360doc.com/new/tb_02.gif) no-repeat 0px 6px; FLOAT: =
+right; COLOR: #000
+}
+.help111 A:link {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.help111 A:visited {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.help111 A:hover {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.help1 {
+	PADDING-LEFT: 27px; FONT-WEIGHT: normal
+}
+.help1 A:link {
+	COLOR: #154dbe; TEXT-DECORATION: underline
+}
+.help1 A:visited {
+	COLOR: #154dbe; TEXT-DECORATION: underline
+}
+.help1 A:hover {
+	COLOR: #154dbe; TEXT-DECORATION: none
+}
+.nav111 {
+	MARGIN: 0px auto; WIDTH: 950px; HEIGHT: 94px
+}
+.logo {
+	PADDING-LEFT: 22px; WIDTH: 162px; FLOAT: left; PADDING-TOP: 23px
+}
+.topnav {
+	WIDTH: 765px; FLOAT: left; PADDING-TOP: 6px
+}
+.mainbav {
+	BACKGROUND-COLOR: #e3ecf4; WIDTH: 734px; HEIGHT: 29px
+}
+.mainbav A:link {
+	COLOR: #f1840d; TEXT-DECORATION: underline
+}
+.mainbav A:visited {
+	COLOR: #f1840d; TEXT-DECORATION: underline
+}
+.mainbav A:hover {
+	COLOR: #f1840d; TEXT-DECORATION: none
+}
+.mainbavzt {
+	PADDING-LEFT: 10px; FLOAT: left
+}
+.mainbavzt A:link {
+	COLOR: #5181ef; TEXT-DECORATION: none
+}
+.mainbavzt A:visited {
+	COLOR: #5181ef; TEXT-DECORATION: none
+}
+.mainbavzt A:hover {
+	COLOR: #5181ef; TEXT-DECORATION: underline
+}
+.subnav {
+	BORDER-BOTTOM: #e3ecf4 1px solid; BORDER-LEFT: #e3ecf4 1px solid; =
+MARGIN-TOP: 6px; PADDING-LEFT: 20px; WIDTH: 712px; HEIGHT: 42px; =
+BORDER-TOP: #e3ecf4 1px solid; BORDER-RIGHT: #e3ecf4 1px solid
+}
+.sub_a {
+	WIDTH: 320px; FLOAT: left
+}
+.sub_a A:link {
+	COLOR: #f1840d; TEXT-DECORATION: none
+}
+.sub_a A:visited {
+	COLOR: #f1840d; TEXT-DECORATION: none
+}
+.sub_a A:hover {
+	COLOR: #f1840d; TEXT-DECORATION: underline
+}
+.sub_azt {
+	LINE-HEIGHT: 22px; FLOAT: left
+}
+.navzt A:link {
+	COLOR: #2a911f; TEXT-DECORATION: none
+}
+.navzt A:visited {
+	COLOR: #2a911f; TEXT-DECORATION: none
+}
+.navzt A:hover {
+	COLOR: #2a911f; TEXT-DECORATION: underline
+}
+.main1 {
+	WIDTH: 950px; HEIGHT: 180px
+}
+.banner {
+	PADDING-LEFT: 29px; WIDTH: 670px; FLOAT: left; HEIGHT: 180px
+}
+.tips {
+	MARGIN-TOP: 10px; WIDTH: 692px; HEIGHT: 150px; MARGIN-LEFT: 17px
+}
+.tips_bj {
+	BACKGROUND-IMAGE: url(http://pubimage.360doc.com/new/bj3.gif); WIDTH: =
+686px; BACKGROUND-REPEAT: repeat-y; HEIGHT: 124px
+}
+.tipstop {
+	HEIGHT: 58px
+}
+.tipstop UL {
+	FLOAT: left
+}
+.tipstop LI {
+	FLOAT: left
+}
+.tipsbot {
+	PADDING-LEFT: 20px; HEIGHT: 41px; PADDING-TOP: 18px
+}
+.nav_wenzi {
+	WIDTH: 500px; HEIGHT: 29px; FONT-SIZE: 16px; FONT-WEIGHT: bold
+}
+.nav_wenzi SPAN {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 29px; MARGIN: 0px; PADDING-LEFT: 0px; =
+PADDING-RIGHT: 0px; FLOAT: left; CURSOR: pointer; PADDING-TOP: 0px
+}
+.ziyewz {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 29px; MARGIN: 0px; PADDING-LEFT: 0px; =
+PADDING-RIGHT: 0px; COLOR: #5181ef; FONT-SIZE: 13px; FONT-WEIGHT: bold; =
+PADDING-TOP: 0px
+}
+.ziyewz1 {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 29px; MARGIN: 0px; PADDING-LEFT: 0px; =
+PADDING-RIGHT: 0px; FLOAT: left; COLOR: #f28b1c; FONT-SIZE: 16px; =
+FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+.footer {
+	TEXT-ALIGN: center; MARGIN-TOP: 15px; WIDTH: 960px; CLEAR: both; =
+BORDER-TOP: #d8e5f0 1px solid; PADDING-TOP: 20px
+}
+.rel {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 5px; WIDTH: 900px; PADDING-RIGHT: =
+10px; FLOAT: left; CLEAR: both; PADDING-TOP: 10px
+}
+.relad {
+	WIDTH: 300px; FLOAT: left
+}
+.relart {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 20px; WIDTH: 550px; PADDING-RIGHT: =
+20px; FLOAT: left; PADDING-TOP: 5px
+}
+
+------=_NextPart_000_0000_01CBE333.32474580
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://cpro.baidu.com/cpro/ui/c.js
+
+window.baidu=3Dwindow.baidu||{version:"1-0-0",emptyFn:function(){}};baidu=
+.cookie=3Dbaidu.cookie||{isValidKey:function(c){return(new =
+RegExp('^[^\\x00-\\x20\\x7f\\(\\)<>@,;:\\\\\\"\\[\\]\\?=3D\\{\\}\\/\\u008=
+0-\\uffff]+\x24')).test(c)}};baidu.cookie.getRaw=3Dfunction(d){if(!baidu.=
+cookie.isValidKey(d)){return null}var f=3Dnew RegExp("(^| =
+)"+d+"=3D([^;]*)(;|\x24)");var e=3Df.exec(document.cookie);if(e){return =
+e[2]||null}return =
+null};baidu.json=3Dbaidu.json||{};baidu.json.decode=3Dfunction(string){re=
+turn =
+eval("("+string+")")};baidu.url=3Dbaidu.url||{};baidu.string=3Dbaidu.stri=
+ng||{};baidu.string.escapeReg=3Dfunction(c){return String(c).replace(new =
+RegExp("([.*+?^=3D!:\x24{}()|[\\]/\\\\])","g"),"\\\x241")};baidu.isString=
+=3Dfunction(c){return(typeof =
+c=3D=3D"object"&&c&&c.constructor=3D=3DString)||typeof =
+c=3D=3D"string"};baidu.url.getQueryValue=3Dfunction(e,d){var c=3Dnew =
+RegExp("(^|&|\\?|#)"+baidu.string.escapeReg(d)+"=3D([^&]*)(&|\x24)","");v=
+ar a=3De.match(c);if(a){return a[2]}return null};(function(){var =
+ab=3D"http://cb.baidu.com/ecom";var =
+K=3D"http://cpro.baidu.com/cpro/ui/uijs.php",I=3D"http://123.125.69.207/c=
+pro/ui/click.js",ag=3D3,ad=3Dwindow;if(self!=3Dtop){ad=3Dtop}var =
+aa=3D"cpro_ads_c";window[aa]=3Dwindow[aa]||{};window.isAddLoadEvent=3Dtru=
+e;var =
+p=3D"displayCount";if(g()){ad=3Dwindow;ad[p]=3Dad[p]||{};window.isAddLoad=
+Event=3Dfalse}else{ad[p]=3Dad[p]||{}}function D(ai){var =
+ah=3Dwindow[aa];ai=3Dai.split("_")[0];if(!ah[ai]){ah[ai]=3D0}return =
+++ah[ai]}function U(){var =
+ah=3Dwindow[aa];cproIframeId=3D"cproIframeId";if(!ah[cproIframeId]){ah[cp=
+roIframeId]=3D0}return ++ah[cproIframeId]}function s(){var =
+ah=3Dad[p];displayAdId=3D"displayAdId";if(!ah[displayAdId]){ah[displayAdI=
+d]=3D0}return ++ah[displayAdId]}var =
+k=3D"GloCproCpCount";window[k]=3Dwindow[k]||{};function =
+u(ah){return"undefined"=3D=3Dtypeof ah}function R(){return =
+self=3D=3D=3Dtop}function =
+g(){try{top.location.toString()}catch(ah){return true}return =
+false}function v(){if(/msie =
+(\d+\.\d)/i.test(navigator.userAgent)){return =
+parseFloat(RegExp.$1)}return 0}function m(){var =
+ah=3D"ShockwaveFlash.ShockwaveFlash",ak=3Dnavigator,ai,al;if(ak.plugins&&=
+ak.mimeTypes.length){ai=3Dak.plugins["Shockwave =
+Flash"];if(ai&&ai.description){return =
+ai.description.replace(/[^\d\.]/g,"").split(".")[0]}}else{if(v()){al=3DAc=
+tiveXObject;try{ai=3Dnew al(ah+".7")}catch(aj){try{ai=3Dnew =
+al(ah+".6");ai.AllowScriptAccess=3D"always";return =
+6}catch(aj){}try{ai=3Dnew al(ah)}catch(aj){}}if(ai!=3Dnull){try{return =
+ai.GetVariable("$version").split(" =
+")[1].split(",")[0]}catch(aj){}}}}return 0}var P=3Dfalse;function =
+X(al){if(R()){return 0}var =
+an=3Dwindow,ah=3Ddocument.body,aj=3Ddocument.documentElement,ai=3D1,ak=3D=
+1,am=3D1;if(g()){am+=3D2}if(an.innerHeight){ai=3Dan.innerWidth;ak=3Dan.in=
+nerHeight}else{if(aj&&aj.clientHeight){ai=3Daj.clientWidth;ak=3Daj.client=
+Height}else{if(ah){ai=3Dah.clientWidth;ak=3Dah.clientHeight}}}if(ak<10||a=
+i<40){am+=3D4}else{if(ak<al.h||ai<al.w){am+=3D8}}if(ak>=3D2*al.h||ai>=3D2=
+*al.w){am+=3D16;P=3Dtrue}return am}function =
+M(){return(R()||P)?location.href:q()}function q(){return =
+document.referrer}function ac(ah){return =
+window.encodeURIComponent?encodeURIComponent(ah):escape(ah)}function =
+x(ah){if(ah!=3D""){var aj=3Dah.indexOf("?");if(aj!=3D-1){var =
+ai=3Dah.substr(aj+1);if(ai.search(/%u[\d|\w]{4}/g)!=3D-1){ai=3Dai.replace=
+(/%u[\d|\w]{4}/g,function(ak){return =
+encodeURIComponent(unescape(ak))})}return =
+ah.substr(0,aj)+"?"+ai}else{return ah}}else{return""}}function Y(aj){var =
+ah=3DdecodeURIComponent(aj);var =
+ai=3Dah.replace(/\\x1e/g,"&").replace(/\\x1d/g,"=3D").replace(/\\x1c/,"?"=
+).replace(/\\x5c/,"\\");return baidu.json.decode(ai)}var G;var =
+B;function C(am){var =
+an=3Dam.split("|"),ah=3Dan.length,ak=3D{},aj,al,ai;for(aj=3D0;aj<ah;aj++)=
+{al=3Dan[aj].split("=3D");ai=3Dal[0];if(ai.indexOf("cpro_")=3D=3D=3D0){ai=
+=3Dai.substr(5)}ak[ai]=3Dal[1]}return ak}function ae(am,an,ai){var =
+al=3D{},ak,ah,aj;for(ak=3D0,ah=3Dan.length;ak<ah;ak++){aj=3Dan[ak];al[aj]=
+=3D(u(am[aj])?ai[ak]:am[aj])}return al}function c(am,al,ah,aj,ai){var =
+ak=3Dai?("&tu=3D"+ai):"";return'<iframe id=3D"BD_Orpc_'+am+'" =
+align=3D"center,center" marginwidth=3D0 marginheight=3D0 scrolling=3Dno =
+frameborder=3D0 width=3D'+al+" height=3D"+ah+' allowtransparency =
+src=3D"'+aj+ak+'"></iframe>'}function =
+S(aj,ah,ai){aj[aj.length]=3Dah+"=3D"+ai}var =
+Q=3D{tn:"template",n:"client",rsi1:"h",rsi0:"w",rad:"rad",ch:"channel",ca=
+d:"cad",aurl:"aurl",rss7:"acolor",cpa:"uap"};function h(aj,ao){var =
+an=3Dwindow.screen,ah=3Dnavigator,ap=3Ddocument;T(aj,ao,Q);S(aj,"fv",m())=
+;S(aj,"if",X(ao));S(aj,"word",ac(M()));S(aj,"refer",ac(x(q())));S(aj,"lmt=
+",Date.parse(ap.lastModified)/1000);S(aj,"csp",an.width+","+an.height);S(=
+aj,"ccd",an.colorDepth);S(aj,"chi",history.length);S(aj,"cja",ah.javaEnab=
+led());S(aj,"cpl",ah.plugins.length);S(aj,"cmi",ah.mimeTypes.length);S(aj=
+,"cce",ah.cookieEnabled);S(aj,"csl",ah.systemLanguage||ah.language);S(aj,=
+"rt",new Date()-G);S(aj,"dt",Math.round((new =
+Date).getTime()/1000));S(aj,"ev",y(ao));S(aj,"jn","3");var =
+al=3D0,ai=3Dwindow[k],ak=3Dao.client,am;if(ak){if(u(ai[ak])){ai[ak]=3D{};=
+al++}am=3Dao.channel;if(am&&u(ai[ak][am])){ai[ak][am]=3D1;al+=3D2}}S(aj,"=
+cn",al)}function T(aj,ak,ah){for(var ai in =
+ah){S(aj,ai,ac(ak[ah[ai]]))}}function y(am){var =
+ah=3D{a4:2,a3:3,a2:4,a1:7},ai=3D0,al=3D0,an=3D0,ap,ak,aj,ao;for(ao in =
+ah){for(ak=3Dah[ao];ak>=3D1;ak--){ap=3Dao.substring(1);aj=3Do(am,ap,ak);i=
+f(al){ai=3Dai<<ap}else{al=3D1;an=3D(aj>=3D8)?2147483648:0;aj%=3D8}ai+=3Da=
+j}}return ai+an}function o(al,ai,ah){var =
+ak=3DMath.pow(2,ai),aj=3Dal[""+ak+ah]||0;if(aj<0||aj>=3Dak){aj=3D0}return=
+ aj}function w(aj,ah){if(ag<D(aj.template)){return}aj.w=3Dtypeof =
+aj.w=3D=3D"undefined"?125:aj.w;aj.h=3Dtypeof =
+aj.h=3D=3D"undefined"?125:aj.h;if(l(aj.w,aj.h)){window.cpro_template=3Daj=
+.template;window.cpro_w=3Daj.w;window.cpro_h=3Daj.h;window.cpro_at=3Daj.a=
+t;document.write('<script type=3D"text/javascript" =
+language=3D"javascript" =
+src=3D"http://wm.baidu.com/preview/preview.js"><\/script>')}else{var =
+ak=3DU();var ai=3Ds();document.write('<div =
+style=3D"display:none">-</div>'+c(ak,aj.w,aj.h,z(aj,ai),ah))}}var =
+r=3D{rss0:"cbd",rss1:"cbg",rss2:"ctitle",rss3:"cdesc",rss4:"curl",rss5:"c=
+link",rss6:"cflush",rsi5:"flush",ts:"ts"},n=3D["template","client","h","w=
+","ads_c","rad","cbd","cbg","ctitle","cdesc","curl","clink","cflush","ts"=
+,"at","channel","cad","aurl","acolor","uap","flush","161"],F=3D["text_def=
+ault_125_125","","125","125",{},"","","","","","","","",1,"text_image_vid=
+eo_flash",0,1,"","",1,"",4];function z(an,ah){var =
+ai=3D[],ak=3Dwindow,ap,ao;ap=3Dan.flush;if(!ap||ap>4||ap<1){an.flush=3D4}=
+ao=3Dan.template;var =
+aj=3D"GloCproTn",am=3D"GloCproAn_";if(!u(ak[aj])){S(ai,"pn",ak[am]+"|"+ak=
+[aj]);ak[aj]+=3D":"+ao}else{ak[aj]=3Dao}var =
+al=3Dan["161"];if(u(ak[am])){ak[am]=3Dal||0}else{ak[am]+=3D":"+al}h(ai,an=
+);T(ai,an,r);S(ai,"at",Z(an));S(ai,"did",ah);return =
+K+"?"+ai.join("&")}function Z(ak){var al=3Dak.at;if(al){var =
+am=3Dal.split("_"),ai=3Dam.length,ah=3D0,aj;for(aj=3D0;aj<ai;aj++){switch=
+(am[aj]){case"text":ah|=3D1;break;case"image":case"flash":ah|=3D2;ah|=3D4=
+;break;case"video":ah|=3D8;break}}return =
+ah}return""}window[aa]["isRSend"]=3Dfalse;function =
+d(){if(window[aa]["isRSend"]=3D=3Dtrue){return}else{window[aa]["isRSend"]=
+=3Dtrue;for(var al=3D1;al<=3Dwindow[aa]["cproIframeId"];al++){var =
+ai=3Ddocument.getElementById("BD_Orpc_"+al);var =
+am;if(ai.contentWindow.parent!=3Dtop){am=3DE(ai)}else{am=3DL(ai)}var =
+aj=3DO(al,am);var =
+ah=3Dad.document.createElement("script");ah.src=3Daj;var =
+ak=3Dad.document.getElementsByTagName("head")[0];ak.appendChild(ah)}}}fun=
+ction O(ai,al){var =
+ak=3Ddocument.getElementById("BD_Orpc_"+ai).src,ah=3D"",aj=3Dak.split("&"=
+);for(i=3D0;i<aj.length;i++){aj[i]=3Daj[i].split("=3D");if(aj[i][0]=3D=3D=
+"tu"||aj[i][0]=3D=3D"did"||aj[i][0]=3D=3D"word"||aj[i][0]=3D=3D"n"){ah+=3D=
+aj[i][0]+"=3D"+aj[i][1]+"&"}}ah+=3D"&top=3D"+al.top+"&left=3D"+al.left+"&=
+src=3Dc.js";if(A(ai)){ah+=3D"&opc=3D"+B}return =
+I+"?"+ah}baidu.dom=3Dbaidu.dom||{};baidu.dom._styleFixer=3Dbaidu.dom._sty=
+leFixer||{};baidu.dom._styleFilter=3Dbaidu.dom._styleFilter||[];baidu.dom=
+._styleFilter.filter=3Dfunction(ai,al,am){for(var =
+ah=3D0,ak=3Dbaidu.dom._styleFilter,aj;aj=3Dak[ah];ah++){if(aj=3Daj[am]){a=
+l=3Daj(ai,al)}}return al};function =
+t(ah){if(ah.indexOf("-")<0&&ah.indexOf("_")<0){return ah}return =
+ah.replace(/[-_][^-_]/g,function(ai){return =
+ai.charAt(1).toUpperCase()})}baidu.browser=3Dbaidu.browser||{};if(/msie =
+(\d+\.\d)/i.test(navigator.userAgent)){baidu.ie=3Dbaidu.browser.ie=3Ddocu=
+ment.documentMode||parseFloat(RegExp["\x241"])}if(/opera\/(\d+\.\d)/i.tes=
+t(navigator.userAgent)){baidu.browser.opera=3DparseFloat(RegExp["\x241"])=
+}baidu.browser.isWebkit=3D/webkit/i.test(navigator.userAgent);baidu.brows=
+er.isGecko=3D/gecko/i.test(navigator.userAgent)&&!/like =
+gecko/i.test(navigator.userAgent);baidu.browser.isStrict=3Ddocument.compa=
+tMode=3D=3D"CSS1Compat";function N(aj,ai){var =
+al=3Dbaidu.dom;aj=3DW(aj);ai=3Dt(ai);var ak=3Daj.style[ai];if(!ak){var =
+ah=3Dal._styleFixer[ai];style=3Daj.currentStyle||(baidu.browser.ie?aj.sty=
+le:getComputedStyle(aj,null));if("string"=3D=3Dtypeof =
+ah){ak=3Dstyle[ah]}else{if(ah&&ah.get){ak=3Dah.get(aj,style)}else{ak=3Dst=
+yle[ai]}}}if(ah=3Dal._styleFilter){ak=3Dah.filter(ai,ak,"get")}return =
+ak}function W(ah){if("string"=3D=3Dtypeof ah||ah instanceof =
+String){return =
+document.getElementById(ah)}else{if(ah&&ah.nodeName&&(ah.nodeType=3D=3D1|=
+|ah.nodeType=3D=3D9)){return ah}}return null}function =
+af(ah){ah=3DW(ah);return =
+ah.nodeType=3D=3D9?ah:ah.ownerDocument||ah.document}function L(aj){var =
+aq=3Daf(aj),am=3Dbaidu.browser;aj=3DW(aj);var =
+ak=3Dam.isGecko>0&&aq.getBoxObjectFor&&N(aj,"position")=3D=3D"absolute"&&=
+(aj.style.top=3D=3D=3D""||aj.style.left=3D=3D=3D"");var =
+ao=3D{left:0,top:0};var =
+an=3D(am.ie&&!am.isStrict)?aq.body:aq.documentElement;if(aj=3D=3Dan){retu=
+rn ao}var ar=3Dnull;var =
+al,ap,ai,at;if(aj.getBoundingClientRect){al=3Daj.getBoundingClientRect();=
+ao.left=3DMath.floor(al.left)+Math.max(aq.documentElement.scrollLeft,aq.b=
+ody.scrollLeft);ao.top=3DMath.floor(al.top)+Math.max(aq.documentElement.s=
+crollTop,aq.body.scrollTop);ao.left-=3Daq.documentElement.clientLeft;ao.t=
+op-=3Daq.documentElement.clientTop;ap=3Daq.body;if(am.ie&&!am.isStrict){a=
+i=3DparseInt(N(ap,"border-left-width"));at=3DparseInt(N(ap,"border-top-wi=
+dth"));ao.left-=3DisNaN(ai)?2:ai;ao.top-=3DisNaN(at)?2:at}}else{if(aq.get=
+BoxObjectFor&&!ak){al=3Daq.getBoxObjectFor(aj);var =
+ah=3Daq.getBoxObjectFor(an);ao.left=3Dal.screenX-ah.screenX;ao.top=3Dal.s=
+creenY-ah.screenY}else{ar=3Daj;do{ao.left+=3Dar.offsetLeft;ao.top+=3Dar.o=
+ffsetTop;if(am.isWebkit>0&&N(ar,"position")=3D=3D"fixed"){ao.left+=3Daq.b=
+ody.scrollLeft;ao.top+=3Daq.body.scrollTop;break}ar=3Dar.offsetParent}whi=
+le(ar&&ar!=3Daj);if(am.opera>0||(am.isWebkit>0&&N(aj,"position")=3D=3D"ab=
+solute")){ao.top-=3Daq.body.offsetTop}ar=3Daj.offsetParent;while(ar&&ar!=3D=
+aq.body){ao.left-=3Dar.scrollLeft;if(!b.opera||ar.tagName!=3D"TR"){ao.top=
+-=3Dar.scrollTop}ar=3Dar.offsetParent}}}return ao}function E(aj){var =
+al=3Daf(aj);aj=3DW(aj);var ak=3DL(aj);var am=3Dwindow;var =
+ai,ah;while(am!=3Dam.parent){if(am.frameElement){pos2=3DL(am.frameElement=
+);ak.left+=3Dpos2.left;ak.top+=3Dpos2.top}am=3Dam.parent}return =
+ak}function A(ai){var ah=3DR()?f(ai,window):V(ai,top);return ah}function =
+f(am,al){var ai,ah;if("number"=3D=3Dtypeof am||am instanceof =
+Number){ai=3Ddocument.getElementById("BD_Orpc_"+am);ah=3Dai.parentNode}el=
+se{ai=3Dam;ah=3Dai}var =
+aj=3D100;try{while(ah&&ah.tagName){if(document.all){try{aj=3Dah.filters.a=
+lpha.opacity}catch(ak){}}else{try{aj=3Dal.getComputedStyle(ah,null).opaci=
+ty;aj=3Daj*100}catch(ak){}}if(aj<100){B=3Daj;return =
+true}ah=3Dah.parentNode}}catch(ak){}return false}function =
+V(ak,ai){if(f(ak,window)){return true}var =
+aj=3Dwindow;while(aj!=3Daj.parent){if(aj.frameElement){var =
+ah=3Daj.frameElement;if(f(ah,ai)){return true}}aj=3Daj.parent}return =
+false}function H(ai,ah){G=3Dnew Date();var =
+aj=3DC(ah._html);w(ae(aj,n,F),ai)}var =
+e=3D"BAIDU_CPRO_CSETADSLOT";if(!window[e]){window[e]=3Dfunction(ai){var =
+aj,ak,ah;for(aj in ai){ak=3Dai[aj];if(typeof =
+ak!=3D"function"){ah=3Dak}}H(aj,ah)}}function J(ah,aj){var =
+ai=3D"di=3D"+ah+"&tm=3DBAIDU_CPRO_SETJSONADSLOT&fn=3D"+aj+"&baidu_id=3D"+=
+j("BAIDUID");return ab+"?"+ai}function j(ai){var aj=3Dnew RegExp("(^| =
+)"+ai+"=3D([^;]*)(;|$)"),ah=3Daj.exec(document.cookie);if(ah){return =
+unescape(ah[2]||"")}return""}function l(ai,aj){var =
+an=3Dwindow.location.search.slice(1),ak=3Ddocument.referrer,ah=3D"bd_cpro=
+_prev",am=3D"";try{var =
+ao=3Ddocument.cookie}catch(al){return(window.location.search.indexOf("bd_=
+cpro_prev=3D")!=3D-1)}if(an.indexOf("bd_cpro_prev=3D")!=3D=3D-1){am=3DY(b=
+aidu.url.getQueryValue(an,ah))}else{if(ao.indexOf("bd_cpro_prev=3D")!=3D=3D=
+-1){am=3DY(baidu.cookie.getRaw(ah))}else{if(ak.indexOf("bd_cpro_prev=3D")=
+!=3D=3D-1){am=3DY(baidu.url.getQueryValue(ak,ah))}}}if(am){if(am.type!=3D=
+1){return(am.imgWidth=3D=3Dai&&am.imgHeight=3D=3Daj)}else{return =
+true}}else{return false}}var =
+a=3Dwindow.cpro_id;if(/u\d+/.test(a)){document.write('<script =
+type=3D"text/javascript" charset=3D"utf-8" =
+src=3D"'+J(a,e)+'"><\/script>')}else{H(null,{_html:a})}if(window.isAddLoa=
+dEvent=3D=3Dtrue){ad.attachEvent?ad.attachEvent("onload",d):ad.addEventLi=
+stener("load",d,false)}})();
+------=_NextPart_000_0000_01CBE333.32474580
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://pagead2.googlesyndication.com/pagead/show_ads.js
+
+=0A=
+(function(){var g=3Dtrue,h=3Dnull,i=3Dfalse,j=3D(new Date).getTime();var =
+k=3Dthis,aa=3Dfunction(a,b,c){a=3Da.split(".");c=3Dc||k;!(a[0]in =
+c)&&c.execScript&&c.execScript("var "+a[0]);for(var =
+d;a.length&&(d=3Da.shift());)if(!a.length&&b!=3D=3Dundefined)c[d]=3Db;els=
+e c=3Dc[d]?c[d]:c[d]=3D{}},ba=3Dfunction(a){return =
+a.call.apply(a.bind,arguments)},ca=3Dfunction(a,b){var =
+c=3Db||k;if(arguments.length>2){var =
+d=3DArray.prototype.slice.call(arguments,2);return function(){var =
+f=3DArray.prototype.slice.call(arguments);Array.prototype.unshift.apply(f=
+,d);return a.apply(c,f)}}else return function(){return a.apply(c,=0A=
+arguments)}},l=3Dfunction(){l=3DFunction.prototype.bind&&Function.prototy=
+pe.bind.toString().indexOf("native code")!=3D-1?ba:ca;return =
+l.apply(h,arguments)};var =
+da=3D/&/g,ea=3D/</g,fa=3D/>/g,ga=3D/\"/g,m=3D{"\u0000":"\\0","\u0008":"\\=
+b","\u000c":"\\f","\n":"\\n","\r":"\\r","\t":"\\t","\u000b":"\\x0B",'"':'=
+\\"',"\\":"\\\\"},p=3D{"'":"\\'"},t=3Dfunction(a,b){if(a<b)return-1;else =
+if(a>b)return 1;return 0};var u,v,w,z,B=3Dfunction(){return =
+k.navigator?k.navigator.userAgent:h};z=3Dw=3Dv=3Du=3Di;var =
+C;if(C=3DB()){var =
+ha=3Dk.navigator;u=3DC.indexOf("Opera")=3D=3D0;v=3D!u&&C.indexOf("MSIE")!=
+=3D-1;w=3D!u&&C.indexOf("WebKit")!=3D-1;z=3D!u&&!w&&ha.product=3D=3D"Geck=
+o"}var D=3Dv,F=3Dz,ja=3Dw,G;=0A=
+a:{var H=3D"",I;if(u&&k.opera){var J=3Dk.opera.version;H=3Dtypeof =
+J=3D=3D"function"?J():J}else{if(F)I=3D/rv\:([^\);]+)(\)|;)/;else =
+if(D)I=3D/MSIE\s+([^\);]+)(\)|;)/;else =
+if(ja)I=3D/WebKit\/(\S+)/;if(I){var =
+ka=3DI.exec(B());H=3Dka?ka[1]:""}}if(D){var =
+K,la=3Dk.document;K=3Dla?la.documentMode:undefined;if(K>parseFloat(H)){G=3D=
+String(K);break a}}G=3DH}=0A=
+var ma=3DG,na=3D{},L=3Dfunction(a){var b;if(!(b=3Dna[a])){b=3D0;for(var =
+c=3DString(ma).replace(/^[\s\xa0]+|[\s\xa0]+$/g,"").split("."),d=3DString=
+(a).replace(/^[\s\xa0]+|[\s\xa0]+$/g,"").split("."),f=3DMath.max(c.length=
+,d.length),e=3D0;b=3D=3D0&&e<f;e++){var =
+ta=3Dc[e]||"",s=3Dd[e]||"",n=3DRegExp("(\\d*)(\\D*)","g"),A=3DRegExp("(\\=
+d*)(\\D*)","g");do{var =
+q=3Dn.exec(ta)||["","",""],o=3DA.exec(s)||["","",""];if(q[0].length=3D=3D=
+0&&o[0].length=3D=3D0)break;b=3Dt(q[1].length=3D=3D0?0:parseInt(q[1],10),=
+o[1].length=3D=3D0?0:parseInt(o[1],10))||t(q[2].length=3D=3D=0A=
+0,o[2].length=3D=3D0)||t(q[2],o[2])}while(b=3D=3D0)}b=3Dna[a]=3Db>=3D0}re=
+turn b};var M,N;N=3DM=3Di;var =
+O=3DB();if(O)if(O.indexOf("Firefox")!=3D-1)M=3Dg;else =
+if(O.indexOf("Camino")=3D=3D-1)if(!(O.indexOf("iPhone")!=3D-1||O.indexOf(=
+"iPod")!=3D-1))if(O.indexOf("iPad")=3D=3D-1)if(O.indexOf("Android")=3D=3D=
+-1)if(O.indexOf("Chrome")!=3D-1)N=3Dg;var oa=3DM,pa=3DN;var =
+qa=3Ddocument,P=3Dwindow;var Q=3Dfunction(a){a=3DparseFloat(a);return =
+isNaN(a)||a>1||a<0?0:a},ra=3Dfunction(a){if(a=3D=3D"true")return =
+g;return =
+i},sa=3D/^([\w-]+\.)*([\w-]{2,})(\:[0-9]+)?$/,ua=3Dfunction(a){if(!a)retu=
+rn"pagead2.googlesyndication.com";return(a=3Da.match(sa))?a[0]:"pagead2.g=
+ooglesyndication.com"};var =
+va=3DQ("0"),wa=3DQ("0"),xa=3DQ("0.5"),ya=3DQ("0.2");var =
+za=3Dra("false"),Aa=3Dra("false"),Ba=3Dra("false");var =
+Ca=3Dfunction(){return =
+ua("")};!D||L("9");!F&&!D||D&&L("9")||F&&L("1.9.1");D&&L("9");ua("");var =
+R=3Dfunction(a){return!!a&&typeof =
+a=3D=3D"function"&&!!a.call},Da=3Dfunction(a){if(!(arguments.length<2))fo=
+r(var b=3D1,c=3Darguments.length;b<c;++b)a.push(arguments[b])};function =
+S(a){return typeof =
+encodeURIComponent=3D=3D"function"?encodeURIComponent(a):escape(a)}functi=
+on Ea(a,b){if(a.attachEvent)a.attachEvent("onload",b);else =
+a.addEventListener&&a.addEventListener("load",b,i)}=0A=
+function Fa(a,b){if(!(Math.random()<1.0E-4)){var =
+c=3DMath.random();if(c<b)return =
+a[Math.floor(c/b*a.length)]}return""};aa("google_protectAndRun",function(=
+a,b,c){a=3Dl(b,k,a);b=3Dwindow.onerror;window.onerror=3Da;try{c()}catch(d=
+){c=3Dd.toString();var f=3D"";if(d.fileName)f=3Dd.fileName;var =
+e=3D-1;if(d.lineNumber)e=3Dd.lineNumber;if(!a(c,f,e))throw =
+d;}window.onerror=3Db},void 0);=0A=
+aa("google_handleError",function(a,b,c,d){if(Math.random()<0.01){a=3D["ht=
+tp://",Ca(),"/pagead/gen_204","?id=3Djserror","&jscb=3D",za?1:0,"&jscd=3D=
+",Aa?1:0,"&context=3D",S(a),"&msg=3D",S(b),"&file=3D",S(c),"&line=3D",S(d=
+.toString()),"&url=3D",S(qa.URL.substring(0,512)),"&ref=3D",S(qa.referrer=
+.substring(0,512))];a.push(["&client=3D",S(P.google_ad_client),"&format=3D=
+",S(P.google_ad_format),"&slotname=3D",S(P.google_ad_slot),"&output=3D",S=
+(P.google_ad_output),"&ad_type=3D",S(P.google_ad_type)].join(""));a=3Da.j=
+oin("");P.google_image_requests||=0A=
+(P.google_image_requests=3D[]);b=3Dnew =
+Image;b.src=3Da;P.google_image_requests.push(b)}return!Ba},void 0);var =
+Ha=3Dfunction(a){try{var =
+b=3Da.google_test;a.google_test=3D!b;if(a.google_test=3D=3D=3D!b){a.googl=
+e_test=3Db;return g}}catch(c){}return =
+i},Ia=3Dh,Ja=3Dfunction(){if(!Ia){for(var =
+a=3Dwindow;a!=3Da.parent&&Ha(a.parent);)a=3Da.parent;Ia=3Da}return =
+Ia};var =
+T,U=3Dfunction(a){this.d=3D[];this.b=3Da||window;this.a=3D0;this.c=3Dh},K=
+a=3Dfunction(a,b){this.j=3Da;this.o=3Db};U.prototype.i=3Dfunction(a,b){if=
+(this.a=3D=3D0&&this.d.length=3D=3D0&&(!b||b=3D=3Dwindow)){this.a=3D2;thi=
+s.h(new Ka(a,window))}else =
+this.f(a,b)};U.prototype.f=3Dfunction(a,b){this.d.push(new =
+Ka(a,b||this.b));La(this)};U.prototype.k=3Dfunction(a){this.a=3D1;if(a)th=
+is.c=3Dthis.b.setTimeout(l(this.g,this),a)};U.prototype.g=3Dfunction(){if=
+(this.a=3D=3D1){if(this.c!=3Dh){this.b.clearTimeout(this.c);this.c=3Dh}th=
+is.a=3D0}La(this)};=0A=
+U.prototype.m=3Dfunction(){return =
+g};U.prototype.nq=3DU.prototype.i;U.prototype.nqa=3DU.prototype.f;U.proto=
+type.al=3DU.prototype.k;U.prototype.rl=3DU.prototype.g;U.prototype.sz=3DU=
+.prototype.m;var =
+La=3Dfunction(a){a.b.setTimeout(l(a.n,a),0)};U.prototype.n=3Dfunction(){i=
+f(this.a=3D=3D0&&this.d.length){var =
+a=3Dthis.d.shift();this.a=3D2;a.o.setTimeout(l(this.h,this,a),0);La(this)=
+}};U.prototype.h=3Dfunction(a){this.a=3D0;a.j()};=0A=
+var Ma=3Dfunction(a){try{return a.sz()}catch(b){return =
+i}},Na=3Dfunction(a){return!!a&&(typeof a=3D=3D"object"||typeof =
+a=3D=3D"function")&&Ma(a)&&R(a.nq)&&R(a.nqa)&&R(a.al)&&R(a.rl)},Oa=3Dfunc=
+tion(){if(T&&Ma(T))return T;var =
+a=3DJa(),b=3Da.google_jobrunner;if(Na(b))return T=3Db;return =
+a.google_jobrunner=3DT=3Dnew =
+U(a)},Pa=3Dfunction(a,b){Oa().nq(a,b)},Qa=3Dfunction(a,b){Oa().nqa(a,b)};=
+var Ra=3Dfunction(a,b,c){var d=3D["<iframe"],f;for(f in =
+a)a.hasOwnProperty(f)&&Da(d,f+"=3D"+a[f]);d.push('style=3D"left:0;positio=
+n:absolute;top:0;"');d.push("></iframe>");b=3D"border:none;height:"+c+"px=
+;margin:0;padding:0;position:relative;visibility:visible;width:"+b+"px";r=
+eturn['<ins style=3D"display:inline-table;',b,'"><ins =
+id=3D"',a.id+"_anchor",'" style=3D"display:block;',b,'">',d.join(" =
+"),"</ins></ins>"].join("")};var =
+Sa=3Dfunction(){},Ua=3Dfunction(a,b,c){switch(typeof b){case =
+"string":Ta(a,b,c);break;case =
+"number":c.push(isFinite(b)&&!isNaN(b)?b:"null");break;case =
+"boolean":c.push(b);break;case "undefined":c.push("null");break;case =
+"object":if(b=3D=3Dh){c.push("null");break}if(b instanceof Array){var =
+d=3Db.length;c.push("[");for(var =
+f=3D"",e=3D0;e<d;e++){c.push(f);Ua(a,b[e],c);f=3D","}c.push("]");break}c.=
+push("{");d=3D"";for(f in b)if(b.hasOwnProperty(f)){e=3Db[f];if(typeof =
+e!=3D"function"){c.push(d);Ta(a,f,c);c.push(":");Ua(a,=0A=
+e,c);d=3D","}}c.push("}");break;case "function":break;default:throw =
+Error("Unknown type: "+typeof =
+b);}},Va=3D{'"':'\\"',"\\":"\\\\","/":"\\/","\u0008":"\\b","\u000c":"\\f"=
+,"\n":"\\n","\r":"\\r","\t":"\\t","\u000b":"\\u000b"},Wa=3D/\uffff/.test(=
+"\uffff")?/[\\\"\x00-\x1f\x7f-\uffff]/g:/[\\\"\x00-\x1f\x7f-\xff]/g,Ta=3D=
+function(a,b,c){c.push('"');c.push(b.replace(Wa,function(d){if(d in =
+Va)return Va[d];var =
+f=3Dd.charCodeAt(0),e=3D"\\u";if(f<16)e+=3D"000";else =
+if(f<256)e+=3D"00";else if(f<4096)e+=3D"0";return =
+Va[d]=3De+f.toString(16)}));=0A=
+c.push('"')};var =
+V=3D["google_ad_block","google_ad_channel","google_ad_client","google_ad_=
+format","google_ad_height","google_ad_host","google_ad_host_channel","goo=
+gle_ad_host_tier_id","google_ad_output","google_ad_override","google_ad_r=
+egion","google_ad_section","google_ad_slot","google_ad_type","google_ad_w=
+idth","google_adtest","google_allow_expandable_ads","google_alternate_ad_=
+url","google_alternate_color","google_analytics_domain_name","google_anal=
+ytics_uacct","google_bid","google_city","google_color_bg","google_color_b=
+order",=0A=
+"google_color_line","google_color_link","google_color_text","google_color=
+_url","google_container_id","google_contents","google_country","google_cp=
+m","google_ctr_threshold","google_cust_age","google_cust_ch","google_cust=
+_gender","google_cust_id","google_cust_interests","google_cust_job","goog=
+le_cust_l","google_cust_lh","google_cust_u_url","google_disable_video_aut=
+oplay","google_ed","google_eids","google_enable_osd","google_encoding","g=
+oogle_font_face","google_font_size","google_frame_id","google_gl",=0A=
+"google_hints","google_image_size","google_kw","google_kw_type","google_l=
+anguage","google_max_num_ads","google_max_radlink_len","google_num_radlin=
+ks","google_num_radlinks_per_unit","google_num_slots_to_rotate","google_o=
+nly_ads_with_video","google_only_pyv_ads","google_only_userchoice_ads","g=
+oogle_override_format","google_page_url","google_referrer_url","google_re=
+gion","google_reuse_colors","google_rl_dest_url","google_rl_filtering","g=
+oogle_rl_mode","google_rt","google_safe","google_skip","google_tag_info",=0A=
+"google_targeting","google_ui_features","google_ui_version","google_video=
+_doc_id","google_video_product_type","google_with_pyv_ads"];var =
+Xa=3Dfunction(a){this.b=3Da;a.google_iframe_oncopy||(a.google_iframe_onco=
+py=3D{handlers:{},log:[],img:Math.random()<0.01?[]:h});this.e=3Da.google_=
+iframe_oncopy;a.setTimeout(l(this.l,this),3E4)},Ya;var W=3D"var =
+i=3Dthis.id,s=3Dwindow.google_iframe_oncopy,H=3Ds&&s.handlers,h=3DH&&H[i]=
+,w=3Dthis.contentWindow,d;try{d=3Dw.document}catch(e){}if(h&&d&&(!d.body|=
+|!d.body.firstChild)){if(h.call){i+=3D'.call';setTimeout(h,0)}else =
+if(h.match){i+=3D'.nav';w.location.replace(h)}s.log&&s.log.push(i)}";=0A=
+if(/[&<>\"]/.test(W)){if(W.indexOf("&")!=3D-1)W=3DW.replace(da,"&amp;");i=
+f(W.indexOf("<")!=3D-1)W=3DW.replace(ea,"&lt;");if(W.indexOf(">")!=3D-1)W=
+=3DW.replace(fa,"&gt;");if(W.indexOf('"')!=3D-1)W=3DW.replace(ga,"&quot;"=
+)}Ya=3DW;Xa.prototype.set=3Dfunction(a,b){this.e.handlers[a]=3Db};=0A=
+Xa.prototype.l=3Dfunction(){if(this.e.img){var =
+a=3Dthis.e.log,b=3Dthis.b.document;if(a.length){b=3D["http://",Ca(),"/pag=
+ead/gen_204?id=3Diframecopy&log=3D",S(a.join("-")),"&url=3D",S(b.URL.subs=
+tring(0,512)),"&ref=3D",S(b.referrer.substring(0,512))].join("");a.length=
+=3D0;a=3Dnew Image;this.e.img.push(a);a.src=3Db}}};var =
+Za=3Dfunction(){var a=3D"script";return["<",a,' =
+src=3D"http://',ua(""),'/pagead/js/r20101117/r20110307/show_ads_impl.js">=
+</',a,">"].join("")},$a=3Dfunction(a,b,c,d){return function(){var =
+f=3Di;d&&Oa().al(3E4);try{var =
+e;try{e=3D!!a.document.getElementById(b).contentWindow.document}catch(ta)=
+{e=3Di}if(e){var s=3Da.document.getElementById(b).contentWindow,=0A=
+n=3Ds.document;if(!(n.body&&n.body.firstChild)){n.open();s.google_async_i=
+frame_close=3Dg;n.write(c)}}else{var =
+A=3Da.document.getElementById(b).contentWindow,q;e=3Dc;e=3DString(e);if(e=
+.quote)q=3De.quote();else{s=3D['"'];for(n=3D0;n<e.length;n++){var =
+o=3De.charAt(n),Ga=3Do.charCodeAt(0),ob=3Ds,pb=3Dn+1,ia;if(!(ia=3Dm[o])){=
+var E;if(Ga>31&&Ga<127)E=3Do;else{var r=3Do;if(r in p)E=3Dp[r];else if(r =
+in m)E=3Dp[r]=3Dm[r];else{var =
+x=3Dr,y=3Dr.charCodeAt(0);if(y>31&&y<127)x=3Dr;else{if(y<256){x=3D"\\x";i=
+f(y<16||y>256)x+=3D"0"}else{x=3D"\\u";if(y<4096)x+=3D=0A=
+"0"}x+=3Dy.toString(16).toUpperCase()}E=3Dp[r]=3Dx}}ia=3DE}ob[pb]=3Dia}s.=
+push('"');q=3Ds.join("")}A.location.replace("javascript:"+q)}f=3Dg}catch(=
+vb){A=3DJa().google_jobrunner;Na(A)&&A.rl()}f&&(new =
+Xa(a)).set(b,$a(a,b,c,i))}},ab=3Dfunction(){return va&&wa/va||typeof =
+window.google_hash_ratio=3D=3D"number"&&window.google_hash_ratio||h};wind=
+ow.google_loader_used=3Dg;(function(a){if(!("google_onload_fired"in =
+a)){a.google_onload_fired=3Di;Ea(a,function(){a.google_onload_fired=3Dg})=
+}})(window);if(!window.google_loader_experiment)window.google_loader_expe=
+riment=3DFa(["async1_all","block1"],ya)||Fa(["launch"],xa)||"none";var =
+bb,cb=3Dwindow.google_loader_experiment;=0A=
+if(bb=3Dwindow.google_enable_async=3D=3D=3Dg||cb=3D=3D"launch"||cb=3D=3D"=
+async1_all")bb=3Dwindow.google_enable_async=3D=3D=3Di?i:(D&&/MSIE =
+8/.test(navigator.userAgent)||pa||oa&&!!window.document.body)&&!window.go=
+ogle_container_id&&(!window.google_ad_output||window.google_ad_output=3D=3D=
+"html");=0A=
+if(bb){var db=3Dwindow;if(db.google_unique_id)++db.google_unique_id;else =
+db.google_unique_id=3D1;for(var =
+X=3Dwindow,_script$$inline_211=3D"script",Y,Z=3D{allowtransparency:'"true=
+"',frameborder:'"0"',height:'"'+X.google_ad_height+'"',hspace:'"0"',margi=
+nwidth:'"0"',marginheight:'"0"',onload:'"'+Ya+'"',scrolling:'"no"',vspace=
+:'"0"',width:'"'+X.google_ad_width+'"'},eb=3DX.document,$=3DZ.id,fb=3D0;!=
+$||X.document.getElementById($);)$=3D"aswift_"+fb++;Z.id=3D$;Z.name=3D$;e=
+b.write(Ra(Z,X.google_ad_width,X.google_ad_height));Y=3D=0A=
+$;var =
+gb;if(X.google_page_url)X.google_page_url=3DString(X.google_page_url);for=
+(var hb=3D[],ib=3D0,jb=3DV.length;ib<jb;ib++){var =
+kb=3DV[ib];if(X[kb]!=3Dh){var lb;try{var mb=3D[];Ua(new =
+Sa,X[kb],mb);lb=3Dmb.join("")}catch(nb){}lb&&Da(hb,kb,"=3D",lb,";")}}gb=3D=
+hb.join("");for(var qb=3D0,rb=3DV.length;qb<rb;qb++)X[V[qb]]=3Dh;var =
+sb=3D(new =
+Date).getTime(),tb=3Dab(),ub=3Dwindow.google_loader_experiment,wb=3D["<!d=
+octype =
+html><html><body><",_script$$inline_211,">",gb,"google_show_ads_impl=3Dtr=
+ue;google_unique_id=3D",X.google_unique_id,';google_async_iframe_id=3D"',=0A=
+Y,'";google_start_time=3D',j,";",tb?"google_hash_ratio=3D"+tb+";":"",ub?'=
+google_loader_experiment=3D"'+ub+'";':"","google_bpp=3D",sb>j?sb-j:1,";</=
+",_script$$inline_211,">",Za(),"</body></html>"].join("");(X.document.get=
+ElementById(Y)?Pa:Qa)($a(X,Y,wb,g))}else{window.google_start_time=3Dj;win=
+dow.google_hash_ratio=3Dab();document.write(Za())};})();=0A=
+
+------=_NextPart_000_0000_01CBE333.32474580
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.360doc.com/js/albb3.js
+
+=EF=BB=BF
+var url =3D window.location.toString();
+var Target1=3D"/content/";
+var Index1=3Durl.indexOf(Target1);
+var Target2=3D"lib.360doc.com";
+var Index2=3Durl.indexOf(Target2);
+
+if(Index1<0&&Index2<0)
+{
+    document.getElementById("ad01").innerHTML=3D"<div =
+id=3D\"Layer2\"><object =
+classid=3D\"clsid:D27CDB6E-AE6D-11cf-96B8-444553540000\" =
+codebase=3D\"http://download.macromedia.com/pub/shockwave/cabs/flash/swfl=
+ash.cab#version=3D7,0,19,0\" width=3D\"468\" height=3D\"60\"><param =
+name=3D\"movie\" value=3D\"http://www.360doc.com/ad/59rich.swf\" =
+/><param name=3D\"quality\" value=3D\"high\" /><param name=3D\"wmode\" =
+value=3D\"transparent\" /><embed =
+src=3D\"http://www.360doc.com/ad/59rich.swf\" width=3D\"468\" =
+height=3D\"60\" quality=3D\"high\" =
+pluginspage=3D\"http://www.macromedia.com/go/getflashplayer\" =
+type=3D\"application/x-shockwave-flash\" =
+wmode=3D\"transparent\"></embed></object></div><div id=3D\"Layer1\"><a =
+target=3D\"_blank\" href=3D\"http://www.59rich.com\" =
+onclick=3D\"hitad();\"><img =
+src=3D\"http://pubimage.360doc.com/ico_jiantou_white.gif\" =
+width=3D\"468\" height=3D\"60\" border=3D\"0\" =
+style=3D\"filter:alpha(opacity=3D0);-moz-opacity:0;\"></a></div>";
+}
+
+function hitad()
+{   =20
+     =
+$.getJSON("http://webservice.360doc.com/hitad.ashx?jsoncallback=3D?",func=
+tion(responseText)
+             {
+               if(responseText!=3Dnull)
+                {
+                }
+                else
+                {
+                   =20
+                }
+              }
+         );=20
+   =20
+}
+
+------=_NextPart_000_0000_01CBE333.32474580--

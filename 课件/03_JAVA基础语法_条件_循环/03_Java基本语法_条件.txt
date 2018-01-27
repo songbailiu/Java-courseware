@@ -1,0 +1,51 @@
+1.if 分支
+单分支if(条件){语句}
+双分支 if(条件){}else{}
+多分支 if(条件){语句1}else if(条件2){语句2}else if(条件3){语句3}else{语句4}
+
+		if(i<0){
+			System.out.println("i<0");
+		}else if(0<=i&& i<=10){
+			System.out.println("0<=i&& i<=10");
+		}else if(10<i&& i<=20){
+			System.out.println("10<i&& i<=20");
+		}else{
+			System.out.println("i>20");
+		}
+
+2、switch...case
+根据switch条件跟case后面的常量值匹配 进入case里面的语句，直到遇到break关键字才终止case语句跳出switch语句块
+
+语法:
+通用语法：
+	switch(表达式)---表达式的返回值必须是int以下  不可以是float,double,long
+	{
+	case 常量1：  ------必须是常量  不可以是变量  ":"不可以省略
+		语句集;
+		break;----- 一般不要省略
+	case 常量2：
+		语句集
+             break;
+	……
+     default:
+		语句集;
+		break;
+	}
+
+3、条件运算符
+条件?表达式1:表达式2
+说明：当条件满足，取表达式1的值作为整个表达式的值
+当条件不满足，取表达式2的的值作为整个表达式的值
+
+
+
+语句:
+system.out.println();--方法调用语句
+int i =9;--声明赋值语句
+分支语句
+循环语句
+break;--跳转语句 continue  return
+
+
+
+  

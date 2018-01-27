@@ -1,0 +1,55 @@
+1：GUI(Graphics User Interface)：图形用户接口。
+
+2：AWT(JDK1.1)
+	
+	AWT的缺点：(SUN)
+		重量级组件，组件的显示依赖于操作系统底层的API
+
+	Swing：(SUN)
+		Swing是纯Java实现的。不依赖于操作系统底层的API。
+		轻量级组件。
+
+	SWT：(IBM)
+		
+	
+3：组件的分类：
+
+java.awt.Component
+	
+	A：容器(用于放置组件)_Container
+		
+	(1)：顶层容器(整体系统的布层)
+	Window：没有菜单栏，标题栏的窗口。
+
+	Frame：窗体(继承Windwo)：有菜单栏，工具栏，标题栏的窗口。
+
+	Dialog：对话框
+		
+		模态对话框：必须对话框操作完成后，才能操作其它的窗体。
+		非模态对话框：不要对话框完成操作。
+
+	(2)：中间层容器
+		用于放置组件。再将中间层容器放到顶层容器中。
+
+	B：组件(人机交互的组件)
+
+注意点：
+AWT组件不要与Swing组件混合使用
+
+JWindow的使用
+	
+JFrame
+	JFrame的特点
+
+JDiaLog：
+	注意：对话框要设定对话框的拥有者以及模态还是非模态。
+
+
+中间层容器
+	
+	JPanel,JTabPanel
+
+人机交互组件
+
+边框效果
+

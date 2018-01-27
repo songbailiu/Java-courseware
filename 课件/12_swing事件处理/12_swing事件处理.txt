@@ -1,0 +1,63 @@
+1：事件处理模型
+	组件（事件源）都不处理自己的事件，而是将事件处理委托给
+	外部的处理实体（监听器），这种事件处理模型称为事件的
+	授权处理模型。不同的事件，可以交由不同类型的监听器
+	去处理。
+
+	好处：可以随时切换事件的处理者。
+
+
+2：事件处理模型中涉及的几个对象：
+
+	单击按纽的事件。
+
+	事件源：(EventSource)	：按纽。
+
+	事件(Event)：		  单击
+	
+	事件处理者(EventHolder)    自定义的事件处理类。
+
+3：如何为组件添加具体的事件
+
+	组件.addXXXListener。
+
+	XXX：表示具体的事件.
+		addWindowListener
+		addKeyListener
+		addMouseListener
+		add...Listener。。
+	
+
+鼠标事件MouseEvent
+int getButton() 
+返回哪个鼠标按键更改了状态（如果有的话）。
+int getClickCount() 
+返回与此事件关联的鼠标单击次数。
+String getMouseModifiersText(int modifiers) 
+返回一个描述事件期间所按下的组合键和鼠标按键（如“Shift”或“Ctrl+Shift”）的 String。
+Point  getPoint() 
+返回事件相对于源组件的 x、y 位置。
+int    getX() 
+返回事件相对于源组件的水平 x 坐标。
+int    getY() 
+返回事件相对于源组件的垂直 y 坐标。
+void   translatePoint(int x, int y) 
+将事件的坐标平移到新位置，方法是将其坐标加上指定的 x（水平）和 y（垂直）偏移量。
+
+左右键判断
+检索模式键状态的方法：
+e.getModifiers() //返回此事件的修饰符掩码
+e.getModifiersEx() 
+InputEvent常量
+BUTTON1_MASK //鼠标左键
+BUTTON2_MASK //滚周
+BUTTON3_MASK //鼠标右键
+判断左右键
+左键：e.getModifiers()==InputEvent.BUTTON1_MASK
+右键：e.getModifiers()==InputEvent.BUTTON3_MASK
+组合键(左右键)： e.getModifiersEx()==(InputEvent.BUTTON3_DOWN_MASK + InputEvent.BUTTON1_DOWN_MASK)
+
+
+双键释放一直不准确，需要在按下的时候做标志
+释放的时候直接判断标志
+

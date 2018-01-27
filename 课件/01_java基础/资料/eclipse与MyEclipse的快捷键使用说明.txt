@@ -1,0 +1,79 @@
+jbuilder  netbeans  eclipse(IBM)  MyEclipse(Sun)
+
+一、eclipse基本操作.
+
+ 0. 下载  网址: www.eclipse.org
+
+ 1.安装,运行 
+   (选工作区 eclipse是绿色版，无需安装但需选装jdk)
+   a. 启动时,在弹出对话框中选取
+   b. 运行后，file -> switch workspace
+
+ 2.建工程 
+   a. file -> new -> java project
+      选择源文件夹，建完之后有个src文件夹
+   b. 注：工程建后，要检察此工程是否是使用jdk1.5,否则配置
+   c. 关闭工程，打开工程
+
+ 3.建源文件夹 及 建普通文件夹
+   a. 右击工程 -> new -> source folder
+   b. 输入源文夹名(一般为 src)
+
+ 4.建包
+   a. 右击 src -> new -> package 
+
+ 5.简单的写类,编译,运行
+   a. 右击 所在包 -> new -> class
+   b. 保存即自动编译
+   c. 如是主类，则右击类 run as -> java application  
+      运行也可点常用工具按钮完成; (main方法的传参)
+	右键 run as --> run --> Arguments --> Program arguments里面输入参数值
+   d. 可在控制看到结果 (显示控制台面板: window - > show view -> console)
+
+ 6.快捷键:
+   a. alt+?/
+       1) main() 主方法
+       2) sysout 输出函数
+       3) 对象具有的属性及方法提示
+       4) 方法参数提示
+   b. ctrl+?/  单行  ctrl+shift+?/    多行加注释 返回来 ctrl+shift+\
+   c. ctrl+shift+f   自动格式化 (如:自动缩进)
+   d. ctrl+shift+o   自动导入所需的类
+   e. ctrl+点击类或方法或属性，可切换到 对应的类,F3
+   f. ctrl+s保存  ctrl+a全选  ctrl+c复制  ctrl+v黏贴
+   g. ctrl +Alt+ 向下光标或者向上 整行复制
+   h.ctrl+1提示
+  
+
+
+
+
+二、调试
+
+  7. 自动错误提示及自动修正能力crtl+1
+
+  8. 调试 ()
+   a. 简单出错定位  (如 NullPointException)
+   b. 简单的输出调试
+   c. 断点调试
+    1. 快捷键:
+      F2 －－当鼠标放在一个标记处出现Tooltip时候按F2则把鼠标移开时Tooltip还会显示即Show Tooltip Description。 
+      F3 －－跳到声明或定义的地方。 
+      F5 －－单步调试进入函数内部。 
+      F6 －－单步调试不进入函数内部，如果装了金山词霸2006则要把“取词开关”的快捷键改成其他的。 
+      F7 －－由函数内部返回到调用处。 
+      F8 －－一直执行到下一个断点。有道桌面取词快捷键也是这个(当没反应要检查下有道) 
+    2. 查看运行时变量值有变我，及查看运行时某对象的某方法返回值
+
+  9. 导入已存在工程 到 eclipse 中
+
+  10.导入外部文件(java,图片,jar等)到 eclipse中工程中
+
+  11.将外部类库配置到 eclipse 中某个工程的类路径中
+
+
+
+
+
+
+

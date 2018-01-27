@@ -1,0 +1,1108 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0060)http://blog.csdn.net/liutengteng130/article/details/21048327 -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><HTML 
+xmlns="http://www.w3.org/1999/xhtml"><HEAD><META content="IE=11.0000" 
+http-equiv="X-UA-Compatible">
+                
+<SCRIPT src="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/tracking.js" type="text/javascript" charset="utf-8"></SCRIPT>
+      
+<SCRIPT type="text/javascript">
+        var protocol = window.location.protocol;
+        document.write('<script type="text/javascript" src="' + protocol + '//csdnimg.cn/pubfooter/js/repoAddr2.js?v=' + Math.random() + '"></' + 'script>');
+    </SCRIPT>
+      
+<SCRIPT id="allmobilize" src="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/allmobilize.min.js" charset="utf-8"></SCRIPT>
+  
+<META http-equiv="Cache-Control" content="no-siteapp"><LINK href="#" rel="alternate" 
+media="handheld">     <TITLE>Java华丽转身 —— GUI编程宝典 - 刘腾腾  廊坊师范学院信息技术提高班 第九期        
+ - 博客频道 - CSDN.NET</TITLE>     
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">     
+<META name="description" content="这里演示了加密文本，利用特定字符来定位位置sockdata=PHIDOHBBNIEFMNDIBJLENNEBBODILAEAPMIHHKMKBOKILJOJHGPDDBEOPMCEMLAPJNFDLOJCPHEAMEDNPINODFMBMLFPFHLLGBNPPHEEMNFMNMCGNFEJFKIDOGBECBFJEBICBBLPMNHJAHJPCLNHKKEJMBLLNKFFKMPJJH"> 
+    
+<SCRIPT src="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/jquery.js" type="text/javascript"></SCRIPT>
+     
+<SCRIPT src="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/ad.js" type="text/javascript"></SCRIPT>
+         <!--new top-->                <LINK href="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/index.css" 
+rel="stylesheet">         <!--new top-->     <LINK href="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/style.css" 
+rel="Stylesheet" type="text/css">     <LINK title="RSS" id="RSSLink" href="/liutengteng130/rss/list" 
+rel="alternate" type="application/rss+xml">     <LINK href="http://c.csdnimg.cn/public/favicon.ico" 
+rel="shortcut icon">     <LINK href="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/blue.css" 
+rel="stylesheet" type="text/css">  
+<META name="GENERATOR" content="MSHTML 11.00.9600.17496"></HEAD> 
+<BODY><!--new top-->     
+<SCRIPT id="toolbar-tpl-scriptId" src="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/html.js" type="text/javascript" skin="black" prod="blog" fixed="true"></SCRIPT>
+      <!--new top-->     
+<DIV id="container">
+<DIV id="header">
+<DIV class="header">
+<DIV id="blog_title">
+<H2><A href="http://blog.csdn.net/liutengteng130">刘腾腾  廊坊师范学院信息技术提高班 
+第九期</A></H2>
+<H3>与其临渊羡鱼,不如退而结网。</H3>
+<DIV class="clear"></DIV></DIV>
+<DIV class="clear"></DIV></DIV></DIV>
+<DIV id="navigator">
+<DIV class="navigator_bg"></DIV>
+<DIV class="navigator">
+<UL>
+  <LI id="btnContents"><A href="http://blog.csdn.net/liutengteng130?viewmode=contents"><SPAN 
+  onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_mulu'])"><IMG 
+  src="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/ico_list.gif">目录视图</SPAN></A></LI>
+  <LI id="btnView"><A 
+  href="http://blog.csdn.net/liutengteng130?viewmode=list"><SPAN onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_zhaiyao'])"><IMG 
+  src="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/ico_summary.gif">摘要视图</SPAN></A></LI>
+  <LI id="btnRss"><A href="http://blog.csdn.net/liutengteng130/rss/list"><SPAN 
+  onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_RSS'])"><IMG 
+  src="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/ico_rss.gif">订阅</SPAN></A></LI></UL></DIV></DIV>
+<SCRIPT type="text/javascript">
+    var username = "liutengteng130";
+    var _blogger = username;
+    var blog_address = "http://blog.csdn.net/liutengteng130";
+    var static_host = "http://static.blog.csdn.net";
+    var currentUserName = "";  
+</SCRIPT>
+         
+<DIV id="body">
+<DIV id="main">
+<DIV class="main">
+<DIV class="ad_class">
+<DIV class="notice tracking-ad" data-mod="popu_3"><A href="http://huiyi.csdn.net/activity/product/goods_list?project_id=2545"><FONT 
+color="red">专家和你聊Web，速来报名 </FONT></A> &nbsp;&nbsp;&nbsp;<A href="http://bss.csdn.net/m/topic/learning_path_weixin"><FONT 
+color="blue">微信开发学习路线高级篇上线 </FONT></A> &nbsp;&nbsp;&nbsp;<A href="http://edu.csdn.net/huiyiCourse/index"><FONT 
+color="red">免费公开课平台正式上线啦 </FONT></A> &nbsp;&nbsp;&nbsp;<A href="http://blog.csdn.net/v_july_v/article/details/49302193"><FONT 
+color="blue">恭喜July新书上市 </FONT></A> </DIV></DIV><LINK href="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/comment1.css" 
+rel="stylesheet" type="text/css"> <LINK href="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/style1.css" 
+rel="stylesheet" type="text/css"> 
+<SCRIPT language="JavaScript" src="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/jquery.cookie.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/main.js" type="text/javascript"></SCRIPT>
+ <LINK href="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/markdown_views.css" 
+rel="stylesheet"> 
+<SCRIPT src="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/MathJax.js" type="text/javascript"></SCRIPT>
+   
+<SCRIPT type="text/ecmascript">
+      window.quickReplyflag = true;
+           
+            var isBole = false;
+            
+          
+    </SCRIPT>
+ 
+<DIV class="details" id="article_details">
+<DIV class="article_title"><SPAN class="ico ico_type_Original"></SPAN>     
+<H1><SPAN class="link_title"><A href="http://blog.csdn.net/liutengteng130/article/details/21048327"> 
+       Java华丽转身 —— GUI编程宝典                     </A></SPAN>     </H1></DIV>
+<DIV class="article_manage"><SPAN class="link_categories">        分类：            
+ <A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_fenlei']);" 
+href="http://blog.csdn.net/liutengteng130/article/category/1862787">Java</A>     
+    </SPAN>     <SPAN class="link_postdate">2014-03-12 08:17</SPAN>     <SPAN 
+title="阅读次数" class="link_view">31693人阅读</SPAN>     <SPAN title="评论次数" class="link_comments"><A 
+onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_pinglun'])" 
+href="http://blog.csdn.net/liutengteng130/article/details/21048327#comments">评论</A>(219)</SPAN> 
+    <SPAN class="link_collect"><A title="收藏" onclick="javascript:collectArticle('Java华丽转身 —— GUI编程宝典','21048327');return false;" 
+href="javascript:void(0);">收藏</A></SPAN>     <SPAN class="link_report"><A title="举报" 
+onclick="javascript:report(21048327,2);return false;" href="http://blog.csdn.net/liutengteng130/article/details/21048327#report">举报</A></SPAN> 
+    </DIV>
+<DIV class="article_content" id="article_content">
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;"><SPAN 
+lang="en-US">&nbsp; &nbsp;<STRONG>GUI</STRONG></SPAN><SPAN 
+lang="zh-CN">，</SPAN><SPAN lang="en-US">Graphics User Interface,</SPAN><SPAN 
+lang="zh-CN">图形用户界面。</SPAN><SPAN lang="en-US">GUI</SPAN><SPAN 
+lang="zh-CN">直观的将计算机的功能呈现给用户，图形界面在视觉上更容易接受、更简单直观。</SPAN></P>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;">&nbsp;</P>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;"><SPAN 
+lang="en-US">&nbsp;&nbsp;&nbsp;&nbsp; GUI</SPAN><SPAN 
+lang="zh-CN">需要操作系统和硬件的支持。因此，</SPAN><SPAN lang="en-US">GUI</SPAN><SPAN lang="zh-CN">编程往往要处理移植性问题。</SPAN><SPAN 
+lang="en-US">Java</SPAN><SPAN lang="zh-CN">的</SPAN><SPAN 
+lang="en-US">GUI</SPAN><SPAN lang="zh-CN">编程有相对比较好的可移植性。</SPAN></P>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;">&nbsp;</P>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;"><STRONG><SPAN 
+lang="en-US">&nbsp; &nbsp; GUI</SPAN><SPAN 
+lang="zh-CN">的三要素：组件、容器、事件。</SPAN></STRONG></P>
+<P style="margin: 0in; font-size: 14pt;"><SPAN lang="en-US" style="font-family: Candara;">&nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</SPAN><SPAN lang="zh-CN" style="font-family: SimSun;"><STRONG>组件</STRONG>，继承了一定的功能模块，提供了公用接口以便外部调用，具有良好的可重用性。</SPAN></P>
+<P lang="en-US" 
+style="margin: 0in; font-family: Candara; font-size: 14pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</P>
+<P style="margin: 0in; font-size: 14pt;"><SPAN lang="en-US" style="font-family: Candara;">&nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</SPAN><SPAN lang="zh-CN" style="font-family: SimSun;"><STRONG>容器</STRONG>，在有些语言中也称为窗体，容器也是一种特殊的组件，容器中可以放置其他组件，并且通过布局管理器管理容器中各组件的位置。</SPAN></P>
+<P lang="en-US" 
+style="margin: 0in; font-family: Candara; font-size: 14pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</P>
+<P style="margin: 0in; font-size: 14pt;"><SPAN lang="en-US" style="font-family: Candara;">&nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<STRONG></STRONG></SPAN><SPAN lang="zh-CN" 
+style="font-family: SimSun;"><STRONG>事件</STRONG>，每个组件都会触发动作事件，</SPAN><SPAN lang="en-US" 
+style="font-family: SimSun;">java</SPAN><SPAN lang="zh-CN" style="font-family: SimSun;">中不同的事件由不同的监听器处理，组件是事件源，而某种监听器主要用来监听来自指定事件源产生的动作事件。</SPAN></P>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;">&nbsp;</P>
+<H1><SPAN lang="zh-CN">一、</SPAN><SPAN lang="en-US">Swing</SPAN><SPAN lang="zh-CN">组件</SPAN></H1>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;">&nbsp;</P>
+<P style="margin: 0in; font-size: 14pt;"><SPAN lang="en-US" style="font-family: SimSun;">&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+lang="zh-CN" style="font-family: Candara;">Java</SPAN><SPAN lang="zh-CN" style="font-family: SimSun;">的</SPAN><SPAN 
+lang="en-US" style="font-family: Candara;">GUI</SPAN><SPAN lang="en-US" style="font-family: SimSun;">功能主要集中在</SPAN><SPAN 
+lang="en-US" style="font-family: Candara;">awt</SPAN><SPAN lang="en-US" style="font-family: SimSun;">和</SPAN><SPAN 
+lang="en-US" style="font-family: Candara;">swing</SPAN><SPAN lang="en-US" style="font-family: SimSun;">两个包中。</SPAN><SPAN 
+lang="en-US" style="font-family: Candara;">awt</SPAN><SPAN lang="en-US" style="font-family: SimSun;">是</SPAN><SPAN 
+lang="en-US" style="font-family: Candara;">GUI</SPAN><SPAN lang="en-US" style="font-family: SimSun;">底层包。</SPAN><SPAN 
+lang="en-US" style="font-family: Candara;">swing</SPAN><SPAN lang="en-US" style="font-family: SimSun;">包是高层的封装，更容易移植。Swing</SPAN><SPAN 
+lang="zh-CN" style="font-family: SimSun;">包中有很多</SPAN><SPAN lang="en-US" style="font-family: SimSun;">Swing</SPAN><SPAN 
+lang="zh-CN" style="font-family: SimSun;">组件。</SPAN></P>
+<P lang="en-US" 
+style="margin: 0in; font-family: SimSun; font-size: 14pt;">&nbsp;</P>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;"><SPAN 
+lang="en-US">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Swing</SPAN><SPAN 
+lang="zh-CN">组件独立于本地窗口系统</SPAN></P>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;"><SPAN 
+lang="en-US">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Swing</SPAN><SPAN 
+lang="zh-CN">组件除了</SPAN><SPAN lang="en-US">AbstractButton</SPAN><SPAN lang="zh-CN">类之外都以</SPAN><SPAN 
+lang="en-US">J</SPAN><SPAN lang="zh-CN">开头</SPAN></P>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;"><SPAN 
+lang="en-US">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Swing</SPAN><SPAN 
+lang="zh-CN">组件是基于</SPAN><SPAN lang="en-US">AWT</SPAN><SPAN 
+lang="zh-CN">构建的</SPAN></P>
+<P style="margin: 0in; font-size: 14pt;"><SPAN lang="en-US" style="font-family: Candara;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+lang="zh-CN" style="font-family: SimSun;">包含</SPAN><SPAN lang="en-US" style="font-family: SimSun;">AWT</SPAN><SPAN 
+lang="zh-CN" style="font-family: SimSun;">可视化组件的替代组件，也包含复杂组件</SPAN><SPAN lang="en-US" 
+style="font-family: SimSun;">-</SPAN><SPAN lang="zh-CN" style="font-family: SimSun;">树和表，因此，提供了更丰富的组件类型</SPAN></P>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;">&nbsp;</P>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;"><BR></P>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;"><BR></P>
+<H1>二、容器</H1>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;">&nbsp;</P>
+<P style="margin: 0in; font-size: 14pt;"><SPAN lang="en-US" style="font-family: Candara;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+lang="zh-CN" 
+style="font-family: SimSun;">容器是一种特殊的组件，其它组件可以放置到容器中，并且通过布局管理器进行布局控制。</SPAN></P>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;"><SPAN 
+lang="en-US">AWT</SPAN><SPAN lang="zh-CN">提供的两个主要的容器类：</SPAN></P>
+<P style="margin: 0in; text-align: center; font-family: SimSun; font-size: 14pt;"><SPAN 
+lang="zh-CN"><IMG alt="" src="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/20140311231313203.png"><BR></SPAN></P>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;"><SPAN 
+lang="zh-CN"></SPAN></P>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;"><SPAN 
+lang="en-US">&nbsp; &nbsp; &nbsp;Window,</SPAN><SPAN 
+lang="zh-CN">可以独立存在的顶级窗口</SPAN></P>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;"><SPAN 
+lang="en-US">&nbsp; &nbsp; &nbsp;Panel:</SPAN><SPAN 
+lang="zh-CN">可以作为容器容纳其它组件，但不能独立存在，必须被添加到其他容器中。</SPAN></P>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;">&nbsp; &nbsp; 
+&nbsp;<SPAN style="font-size: 14pt;">其中，每一种容器都采用一种默认的布局管理方式。</SPAN></P>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;">&nbsp;</P>
+<P 
+style="margin: 0in; font-family: SimSun; font-size: 14pt;"><STRONG>布局管理</STRONG></P>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;"><SPAN 
+lang="en-US"><BR></SPAN></P>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;"><SPAN 
+lang="en-US">&nbsp; &nbsp; Java</SPAN><SPAN 
+lang="zh-CN">的组件在容器中的具体位置是通过布局管理器</SPAN><SPAN 
+lang="en-US">LayoutManager</SPAN><SPAN lang="zh-CN">实现的。</SPAN></P>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;">&nbsp; &nbsp; 
+如下图：</P>
+<DIV style="text-align: center;"><IMG style="font-size: 14pt;" alt="" src="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/20140311231328437.jpg"></DIV>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;"><SPAN 
+lang="zh-CN"></SPAN></P>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;"><SPAN 
+lang="en-US">&nbsp; &nbsp; FlowLayout</SPAN><SPAN 
+lang="zh-CN">是一种最简单的布局管理器，主要思想是让容器内的组件按照行优先的方式排列，一行排列到边界后就折回到下一行继续排列，以此类推。</SPAN><SPAN 
+lang="en-US">Panel</SPAN><SPAN lang="zh-CN">默认使用此布局管理器。</SPAN></P>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;">&nbsp;</P>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;"><SPAN 
+lang="en-US">&nbsp;&nbsp;&nbsp; BorderLayout</SPAN><SPAN 
+lang="zh-CN">是</SPAN><SPAN lang="en-US">Frame</SPAN><SPAN 
+lang="zh-CN">的默认布局管理器。它把窗体分割成</SPAN><SPAN 
+lang="en-US">North,South,East,West</SPAN><SPAN lang="zh-CN">和</SPAN><SPAN lang="en-US">Center</SPAN><SPAN 
+lang="zh-CN">五个区域，并且根据窗体的大小自动调整组件的大小。默认是</SPAN><SPAN 
+lang="en-US">Center</SPAN><SPAN lang="zh-CN">区。</SPAN></P>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;">&nbsp;</P>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;"><SPAN 
+lang="en-US">&nbsp;&nbsp;&nbsp; GridLayout</SPAN><SPAN 
+lang="zh-CN">将空间划分成规则的矩形网格，每个单元格区域大小相等。组件被添加到每个单元格中，先从左到右填满一行后换行，再从上到下。</SPAN></P>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;">&nbsp;</P>
+<P style="margin: 0in; font-size: 14pt;"><SPAN lang="en-US" style="font-family: Candara;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+lang="zh-CN" 
+style="font-family: SimSun;">布局管理器负责各个组件的大小和位置，用户无法在这种情况下设置组件大小和位置属性，如果用户要自己设置则取消该布局管理器的方法为：</SPAN><SPAN 
+lang="en-US" style="font-family: SimSun;">setLayout(null)</SPAN></P>
+<P lang="en-US" 
+style="margin: 0in; font-family: SimSun; font-size: 14pt;">&nbsp;</P>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;">&nbsp;</P>
+<H1>三、事件</H1>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;">&nbsp;</P>
+<P style="margin: 0in; font-size: 14pt;"><SPAN lang="en-US" style="font-family: Candara;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+lang="zh-CN" 
+style="font-family: SimSun;">事件一般分为三种类型：键盘事件、鼠标事件以及组件的动作事件</SPAN></P>
+<P style="margin: 0in; font-size: 14pt;"><SPAN lang="en-US" style="font-family: Candara;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+lang="zh-CN" style="font-family: SimSun;">事件处理过程中涉及到</SPAN><SPAN lang="en-US" 
+style="font-family: Candara;">3</SPAN><SPAN lang="zh-CN" style="font-family: SimSun;">个对象：事件源，事件和监听器</SPAN></P>
+<DIV style="text-align: center;"><IMG style="font-size: 14pt;" alt="" src="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/20140311231357609.png"></DIV>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;"><SPAN 
+lang="zh-CN"></SPAN></P>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;">&nbsp; &nbsp; 
+事件的处理机制是一种委派式事件处理方式：普通组件将整个事件处理委托给特定的事件监听器，当该事件源发生指定的事件时，就通知所委托的事件监听器，由事件监听器来处理这个事件。</P>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;">&nbsp;</P>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;">&nbsp;</P>
+<P style="margin: 0in; font-size: 14pt;"><SPAN lang="en-US" style="font-family: Candara;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+lang="zh-CN" style="font-family: SimSun;">实现监听机制，需要有一下三个必要步骤：</SPAN></P>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;">&nbsp;</P>
+<P lang="en-US" 
+style="margin: 0in; font-family: SimSun; font-size: 14pt;">&nbsp;&nbsp;&nbsp;&nbsp;<STRONG>No.1</STRONG> 
+In the declaration for the eventhandler class,one line of code specifies that 
+the class either implements alistener interface or extends a class that 
+implements a listener interface.Forexample:</P>
+<P lang="en-US" 
+style="margin: 0in; font-family: SimSun; font-size: 14pt;">&nbsp;</P>
+<P lang="en-US" style="margin: 0in; font-family: SimSun; font-size: 14pt;"></P>
+<PRE class="java" name="code" snippet_file_name="blog_20140312_1_2157041" code_snippet_id="230845">Publicclass MyClass implement ActionListener{}</PRE><BR><BR>
+<P></P>
+<P lang="en-US" 
+style="margin: 0in; font-family: SimSun; font-size: 14pt;">&nbsp;</P>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;"><SPAN 
+lang="en-US">&nbsp;&nbsp;&nbsp;&nbsp;<STRONG>No.2</STRONG></SPAN><SPAN lang="zh-CN">Another 
+lineof code registers an instance of the event handler class as a listener on 
+oneor more components. For example:</SPAN></P>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;">&nbsp;</P>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;"></P>
+<PRE class="java" name="code" snippet_file_name="blog_20140312_2_9539318" code_snippet_id="230845">someComponent.addActionListener(instanceOfMyClass);</PRE><BR><BR>
+<P></P>
+<P style="margin: 0in; font-family: Candara; font-size: 14pt;"><SPAN lang="en-US">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<STRONG>&nbsp; 
+No.3&nbsp;</STRONG></SPAN><SPAN lang="zh-CN">The event handler class has code 
+that implementsthe methods in the listener interface. For example:</SPAN></P>
+<P style="margin: 0in; font-family: Candara; font-size: 14pt;">&nbsp;</P>
+<P style="margin: 0in; font-family: Candara; font-size: 14pt;"></P>
+<PRE class="java" name="code" snippet_file_name="blog_20140312_3_3682994" code_snippet_id="230845"> public voidactionPerformed(ActionEvent e) {
+    ...//code that reacts to the action...
+ }</PRE><BR><BR>
+<P></P>
+<P style="margin: 0in; font-family: Candara; font-size: 14pt;">&nbsp;</P>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;"><STRONG>&nbsp; 
+&nbsp; 模型如下</STRONG></P>
+<DIV style="text-align: center;"><IMG alt="" src="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/20140311231435812.png"></DIV>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;"><SPAN 
+lang="zh-CN"><SPAN lang="en-US" style="font-family: Candara;">&nbsp; 
+&nbsp;</SPAN></SPAN></P>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;"><SPAN 
+lang="zh-CN"><SPAN lang="zh-CN" 
+style="font-family: SimSun;"><BR></SPAN></SPAN></P>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;"><SPAN 
+lang="zh-CN"><SPAN lang="zh-CN" style="font-family: SimSun;"><STRONG>&nbsp; 
+&nbsp; 
+事件监听有四种实现方式</STRONG>：自身类作为事件监听器；外部类作为事件监听机制；匿名内部类作为事件监听器；内部类作为事件监听器。</SPAN><BR></SPAN></P>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;"><SPAN 
+lang="zh-CN"><SPAN lang="zh-CN" 
+style="font-family: SimSun;"><BR></SPAN></SPAN></P>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;">代码：</P>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;"><SPAN 
+lang="zh-CN"><SPAN lang="zh-CN" style="font-family: SimSun;"></SPAN></SPAN></P>
+<PRE class="java" name="code" snippet_file_name="blog_20140312_4_9255128" code_snippet_id="230845">	import java.awt.*;
+	import java.awt.event.*;
+	public class TestWindowClose{
+	    public static void main(String[] args){
+		   new MyFrame55("MyFrame");
+		}
+	}
+	class MyFrame55 extends Frame{
+	     MyFrame55(String s){
+		    super(s);
+			setLayout(null);
+			setBounds(300,300,400,300);
+			this.setBackground(new Color(204,204,255));
+			setVisible(true);
+			
+			/*this.addWindowListener(new MywindowMonitor());*/
+			
+			/*匿名内部类，出了括号没人认识了，适用于方法逻辑简单，语句比较少，而且不经常变动的类*/
+			this.addWindowListener(new WindowAdapter(){
+			    public void windowClosing(WindowEvent e){
+				   setVisible(false);
+				   System.exit(-1);                                         
+				}
+			});
+		 }
+		 /*内部类，只有这个类认识，出了这个类就不认识了*/
+		 class MywindowMonitor extends WindowAdapter{
+		     public void windowClosing(WindowEvent e){
+			    setVisible(false);
+				System.exit(0);
+			 }
+		 }
+	}
+</PRE>
+<P></P>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;"><SPAN 
+lang="zh-CN"><SPAN lang="zh-CN" 
+style="font-family: SimSun;"><BR></SPAN></SPAN></P>
+<H1>总结</H1>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;">&nbsp;</P>
+<P style="margin: 0in; font-size: 14pt;"><SPAN lang="en-US" style="font-family: Candara;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+lang="zh-CN" 
+style="font-family: SimSun;">一个软件是否为优秀的软件，用户界面的设计直观重要。开发人员在进行</SPAN><SPAN lang="en-US" 
+style="font-family: SimSun;">GUI</SPAN><SPAN lang="zh-CN" style="font-family: SimSun;">设计时，需要与软件的用户进行充分的沟通，确定用户的需求和使用习惯，在实用性与美观之间达到平衡。</SPAN></P><BR><BR>
+<P style="margin: 0in; font-family: SimSun; font-size: 14pt;"><SPAN 
+lang="zh-CN"><SPAN lang="zh-CN" 
+style="font-family: SimSun;"><BR></SPAN></SPAN></P>
+<DIV style="padding-top: 20px;">
+<P style="font-size: 12px;">版权声明：本文为博主原创文章，未经博主允许不得转载。</P></DIV></DIV><!-- Baidu Button BEGIN --> 
+<DIV class="bdsharebuttonbox" style="float: right;"><A class="bds_more" style='background-position: 0px 0px !important; background-image: url("http://bdimg.share.baidu.com/static/api/img/share/icons_0_16.png?v=d754dcc0.png") !important;' 
+href="http://blog.csdn.net/liutengteng130/article/details/21048327#" data-cmd="more"></A> 
+<A title="分享到QQ空间" class="bds_qzone" style="background-position: 0px -52px !important;" 
+href="http://blog.csdn.net/liutengteng130/article/details/21048327#" data-cmd="qzone"></A> 
+<A title="分享到新浪微博" class="bds_tsina" style="background-position: 0px -104px !important;" 
+href="http://blog.csdn.net/liutengteng130/article/details/21048327#" data-cmd="tsina"></A> 
+<A title="分享到腾讯微博" class="bds_tqq" style="background-position: 0px -260px !important;" 
+href="http://blog.csdn.net/liutengteng130/article/details/21048327#" data-cmd="tqq"></A> 
+<A title="分享到人人网" class="bds_renren" style="background-position: 0px -208px !important;" 
+href="http://blog.csdn.net/liutengteng130/article/details/21048327#" data-cmd="renren"></A> 
+<A title="分享到微信" class="bds_weixin" style="background-position: 0px -1612px !important;" 
+href="http://blog.csdn.net/liutengteng130/article/details/21048327#" data-cmd="weixin"></A> 
+</DIV>
+<SCRIPT>window._bd_share_config = { "common": { "bdSnsKey": {}, "bdText": "", "bdMini": "1", "bdMiniList": false, "bdPic": "", "bdStyle": "0", "bdSize": "16" }, "share": {} }; with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];</SCRIPT>
+ <!-- Baidu Button END -->    <LINK href="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/blog_detail.css" 
+rel="stylesheet">     <!--172.16.140.14--> 
+<UL class="article_next_prev">
+  <LI class="prev_article"><SPAN onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_shangyipian']);location.href='/liutengteng130/article/details/20396039';">上一篇</SPAN><A 
+  onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_shangyipian'])" 
+  href="http://blog.csdn.net/liutengteng130/article/details/20396039">Java华丽转身 
+  —— 多线程（二）——同步</A></LI>
+  <LI class="next_article"><SPAN onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_xiayipian']);location.href='/liutengteng130/article/details/21475743';">下一篇</SPAN><A 
+  onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_xiayipian'])" 
+  href="http://blog.csdn.net/liutengteng130/article/details/21475743">Java华丽转身 
+  —— J2EE规范（一） JNDI    Java Naming and Directory Interface</A></LI></UL><!-- Baidu Button BEGIN --> 
+<SCRIPT id="bdshare_js" type="text/javascript" data="type=tools&amp;uid=1536434"></SCRIPT>
+ 
+<SCRIPT id="bdshell_js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT type="text/javascript">
+    document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+</SCRIPT>
+ <!-- Baidu Button END -->          
+<DIV id="digg" articleid="21048327">
+<DL class="digg digg_disable" id="btnDigg">
+  <DT>顶</DT>
+  <DD>74</DD></DL>
+<DL class="digg digg_disable" id="btnBury">
+  <DT>踩</DT>
+  <DD>15</DD></DL></DIV></DIV>
+<DIV id="suggest"></DIV>
+<SCRIPT language="javascript" type="text/javascript">     
+             $(function(){
+                 $.get("/liutengteng130/svc/GetSuggestContent/21048327",function(data){
+                     $("#suggest").html(data);
+                 });     
+             });             
+         </SCRIPT>
+  
+<STYLE>
+.blog-ass-articl dd {
+color: #369;
+width: 99%; /*修改行*/
+float: left;
+overflow: hidden;
+font: normal normal 12px/23px "SimSun";
+height: 23px;
+margin: 0;
+padding: 0 0 0 10px;
+margin-right: 30px;
+background: url(http://static.blog.csdn.net/skin/default/images/blog-dot-red3.gif) no-repeat 0 10px;
+}
+</STYLE>
+ 
+<DL class="blog-ass-articl" id="res-relatived">
+  <DT><SPAN>猜你在找</SPAN></DT>
+  <DIV id="adCollege" style="width: 42%; float: left;">
+<SCRIPT src="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/job_reco.js" type="text/javascript"></SCRIPT>
+           
+<SCRIPT type="text/javascript">
+            csdn.position.showEdu({
+                sourceType: "blog",
+                searchType: "detail",
+                searchKey: "21048327",
+                username: "",
+                recordcount: "5",
+                containerId: "adCollege" //容器DIV的id。 
+            });
+        </SCRIPT>
+       </DIV>
+  <DIV class="tracking-ad" id="res" style="width: 42%; margin-right: 30px; float: left;" 
+  data-mod="popu_36"></DIV></DL>
+<SCRIPT type="text/javascript">
+    $(function () {
+        setTimeout(function () {
+            var searchtitletags = 'Java华丽转身 —— GUI编程宝典' + ',' + $("#tags").html();
+            searchService({
+                index: 'blog',
+                query: searchtitletags,
+                from: 5,
+                size: 5,
+                appendTo: '#res',
+                url: 'recommend',
+                his: 2,
+                client: "blog_cf_enhance",
+                tmpl: '<dd style="background:url(http://static.blog.csdn.net/skin/default/images/blog-dot-red3.gif) no-repeat 0 10px;"><a href="#{ url }" title="#{ title }" strategy="#{ strategy }">#{ title }</a></dd>'
+            });
+        }, 500);
+    });    
+
+ </SCRIPT>
+       
+<DIV id="ad_cen"><!--AdForward Begin:--> 
+<SCRIPT src="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/s.js" type="text/javascript" charset="gbk"></SCRIPT>
+ <!--AdForward End-->    </DIV>
+<DIV class="comment_class">
+<DIV class="panel_head" id="comment_title"><SPAN 
+class="see_comment">查看评论</SPAN><A name="comments"></A></DIV>
+<DIV id="comment_list"></DIV>
+<DIV id="comment_bar"></DIV>
+<DIV id="comment_form"></DIV>
+<DIV class="announce">* 以上用户言论只代表其个人观点，不代表CSDN网站的观点或立场<A name="reply"></A><A 
+name="quote"></A></DIV></DIV>
+<SCRIPT type="text/javascript">
+    var fileName = '21048327';
+    var commentscount = 219;
+    var islock = false
+</SCRIPT>
+ 
+<SCRIPT src="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/comment.js" type="text/javascript"></SCRIPT>
+     
+<DIV id="ad_bot"></DIV>
+<DIV id="report_dialog"></DIV>
+<DIV id="d-top" style="bottom: 60px;"><A title="快速回复" class="btn btn-top q-reply" 
+id="quick-reply" style="display: none;"><IMG alt="快速回复" src="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/blog-icon-reply.png"> 
+        </A>        <A title="返回顶部" class="btn btn-top backtop" id="d-top-a" 
+style="display: none;" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_huidaodingbu'])"><IMG 
+alt="TOP" src="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/top.png">    
+ </A> </DIV>
+<SCRIPT type="text/javascript">
+    $(function ()
+    {
+        $("#ad_frm_0").height("90px");
+        
+        setTimeout(function(){
+            $("#ad_frm_2").height("200px");
+        },1000);    
+    });
+  
+</SCRIPT>
+ 
+<STYLE type="text/css">
+    .tag_list
+    {
+        background: none repeat scroll 0 0 #FFFFFF;
+        border: 1px solid #D7CBC1;
+        color: #000000;
+        font-size: 12px;
+        line-height: 20px;
+        list-style: none outside none;
+        margin: 10px 2% 0 1%;
+        padding: 1px;
+    }
+    .tag_list h5
+    {
+        background: none repeat scroll 0 0 #E0DBD3;
+        color: #47381C;
+        font-size: 12px;
+        height: 24px;
+        line-height: 24px;
+        padding: 0 5px;
+        margin: 0;
+    }
+    .tag_list h5 a
+    {
+        color: #47381C;
+    }
+    .classify
+    {
+        margin: 10px 0;
+        padding: 4px 12px 8px;
+    }
+    .classify a
+    {
+        margin-right: 20px;
+        white-space: nowrap;
+    }
+</STYLE>
+ 
+<DIV class="tag_list" style="display: none;"></DIV>
+<SCRIPT language="javascript" type="text/javascript">     
+      $(function(){
+              setTimeout(function(){
+                  $.get("/liutengteng130/svc/GetTagContent",function(data){
+                      $(".tag_list").html(data).show();
+                  });     
+              });
+          },500);                       
+ </SCRIPT>
+ 
+<DIV id="pop_win" style="background: 0px 0px rgb(255, 255, 255); border: 1px solid rgb(220, 220, 220); border-image: none; left: 630px; top: 222.5px; display: none; position: absolute; z-index: 10000; opacity: 1;"></DIV>
+<DIV id="popup_mask"></DIV>
+<STYLE>
+    #popup_mask
+    {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        z-index: 9999;
+        left: 0px;
+        top: 0px;
+        opacity: 0.3;
+        filter: alpha(opacity=30);
+        display: none;
+    }
+
+</STYLE>
+ 
+<SCRIPT type="text/javascript">
+    $(function(){
+        setTimeout(function(){
+            $(".comment_body:contains('回复')").each(function(index,item){
+                var u=$(this).text().split('：')[0].toString().replace("回复","")
+                var thisComment=$(this);
+                if(u)
+                {
+                    $.getJSON("https://passport.csdn.net/get/nick?callback=?", {users: u}, function(a) {
+                        if(a!=null&&a.data!=null&&a.data.length>0)
+                        {
+                            nick=a.data[0].n; 
+                            if(u!=nick)
+                            {
+                                thisComment.text(thisComment.text().replace(u,nick));  
+                            }
+                        }       
+                    });  
+                }
+            });
+        },200);  
+        
+        setTimeout(function(){
+            $("a img[src='http://js.tongji.linezing.com/stats.gif']").parent().css({"position":"absolute","left":"50%"});
+        },300);
+    });
+
+    function loginbox(){
+        var $logpop=$("#pop_win");
+        $logpop.html('<iframe src="https://passport.csdn.net/account/loginbox?service=http://static.blog.csdn.net/callback.htm" frameborder="0" height="600" width="400" scrolling="no"></iframe>');
+
+        $('#popup_mask').css({
+            opacity: 0.5,
+            width: $( document ).width() + 'px',
+            height:  $( document ).height() + 'px'
+        });
+        $('#popup_mask').css("display","block");
+ 
+        $logpop.css( {
+            top: ($( window ).height() - $logpop.height())/ 2  + $( window 
+       ).scrollTop() + 'px',
+            left:($( window ).width() - $logpop.width())/ 2
+        } );
+ 
+        setTimeout( function () {
+            $logpop.show();
+            $logpop.css( {
+                opacity: 1
+            } );
+        }, 200 );
+ 
+        $('#popup_mask').unbind("click");
+        $('#popup_mask').bind("click", function(){
+            $('#popup_mask').hide();
+            var $clopop = $("#pop_win");
+            $("#common_ask_div_sc").css("display","none");
+            $clopop.css( {
+                opacity: 0
+            } );
+            setTimeout( function () {
+                $clopop.hide();
+            }, 350 );
+            return false;
+        });
+    }    
+
+</SCRIPT>
+                         
+<DIV class="clear"></DIV></DIV></DIV>
+<DIV id="side">
+<DIV class="side">
+<DIV class="panel" id="panel_Search">
+<UL class="panel_head"><SPAN>文章搜索</SPAN></UL>
+<UL class="panel_body">
+  <FORM class="form_search" id="frmSearch" action="http://so.csdn.net/search" 
+  target="_blank"><SPAN><INPUT title="请输入关键字" class="blogsearch" id="inputSearch" type="text"></SPAN> 
+          <INPUT title="search in blog" id="btnSubmit" type="button" value="搜索"> 
+          <INPUT name="q" id="inputQ" type="hidden">         
+<INPUT name="t" type="hidden" value="blog">         <A id="btnSearchBlog" 
+  target="_blank"></A>         </FORM></UL></DIV>
+<SCRIPT type="text/javascript">
+    $(function () {
+        $("#btnSubmit").click(function () {           
+            search();
+        });
+
+        $("#frmSearch").submit(function () {
+            search();
+            return false;
+        });
+
+        function search()
+        {
+            var url = "http://so.csdn.net/so/search/s.do?q=" + encodeURIComponent($("#inputSearch").val()) + "&u=" + username + "&t=blog";
+            window.location.href = url;
+        }   
+    });
+</SCRIPT>
+
+<DIV class="panel" id="panel_Profile"> 
+<UL class="panel_head"><SPAN>个人资料</SPAN></UL>
+<UL class="panel_body profile">
+  <DIV id="blog_userface"><A href="http://my.csdn.net/liutengteng130" target="_blank"><IMG 
+  title="访问我的空间" style="max-width: 90%;" src="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/1_liutengteng130.jpg"> 
+      </A>     <BR><SPAN><A class="user_name" href="http://my.csdn.net/liutengteng130" 
+  target="_blank">liutengteng130</A></SPAN></DIV>
+  <DIV class="interact"><A title="[加关注]" class="attent" id="span_add_follow" 
+  href="javascript:void(0);"></A>  <A title="[发私信]" class="letter" onclick="window.open('http://msg.csdn.net/letters/model?receiver=liutengteng130','_blank','height=350,width=700');_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_sixin'])" 
+  href="javascript:void(0);"></A>  </DIV>
+  <DIV id="blog_medal">
+  <DIV title="CSDN博客准专家" class="ico_expert" style='background: url("http://c.csdnimg.cn/jifen/images/xunzhang/xunzhang/bokezhunzhuanjiamiddle.png") no-repeat; width: 54px; height: 60px; cursor: pointer;' 
+  onclick="javascript:location='http://blog.csdn.net/experts/rule.html'"></DIV>
+  <DIV id="bms_box"><A target="_blank"><IMG onmouseover="m_over_m(this,2)" 
+  onmouseout="m_out_m()" alt="3" src="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/zhuanlandaren.png"> 
+                                              </A>                </DIV></DIV>
+  <UL id="blog_rank">
+    <LI>访问：<SPAN>366651次</SPAN></LI>
+    <LI>积分：<SPAN>13647</SPAN> </LI>
+    <LI>等级： <SPAN 
+    style="display: inline-block; position: relative; z-index: 1;"><IMG id="leveImg" 
+    style="vertical-align: middle;" alt="" src="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/blog7.png"> 
+                
+    <DIV id="smallTittle" style="border: 2px solid rgb(221, 221, 221); border-image: none; left: -24px; top: 25px; width: 101px; height: 32px; text-align: center; line-height: 32px; display: none; position: absolute; z-index: 999; background-color: rgb(255, 255, 255);">
+    <DIV style="left: 42%; top: -8px; width: 0px; height: 0px; border-right-color: transparent; border-bottom-color: rgb(234, 234, 234); border-left-color: transparent; border-right-width: 10px; border-bottom-width: 8px; border-left-width: 10px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; position: absolute;"></DIV> 
+               积分：13647 </DIV></SPAN>  </LI>
+    <LI>排名：<SPAN>第413名</SPAN></LI></UL>
+  <UL id="blog_statistics">
+    <LI>原创：<SPAN>213篇</SPAN></LI>
+    <LI>转载：<SPAN>4篇</SPAN></LI>
+    <LI>译文：<SPAN>0篇</SPAN></LI>
+    <LI>评论：<SPAN>5137条</SPAN></LI></UL></UL></DIV>
+<DIV class="panel" id="panel_Category">
+<UL class="panel_head"><SPAN>博客专栏</SPAN></UL>
+<UL class="panel_body" id="sp_column">
+  <TABLE cellspacing="0" cellpadding="0">
+    <TBODY>
+    <TR>
+      <TD style="padding: 10px 10px 0px 0px;"><A href="http://blog.csdn.net/column/details/apacheofbiz.html" 
+        target="_blank"><IMG style="width: 75px; height: 75px;" src="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/20150804193640500.jpg"></A> 
+            </TD>
+      <TD style="padding: 10px 0px; vertical-align: top;"><A href="http://blog.csdn.net/column/details/apacheofbiz.html" 
+        target="_blank">Apache OFbiz</A>     
+        <P>文章：5篇</P><SPAN>阅读：6312</SPAN>     </TD></TR></TBODY></TABLE>
+  <TABLE cellspacing="0" cellpadding="0">
+    <TBODY>
+    <TR>
+      <TD style="padding: 10px 10px 0px 0px;"><A href="http://blog.csdn.net/column/details/jbosseap.html" 
+        target="_blank"><IMG style="width: 75px; height: 75px;" src="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/20150804192138179.jpg"></A> 
+            </TD>
+      <TD style="padding: 10px 0px; vertical-align: top;"><A href="http://blog.csdn.net/column/details/jbosseap.html" 
+        target="_blank">JBoss系列</A>     
+        <P>文章：6篇</P><SPAN>阅读：6158</SPAN>     </TD></TR></TBODY></TABLE>
+  <TABLE cellspacing="0" cellpadding="0">
+    <TBODY>
+    <TR>
+      <TD style="padding: 10px 10px 0px 0px;"><A href="http://blog.csdn.net/column/details/mavenaction.html" 
+        target="_blank"><IMG style="width: 75px; height: 75px;" src="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/20150804192113279.jpg"></A> 
+            </TD>
+      <TD style="padding: 10px 0px; vertical-align: top;"><A href="http://blog.csdn.net/column/details/mavenaction.html" 
+        target="_blank">Maven实战</A>     
+        <P>文章：9篇</P><SPAN>阅读：16562</SPAN>     </TD></TR></TBODY></TABLE>
+  <TABLE cellspacing="0" cellpadding="0">
+    <TBODY>
+    <TR>
+      <TD style="padding: 10px 10px 0px 0px;"><A href="http://blog.csdn.net/column/details/hibernate1.html" 
+        target="_blank"><IMG style="width: 75px; height: 75px;" src="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/column.jpg"></A> 
+            </TD>
+      <TD style="padding: 10px 0px; vertical-align: top;"><A href="http://blog.csdn.net/column/details/hibernate1.html" 
+        target="_blank">Hibernate</A>     
+        <P>文章：7篇</P><SPAN>阅读：7032</SPAN>     </TD></TR></TBODY></TABLE>
+  <TABLE cellspacing="0" cellpadding="0">
+    <TBODY>
+    <TR>
+      <TD style="padding: 10px 10px 0px 0px;"><A href="http://blog.csdn.net/column/details/tyjm.html" 
+        target="_blank"><IMG style="width: 75px; height: 75px;" src="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/20131228114721109.jpg"></A> 
+            </TD>
+      <TD style="padding: 10px 0px; vertical-align: top;"><A href="http://blog.csdn.net/column/details/tyjm.html" 
+        target="_blank">UML</A>     
+        <P>文章：10篇</P><SPAN>阅读：22098</SPAN>     </TD></TR></TBODY></TABLE>
+  <TABLE cellspacing="0" cellpadding="0">
+    <TBODY>
+    <TR>
+      <TD style="padding: 10px 10px 0px 0px;"><A href="http://blog.csdn.net/column/details/rjgc.html" 
+        target="_blank"><IMG style="width: 75px; height: 75px;" src="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/20131227140617421.jpg"></A> 
+            </TD>
+      <TD style="padding: 10px 0px; vertical-align: top;"><A href="http://blog.csdn.net/column/details/rjgc.html" 
+        target="_blank">软件工程</A>     
+        <P>文章：12篇</P><SPAN>阅读：13360</SPAN>     </TD></TR></TBODY></TABLE></UL></DIV>
+<DIV class="panel" id="panel_Category">
+<UL class="panel_head"><SPAN>文章分类</SPAN></UL>
+<UL class="panel_body">
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/liutengteng130/article/category/1110540">自考</A><SPAN>(16)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/liutengteng130/article/category/1140253">作品展</A><SPAN>(1)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/liutengteng130/article/category/1150481">时间管理</A><SPAN>(1)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/liutengteng130/article/category/1159979">快速阅读</A><SPAN>(1)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/liutengteng130/article/category/1161555">数据库</A><SPAN>(21)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/liutengteng130/article/category/1166261">侃侃</A><SPAN>(3)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/liutengteng130/article/category/1182231">思想</A><SPAN>(8)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/liutengteng130/article/category/1203696">学生信息管理系统</A><SPAN>(1)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/liutengteng130/article/category/1214766">网络技术</A><SPAN>(2)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/liutengteng130/article/category/1214816">信息资源管理</A><SPAN>(7)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/liutengteng130/article/category/1216370">VB</A><SPAN>(7)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/liutengteng130/article/category/1221940">总结</A><SPAN>(11)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/liutengteng130/article/category/1227074">信息系统开发与管理</A><SPAN>(1)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/liutengteng130/article/category/1268211">软件工程</A><SPAN>(12)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/liutengteng130/article/category/1283058">UML</A><SPAN>(10)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/liutengteng130/article/category/1299855">C#</A><SPAN>(1)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/liutengteng130/article/category/1305389">设计模式</A><SPAN>(8)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/liutengteng130/article/category/1315137">观察者模式</A><SPAN>(1)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/liutengteng130/article/category/1316920">VB.NET</A><SPAN>(7)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/liutengteng130/article/category/1325839">三层架构</A><SPAN>(2)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/liutengteng130/article/category/1427477">B/S</A><SPAN>(19)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/liutengteng130/article/category/1433722">牛腩</A><SPAN>(3)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/liutengteng130/article/category/1440979">北大青鸟</A><SPAN>(3)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/liutengteng130/article/category/1667039">考试系统</A><SPAN>(8)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/liutengteng130/article/category/1835423">框架</A><SPAN>(2)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/liutengteng130/article/category/1862787">Java</A><SPAN>(25)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/liutengteng130/article/category/1862789">J2SE</A><SPAN>(2)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/liutengteng130/article/category/2122157">J2EE</A><SPAN>(3)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/liutengteng130/article/category/2176893">软考</A><SPAN>(7)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/liutengteng130/article/category/2308365">Hibernate</A><SPAN>(3)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/liutengteng130/article/category/2394163">SSH</A><SPAN>(10)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/liutengteng130/article/category/2606791">项目</A><SPAN>(2)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/liutengteng130/article/category/2734639">ITOO</A><SPAN>(15)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/liutengteng130/article/category/2746857">Maven</A><SPAN>(7)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/liutengteng130/article/category/2858733">JBOSS</A><SPAN>(6)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/liutengteng130/article/category/2925853">电子商务</A><SPAN>(5)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/liutengteng130/article/category/3153671">分布式系统</A><SPAN>(5)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/liutengteng130/article/category/3263379">解决问题.思路篇</A><SPAN>(2)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/liutengteng130/article/category/5611283">多线程</A><SPAN>(6)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/liutengteng130/article/category/5617599">Nginx</A><SPAN>(5)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/liutengteng130/article/category/5633973">CAS+SHIRO</A><SPAN>(3)</SPAN> 
+                  </LI>
+  <LI><A onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); " 
+  href="http://blog.csdn.net/liutengteng130/article/category/5859513">GCT</A><SPAN>(1)</SPAN> 
+                  </LI></UL></DIV>
+<DIV class="panel" id="panel_Archive">
+<UL class="panel_head"><SPAN>文章存档</SPAN></UL>
+<UL class="panel_body">
+  <DIV id="archive_list"><!--归档统计--> 
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2015/10">2015年10月</A><SPAN>(1)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2015/08">2015年08月</A><SPAN>(5)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2015/07">2015年07月</A><SPAN>(13)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2015/06">2015年06月</A><SPAN>(10)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2015/05">2015年05月</A><SPAN>(4)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2015/04">2015年04月</A><SPAN>(5)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2015/03">2015年03月</A><SPAN>(4)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2015/02">2015年02月</A><SPAN>(4)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2015/01">2015年01月</A><SPAN>(4)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2014/12">2014年12月</A><SPAN>(4)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2014/11">2014年11月</A><SPAN>(4)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2014/10">2014年10月</A><SPAN>(3)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2014/09">2014年09月</A><SPAN>(4)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2014/08">2014年08月</A><SPAN>(3)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2014/07">2014年07月</A><SPAN>(1)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2014/06">2014年06月</A><SPAN>(4)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2014/05">2014年05月</A><SPAN>(4)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2014/04">2014年04月</A><SPAN>(4)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2014/03">2014年03月</A><SPAN>(4)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2014/02">2014年02月</A><SPAN>(4)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2014/01">2014年01月</A><SPAN>(4)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2013/12">2013年12月</A><SPAN>(4)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2013/11">2013年11月</A><SPAN>(4)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2013/10">2013年10月</A><SPAN>(3)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2013/09">2013年09月</A><SPAN>(3)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2013/08">2013年08月</A><SPAN>(1)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2013/07">2013年07月</A><SPAN>(5)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2013/06">2013年06月</A><SPAN>(8)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2013/05">2013年05月</A><SPAN>(4)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2013/04">2013年04月</A><SPAN>(5)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2013/03">2013年03月</A><SPAN>(4)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2013/02">2013年02月</A><SPAN>(3)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2013/01">2013年01月</A><SPAN>(7)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2012/12">2012年12月</A><SPAN>(9)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2012/11">2012年11月</A><SPAN>(17)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2012/10">2012年10月</A><SPAN>(6)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2012/09">2012年09月</A><SPAN>(4)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2012/08">2012年08月</A><SPAN>(7)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2012/07">2012年07月</A><SPAN>(12)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2012/06">2012年06月</A><SPAN>(9)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2012/05">2012年05月</A><SPAN>(2)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2012/04">2012年04月</A><SPAN>(1)</SPAN></LI>
+  <LI><A 
+  href="http://blog.csdn.net/liutengteng130/article/month/2012/03">2012年03月</A><SPAN>(6)</SPAN></LI></DIV></UL></DIV>
+<DIV class="panel" id="hotarticls">
+<UL class="panel_head"><SPAN>阅读排行    </SPAN> </UL>
+<UL class="panel_body itemlist">
+  <LI><A title="Java华丽转身 —— GUI编程宝典" href="http://blog.csdn.net/liutengteng130/article/details/21048327">Java华丽转身 
+  —— GUI编程宝典</A><SPAN>(31689)</SPAN> </LI>
+  <LI><A title="VB——对象库未注册" href="http://blog.csdn.net/liutengteng130/article/details/7881565">VB——对象库未注册</A><SPAN>(13641)</SPAN> 
+  </LI>
+  <LI><A title="番茄学习法" href="http://blog.csdn.net/liutengteng130/article/details/7583044">番茄学习法</A><SPAN>(9187)</SPAN> 
+  </LI>
+  <LI><A title="考试系统——可输入并自动匹配的下拉框（二）——JQuery Easy UI框架" href="http://blog.csdn.net/liutengteng130/article/details/17101013">考试系统——可输入并自动匹配的下拉框（二）——JQuery 
+  Easy UI框架</A><SPAN>(6841)</SPAN> </LI>
+  <LI><A title="企业与政府信息资源管理" href="http://blog.csdn.net/liutengteng130/article/details/7417949">企业与政府信息资源管理</A><SPAN>(6770)</SPAN> 
+  </LI>
+  <LI><A title="Maven实战（一）---Maven Build--缺少Jar包" href="http://blog.csdn.net/liutengteng130/article/details/41426955">Maven实战（一）---Maven 
+  Build--缺少Jar包</A><SPAN>(5340)</SPAN> </LI>
+  <LI><A title="Interaction Diagram（交互图）——UML" href="http://blog.csdn.net/liutengteng130/article/details/8244192">Interaction 
+  Diagram（交互图）——UML</A><SPAN>(5103)</SPAN> </LI>
+  <LI><A title="初识OSGI.NET插件框架" href="http://blog.csdn.net/liutengteng130/article/details/17737375">初识OSGI.NET插件框架</A><SPAN>(3944)</SPAN> 
+  </LI>
+  <LI><A title="AJAX跨域访问——XMLHttpRequest代理实现" href="http://blog.csdn.net/liutengteng130/article/details/12151037">AJAX跨域访问——XMLHttpRequest代理实现</A><SPAN>(3731)</SPAN> 
+  </LI>
+  <LI><A title="Java华丽转身  —— 多线程（一）必备知识" href="http://blog.csdn.net/liutengteng130/article/details/20036517">Java华丽转身 
+   —— 多线程（一）必备知识</A><SPAN>(3663)</SPAN> </LI></UL></DIV>
+<DIV class="panel" id="hotarticls2">
+<UL class="panel_head"><SPAN>评论排行</SPAN></UL>
+<UL class="panel_body itemlist">
+  <LI><A title="Java华丽转身 —— GUI编程宝典" href="http://blog.csdn.net/liutengteng130/article/details/21048327">Java华丽转身 
+  —— GUI编程宝典</A><SPAN>(219)</SPAN> </LI>
+  <LI><A title="番茄学习法" href="http://blog.csdn.net/liutengteng130/article/details/7583044">番茄学习法</A><SPAN>(99)</SPAN> 
+  </LI>
+  <LI><A title="Java华丽转身  —— 多线程（一）必备知识" href="http://blog.csdn.net/liutengteng130/article/details/20036517">Java华丽转身 
+   —— 多线程（一）必备知识</A><SPAN>(93)</SPAN> </LI>
+  <LI><A title="2013我的时间都去哪了——下半年总结" href="http://blog.csdn.net/liutengteng130/article/details/19692377">2013我的时间都去哪了——下半年总结</A><SPAN>(76)</SPAN> 
+  </LI>
+  <LI><A title="软考复习之路—从瀑布模型到极限编程，敏捷开发" href="http://blog.csdn.net/liutengteng130/article/details/25337523">软考复习之路—从瀑布模型到极限编程，敏捷开发</A><SPAN>(74)</SPAN> 
+  </LI>
+  <LI><A title="浅谈管理事务和数据" href="http://blog.csdn.net/liutengteng130/article/details/7651025">浅谈管理事务和数据</A><SPAN>(68)</SPAN> 
+  </LI>
+  <LI><A title="软考复习之路——数据结构与算法概览" href="http://blog.csdn.net/liutengteng130/article/details/23210367">软考复习之路——数据结构与算法概览</A><SPAN>(64)</SPAN> 
+  </LI>
+  <LI><A title="考试系统——数据库之合并动态生成表" href="http://blog.csdn.net/liutengteng130/article/details/16965363">考试系统——数据库之合并动态生成表</A><SPAN>(61)</SPAN> 
+  </LI>
+  <LI><A title="Java华丽转身 —— 内存学习" href="http://blog.csdn.net/liutengteng130/article/details/18402803">Java华丽转身 
+  —— 内存学习</A><SPAN>(61)</SPAN> </LI>
+  <LI><A title="六月，一个说再见的季节" href="http://blog.csdn.net/liutengteng130/article/details/7657282">六月，一个说再见的季节</A><SPAN>(61)</SPAN> 
+  </LI></UL></DIV>
+<DIV class="panel tracking-ad" id="homepageArticles" data-mod="popu_4">
+<UL class="panel_head"><SPAN>推荐文章</SPAN></UL>
+<UL class="panel_body" id="ad_commend">
+  <UL>
+    <LI><A href="http://blog.csdn.net/evankaka/article/details/49491479" target="_blank">*HTML抽屉效果的实现与展示</A></LI>
+    <LI><A href="http://blog.csdn.net/congduan/article/details/49489765" target="_blank">*2015年校招求职之旅</A></LI>
+    <LI><A href="http://blog.csdn.net/chenyufeng1991/article/details/49467603" 
+    target="_blank">* iOS9使用提示框的正确实现方式</A></LI>
+    <LI><A href="http://blog.csdn.net/i10630226/article/details/49339315" 
+    target="_blank">* 你不知道的JavaScript--Item18 JScript的Bug与内存管理</A></LI>
+    <LI><A href="http://blog.csdn.net/gao_chun/article/details/49359535" target="_blank">Android 
+    Studio中配置及使用OpenCV示例</A></LI>
+    <LI><A href="http://blog.csdn.net/yt7589/article/details/48131313" target="_blank">* 
+    最老程序员创业开发实训4--IOS平台下MVC架构</A></LI></UL></UL></DIV>
+<DIV class="panel" id="newcomments">
+<UL class="panel_head"><SPAN>最新评论</SPAN></UL>
+<UL class="panel_body itemlist">
+  <LI><A href="http://blog.csdn.net/liutengteng130/article/details/48950297#comments">GCT阶段性小结</A> 
+      
+  <P style="margin: 0px;"><A class="user_name" href="http://blog.csdn.net/u010097777">u010097777</A>: 
+  师姐，对这种考试都没问题的，看着工作了的师哥师姐还在坚持学习，很感动。     </P></LI>
+  <LI><A href="http://blog.csdn.net/liutengteng130/article/details/7686542#comments">考虑要周全</A> 
+      
+  <P style="margin: 0px;"><A class="user_name" href="http://blog.csdn.net/successA">successA</A>: 
+  下次我去办学籍也一定拿好了!     </P></LI>
+  <LI><A href="http://blog.csdn.net/liutengteng130/article/details/7657282#comments">六月，一个说再见的季节</A> 
+      
+  <P style="margin: 0px;"><A class="user_name" href="http://blog.csdn.net/successA">successA</A>: 
+  开始面临新的生活新的挑战啦。     </P></LI>
+  <LI><A href="http://blog.csdn.net/liutengteng130/article/details/7648524#comments">T—SQL程序设计</A> 
+      
+  <P style="margin: 0px;"><A class="user_name" href="http://blog.csdn.net/successA">successA</A>: 
+  画图只是刚刚开始。     </P></LI>
+  <LI><A href="http://blog.csdn.net/liutengteng130/article/details/7651030#comments">SQL语言基础二</A> 
+      
+  <P style="margin: 0px;"><A class="user_name" href="http://blog.csdn.net/successA">successA</A>: 
+  图有点小，不过是对SQL的优化，感觉内容应该很赞！     </P></LI>
+  <LI><A href="http://blog.csdn.net/liutengteng130/article/details/7651025#comments">浅谈管理事务和数据</A> 
+      
+  <P style="margin: 0px;"><A class="user_name" href="http://blog.csdn.net/successA">successA</A>: 
+  一图胜过万语千言     </P></LI>
+  <LI><A href="http://blog.csdn.net/liutengteng130/article/details/7638462#comments">SQL语言基础一</A> 
+      
+  <P style="margin: 0px;"><A class="user_name" href="http://blog.csdn.net/successA">successA</A>: 
+  感觉看起来看陌生啊，要复习了。     </P></LI>
+  <LI><A href="http://blog.csdn.net/liutengteng130/article/details/7636933#comments">数据库基础</A> 
+      
+  <P style="margin: 0px;"><A class="user_name" href="http://blog.csdn.net/successA">successA</A>: 
+  图画的好棒啊，很漂亮！     </P></LI>
+  <LI><A href="http://blog.csdn.net/liutengteng130/article/details/7635365#comments">SQL 
+  Server 2000关系数据库概述</A>     
+  <P style="margin: 0px;"><A class="user_name" href="http://blog.csdn.net/successA">successA</A>: 
+  感觉师傅好踏实！     </P></LI>
+  <LI><A href="http://blog.csdn.net/liutengteng130/article/details/7635365#comments">GCT阶段性小结</A> 
+      
+  <P style="margin: 0px;"><A class="user_name" href="http://blog.csdn.net/successA">successA</A>: 
+  师傅加油，必过！     </P></LI></UL></DIV></DIV>
+<DIV class="clear"></DIV></DIV>
+<DIV class="clear"></DIV></DIV>
+<SCRIPT src="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/cnick.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/newblog.min.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/showblogmedal.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/JavaScript1.js" type="text/javascript"></SCRIPT>
+     
+<SCRIPT src="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/login.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT type="text/javascript">document.write("<img src=http://counter.csdn.net/pv.aspx?id=24 border=0 width=0 height=0>");</SCRIPT>
+ 
+<SCRIPT src="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/counter.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/ad-blog.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT type="text/javascript">
+    $(function () {
+        function __get_code_toolbar(snippet_id) {
+            return $("<a href='https://code.csdn.net/snippets/"
+                    + snippet_id
+                    + "' target='_blank' title='在CODE上查看代码片' style='text-indent:0;'><img src='https://code.csdn.net/assets/CODE_ico.png' width=12 height=12 alt='在CODE上查看代码片' style='position:relative;top:1px;left:2px;'/></a>"
+                    + "<a href='https://code.csdn.net/snippets/"
+                    + snippet_id
+                    + "/fork' target='_blank' title='派生到我的代码片'  style='text-indent:0;'><img src='https://code.csdn.net/assets/ico_fork.svg' width=12 height=12 alt='派生到我的代码片' style='position:relative;top:2px;left:2px;'/></a>");
+        }
+        
+        $("[code_snippet_id]").each(function () {
+            __s_id = $(this).attr("code_snippet_id");
+            if (__s_id != null && __s_id != "" && __s_id != 0 && parseInt(__s_id) > 70020) {
+                __code_tool = __get_code_toolbar(__s_id);
+                $(this).prev().find(".tools").append(__code_tool);
+            }
+        });
+    });
+</SCRIPT>
+     </DIV><!--new top-->         
+<SCRIPT id="csdn-toolbar-id" src="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/toolbar.js" type="text/javascript" subcount="5" count="5" wrapid="note1" btnid="header_notice_num"></SCRIPT>
+      <!--new top-->        <LINK href="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/ask_float_block.css" 
+rel="stylesheet" type="text/css">     
+<SCRIPT language="JavaScript" src="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/wmd.js" type="text/javascript"></SCRIPT>
+     
+<SCRIPT language="JavaScript" src="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/showdown.js" type="text/javascript"></SCRIPT>
+     
+<SCRIPT language="JavaScript" src="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/prettify.js" type="text/javascript"></SCRIPT>
+     
+<SCRIPT language="JavaScript" src="Java华丽转身%20——%20GUI编程宝典%20-博客频道%20-%20CSDN_NET_files/ask_float_block.js" type="text/javascript"></SCRIPT>
+        </BODY></HTML>
